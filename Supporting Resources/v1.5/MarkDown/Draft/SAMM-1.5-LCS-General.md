@@ -129,7 +129,7 @@ Construction concerns the processes and activities related to how an organizatio
 
 **Secure Architecture** involves bolstering the design process with activities to promote secure-by-default designs and control over technologies and frameworks upon which software is built.
 
-**Lifecycle Security Design** involves planning and setting up of penetration tests and its test environment. 
+**Lifecycle Security Design** involves planning and setting up of penetration tests and test environment. 
 
 
 …*more on page 12*
@@ -267,7 +267,7 @@ Beginning from simple recommendations about software frameworks and explicit con
 As an organization evolves over time, sophisticated provision of this practice entails organizations building reference platforms to cover the generic types of software they build. These serve as frameworks upon which developers can build custom software with lower risk of vulnerabilities.
 
 ### Lifecycle Security Design
-The Lifecycle Security Design (LSD) method focuses on proactive planning of penetration tests and its test environment on project level. The analysis of security risks and potential attacks during development ensures purposefully testing. A verification of implications on robustness against attacks and reliability is especially important. Furthermore, planning of legal principles for security/safety will be integrated and complemented by evaluations of executed penetration tests, which will lead on to iterative development cycles. While most of tests are completed during roll out, the LSD requires further planning for ongoing tests to test products against new occurring threats. Ongoing auditing and testing steadily expands the company's knowledge. Tools for hardware independent testing, which enables partial automation to simpilfy the process, can be developed due to diligent planning and knowledge acquisition.
+The Lifecycle Security Design (LSD) method focuses on proactive planning of penetration tests and its test environment on project level. The analysis of security risks and potential attacks during development ensures purposefully testing. A verification of implications on robustness against attacks and reliability is especially important. Furthermore, planning of legal principles for security/safety will be integrated and complemented by evaluations of executed penetration tests, which will lead on to iterative development cycles. While most of tests are completed during roll out, the LSD requires further planning for ongoing tests to test products against new occurring threats. Ongoing auditing and testing steadily expands the company's knowledge. Tools for hardware independent testing, which enables partial automation to simplify the process, can be developed due to diligent planning and knowledge acquisition.
 
 
 # Construction
