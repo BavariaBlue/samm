@@ -302,8 +302,8 @@ The Lifecycle Security Design (LSD) method focuses on proactive planning of pene
 
 | | SD 1  | SD 2  | SD 3 |
 |:-------------|:------------- |:---------------|:-------------|
-| **Objective:** | **SD1 Objective** | **SD2 Objective** | **SD3 Objective** |
-| **Activities:** | **A.** SD1 first activity **B.** SD1 second activity | **A.** .SD2 first activity **B.** SD2 second activity | **A.** SD3 first activity **B.** SD3 second activity |
+| **Objective:** | **Identify security risks and attack potentialities for individual projects.** | **Plan penetration tests in advance and take future attack potentialities into account.** | **Facilitate semi-autonomous and ongoing penetration tests.** |
+| **Activities:** | **A.** Compile a threat and risk analysis in due consideration of security goals. **B.** Set up an attack pattern catalog | **A.** Define and categorize test environment. **B.** Downscale security risks of external software and hardware components. | **A.** Facilitate hardware independent penetration tests and implement development cycles by the use of structured data exchange. **B.** Categorize, acquire and store all relevant hardware and software versions. |
 
 # Verification
 ## Description of Security Practices
