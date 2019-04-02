@@ -1097,71 +1097,122 @@ security protections
 | **Results** | ✦SD1 result list | ✦SD2 result list | ✦SD3 result list |
 
 # Lifecycle Security Design: SD1
-### SD1 Objective
+### Identify security risks and attack potentialities for individual projects
 
 ## Activities
-##### A. SD1 first activity
+##### A. Compile a threat and risk analysis in due consideration of security goals
+Start with a summary of security relevant features and compile a security and risk analysis in regard to potential attacks for every feature. 
+A risk function or risk matrix or EN61508 or ISO26262 can be used to support the analysis. EN61508 defines Safety Integrity Level (SIL) that is also used by ISO26262 as Automotive SIL (ASIL). (A)SIL provides a way to classify risks and validate if they meet security requirements. 
+Security relevant features can be identified by listing all features of a product and come up with different scenarios and situations in which security could be affected by the feature. 
+Then identify all internal and external components that influence a product's security relevant features. 
+Security goals should be drafted in such a way that the elaborated risks will not occur.
+
+In the second step, define all known attacks on the identified functions---also think about functions that are similar to the identified ones---and carve out attack surfaces.
+Assign a risk level to every found attack by, e.g., considering the frequency of occurrence of such an attack and the severity of resulting harms.
+
+During this activity developers and penetration testers should work together in several meetings. Also offer a security training for staff members. 
+Different views of external advisors can be helpful.
 
 
-##### B. SD1 second activity
-
+##### B. Set up an attack pattern catalog
+TODO
 
 ##### ASSESSMENT 
-* SD1 assessment list
+* TODO SD1 assessment list
 
 ##### RESULTS
-* SD1 result list
+* TODO SD1 result list
 
 ##### SUCCESS METRICS
-* SD1 success metrics list
+* 75% of all projects have compiled a risk analysis
+* 50% of all projects have compiled attack patterns 
 
 ##### COSTS
-* SD1 costs list
+* Setup and maintenance of project artifacts for risk analysis of attack patterns
 
 ##### PERSONNEL
-* SD1 personell list
+* Developer
+* Architects
+* Penetration testers
+* Manager
+* Security auditors
 
 ##### RELATED LEVELS
-* SD1 related levels
+* Education & Guidance -1
+* Threat Assessment - 1
+* Threat Assessment - 2
+* Security Requirements - 1
+* Lifecycle Security Design - 2
+* Lifecycle Security Design - 3
+
 
 # Lifecycle Security Design: SD2
 // TODO
-### SD2 Objective
+### Plan penetration tests in advance and take future attack potentialities into account
 
 ## Activities
-##### A. SD2 first activity
+##### A. Define and categorize test environment
+Penetration tests have to be planned in advance with regard to the security goals.
+For that reason standards and test environments should be established within the company according to with the test environment can be defined.
+Furthermore, a policy has to be compiled, which includes a list of used tools, whether it's black box or white box testing and which interfaces are to be implemented in software or hardware. Please note that these suggestions should be a guideline and no mandatory regulation. 
+Before the tests start, the test environment has to be set up, e.g., required software and hardware has to be provided and the approach has to planned and documented.
+
+After defining the test environment, the penetration tests dependent on security goals and found risk functions can be planned, e.g., in regard to ASIL. Furthermore the penetration tests have to selected and a prioritization and categorization of these tests should be made.
+
+Use the BSI guideline for IT-Security Penetrationtests (https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Studien/Penetrationstest/penetrationstest.pdf?__blob=publicationFile&v=3) and the BSI Study of Penetration Tests (https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Sicherheitsberatung/Pentest_Webcheck/Leitfaden_Penetrationstest.pdf?__blob=publicationFile&v=10) if applicable.
+
+Additional measures for planning the penetration tests can be offered in form of training and certifications for internal penetration testers.
+A external penetration tester can be tasked for certification alternatively. 
+
+Experience and previous made results should be taken into account during planning of penetration tests.
 
 
-##### B. SD2 second activity
+##### B. Downscale security risks of external software and hardware components
+Every project team that uses external software or hardware has to ensure the security of said hardware. 
+
+Extensive research of the vendor is essential. Especially consider the history of security risks and the vendor's reaction to these issues. 
+
+Moreover, the chosen vendor should have a notification system that informs about occurring problems as soon as possible. 
+If such a system is not available, a reporting obligation of all security exploits at the time they become known should be included in the contract.
+Additionally, public services, which publish security exploits, should be searched and either subscribed to or periodically examined.
+
 
 
 ##### ASSESSMENT 
-* SD2 assessment list
+* TODO SD2 assessment list
 
 ##### RESULTS
-* SD2 result list
+* TODO SD2 result list
 
 ##### SUCCESS METRICS
-* SD2 success metrics list
+* 90% of all penetration testers are specifically trained
+* 80% of external software and hardware components are from verified vendors
 
 ##### COSTS
-* SD2 costs list
+* Common costs of projects increase due to additional verification
+* Additional training
 
 ##### PERSONNEL
-* SD2 personell list
+* Developer
+* Architects
+* Penetration testers
+* Manager
+* Security auditors
 
 ##### RELATED LEVELS
-* SD2 related levels
+* Threat Assessment - 3
+* Security Testing - 2
+
 
 # Lifecycle Security Design: SD3
 // TODO
-### SD3 Objective
+### Facilitate semi-autonomous and ongoing penetration tests
 
 ## Activities
-##### A. SD3 first activity
+##### A. Facilitate hardware independent penetration tests and implement development cycles by the use of structured data exchange
 
 
-##### B. SD3 second activity
+##### B. Categorize, acquire and store all relevant hardware and software versions
 
 
 ##### ASSESSMENT 
