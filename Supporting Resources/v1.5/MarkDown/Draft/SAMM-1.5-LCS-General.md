@@ -129,7 +129,7 @@ Construction concerns the processes and activities related to how an organizatio
 
 **Secure Architecture** involves bolstering the design process with activities to promote secure-by-default designs and control over technologies and frameworks upon which software is built.
 
-**Lifecycle Security Design** // TODO add short description here.
+**Lifecycle Security Design** The Lifecycle Security Design (LSD) method focuses on proactive planning of penetration tests and its test environment on project level. The analysis of security risks and potential attacks during development ensures purposefully testing. A verfication of implications on robustness against attacks and reliability is especially important. Furthermore, planning of legal principles for security/safety will be integrated and complemented by evaluations of executed penetration tests, which will lead on to iterative development cycles. While most of tests are completed during rollout, the LSD requires further planning for ongoing tests to test products against new occurring threats. Ongoing auditing and testing steadily expands the company's knowledge. Tools for hardware independent testing, which enables partial automation to simpilfy the process, can be developed due to diligent planning and knowledge acquisition.
 
 
 …*more on page 12*
