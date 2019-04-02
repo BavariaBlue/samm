@@ -538,11 +538,17 @@ Add long description here.
 |:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
 | **SD1**
-| TODO
+| Do projects execute risk analysis (e.g., in regard to (A)SIL)? | NO | SOME | HALF | MOST |
+| Are identified attack patterns documented? | NO | SOME | HALF | MOST |
 | **SD2**
-| TODO
+| Are penetration tests planned and executed for all products? | NO | SOME | HALF | MOST |
+| How often are external security reports reviewed? | MONTHLY | WEEKLY | DAILY | HOURLY OR MORE OFTEN |
+| Is special staff trained or are external certified tester employed? | NO | SOME | HALF | MOST |
 |**SD3**
-| TODO
+| Can products be tested hardware independently? | NO | SOME | HALF | MOST |
+| Can products be updated subsequently after roll out? | NO | SOME | HALF | MOST |
+| Can results from penetration tests be reused? | NO | SOME | HALF | MOST |
+| Is security already implemented into the lifecycle? | NO | IN SOME PRODUCTS | IN MANY PRODUCTS | COMPLETELY |
 # Verification
 ## Assessment worksheet
 ### Design Review
