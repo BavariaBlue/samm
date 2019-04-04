@@ -1088,13 +1088,13 @@ security protections
 * Security Testing - 3
 
 # Lifecycle Security Design
-// TODO
+
 | | SD 1  | SD 2  | SD 3 |
 |:-------------|:------------- |:---------------|:-------------|
-| **Objective:** | **SD1 Objective** | **SD2 Objective** | **SD3 Objective** |
-| **Activities:** | **A.** SD1 first activity **B.** SD1 second activity | **A.** .SD2 first activity **B.** SD2 second activity | **A.** SD3 first activity **B.** SD3 second activity |
-| **Assessment** | ✦SD1 assessment list | ✦SD2 assessment list | ✦SD3 assessment list |
-| **Results** | ✦SD1 result list | ✦SD2 result list | ✦SD3 result list |
+| **Objective:** | **Identify security risks and attack potentialities for individual projects.** | **Plan penetration tests in advance and take future attack potentialities into account.** | **Facilitate semi-autonomous and ongoing penetration tests.** |
+| **Activities:** | **A.** Compile a threat and risk analysis in due consideration of security goals. **B.** Set up an attack pattern catalog. | **A.** Define and categorize test environment. **B.** Downscale security risks of external software and hardware components. | **A.** Facilitate hardware independent penetration tests and implement development cycles by the use of structured data exchange.  **B.** Categorize, acquire and store all relevant hardware and software versions. |
+| **Assessment** | ✦Do projects execute risk analysis (e.g., in regard to (A)SIL)? ✦Are identified attack patterns documented? | ✦Are penetration tests planned and executed for all products? ✦How often are external security reports reviewed? ✦Is special staff trained or are external certified tester employed? | ✦Can products be tested hardware independently? ✦Can products be updated subsequently after roll out? ✦Can results from penetration tests be reused? ✦Is security already implemented into the lifecycle? |
+| **Results** | ✦Understanding of possible security risks. ✦Better understanding of risk functions that need to be tested. ✦Reusable catalog of possible attacks. ✦Mapping of security vulnerabilities to safety-relevant functions. | ✦Better preperation against emerging security vulnerabilities. ✦Simpler testing through tightly defined test environments. ✦Improved test coverage by documenting all pentesting procedures. ✦All tests are up-to-date with latest security vulnerabilities. | ✦Possibility to test products independently of their hardware. ✦Possibility to conduct followup tests for new security vulnerabilities for every product. ✦Always up to date Security standards. ✦Outline of the individual steps of penetration testing within the projects lifecycle. ✦Guideline on appropriate methods for processing the feedback of penetration tests. |
 
 # Lifecycle Security Design: SD1
 ### SD1 Objective
