@@ -129,7 +129,7 @@ Construction concerns the processes and activities related to how an organizatio
 
 **Secure Architecture** involves bolstering the design process with activities to promote secure-by-default designs and control over technologies and frameworks upon which software is built.
 
-**Lifecycle Security Design** // TODO add short description here.
+**Lifecycle Security Design** involves planning and setting up of penetration tests and test environment. 
 
 
 …*more on page 12*
@@ -267,7 +267,7 @@ Beginning from simple recommendations about software frameworks and explicit con
 As an organization evolves over time, sophisticated provision of this practice entails organizations building reference platforms to cover the generic types of software they build. These serve as frameworks upon which developers can build custom software with lower risk of vulnerabilities.
 
 ### Lifecycle Security Design
-// TODO Add long description here.
+The Lifecycle Security Design (LSD) method focuses on proactive planning of penetration tests and its test environment on project level. The analysis of security risks and potential attacks during development ensures purposefully testing. A verification of implications on robustness against attacks and reliability is especially important. Furthermore, planning of legal principles for security/safety will be integrated and complemented by evaluations of executed penetration tests, which will lead on to iterative development cycles. While most of tests are completed during roll out, the LSD requires further planning for ongoing tests to test products against new occurring threats. Ongoing auditing and testing steadily expands the company's knowledge. Tools for hardware independent testing, which enables partial automation to simplify the process, can be developed due to diligent planning and knowledge acquisition.
 
 
 # Construction
@@ -302,8 +302,8 @@ As an organization evolves over time, sophisticated provision of this practice e
 
 | | SD 1  | SD 2  | SD 3 |
 |:-------------|:------------- |:---------------|:-------------|
-| **Objective:** | **SD1 Objective** | **SD2 Objective** | **SD3 Objective** |
-| **Activities:** | **A.** SD1 first activity **B.** SD1 second activity | **A.** .SD2 first activity **B.** SD2 second activity | **A.** SD3 first activity **B.** SD3 second activity |
+| **Objective:** | **Identify security risks and attack potentialities for individual projects.** | **Plan penetration tests in advance and take future attack potentialities into account.** | **Facilitate semi-autonomous and ongoing penetration tests.** |
+| **Activities:** | **A.** Compile a threat and risk analysis in due consideration of security goals. **B.** Set up an attack pattern catalog | **A.** Define and categorize test environment. **B.** Downscale security risks of external software and hardware components. | **A.** Facilitate hardware independent penetration tests and implement development cycles by the use of structured data exchange. **B.** Categorize, acquire and store all relevant hardware and software versions. |
 
 # Verification
 ## Description of Security Practices
@@ -538,11 +538,17 @@ Add long description here.
 |:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
 | **SD1**
-| TODO
+| Do projects execute risk analysis (e.g., in regard to (A)SIL)? | NO | SOME | HALF | MOST |
+| Are identified attack patterns documented? | NO | SOME | HALF | MOST |
 | **SD2**
-| TODO
+| Are penetration tests planned and executed for all products? | NO | SOME | HALF | MOST |
+| How often are external security reports reviewed? | MONTHLY | WEEKLY | DAILY | HOURLY OR MORE OFTEN |
+| Is special staff trained or are external certified tester employed? | NO | SOME | HALF | MOST |
 |**SD3**
-| TODO
+| Can products be tested hardware independently? | NO | SOME | HALF | MOST |
+| Can products be updated subsequently after roll out? | NO | SOME | HALF | MOST |
+| Can results from penetration tests be reused? | NO | SOME | HALF | MOST |
+| Is security already implemented into the lifecycle? | NO | IN SOME PRODUCTS | IN MANY PRODUCTS | COMPLETELY |
 # Verification
 ## Assessment worksheet
 ### Design Review
