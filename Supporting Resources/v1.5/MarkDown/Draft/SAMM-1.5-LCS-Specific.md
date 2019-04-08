@@ -1093,8 +1093,8 @@ security protections
 |:-------------|:------------- |:---------------|:-------------|
 | **Objective:** | **Identify security risks and attack potentialities for individual projects.** | **Plan penetration tests in advance and take future attack potentialities into account.** | **Facilitate semi-autonomous and ongoing penetration tests.** |
 | **Activities:** | **A.** Compile a threat and risk analysis in due consideration of security goals. **B.** Set up an attack pattern catalog. | **A.** Define and categorize test environment. **B.** Downscale security risks of external software and hardware components. | **A.** Facilitate hardware independent penetration tests and implement development cycles by the use of structured data exchange.  **B.** Categorize, acquire and store all relevant hardware and software versions. |
-| **Assessment** | ✦Do projects execute risk analysis (e.g., in regard to (A)SIL)? ✦Are identified attack patterns documented? | ✦Are penetration tests planned and executed for all products? ✦How often are external security reports reviewed? ✦Is special staff trained or are external certified tester employed? | ✦Can products be tested hardware independently? ✦Can products be updated subsequently after roll out? ✦Can results from penetration tests be reused? ✦Is security already implemented into the lifecycle? |
-| **Results** | ✦Understanding of possible security risks. ✦Better understanding of risk functions that need to be tested. ✦Reusable catalog of possible attacks. ✦Mapping of security vulnerabilities to safety-relevant functions. | ✦Better preperation against emerging security vulnerabilities. ✦Simpler testing through tightly defined test environments. ✦Improved test coverage by documenting all pentesting procedures. ✦All tests are up-to-date with latest security vulnerabilities. | ✦Possibility to test products independently of their hardware. ✦Possibility to conduct followup tests for new security vulnerabilities for every product. ✦Always up to date Security standards. ✦Outline of the individual steps of penetration testing within the projects lifecycle. ✦Guideline on appropriate methods for processing the feedback of penetration tests. |
+| **Assessment** | ✦Do projects execute risk analysis (e.g., in regard to (A)SIL)? ✦Are identified attack patterns documented? | ✦Are penetration tests planned and executed for all products? ✦How often are external security reports reviewed? ✦Is special staff trained or are external certified testers employed? | ✦Can products be tested hardware independently? ✦Can products be updated subsequently after roll out? ✦Can results from penetration tests be reused? ✦Is security already implemented into the lifecycle? |
+| **Results** | ✦Understanding of possible security risks. ✦Better understanding of risk functions that need to be tested. ✦Reusable catalog of possible attacks. ✦Mapping of security vulnerabilities to safety-relevant functions. | ✦Better preparation against emerging security vulnerabilities. ✦Simpler testing through tightly defined test environments. ✦Improved test coverage by documenting all pentesting procedures. ✦All tests are up-to-date with latest security vulnerabilities. | ✦Possibility to test products independently of their hardware. ✦Possibility to conduct follow up tests for new security vulnerabilities for every product. ✦Always up to date security standards. ✦Outline of the individual steps of penetration testing within the projects lifecycle. ✦Guideline on appropriate methods for processing the feedback of penetration tests. |
 
 # Lifecycle Security Design: SD1
 
@@ -1105,32 +1105,32 @@ security protections
 ##### A. Compile a threat and risk analysis in due consideration of security goals
 
 Start with a summary of security relevant features and compile a security and risk analysis in regard to potential attacks for every feature.
-A risk function or risk matrix or EN61508 or ISO26262 can be used to support the analysis. EN61508 defines Safety Integrity Level (SIL) that is also used by ISO26262 as Automotive SIL (ASIL). (A)SIL provides a way to classify risks and validate if they meet security requirements.
+A risk function or risk matrix according to EN61508 or ISO26262 can be used to support the analysis. EN61508 defines Safety Integrity Level (SIL) that is also used by ISO26262 as Automotive SIL (ASIL). (A)SIL provides a way to classify risks and validate whether they meet security requirements.
 Security relevant features can be identified by listing all features of a product and come up with different scenarios and situations in which security could be affected by the feature.
-Then identify all internal and external components that influence a product's security relevant features.
+Then identify all internal and external components that influence a product's relevant security features.
 Security goals should be drafted in such a way that the elaborated risks will not occur.
 
 In the second step, define all known attacks on the identified functions---also think about functions that are similar to the identified ones---and carve out attack surfaces.
 Assign a risk level to every found attack by, e.g., considering the frequency of occurrence of such an attack and the severity of resulting harms.
 
-During this activity developers and penetration testers should work together in several meetings. Also offer a security training for staff members.
-Different views of external advisors can be helpful.
+During this activity, developers and penetration testers should work together in several meetings. Offer a security training for staff members.
+Different views of external advisors can be helpful, too.
 
 ##### B. Set up an attack pattern catalog
 
-To prepare for penetration tests you shoud create and maintain an attack pattern catalog across all products.
+To prepare for penetration tests you should create and maintain an attack pattern catalog across all products.
 For this, known attacks that are relevant to one or more products should be gathered.
-In addition, attacks that are only known by your company are to be included, e.g. from previous penetration tests.
+In addition, attacks that are only known by your company are to be included, e.g., from previous penetration tests.
 The gathered information can than be used to create attack patterns.
-Experiences from penetration test can also be of great help here.
+Experiences from previous penetration tests can also be of great help here.
 An attack pattern is an abstract mechanism that describes how an attack works.
-It should begin with the name and include its probability, the exploitability for security, and the severity of the attack.
+It should begin with a name and include its probability, the exploitability for security, and the severity of the attack.
 Then, it should list the affected domain, the used mechanisms, and link possible attacks that follow the same schema.
 In addition, a short text with a description should be included. The goal, the motivation and the necessary abilities of the attacker should be documented as well.
 Then follows a detailed explanation of the attack. This should include the exploited vulnerability, necessary tools, and the exact steps of the process, dependencies, possible follow-up attacks and indicators and obfuscation.
-In addition, known examples should be provided in the form of code or known attacks and possible defense mechanisms proposed (mitigation).
+In addition, known examples should be provided in the form of code or known attacks and possible defense mechanisms should be proposed (mitigation).
 In the end, if existing, relationships with other known patterns or vulnerabilities can also be listed.
-For the creation and maintainng of the catalog several meetings are needed.
+For the creation and maintaining of the catalog several meetings are needed.
 
 ##### ASSESSMENT
 
@@ -1139,8 +1139,8 @@ For the creation and maintainng of the catalog several meetings are needed.
 
 ##### RESULTS
 
-* Understanding of possible security risks. ✦Better understanding of risk functions that need to be tested.
-* Reusable catalog of possible attacks. ✦Mapping of security vulnerabilities to safety-relevant functions.
+* Understanding of possible security risks. ✦Better understanding of risk functions that need to be tested
+* Reusable catalog of possible attacks. ✦Mapping of security vulnerabilities to safety-relevant functions
 
 ##### SUCCESS METRICS
 
@@ -1176,16 +1176,16 @@ For the creation and maintainng of the catalog several meetings are needed.
 
 ##### A. Define and categorize test environment
 Penetration tests have to be planned in advance with regard to the security goals.
-For that reason standards and test environments should be established within the company according to with the test environment can be defined.
+For that reason standards and test environments should be established within the company according to which the test environment can be defined.
 Furthermore, a policy has to be compiled, which includes a list of used tools, whether it's black box or white box testing and which interfaces are to be implemented in software or hardware. Please note that these suggestions should be a guideline and no mandatory regulation.
-Before the tests start, the test environment has to be set up, e.g., required software and hardware has to be provided and the approach has to planned and documented.
+Before the tests start, the test environment has to be set up, e.g., required software and hardware has to be provided and the approach has to be planned and documented.
 
-After defining the test environment, the penetration tests dependent on security goals and found risk functions can be planned, e.g., in regard to ASIL. Furthermore the penetration tests have to selected and a prioritization and categorization of these tests should be made.
+After defining the test environment, the penetration tests dependent on security goals and found risk functions can be planned, e.g., in regard to (A)SIL. Furthermore the penetration tests have to be selected and a prioritization and categorization of these tests should be made.
 
 Use the BSI guideline for IT-Security Penetrationtests (https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Studien/Penetrationstest/penetrationstest.pdf?__blob=publicationFile&v=3) and the BSI Study of Penetration Tests (https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Sicherheitsberatung/Pentest_Webcheck/Leitfaden_Penetrationstest.pdf?__blob=publicationFile&v=10) if applicable.
 
 Additional measures for planning the penetration tests can be offered in form of training and certifications for internal penetration testers.
-A external penetration tester can be tasked for certification alternatively.
+Alternatively, External penetration testers can be tasked for certification.
 
 Experience and previous made results should be taken into account during planning of penetration tests.
 
@@ -1202,14 +1202,14 @@ Additionally, public services, which publish security exploits, should be search
 ##### ASSESSMENT
 
 * Are penetration tests planned and executed for all products?
-* How often are external security reports reviewed? ✦Is special staff trained or are external certified tester employed?
+* How often are external security reports reviewed? ✦Is special staff trained or are external certified testers employed?
 
 ##### RESULTS
 
-* Better preperation against emerging security vulnerabilities.
-* Simpler testing through tightly defined test environments.
-* Improved test coverage by documenting all pentesting procedures.
-* All tests are up-to-date with latest security vulnerabilities.
+* Better preparation against emerging security vulnerabilities
+* Simpler testing through tightly defined test environments
+* Improved test coverage by documenting all pentesting procedures
+* All tests are up-to-date with latest security vulnerabilities
 
 ##### SUCCESS METRICS
 
@@ -1240,7 +1240,7 @@ Additionally, public services, which publish security exploits, should be search
 
 ## Activities
 
-##### A. Facilitate hardware independent penetration tests and implement development cycles by the use of structured data exchange.
+##### A. Facilitate hardware independent penetration tests and implement development cycles by the use of structured data exchange
 
 In order to ensure the safety of a product over a longer period of time, it must be repeatedly tested against new threats.
 To be able to test old and new products quickly and efficiently against new attacks at any time, a hardware-independent test environment is needed.
@@ -1252,22 +1252,22 @@ This means that new development processes have to be created within the company.
 Instead of a strict schedule of planning, development, testing and deployment, these steps should be repeated more often.
 In this case, the company generally or each project has to find a suitable procedure for itself.
 However, it is important that results from tests are evaluated early on and that the planning and development make changes accordingly.
-Therefore, the planning process is repeated several times instead only once.
+Therefore, the planning process is repeated several times instead of only once.
 
-##### B. Categorize, acquire and store all relevant hardware and software versions.
+##### B. Categorize, acquire and store all relevant hardware and software versions
 
 It should be possible to test newly identified vulnerabilities immediately for all affected products.
-This can be difficult and lead to a immense overhead since a product that has been rolled out for some time often has several SW and HW versions.
+This can be difficult and lead to an immense overhead since a product that has been rolled out for some time often has several SW and HW versions.
 However, not being able to test every "relevant" can lead to major problems afterwards.
 Therefore, "relevant" SW and HW versions should always be present for testing.
 To make this possible, the affected departments of a company must agree on a standard for "relevant" versions.
 Then, if a new "relevant" HW or SW version is rolled out, it should be stored at least once in the company.
-In order to protect against possible losses, it you should considered to store a version several times (redundancies).
+In order to protect against possible losses, you should consider to store a version several times (redundancies).
 To do this, a company must create the necessary capacity and infrastructure.
 Therefore, managers, developers, testers, and security experts need to design a plan for the implementation.
-As a point of reference for relevant versions, the complexity version updates should be taken into consideration, i. E. how many adaptaions a user need to make during an update.
+As a point of reference for relevant versions, the complexity version updates should be taken into consideration, i.e., how many adaptations a user needs to make during an update.
 To integrate the results of the tests into the software development process, appropriate languages and formats must be defined for documenting them.
-Clear responsibilities have to be defined, so that for all versions the test results can be adequately addressed and security gaps closed.
+Clear responsibilities have to be defined, so that the test results can be adequately addressed and security gaps closed for all versions.
 
 ##### ASSESSMENT
 
@@ -1279,7 +1279,7 @@ Clear responsibilities have to be defined, so that for all versions the test res
 ##### RESULTS
 
 * Possibility to test products independently of their hardware
-* Possibility to conduct followup tests for new security vulnerabilities for every product
+* Possibility to conduct follow up tests for new security vulnerabilities for every product
 * Always up to date Security standards  
 * Outline of the individual steps of penetration testing within the projects lifecycle
 * Guideline on appropriate methods for processing the feedback of penetration tests
@@ -1300,7 +1300,7 @@ Clear responsibilities have to be defined, so that for all versions the test res
 * Architects
 * Penetration tester
 * Manager
-* Security Auditor
+* Security auditor
 
 ##### RELATED LEVELS
 
