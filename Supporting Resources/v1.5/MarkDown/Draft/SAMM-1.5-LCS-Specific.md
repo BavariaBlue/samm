@@ -1088,13 +1088,13 @@ security protections
 * Security Testing - 3
 
 # Lifecycle Security Design
-// TODO
+
 | | SD 1  | SD 2  | SD 3 |
 |:-------------|:------------- |:---------------|:-------------|
-| **Objective:** | **SD1 Objective** | **SD2 Objective** | **SD3 Objective** |
-| **Activities:** | **A.** SD1 first activity **B.** SD1 second activity | **A.** .SD2 first activity **B.** SD2 second activity | **A.** SD3 first activity **B.** SD3 second activity |
-| **Assessment** | ✦SD1 assessment list | ✦SD2 assessment list | ✦SD3 assessment list |
-| **Results** | ✦SD1 result list | ✦SD2 result list | ✦SD3 result list |
+| **Objective:** | **Identify security risks and attack potentialities for individual projects.** | **Plan penetration tests in advance and take future attack potentialities into account.** | **Facilitate semi-autonomous and ongoing penetration tests.** |
+| **Activities:** | **A.** Compile a threat and risk analysis in due consideration of security goals. **B.** Set up an attack pattern catalog. | **A.** Define and categorize test environment. **B.** Downscale security risks of external software and hardware components. | **A.** Facilitate hardware independent penetration tests and implement development cycles by the use of structured data exchange.  **B.** Categorize, acquire and store all relevant hardware and software versions. |
+| **Assessment** | ✦Do projects execute risk analysis (e.g., in regard to (A)SIL)? ✦Are identified attack patterns documented? | ✦Are penetration tests planned and executed for all products? ✦How often are external security reports reviewed? ✦Is special staff trained or are external certified tester employed? | ✦Can products be tested hardware independently? ✦Can products be updated subsequently after roll out? ✦Can results from penetration tests be reused? ✦Is security already implemented into the lifecycle? |
+| **Results** | ✦Understanding of possible security risks. ✦Better understanding of risk functions that need to be tested. ✦Reusable catalog of possible attacks. ✦Mapping of security vulnerabilities to safety-relevant functions. | ✦Better preperation against emerging security vulnerabilities. ✦Simpler testing through tightly defined test environments. ✦Improved test coverage by documenting all pentesting procedures. ✦All tests are up-to-date with latest security vulnerabilities. | ✦Possibility to test products independently of their hardware. ✦Possibility to conduct followup tests for new security vulnerabilities for every product. ✦Always up to date Security standards. ✦Outline of the individual steps of penetration testing within the projects lifecycle. ✦Guideline on appropriate methods for processing the feedback of penetration tests. |
 
 # Lifecycle Security Design: SD1
 ### Identify security risks and attack potentialities for individual projects
@@ -1205,34 +1205,91 @@ Additionally, public services, which publish security exploits, should be search
 
 
 # Lifecycle Security Design: SD3
-// TODO
-### Facilitate semi-autonomous and ongoing penetration tests
 
 ## Activities
 ##### A. Facilitate hardware independent penetration tests and implement development cycles by the use of structured data exchange
+=======
+
+### SD3 Facilitate semi-autonomous and ongoing penetration tests.
 
 
-##### B. Categorize, acquire and store all relevant hardware and software versions
+## Activities
 
 
-##### ASSESSMENT 
-* SD3 assessment list
+##### A. Facilitate hardware independent penetration tests and implement development cycles by the use of structured data exchange.
+
+In order to ensure the safety of a product over a longer period of time, it must be repeatedly tested against new threats.
+To be able to test old and new products quickly and efficiently against new attacks at any time, a hardware-independent test environment is needed.
+For this, great effort has to be invested in implementing a hardware-independent test interface.
+The interface should be compatible with as many products as possible.
+As a result, only the test software needs to be adapted to the respective product.
+A further measure includes the expansion of development cycles.
+This means that new development processes have to be created within the company.
+Instead of a strict schedule of planning, development, testing and deployment, these steps should be repeated more often.
+In this case, the company generally or each project has to find a suitable procedure for itself.
+However, it is important that results from tests are evaluated early on and that the planning and development make changes accordingly.
+Therefore, the planning process is repeated several times instead only once.
+
+##### B. Categorize, acquire and store all relevant hardware and software versions.
+
+It should be possible to test newly identified vulnerabilities immediately for all affected products.
+This can be difficult and lead to a immense overhead since a product that has been rolled out for some time often has several SW and HW versions.
+However, not being able to test every "relevant" can lead to major problems afterwards.
+Therefore, "relevant" SW and HW versions should always be present for testing.
+To make this possible, the affected departments of a company must agree on a standard for "relevant" versions.
+Then, if a new "relevant" HW or SW version is rolled out, it should be stored at least once in the company.
+In order to protect against possible losses, it you should considered to store a version several times (redundancies).
+To do this, a company must create the necessary capacity and infrastructure.
+Therefore, managers, developers, testers, and security experts need to design a plan for the implementation.
+As a point of reference for relevant versions, the complexity version updates should be taken into consideration, i. E. how many adaptaions a user need to make during an update.
+To integrate the results of the tests into the software development process, appropriate languages and formats must be defined for documenting them.
+Clear responsibilities have to be defined, so that for all versions the test results can be adequately addressed and security gaps closed.
+
+
+##### ASSESSMENT
+
+* Can products be tested hardware independently?
+* Can products be updated subsequently after roll out?
+* Can results from penetration tests be reused?
+* Is security already implemented into the lifecycle?
 
 ##### RESULTS
-* SD3 result list
+
+* Possibility to test products independently of their hardware
+* Possibility to conduct followup tests for new security vulnerabilities for every product
+* Always up to date Security standards  
+* Outline of the individual steps of penetration testing within the projects lifecycle
+* Guideline on appropriate methods for processing the feedback of penetration tests
 
 ##### SUCCESS METRICS
-* SD3 success metrics list
+
+* 80% of relevant HW and SW versions are stored
+* 70 % of all tests for a project are tested with a hardware-independent test interface
 
 ##### COSTS
-* SD3 costs list
+
+* Increasing effort through the intermediate storage of hardware and software versions
+* Development time for a test interface
 
 ##### PERSONNEL
-* SD3 personell list
+
+* Developers
+* Architects
+* Penetration tester
+* Manager
+* Security Auditor
 
 ##### RELATED LEVELS
-* SD3 related levels
 
+* Education & Guidance - 2
+* Strategy & Metrics - 1
+* Policy & Compliance - 3
+* Security Testing - 2
+* Strategy & Metrics - 1
+* Secure Architecture - 1
+* Issue Management - 2
+* Issue Management - 3
+* Operational Enablement - 1
 
 # Design Review
 | | **DR1** | **DR2** | **DR3** |
