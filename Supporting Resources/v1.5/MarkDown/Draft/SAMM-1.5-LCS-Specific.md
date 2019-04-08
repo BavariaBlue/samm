@@ -1097,40 +1097,62 @@ security protections
 | **Results** | ✦Understanding of possible security risks. ✦Better understanding of risk functions that need to be tested. ✦Reusable catalog of possible attacks. ✦Mapping of security vulnerabilities to safety-relevant functions. | ✦Better preperation against emerging security vulnerabilities. ✦Simpler testing through tightly defined test environments. ✦Improved test coverage by documenting all pentesting procedures. ✦All tests are up-to-date with latest security vulnerabilities. | ✦Possibility to test products independently of their hardware. ✦Possibility to conduct followup tests for new security vulnerabilities for every product. ✦Always up to date Security standards. ✦Outline of the individual steps of penetration testing within the projects lifecycle. ✦Guideline on appropriate methods for processing the feedback of penetration tests. |
 
 # Lifecycle Security Design: SD1
+
 ### Identify security risks and attack potentialities for individual projects
 
 ## Activities
+
 ##### A. Compile a threat and risk analysis in due consideration of security goals
-Start with a summary of security relevant features and compile a security and risk analysis in regard to potential attacks for every feature. 
-A risk function or risk matrix or EN61508 or ISO26262 can be used to support the analysis. EN61508 defines Safety Integrity Level (SIL) that is also used by ISO26262 as Automotive SIL (ASIL). (A)SIL provides a way to classify risks and validate if they meet security requirements. 
-Security relevant features can be identified by listing all features of a product and come up with different scenarios and situations in which security could be affected by the feature. 
-Then identify all internal and external components that influence a product's security relevant features. 
+
+Start with a summary of security relevant features and compile a security and risk analysis in regard to potential attacks for every feature.
+A risk function or risk matrix or EN61508 or ISO26262 can be used to support the analysis. EN61508 defines Safety Integrity Level (SIL) that is also used by ISO26262 as Automotive SIL (ASIL). (A)SIL provides a way to classify risks and validate if they meet security requirements.
+Security relevant features can be identified by listing all features of a product and come up with different scenarios and situations in which security could be affected by the feature.
+Then identify all internal and external components that influence a product's security relevant features.
 Security goals should be drafted in such a way that the elaborated risks will not occur.
 
 In the second step, define all known attacks on the identified functions---also think about functions that are similar to the identified ones---and carve out attack surfaces.
 Assign a risk level to every found attack by, e.g., considering the frequency of occurrence of such an attack and the severity of resulting harms.
 
-During this activity developers and penetration testers should work together in several meetings. Also offer a security training for staff members. 
+During this activity developers and penetration testers should work together in several meetings. Also offer a security training for staff members.
 Different views of external advisors can be helpful.
 
-
 ##### B. Set up an attack pattern catalog
-TODO
 
-##### ASSESSMENT 
-* TODO SD1 assessment list
+To prepare for penetration tests you shoud create and maintain an attack pattern catalog across all products.
+For this, known attacks that are relevant to one or more products should be gathered.
+In addition, attacks that are only known by your company are to be included, e.g. from previous penetration tests.
+The gathered information can than be used to create attack patterns.
+Experiences from penetration test can also be of great help here.
+An attack pattern is an abstract mechanism that describes how an attack works.
+It should begin with the name and include its probability, the exploitability for security, and the severity of the attack.
+Then, it should list the affected domain, the used mechanisms, and link possible attacks that follow the same schema.
+In addition, a short text with a description should be included. The goal, the motivation and the necessary abilities of the attacker should be documented as well.
+Then follows a detailed explanation of the attack. This should include the exploited vulnerability, necessary tools, and the exact steps of the process, dependencies, possible follow-up attacks and indicators and obfuscation.
+In addition, known examples should be provided in the form of code or known attacks and possible defense mechanisms proposed (mitigation).
+In the end, if existing, relationships with other known patterns or vulnerabilities can also be listed.
+For the creation and maintainng of the catalog several meetings are needed.
+
+##### ASSESSMENT
+
+* Do projects execute risk analysis (e.g., in regard to (A)SIL)?
+* Are identified attack patterns documented?
 
 ##### RESULTS
-* TODO SD1 result list
+
+* Understanding of possible security risks. ✦Better understanding of risk functions that need to be tested.
+* Reusable catalog of possible attacks. ✦Mapping of security vulnerabilities to safety-relevant functions.
 
 ##### SUCCESS METRICS
+
 * 75% of all projects have compiled a risk analysis
-* 50% of all projects have compiled attack patterns 
+* 50% of all projects have compiled attack patterns
 
 ##### COSTS
+
 * Setup and maintenance of project artifacts for risk analysis of attack patterns
 
 ##### PERSONNEL
+
 * Developer
 * Architects
 * Penetration testers
@@ -1138,6 +1160,7 @@ TODO
 * Security auditors
 
 ##### RELATED LEVELS
+
 * Education & Guidance -1
 * Threat Assessment - 1
 * Threat Assessment - 2
@@ -1145,16 +1168,16 @@ TODO
 * Lifecycle Security Design - 2
 * Lifecycle Security Design - 3
 
-
 # Lifecycle Security Design: SD2
-// TODO
+
 ### Plan penetration tests in advance and take future attack potentialities into account
 
 ## Activities
+
 ##### A. Define and categorize test environment
 Penetration tests have to be planned in advance with regard to the security goals.
 For that reason standards and test environments should be established within the company according to with the test environment can be defined.
-Furthermore, a policy has to be compiled, which includes a list of used tools, whether it's black box or white box testing and which interfaces are to be implemented in software or hardware. Please note that these suggestions should be a guideline and no mandatory regulation. 
+Furthermore, a policy has to be compiled, which includes a list of used tools, whether it's black box or white box testing and which interfaces are to be implemented in software or hardware. Please note that these suggestions should be a guideline and no mandatory regulation.
 Before the tests start, the test environment has to be set up, e.g., required software and hardware has to be provided and the approach has to planned and documented.
 
 After defining the test environment, the penetration tests dependent on security goals and found risk functions can be planned, e.g., in regard to ASIL. Furthermore the penetration tests have to selected and a prioritization and categorization of these tests should be made.
@@ -1162,37 +1185,44 @@ After defining the test environment, the penetration tests dependent on security
 Use the BSI guideline for IT-Security Penetrationtests (https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Studien/Penetrationstest/penetrationstest.pdf?__blob=publicationFile&v=3) and the BSI Study of Penetration Tests (https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Sicherheitsberatung/Pentest_Webcheck/Leitfaden_Penetrationstest.pdf?__blob=publicationFile&v=10) if applicable.
 
 Additional measures for planning the penetration tests can be offered in form of training and certifications for internal penetration testers.
-A external penetration tester can be tasked for certification alternatively. 
+A external penetration tester can be tasked for certification alternatively.
 
 Experience and previous made results should be taken into account during planning of penetration tests.
 
-
 ##### B. Downscale security risks of external software and hardware components
-Every project team that uses external software or hardware has to ensure the security of said hardware. 
 
-Extensive research of the vendor is essential. Especially consider the history of security risks and the vendor's reaction to these issues. 
+Every project team that uses external software or hardware has to ensure the security of said hardware.
+
+Extensive research of the vendor is essential. Especially consider the history of security risks and the vendor's reaction to these issues.
 
 Moreover, the chosen vendor should have a notification system that informs about occurring problems as soon as possible. 
 If such a system is not available, a reporting obligation of all security exploits at the time they become known should be included in the contract.
 Additionally, public services, which publish security exploits, should be searched and either subscribed to or periodically examined.
 
+##### ASSESSMENT
 
-
-##### ASSESSMENT 
-* TODO SD2 assessment list
+* Are penetration tests planned and executed for all products?
+* How often are external security reports reviewed? ✦Is special staff trained or are external certified tester employed?
 
 ##### RESULTS
-* TODO SD2 result list
+
+* Better preperation against emerging security vulnerabilities.
+* Simpler testing through tightly defined test environments.
+* Improved test coverage by documenting all pentesting procedures.
+* All tests are up-to-date with latest security vulnerabilities.
 
 ##### SUCCESS METRICS
+
 * 90% of all penetration testers are specifically trained
 * 80% of external software and hardware components are from verified vendors
 
 ##### COSTS
+
 * Common costs of projects increase due to additional verification
 * Additional training
 
 ##### PERSONNEL
+
 * Developer
 * Architects
 * Penetration testers
@@ -1200,21 +1230,15 @@ Additionally, public services, which publish security exploits, should be search
 * Security auditors
 
 ##### RELATED LEVELS
+
 * Threat Assessment - 3
 * Security Testing - 2
 
-
 # Lifecycle Security Design: SD3
-
-## Activities
-##### A. Facilitate hardware independent penetration tests and implement development cycles by the use of structured data exchange
-=======
 
 ### SD3 Facilitate semi-autonomous and ongoing penetration tests.
 
-
 ## Activities
-
 
 ##### A. Facilitate hardware independent penetration tests and implement development cycles by the use of structured data exchange.
 
@@ -1244,7 +1268,6 @@ Therefore, managers, developers, testers, and security experts need to design a 
 As a point of reference for relevant versions, the complexity version updates should be taken into consideration, i. E. how many adaptaions a user need to make during an update.
 To integrate the results of the tests into the software development process, appropriate languages and formats must be defined for documenting them.
 Clear responsibilities have to be defined, so that for all versions the test results can be adequately addressed and security gaps closed.
-
 
 ##### ASSESSMENT
 
