@@ -604,7 +604,7 @@ _…more on page XX_
 | **SD2**
 | Are penetration tests planned and executed for all products? | NO | SOME | HALF | MOST |
 | How often are external security reports reviewed? | MONTHLY | WEEKLY | DAILY | HOURLY OR MORE OFTEN |
-| Is special staff trained or are external certified tester employed? | NO | SOME | HALF | MOST |
+| Is special staff trained or are external certified testers employed? | NO | SOME | HALF | MOST |
 |**SD3**
 | Can products be tested hardware independently? | NO | SOME | HALF | MOST |
 | Can products be updated subsequently after roll out? | NO | SOME | HALF | MOST |
