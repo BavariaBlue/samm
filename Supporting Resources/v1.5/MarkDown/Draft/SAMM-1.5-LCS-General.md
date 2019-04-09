@@ -487,34 +487,31 @@ _…more on page XX_
 | ✦Does your organization regularly compare your security spend with that of other organizations? | NO | ONCE | EVERY 2-3 YRS | ANNUALLY |
 
 ### Policy & Compliance
-
-|           |         |         |         |         |
-| :-------- | :------ | :------ | :------ | :------ |
+| | | | | |
+|:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
-
-| **PC1**
-| ✦Do project stakeholders know their project’s compliance status?| NO | SOME | HALF | MOST |
+| **PC1** 
+| ✦Do project stakeholders know their project’s compliance status?| NO | SOME | HALF | MOST | 
 | ✦ Are compliance requirements specifically considered by project teams? | NO | NOT APPLY | AD-HOC | YES |
-| **PC2**
+| **PC2** 
 | ✦ Does the organization utilize a set of policies and standards to control software development? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
 | ✦ Are project teams able to request an audit for compliance with policies and standards? | NO | SOME | HALF | MOST |
-| **PC3**
+| **PC3** 
 | ✦Are projects periodically audited to ensure a baseline of compliance with policies and standards? | NO | SOME | HALF | MOST |
 | ✦Does the organization systematically use audits to collect and control compliance evidence? | NO | BUS AREA | ORG WIDE | ORG WIDE & REQUIRED |
 
+
 ### Education & Guidance
-
-|           |         |         |         |         |
-| :-------- | :------ | :------ | :------ | :------ |
+| | | | | |
+|:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
-
-| **EG1**
+| **EG1** 
 | ✦Have developers been given high-level security awareness training?| NO | ONCE | EVERY 2-3 YEARS | ANNUALLY |
 |✦Does each project team understand where to find secure development best-practices and guidance? | NO | SOME | HALF | MOST |
-|**EG2**
+|**EG2** 
 |✦Are those involved in the development process given role-specific security training and guidance? | NO | SOME | HALF | MOST |
 |✦ Are stakeholders able to pull in security coaches for use on projects? | NO | SOME | HALF | MOST |
-| **EG3**
+| **EG3** 
 | ✦Is security-related guidance centrally controlled and consistently distributed throughout the organization? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
 | ✦ Are developers tested to ensure a baseline skill- set for secure development practices? | NO | ONCE | EVERY 2-3 YEARS | ANNUALLY |
 
@@ -817,7 +814,7 @@ I6eyJzdGFydCI6NDk5ODksImVuZCI6NTA5NTEsInRleHQiOiIj
 IyMgTGlmZWN5Y2xlIFNlY3VyaXR5IFRlc3RpbmdcbnwgfCB8IH
 wgfCB8XG58Oi0tLS0tLS0tLS0tLS18Oi0tLS0tLS0tLS0tLS18
 Oi0tLS3igKYifSwiemFjS3hoazBUTnMwZU10OSI6eyJzdGFydC
-I6NTM4MDIsImVuZCI6NTQ2NzUsInRleHQiOiIjIyMgTGlmZWN5
+I6NTM3ODYsImVuZCI6NTQ2NDMsInRleHQiOiIjIyMgTGlmZWN5
 Y2xlIFNlY3VyaXR5IE1vbml0b3JpbmdcbnwgfCB8IHwgfCB8XG
 58Oi0tLS0tLS0tLS0tLS18Oi0tLS0tLS0tLS0tLS18Oi3igKYi
 fX0sImNvbW1lbnRzIjp7Ikh5SE1UbmFLUDZ5c1NHNTMiOnsiZG
@@ -903,6 +900,6 @@ cwNTA5NSIsInRleHQiOiJET05FIiwiY3JlYXRlZCI6MTU1NDc5
 Mjc4MTI2NH0sImJhTk93VnM2Q2xRc3ZlQ0giOnsiZGlzY3Vzc2
 lvbklkIjoidkdrTG1QWXRib3BRTmY4SyIsInN1YiI6ImdoOjE2
 NzA1MDk1IiwidGV4dCI6IkRPTkUiLCJjcmVhdGVkIjoxNTU0Nz
-k1MTA4MTc1fX0sImhpc3RvcnkiOlstMTI2ODQyMDg1NywyMDQy
-MjYzNDA3LDE5MzA3NTYwNDUsLTEwNjAzMjYzOThdfQ==
+k1MTA4MTc1fX0sImhpc3RvcnkiOlstMTY3MTQzODM1LDIwNDIy
+NjM0MDcsMTkzMDc1NjA0NSwtMTA2MDMyNjM5OF19
 -->
