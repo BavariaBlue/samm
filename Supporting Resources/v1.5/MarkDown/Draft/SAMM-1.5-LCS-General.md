@@ -576,8 +576,6 @@ _…more on page XX_
 | ✦Do project teams build software from centrally- controlled platforms and frameworks? | NO | SOME | HALF | MOST |
 | ✦ Are project teams audited for the use of secure architecture components? | NO | ONCE | EVERY 2-3 YEARS | ANNUALLY |
 
-
-
 ### Lifecycle Security Design
 | | | | | |
 |:-------------|:-------------|:---------------|:-------------|:------------|
@@ -873,6 +871,6 @@ cwNTA5NSIsInRleHQiOiJET05FIiwiY3JlYXRlZCI6MTU1NDc5
 Mjc4MTI2NH0sImJhTk93VnM2Q2xRc3ZlQ0giOnsiZGlzY3Vzc2
 lvbklkIjoidkdrTG1QWXRib3BRTmY4SyIsInN1YiI6ImdoOjE2
 NzA1MDk1IiwidGV4dCI6IkRPTkUiLCJjcmVhdGVkIjoxNTU0Nz
-k1MTA4MTc1fX0sImhpc3RvcnkiOlstMTc2Nzc4Mjg0MiwyMDQy
-MjYzNDA3LDE5MzA3NTYwNDUsLTEwNjAzMjYzOThdfQ==
+k1MTA4MTc1fX0sImhpc3RvcnkiOlsxMDE5MTkyOTM4LDIwNDIy
+NjM0MDcsMTkzMDc1NjA0NSwtMTA2MDMyNjM5OF19
 -->
