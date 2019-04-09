@@ -145,7 +145,7 @@ Verification is focused on the processes and activities related to how an organi
 
 **Security Testing** involves testing the organization’s software in its runtime environment, in order to both discover vulnerabilities, and establish a minimum standard for software releases.
 
-**Lifecycle Security Testing** involves implementation of penetration testing in the .
+**Lifecycle Security Testing** involves execution and examination of penetration testing including a  .
 
 …_more on page 14_
 
@@ -717,5 +717,5 @@ _…more on page XX_
 #!['THE SECURITY PRACTICES: An explanation of the details' IMAGES HERE](SecurityPractices.png) #![PracticesImage](PracticesImage.png)
 This section defines the building blocks of SAMM, the maturity levels under each security practice. For each practice, the three levels are covered in a summary table.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNTY2NzkwMSwxODY5NjYwMDkwXX0=
+eyJoaXN0b3J5IjpbLTExNTAzODI2MTcsMTg2OTY2MDA5MF19
 -->
