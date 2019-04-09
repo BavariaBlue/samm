@@ -318,7 +318,7 @@ _…more on page 44_
 
 _…more on page XX_
 
-|                 | SD 1                                                                                                                      | SD 2                                                                                                                         | SD 3                                                                                                                                                                                                               |
+|              | SD 1                                                                                                                  | SD 2                                                                                                                         | SD 3                                                                                                                                                                                                               |
 | :-------------- | :------------------------------------------------------------------------------------------------------------------------ | :--------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Objective:**  | **Identify security risks and attack potentialities for individual projects.**                                            | **Plan penetration tests in advance and take future attack potentialities into account.**                                    | **Facilitate semi-autonomous and ongoing penetration tests.**                                                                                                                                                       |
 | **Activities:** | **A.** Compile a threat and risk analysis in due consideration of security goals. **B.** Set up an attack pattern catalog | **A.** Define and categorize test environment. **B.** Downscale security risks of external software and hardware components. | **A.** Facilitate hardware independent penetration tests and implement development cycles by the use of structured data exchange. **B.** Categorize, acquire and store all relevant hardware and software versions. |
@@ -717,5 +717,5 @@ _…more on page XX_
 #!['THE SECURITY PRACTICES: An explanation of the details' IMAGES HERE](SecurityPractices.png) #![PracticesImage](PracticesImage.png)
 This section defines the building blocks of SAMM, the maturity levels under each security practice. For each practice, the three levels are covered in a summary table.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2OTEyNDMyNCwxODY5NjYwMDkwXX0=
+eyJoaXN0b3J5IjpbLTU3NDI1MzA5MCwxODY5NjYwMDkwXX0=
 -->
