@@ -515,66 +515,57 @@ _…more on page XX_
 | ✦Is security-related guidance centrally controlled and consistently distributed throughout the organization? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
 | ✦ Are developers tested to ensure a baseline skill- set for secure development practices? | NO | ONCE | EVERY 2-3 YEARS | ANNUALLY |
 
+
 ### Lifecycle Security Culture
-
-|           |         |         |         |         |
-| :-------- | :------ | :------ | :------ | :------ |
+| | | | | |
+|:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
-
-| **SC1**
+| **SC1** 
 | ✦Have developers been given high-level security awareness training?| NO | ONCE | EVERY 2-3 YEARS | ANNUALLY |
 |✦Does each project team understand where to find secure development best-practices and guidance? | NO | SOME | HALF | MOST |
-|**SC2**
+|**SC2** 
 |✦Are those involved in the development process given role-specific security training and guidance? | NO | SOME | HALF | MOST |
 |✦ Are stakeholders able to pull in security coaches for use on projects? | NO | SOME | HALF | MOST |
-| **SC3**
+| **SC3** 
 | ✦Is security-related guidance centrally controlled and consistently distributed throughout the organization? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
 | ✦ Are developers tested to ensure a baseline skill- set for secure development practices? | NO | ONCE | EVERY 2-3 YEARS | ANNUALLY |
 
 # Construction
-
 ## Assessment worksheet
-
-### Threat Assessmment
-
-|           |         |         |         |         |
-| :-------- | :------ | :------ | :------ | :------ |
+### Threat Assessment
+| | | | | |
+|:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
-
-| **TA1**
+| **TA1** 
 | ✦Do projects in your organization consider and document likely threats? | NO | SOME | HALF | MOST |
 | ✦Does your organization understand and document the types of attackers it faces? | NO | SOME | HALF | MOST |
-|**TA2**
+|**TA2** 
 | ✦Do project teams regularly analyze functional requirements for likely abuses? | NO | SOME | HALF | MOST |
-| ✦Do project teams use a method of rating threats for relative comparison? | NO | SOME | HALF | MOST |
+| ✦Do project teams use a method of rating threats for relative comparison? |  NO | SOME | HALF | MOST |
 | ✦Are stakeholders aware of relevant threats and ratings? | NO | SOME | HALF | MOST |
-| **TA3**
+| **TA3** 
 | ✦Do project teams specifically consider risk from external software? | NO | SOME | HALF | MOST |
 | ✦ Are the majority of the protection mechanisms and controls captured and mapped back to threats? | NO | SOME | HALF | MOST |
 
 ### Security Requirements
-
-|           |         |         |         |         |
-| :-------- | :------ | :------ | :------ | :------ |
+| | | | | |
+|:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
-
-| **SR1**
-| ✦Do project teams specify security requirements during development? | NO | SOME | HALF | MOST |
-| ✦Do project teams pull requirements from best practices and compliance guidance? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
-| **SR2**
-| ✦Do stakeholders review access control matrices for relevant projects? |
-| NO | SOME | HALF | MOST |
-| ✦Do project teams specify requirements based on feedback from other security activities? | NO | SOME | HALF | MOST |
-| **SR3**
-| ✦Do stakeholders review vendor agreements for security requirements? | NO | SOME | HALF | MOST |
+| **SR1** 
+| ✦Do project teams specify security requirements during development? | NO | SOME | HALF | MOST | 
+| ✦Do project teams pull requirements from best practices and compliance guidance? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS | 
+| **SR2** 
+| ✦Do stakeholders review access control matrices for relevant projects? | 
+| NO | SOME | HALF | MOST | 
+| ✦Do project teams specify requirements based on feedback from other security activities? | NO | SOME | HALF | MOST | 
+| **SR3** 
+| ✦Do stakeholders review vendor agreements for security requirements? | NO | SOME | HALF | MOST | 
 |✦ Are audits performed against the security requirements specified by project teams? | NO | ONCE | EVERY 2-3 YEARS | ANNUALLY |
 
 ### Secure Architecture
-
-|           |         |         |         |         |
-| :-------- | :------ | :------ | :------ | :------ |
+| | | | | |
+|:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
-
 | **SA1**
 |✦ Are project teams provided with a list of recommended third-party components? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
 | ✦ Are project teams aware of secure design principles and do they apply them consistently? | NO | SOME | HALF | MOST |
@@ -900,6 +891,6 @@ cwNTA5NSIsInRleHQiOiJET05FIiwiY3JlYXRlZCI6MTU1NDc5
 Mjc4MTI2NH0sImJhTk93VnM2Q2xRc3ZlQ0giOnsiZGlzY3Vzc2
 lvbklkIjoidkdrTG1QWXRib3BRTmY4SyIsInN1YiI6ImdoOjE2
 NzA1MDk1IiwidGV4dCI6IkRPTkUiLCJjcmVhdGVkIjoxNTU0Nz
-k1MTA4MTc1fX0sImhpc3RvcnkiOlstMTY3MTQzODM1LDIwNDIy
-NjM0MDcsMTkzMDc1NjA0NSwtMTA2MDMyNjM5OF19
+k1MTA4MTc1fX0sImhpc3RvcnkiOlszNjQ2OTgwNDgsMjA0MjI2
+MzQwNywxOTMwNzU2MDQ1LC0xMDYwMzI2Mzk4XX0=
 -->
