@@ -469,24 +469,20 @@ _…more on page XX_
 | **Activities:** | **A.** Capture critical security information for deployment **B.** Document procedures for typical application alerts | **A.** Create per-release change management procedures **B.** Maintain formal operational security guides | **A.** Expand audit program for operational information **B.** Perform code signing for application components |
 
 # Governance
-
 ## Assessment worksheet
-
 ### Strategy & Metrics
-
-|           |         |         |         |         |
-| :-------- | :------ | :------ | :------ | :------ |
+| | | | | |
+|:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
-
-| **SM1**
-| ✦Is there a software security assurance program in place?| NO | <1 YR | >1 YR | MATURE |
+| **SM1** 
+| ✦Is there a software security assurance program in place?| NO | <1 YR | >1 YR | MATURE | 
 | ✦ Are development staff aware of future plans for the assurance program? | NO | SOME | HALF | MOST |
 | ✦Do the business stakeholders understand your organization’s risk profile? | NO |SOME| HALF | MOST|
-| **SM2**
+| **SM2** 
 | ✦ Are many of your applications and resources categorized by risk? | NO | SOME | HALF | MOST |
 | ✦ Are risk ratings used to tailor the required assurance activities? | NO | SOME | HALF | MOST |
 | ✦Does the organization know about what’s required based on risk ratings? | NO | SOME | HALF | MOST |
-| **SM3**
+| **SM3** 
 | ✦Is per-project data for the cost of assurance activities collected? | NO | SOME | HALF | MOST |
 | ✦Does your organization regularly compare your security spend with that of other organizations? | NO | ONCE | EVERY 2-3 YRS | ANNUALLY |
 
@@ -821,7 +817,7 @@ I6eyJzdGFydCI6NDk5ODksImVuZCI6NTA5NTEsInRleHQiOiIj
 IyMgTGlmZWN5Y2xlIFNlY3VyaXR5IFRlc3RpbmdcbnwgfCB8IH
 wgfCB8XG58Oi0tLS0tLS0tLS0tLS18Oi0tLS0tLS0tLS0tLS18
 Oi0tLS3igKYifSwiemFjS3hoazBUTnMwZU10OSI6eyJzdGFydC
-I6NTM4MjAsImVuZCI6NTQ2OTMsInRleHQiOiIjIyMgTGlmZWN5
+I6NTM4MDIsImVuZCI6NTQ2NzUsInRleHQiOiIjIyMgTGlmZWN5
 Y2xlIFNlY3VyaXR5IE1vbml0b3JpbmdcbnwgfCB8IHwgfCB8XG
 58Oi0tLS0tLS0tLS0tLS18Oi0tLS0tLS0tLS0tLS18Oi3igKYi
 fX0sImNvbW1lbnRzIjp7Ikh5SE1UbmFLUDZ5c1NHNTMiOnsiZG
@@ -907,6 +903,6 @@ cwNTA5NSIsInRleHQiOiJET05FIiwiY3JlYXRlZCI6MTU1NDc5
 Mjc4MTI2NH0sImJhTk93VnM2Q2xRc3ZlQ0giOnsiZGlzY3Vzc2
 lvbklkIjoidkdrTG1QWXRib3BRTmY4SyIsInN1YiI6ImdoOjE2
 NzA1MDk1IiwidGV4dCI6IkRPTkUiLCJjcmVhdGVkIjoxNTU0Nz
-k1MTA4MTc1fX0sImhpc3RvcnkiOlsyMDQyMjYzNDA3LDE5MzA3
-NTYwNDUsLTEwNjAzMjYzOThdfQ==
+k1MTA4MTc1fX0sImhpc3RvcnkiOlstMTI2ODQyMDg1NywyMDQy
+MjYzNDA3LDE5MzA3NTYwNDUsLTEwNjAzMjYzOThdfQ==
 -->
