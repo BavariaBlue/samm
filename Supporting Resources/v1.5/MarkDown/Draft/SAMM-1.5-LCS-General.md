@@ -234,14 +234,14 @@ _…more on page 28_
 
 |                 | PC 1                                                                                                    | PC 2                                                                                                    | PC 3                                                                                          |
 | :-------------- | :------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------- |
-| **Objective:**  | **Understand relevant governance and compliance drivers to the organization.**                          | **Establish security and compliance baseline and understand per-project risks.**                        | **Require compliance and measure projects against organization-wide policies and standards.** |
+| **Objective:**  | **Understand relevant governance and compliance drivers to the organization.**                          | **Establish security and compliance baseline andunderstand per-project risks.**                        | **Require compliance and measure projects against organization-wide policies and standards.** |
 | **Activities:** | **A.** Identify and monitor external compliance drivers **B.** Build and maintain compliance guidelines | **A.** Build policies and standards for security and compliance **B.** Establish project audit practice | **A.** Create compliance gates for projects **B.** Adopt solution for audit data collection   |
 
 ### Education & Guidance
 
 _…more on page 32_
 
-|                 | EG 1                                                                                                    | EG 2                                                                                                                | EG 3                                                                                                           |
+|                 | EG 1                                                                                                    | EG 2                                                                                                               | EG 3                                                                                                           |
 | :-------------- | :------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------- |
 | **Objective:**  | **Offer development staff access to resources around the topics of secure programming and deployment.** | **Educate all personnel in the software lifecycle with role-specific guidance on secure development.**              | **Mandate comprehensive security training and certify personnel for baseline knowledge.**                      |
 | **Activities:** | **A.** Conduct technical security awareness training **B.** Build and maintain technical guidelines     | **A.** Conduct role-specific application security training **B.** Utilize security coaches to enhance project teams | **A.** Create formal application security support portal **B.** Establish role-based examination/certification |
@@ -318,7 +318,7 @@ _…more on page 44_
 
 _…more on page XX_
 
-|                 | SD 1                                                                                                                      | SD 2                                                                                                                         | SD 3                                                                                                                                                                                                                |
+|                 | SD 1                                                                                                                      | SD 2                                                                                                                         | SD 3                                                                                                                                                                                                               |
 | :-------------- | :------------------------------------------------------------------------------------------------------------------------ | :--------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Objective:**  | **Identify security risks and attack potentialities for individual projects.**                                            | **Plan penetration tests in advance and take future attack potentialities into account.**                                    | **Facilitate semi-autonomous and ongoing penetration tests.**                                                                                                                                                       |
 | **Activities:** | **A.** Compile a threat and risk analysis in due consideration of security goals. **B.** Set up an attack pattern catalog | **A.** Define and categorize test environment. **B.** Downscale security risks of external software and hardware components. | **A.** Facilitate hardware independent penetration tests and implement development cycles by the use of structured data exchange. **B.** Categorize, acquire and store all relevant hardware and software versions. |
@@ -716,3 +716,6 @@ _…more on page XX_
 
 #!['THE SECURITY PRACTICES: An explanation of the details' IMAGES HERE](SecurityPractices.png) #![PracticesImage](PracticesImage.png)
 This section defines the building blocks of SAMM, the maturity levels under each security practice. For each practice, the three levels are covered in a summary table.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTg2OTY2MDA5MF19
+-->
