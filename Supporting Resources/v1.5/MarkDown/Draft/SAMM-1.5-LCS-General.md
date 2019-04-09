@@ -576,21 +576,21 @@ _…more on page XX_
 | ✦Do project teams build software from centrally- controlled platforms and frameworks? | NO | SOME | HALF | MOST |
 | ✦ Are project teams audited for the use of secure architecture components? | NO | ONCE | EVERY 2-3 YEARS | ANNUALLY |
 
+
+
 ### Lifecycle Security Design
-
-|           |         |         |         |         |
-| :-------- | :------ | :------ | :------ | :------ |
+| | | | | |
+|:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
-
 | **SD1**
-| Do projects execute risk analysis (e.g., in regard to (A)SIL)? | NO | SOME | HALF | MOST |
-| Are identified attack patterns documented? | NO | SOME | HALF | MOST |
+| ✦ Do projects execute risk analysis (e.g., in regard to (A)SIL)? | NO | SOME | HALF | MOST |
+| ✦ Are identified attack patterns documented? | NO | SOME | HALF | MOST |
 | **SD2**
-| Are penetration tests planned and executed for all products? | NO | SOME | HALF | MOST |
-| How often are external security reports reviewed? | MONTHLY | WEEKLY | DAILY | HOURLY OR MORE OFTEN |
-| Is special staff trained or are external certified testers employed? | NO | SOME | HALF | MOST |
+| ✦ Are penetration tests planned and executed for all products? | NO | SOME | HALF | MOST |
+| ✦ How often are external security reports reviewed? | MONTHLY | WEEKLY | DAILY | HOURLY OR MORE OFTEN |
+| ✦ Is special staff trained or are external certified testers employed? | NO | SOME | HALF | MOST |
 |**SD3**
-| Can products be tested hardware independently? | NO | SOME | HALF | MOST |
+| ✦ Can products be tested hardware independently? | NO | SOME | HALF | MOST |
 | Can products be updated subsequently after roll out? | NO | SOME | HALF | MOST |
 | Can results from penetration tests be reused? | NO | SOME | HALF | MOST |
 | Is security already implemented into the lifecycle? | NO | IN SOME PRODUCTS | IN MANY PRODUCTS | COMPLETELY |
@@ -891,6 +891,6 @@ cwNTA5NSIsInRleHQiOiJET05FIiwiY3JlYXRlZCI6MTU1NDc5
 Mjc4MTI2NH0sImJhTk93VnM2Q2xRc3ZlQ0giOnsiZGlzY3Vzc2
 lvbklkIjoidkdrTG1QWXRib3BRTmY4SyIsInN1YiI6ImdoOjE2
 NzA1MDk1IiwidGV4dCI6IkRPTkUiLCJjcmVhdGVkIjoxNTU0Nz
-k1MTA4MTc1fX0sImhpc3RvcnkiOlszNjQ2OTgwNDgsMjA0MjI2
-MzQwNywxOTMwNzU2MDQ1LC0xMDYwMzI2Mzk4XX0=
+k1MTA4MTc1fX0sImhpc3RvcnkiOlstMTA5OTcxMTI2MCwyMDQy
+MjYzNDA3LDE5MzA3NTYwNDUsLTEwNjAzMjYzOThdfQ==
 -->
