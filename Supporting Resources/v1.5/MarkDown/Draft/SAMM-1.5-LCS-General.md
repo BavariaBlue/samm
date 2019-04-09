@@ -591,20 +591,17 @@ _…more on page XX_
 | ✦ Is special staff trained or are external certified testers employed? | NO | SOME | HALF | MOST |
 |**SD3**
 | ✦ Can products be tested hardware independently? | NO | SOME | HALF | MOST |
-| Can products be updated subsequently after roll out? | NO | SOME | HALF | MOST |
-| Can results from penetration tests be reused? | NO | SOME | HALF | MOST |
-| Is security already implemented into the lifecycle? | NO | IN SOME PRODUCTS | IN MANY PRODUCTS | COMPLETELY |
+| ✦ Can products be updated subsequently after roll out? | NO | SOME | HALF | MOST |
+| ✦ Can results from penetration tests be reused? | NO | SOME | HALF | MOST |
+| ✦ Is security already implemented into the lifecycle? | NO | IN SOME PRODUCTS | IN MANY PRODUCTS | COMPLETELY |
+
 
 # Verification
-
 ## Assessment worksheet
-
 ### Design Review
-
-|           |         |         |         |         |
-| :-------- | :------ | :------ | :------ | :------ |
+| | | | | |
+|:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
-
 | **DR1**
 | ✦Do project teams document the attack perimeter of software designs? | NO | SOME | HALF | MOST |
 | ✦ Do project teams check software designs against known security risks? | NO | SOME | HALF | MOST |
@@ -616,11 +613,9 @@ _…more on page XX_
 | ✦Does a minimum security baseline exist for secure design review results? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
 
 ### Implementation Review
-
-|           |         |         |         |         |
-| :-------- | :------ | :------ | :------ | :------ |
+| | | | | |
+|:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
-
 | **IR1**
 | ✦Do project teams have review checklists based on common security related problems? | NO | BUS AREA | ORG WIDE | ORG WIDE & REQUIRED |
 | ✦Do project teams review selected high-risk code? | NO | SOME | HALF | MOST |
@@ -632,11 +627,9 @@ _…more on page XX_
 | ✦Does a minimum security baseline exist for code review results? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
 
 ### Security Testing
-
-|           |         |         |         |         |
-| :-------- | :------ | :------ | :------ | :------ |
+| | | | | |
+|:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
-
 | **ST1**
 | ✦Do projects specify security testing based on defined security requirements? | NO | SOME | HALF | MOST |
 | ✦Is penetration testing performed on high risk projects prior to release? | NO | SOME | HALF | MOST |
@@ -649,11 +642,9 @@ _…more on page XX_
 | ✦Does a minimum security baseline exist for security testing? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
 
 ### Lifecycle Security Testing
-
-|           |         |         |         |         |
-| :-------- | :------ | :------ | :------ | :------ |
+| | | | | |
+|:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
-
 | **ST1**
 | ✦Do projects specify security testing based on defined security requirements? | NO | SOME | HALF | MOST |
 | ✦Is penetration testing performed on high risk projects prior to release? | NO | SOME | HALF | MOST |
@@ -666,15 +657,11 @@ _…more on page XX_
 | ✦Does a minimum security baseline exist for security testing? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
 
 # Operations
-
 ## Assessment worksheet
-
 ### Issue Management
-
-|           |         |         |         |         |
-| :-------- | :------ | :------ | :------ | :------ |
+| | | | | |
+|:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
-
 | **IM1**
 | ✦Do projects have a point of contact for security issues or incidents?| NO | SOME | HALF | MOST |
 | ✦Does your organization have an assigned security response team?| NO | <1 YEAR | >1 YEAR | MATURE |
@@ -687,11 +674,9 @@ _…more on page XX_
 | ✦Do projects consistently collect and report data and metrics related to incidents? | NO | SOME | HALF | MOST |
 
 ### Environment Hardening
-
-|           |         |         |         |         |
-| :-------- | :------ | :------ | :------ | :------ |
+| | | | | |
+|:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
-
 | **EH1**
 | ✦Do projects document operational environment security requirements? | NO | SOME | HALF | MOST |
 | ✦Do projects check for security updates to third-party software components?| NO | SOME | HALF | MOST |
@@ -703,11 +688,9 @@ _…more on page XX_
 | ✦Does a minimum security baseline exist for environment health (versioning, patching, etc)? | NO | BUS AREA | ORG WIDE | ORG WIDE & REQUIRED |
 
 ### Operational Enablement
-
-|           |         |         |         |         |
-| :-------- | :------ | :------ | :------ | :------ |
+| | | | | |
+|:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
-
 | **OE1**
 | ✦Are security notes delivered with each software release? | NO | SOME | HALF | MOST |
 | ✦Are security-related alerts and error conditions documented on a per-project basis? | NO | SOME | HALF | MOST |
@@ -719,11 +702,9 @@ _…more on page XX_
 | ✦Is code signing routinely performed on software components using a consistent process? | NO | NOT APPLY | AD-HOC | YES |
 
 ### Lifecycle Security Monitoring
-
-|           |         |         |         |         |
-| :-------- | :------ | :------ | :------ | :------ |
+| | | | | |
+|:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
-
 | **SM1**
 | ✦Are security notes delivered with each software release? | NO | SOME | HALF | MOST |
 | ✦Are security-related alerts and error conditions documented on a per-project basis? | NO | SOME | HALF | MOST |
@@ -733,6 +714,7 @@ _…more on page XX_
 | **SM3**
 | ✦Are project releases audited for appropriate operational security information? | NO | ONCE | EVERY 2-3 YRS | ANNUALLY |
 | ✦Is code signing routinely performed on software components using a consistent process? | NO | NOT APPLY | AD-HOC | YES |
+
 
 #!['THE SECURITY PRACTICES: An explanation of the details' IMAGES HERE](SecurityPractices.png) #![PracticesImage](PracticesImage.png)
 This section defines the building blocks of SAMM, the maturity levels under each security practice. For each practice, the three levels are covered in a summary table.
@@ -891,6 +873,6 @@ cwNTA5NSIsInRleHQiOiJET05FIiwiY3JlYXRlZCI6MTU1NDc5
 Mjc4MTI2NH0sImJhTk93VnM2Q2xRc3ZlQ0giOnsiZGlzY3Vzc2
 lvbklkIjoidkdrTG1QWXRib3BRTmY4SyIsInN1YiI6ImdoOjE2
 NzA1MDk1IiwidGV4dCI6IkRPTkUiLCJjcmVhdGVkIjoxNTU0Nz
-k1MTA4MTc1fX0sImhpc3RvcnkiOlstMTA5OTcxMTI2MCwyMDQy
+k1MTA4MTc1fX0sImhpc3RvcnkiOlstMTc2Nzc4Mjg0MiwyMDQy
 MjYzNDA3LDE5MzA3NTYwNDUsLTEwNjAzMjYzOThdfQ==
 -->
