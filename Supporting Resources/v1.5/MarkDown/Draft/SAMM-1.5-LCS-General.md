@@ -314,7 +314,7 @@ _…more on page 44_
 | **Objective:**  | **Insert consideration of proactive security guidance into the software design process.**                     | **Direct the software design process toward known- secure services and secure-by-default designs.**                           | **Formally control the software design process and validate utilization of secure components.**                            |
 | **Activities:** | **A.** Maintain list of recommended software frameworks **B.** Explicitly apply security principles to design | **A.** . Identify and promote security services and infrastructure **B.** Identify security design patterns from architecture | **A.** Establish formal reference architectures and platforms **B.** Validate usage of frameworks, patterns, and platforms |
 
-### Lifecycle Security Design
+### Lifecycle Security Testing
 
 _…more on page XX_
 
@@ -794,34 +794,34 @@ ZSBYWCoifSwiVHNscVp5dGV1MWw5OU93TiI6eyJzdGFydCI6Mz
 AxMzgsImVuZCI6MzAxOTUsInRleHQiOiIjIyMgTGlmZWN5Y2xl
 IFNlY3VyaXR5IFRlc3RpbmdcbkFkZCBsb25nIGRlc2NyaXB0aW
 9uIGhlcmUuIn0sIkN0SGtPYW16UHdtTzFTWUgiOnsic3RhcnQi
-OjMyNjUyLCJlbmQiOjMzNDY4LCJ0ZXh0IjoiIyMjIExpZmVjeW
+OjMyNjUzLCJlbmQiOjMzNDY5LCJ0ZXh0IjoiIyMjIExpZmVjeW
 NsZSBTZWN1cml0eSBUZXN0aW5nIFxuKi4uLm1vcmUgb24gcGFn
 ZSBYWCpcblxufCB8IFNUMSB8U1QyIHwgU1QzIHxcbnw6LS3igK
-YifSwidVBYMjQzVXBMNnBsVHFDSCI6eyJzdGFydCI6MzYxNzgs
-ImVuZCI6MzYyMzgsInRleHQiOiIjIyMgTGlmZWN5Y2xlIFNlY3
+YifSwidVBYMjQzVXBMNnBsVHFDSCI6eyJzdGFydCI6MzYxNzks
+ImVuZCI6MzYyMzksInRleHQiOiIjIyMgTGlmZWN5Y2xlIFNlY3
 VyaXR5IE1vbml0b3JpbmdcbkFkZCBsb25nIGRlc2NyaXB0aW9u
 IGhlcmUuIn0sIkVLTElKYXNqMnE1a0VPZVMiOnsic3RhcnQiOj
-M4NjMxLCJlbmQiOjM4NjgzLCJ0ZXh0IjoiIyMjIExpZmVjeWNs
+M4NjMyLCJlbmQiOjM4Njg0LCJ0ZXh0IjoiIyMjIExpZmVjeWNs
 ZSBTZWN1cml0eSBNb25pdG9yaW5nXG4q4oCmbW9yZSBvbiBwYW
 dlIFhYKiJ9LCI2eEppNk10NDhDVXZSZUY0Ijp7InN0YXJ0Ijoz
-ODY4NSwiZW5kIjozOTQ1MCwidGV4dCI6InwgfCBTTTEgfCBTTT
+ODY4NiwiZW5kIjozOTQ1MSwidGV4dCI6InwgfCBTTTEgfCBTTT
 IgfCBTTTMgfFxufDotLS0tLS0tLS0tLS0tfDotLS0tLS0tLS0t
 LS0tIHw6LS0tLS0tLS0tLS0tLS0tfDotLS0tLS0t4oCmIn0sIl
-g1RlNVSTFXczlqUGFWT3UiOnsic3RhcnQiOjQyNDM4LCJlbmQi
-OjQzNDA4LCJ0ZXh0IjoiIyMjIExpZmVjeWNsZSBTZWN1cml0eS
+g1RlNVSTFXczlqUGFWT3UiOnsic3RhcnQiOjQyNDM5LCJlbmQi
+OjQzNDA5LCJ0ZXh0IjoiIyMjIExpZmVjeWNsZSBTZWN1cml0eS
 BDdWx0dXJlXG58IHwgfCB8IHwgfFxufDotLS0tLS0tLS0tLS0t
 fDotLS0tLS0tLS0tLS0tfDotLS0t4oCmIn0sImVTSUhieWNtN0
-1SUERuVGQiOnsic3RhcnQiOjMyNzA2LCJlbmQiOjMyNzI2LCJ0
+1SUERuVGQiOnsic3RhcnQiOjMyNzA3LCJlbmQiOjMyNzI3LCJ0
 ZXh0IjoifCB8IFNUMSB8U1QyIHwgU1QzIHwifSwiYUo4N1VDNE
-1CV2ozMDRBOSI6eyJzdGFydCI6NDYyNTIsImVuZCI6NDcyMjcs
+1CV2ozMDRBOSI6eyJzdGFydCI6NDYyNTMsImVuZCI6NDcyMjgs
 InRleHQiOiIjIyMgTGlmZWN5Y2xlIFNlY3VyaXR5IERlc2lnbl
 xufCB8IHwgfCB8IHxcbnw6LS0tLS0tLS0tLS0tLXw6LS0tLS0t
 LS0tLS0tLXw6LS0tLS3igKYifSwieUdJUXZJWk43SFhOcGNRUy
-I6eyJzdGFydCI6NDk5ODksImVuZCI6NTA5NTEsInRleHQiOiIj
+I6eyJzdGFydCI6NDk5OTAsImVuZCI6NTA5NTIsInRleHQiOiIj
 IyMgTGlmZWN5Y2xlIFNlY3VyaXR5IFRlc3RpbmdcbnwgfCB8IH
 wgfCB8XG58Oi0tLS0tLS0tLS0tLS18Oi0tLS0tLS0tLS0tLS18
 Oi0tLS3igKYifSwiemFjS3hoazBUTnMwZU10OSI6eyJzdGFydC
-I6NTM4MjAsImVuZCI6NTQ2OTMsInRleHQiOiIjIyMgTGlmZWN5
+I6NTM4MjEsImVuZCI6NTQ2OTQsInRleHQiOiIjIyMgTGlmZWN5
 Y2xlIFNlY3VyaXR5IE1vbml0b3JpbmdcbnwgfCB8IHwgfCB8XG
 58Oi0tLS0tLS0tLS0tLS18Oi0tLS0tLS0tLS0tLS18Oi3igKYi
 fX0sImNvbW1lbnRzIjp7Ikh5SE1UbmFLUDZ5c1NHNTMiOnsiZG
@@ -907,6 +907,6 @@ cwNTA5NSIsInRleHQiOiJET05FIiwiY3JlYXRlZCI6MTU1NDc5
 Mjc4MTI2NH0sImJhTk93VnM2Q2xRc3ZlQ0giOnsiZGlzY3Vzc2
 lvbklkIjoidkdrTG1QWXRib3BRTmY4SyIsInN1YiI6ImdoOjE2
 NzA1MDk1IiwidGV4dCI6IkRPTkUiLCJjcmVhdGVkIjoxNTU0Nz
-k1MTA4MTc1fX0sImhpc3RvcnkiOlsyMDQyMjYzNDA3LDE5MzA3
+k1MTA4MTc1fX0sImhpc3RvcnkiOlstNTE3ODUyNjMyLDE5MzA3
 NTYwNDUsLTEwNjAzMjYzOThdfQ==
 -->
