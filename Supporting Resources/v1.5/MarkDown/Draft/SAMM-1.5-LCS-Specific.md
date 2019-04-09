@@ -1088,160 +1088,231 @@ security protections
 * Security Testing - 3
 
 # Lifecycle Security Design
-| | **SD1** | **SD2** | **SD3** |
-|:-------------|:-------------|:---------------|:-------------|:------------|
-| **Objective** | **Insert consideration of proactive security guidance into the software design process.** | **Direct the software design process toward known secure services and secure-by-default designs.** | **Formally control the software design process and validate utilization of secure components.**|
-| **Activities** | **A.** Maintain list of recommended software frameworks **B.** Explicitly apply security principles to design | **A.** Identify and promote security services and infrastructure **B.** Identify security design patterns from architecture | **A.** Establish formal reference architectures and platforms **B.** Validate usage of frameworks, patterns, and platforms |
-| **Assessment** | ✦Are project teams provided with a list of recommended third-party components? ✦Are project teams aware of secure design principles and do they apply them consistently? | ✦Do you advertise shared security services with guidance for project teams? ✦Are project teams provided with prescriptive design patterns based on their application architecture? | ✦Do project teams build software from centrally-controlled platforms and frameworks? ✦Are project teams audited for the use of secure architecture components? |
-| **Results** | ✦Ad hoc prevention of unexpected dependencies and one-off implementation choices ✦Stakeholders aware of increased project risk due to libraries and frameworks chosen ✦Established protocol within development for proactively applying security mechanisms to a design | ✦Detailed mapping of assets to user roles to encourage better compartmentalization in design ✦Reusable design building blocks for provision of security protections and functionality ✦Increased confidence for software projects from use of established design techniques for security | ✦Customized application development platforms that provide built-in security protections ✦Organization-wide expectations for proactive security effort in development ✦Stakeholders better able to make tradeoff decisions based on business need for secure design |
+
+| | SD 1  | SD 2  | SD 3 |
+|:-------------|:------------- |:---------------|:-------------|
+| **Objective:** | **Identify security risks and attack potentialities for individual projects.** | **Plan penetration tests in advance and take future attack potentialities into account.** | **Facilitate semi-autonomous and ongoing penetration tests.** |
+| **Activities:** | **A.** Compile a threat and risk analysis in due consideration of security goals. **B.** Set up an attack pattern catalog. | **A.** Define and categorize test environment. **B.** Downscale security risks of external software and hardware components. | **A.** Facilitate hardware independent penetration tests and implement development cycles by the use of structured data exchange.  **B.** Categorize, acquire and store all relevant hardware and software versions. |
+| **Assessment** | ✦Do projects execute risk analysis (e.g., in regard to (A)SIL)? ✦Are identified attack patterns documented? | ✦Are penetration tests planned and executed for all products? ✦How often are external security reports reviewed? ✦Is special staff trained or are external certified testers employed? | ✦Can products be tested hardware independently? ✦Can products be updated subsequently after roll out? ✦Can results from penetration tests be reused? ✦Is security already implemented into the lifecycle? |
+| **Results** | ✦Understanding of possible security risks. ✦Better understanding of risk functions that need to be tested. ✦Reusable catalog of possible attacks. ✦Mapping of security vulnerabilities to safety-relevant functions. | ✦Better preparation against emerging security vulnerabilities. ✦Simpler testing through tightly defined test environments. ✦Improved test coverage by documenting all pentesting procedures. ✦All tests are up-to-date with latest security vulnerabilities. | ✦Possibility to test products independently of their hardware. ✦Possibility to conduct follow up tests for new security vulnerabilities for every product. ✦Always up to date security standards. ✦Outline of the individual steps of penetration testing within the projects lifecycle. ✦Guideline on appropriate methods for processing the feedback of penetration tests. |
 
 # Lifecycle Security Design: SD1
-### Insert consideration of proactive security guidance into the software design process
+
+### Identify security risks and attack potentialities for individual projects
 
 ## Activities
-##### A. Maintain list of recommended software frameworks
-Across software projects within the organization identify commonly used third-party software libraries and frameworks in use. Generally, this need not be an exhaustive search for dependencies, but rather focus on capturing the high-level components that are most often used.
 
-From the list of components, group them into functional categories based on the core features provided by the third-party component. Also, note the usage prevalence of each component across project teams to weight the reliance upon the third-party code. Using this weighted list as a guide, create a list of components to be advertised across the development organization as recommended components.
+##### A. Compile a threat and risk analysis in due consideration of security goals
 
-Several factors should contribute to decisions for inclusion on the recommended list. Although a list can be created without conducting research specifically, it is advisable to inspect each for incident history, track record for responding to vulnerabilities, appropriateness of functionality for the organization, excessive complexity in usage of the third-party component, etc.
+Start with a summary of security relevant features and compile a security and risk analysis in regard to potential attacks for every feature.
+A risk function or risk matrix according to EN61508 or ISO26262 can be used to support the analysis. EN61508 defines Safety Integrity Level (SIL) that is also used by ISO26262 as Automotive SIL (ASIL). (A)SIL provides a way to classify risks and validate whether they meet security requirements.
+Security relevant features can be identified by listing all features of a product and come up with different scenarios and situations in which security could be affected by the feature.
+Then identify all internal and external components that influence a product's relevant security features.
+Security goals should be drafted in such a way that the elaborated risks will not occur.
 
-This list should be created by senior developers and architects, but also include input from managers and security auditors. After creation, this list of recommended components matched against functional categories should be advertised to the development organization. Ultimately, the goal is to provide well-known defaults for project teams.
+In the second step, define all known attacks on the identified functions---also think about functions that are similar to the identified ones---and carve out attack surfaces.
+Assign a risk level to every found attack by, e.g., considering the frequency of occurrence of such an attack and the severity of resulting harms.
 
-##### B. Explicitly apply security principles to design
-During design, technical staff on the project team should use a short list of guiding security principles as a checklist against detailed system designs. Typically, security principles include defense in depth, securing the weakest link, use of secure defaults, simplicity in design of security functionality, secure failure, balance of security and usability, running with least privilege, avoidance of security by obscurity, etc.
+During this activity, developers and penetration testers should work together in several meetings. Offer a security training for staff members.
+Different views of external advisors can be helpful, too.
 
-In particular for perimeter interfaces, the design team should consider each principle in the context of the overall system and identify features that can be added to bolster security at each such interface. Generally, these should be limited such that they only take a small
-amount of extra effort beyond the normal implementation cost of functional requirements and anything larger should be noted and scheduled for future releases.
+##### B. Set up an attack pattern catalog
 
-While this process should be conducted by each project team after being trained with security awareness, it is helpful to incorporate more security-savvy staff to aid in making design decisions.
+To prepare for penetration tests you should create and maintain an attack pattern catalog across all products.
+For this, known attacks that are relevant to one or more products should be gathered.
+In addition, attacks that are only known by your company are to be included, e.g., from previous penetration tests.
+The gathered information can than be used to create attack patterns.
+Experiences from previous penetration tests can also be of great help here.
+An attack pattern is an abstract mechanism that describes how an attack works.
+It should begin with a name and include its probability, the exploitability for security, and the severity of the attack.
+Then, it should list the affected domain, the used mechanisms, and link possible attacks that follow the same schema.
+In addition, a short text with a description should be included. The goal, the motivation and the necessary abilities of the attacker should be documented as well.
+Then follows a detailed explanation of the attack. This should include the exploited vulnerability, necessary tools, and the exact steps of the process, dependencies, possible follow-up attacks and indicators and obfuscation.
+In addition, known examples should be provided in the form of code or known attacks and possible defense mechanisms should be proposed (mitigation).
+In the end, if existing, relationships with other known patterns or vulnerabilities can also be listed.
+For the creation and maintaining of the catalog several meetings are needed.
 
-##### ASSESSMENT 
-* Are project teams provided with a list of recommended third-party components?
-* Are project teams aware of secure design principles and do they apply them consistently?
+##### ASSESSMENT
+
+* Do projects execute risk analysis (e.g., in regard to (A)SIL)?
+* Are identified attack patterns documented?
 
 ##### RESULTS
-* Ad hoc prevention of unexpected dependencies and one-off implementation choices
-* Stakeholders aware of increased project risk due to libraries and frameworks chosen
-* Established protocol within development for proactively applying security mechanisms to a design
+
+* Understanding of possible security risks. ✦Better understanding of risk functions that need to be tested
+* Reusable catalog of possible attacks. ✦Mapping of security vulnerabilities to safety-relevant functions
 
 ##### SUCCESS METRICS
-* >80% of development staff briefed on software framework recommendations in the past year
-* >50% of projects self-reporting application of security principles to design
+
+* 75% of all projects have compiled a risk analysis
+* 50% of all projects have compiled attack patterns
 
 ##### COSTS
-* Buildout, maintenance, and awareness of software framework recommendations
-* Ongoing project overhead from analysis and application of security principles
+
+* Setup and maintenance of project artifacts for risk analysis of attack patterns
 
 ##### PERSONNEL
+
+* Developer
 * Architects
-* Developers
-* Security Auditors
-* Managers
+* Penetration testers
+* Manager
+* Security auditors
 
 ##### RELATED LEVELS
-* Education & Guidance - 1
+
+* Education & Guidance -1
+* Threat Assessment - 1
+* Threat Assessment - 2
+* Security Requirements - 1
+* Lifecycle Security Design - 2
+* Lifecycle Security Design - 3
 
 # Lifecycle Security Design: SD2
-### Direct the software design process toward known-secure services and secure-by-default designs
+
+### Plan penetration tests in advance and take future attack potentialities into account
 
 ## Activities
-##### A.  Maintain list of recommended software frameworks
-Across software projects within the organization identify commonly used third-party software libraries and frameworks in use. Generally, this need not be an exhaustive search for dependencies, but rather focus on capturing the high-level components that are most often used.
 
-From the list of components, group them into functional categories based on the core features provided by the third-party component. Also, note the usage prevalence of each component across project teams to weight the reliance upon the third-party code. Using this weighted list as a guide, create a list of components to be advertised across the development organization as recommended components.
+##### A. Define and categorize test environment
+Penetration tests have to be planned in advance with regard to the security goals.
+For that reason standards and test environments should be established within the company according to which the test environment can be defined.
+Furthermore, a policy has to be compiled, which includes a list of used tools, whether it's black box or white box testing and which interfaces are to be implemented in software or hardware. Please note that these suggestions should be a guideline and no mandatory regulation.
+Before the tests start, the test environment has to be set up, e.g., required software and hardware has to be provided and the approach has to be planned and documented.
 
-Several factors should contribute to decisions for inclusion on the recommended list. Although a list can be created without conducting research specifically, it is advisable to inspect each for incident history, track record for responding to vulnerabilities, appropriateness of functionality for the organization, excessive complexity in usage of the third-party component, etc.
+After defining the test environment, the penetration tests dependent on security goals and found risk functions can be planned, e.g., in regard to (A)SIL. Furthermore the penetration tests have to be selected and a prioritization and categorization of these tests should be made.
 
-This list should be created by senior developers and architects, but also include input from managers and security auditors. After creation, this list of recommended components matched against functional categories should be advertised to the development organization. Ultimately, the goal is to provide well-known defaults for project teams.
+Use the BSI guideline for IT-Security Penetrationtests (https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Studien/Penetrationstest/penetrationstest.pdf?__blob=publicationFile&v=3) and the BSI Study of Penetration Tests (https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Sicherheitsberatung/Pentest_Webcheck/Leitfaden_Penetrationstest.pdf?__blob=publicationFile&v=10) if applicable.
 
-##### B. Identify security design patterns from architecture
-Across software projects at an organization, each should be categorized in terms of the generic architecture type. Common categories include client-server applications, embedded systems, desktop applications, web-facing applications, web services platforms, transactional middleware systems, mainframe applications, etc. Depending on your organizations specialty, more detailed categories may need to be developed based upon language, or processor architecture, or even era of deployment.
+Additional measures for planning the penetration tests can be offered in form of training and certifications for internal penetration testers.
+Alternatively, External penetration testers can be tasked for certification.
 
-For the generic software architecture type, a set of general design patterns representing sound methods of implementing security functionality can be derived and applied to the individual designs of an organization’s software projects. These security design patterns represent general definitions of generic design elements they can be researched or purchased, and it is often even more effective if these patterns are customized to be made more specific to your organization. Example patterns include a single-sign-on subsystem, a cross-tier delegation model, a hardened interface design, separation-of-duties authorization model, a centralized logging pattern, etc.
+Experience and previous made results should be taken into account during planning of penetration tests.
 
-The process of identification of applicable and appropriate patterns should be carried out by architects, senior developers, and other technical stakeholders during the design phase.
+##### B. Downscale security risks of external software and hardware components
+
+Every project team that uses external software or hardware has to ensure the security of said hardware.
+
+Extensive research of the vendor is essential. Especially consider the history of security risks and the vendor's reaction to these issues.
+
+Moreover, the chosen vendor should have a notification system that informs about occurring problems as soon as possible. 
+If such a system is not available, a reporting obligation of all security exploits at the time they become known should be included in the contract.
+Additionally, public services, which publish security exploits, should be searched and either subscribed to or periodically examined.
 
 ##### ASSESSMENT
-* Do you advertise shared security services with guidance for project teams?
-* Are project teams provided with prescriptive design patterns based on their application architecture?
+
+* Are penetration tests planned and executed for all products?
+* How often are external security reports reviewed? ✦Is special staff trained or are external certified testers employed?
 
 ##### RESULTS
-* Detailed mapping of assets to user roles to encourage better compartmentalization in design
-* Reusable design building blocks for provision of security protections and functionality
-* Increased confidence for software projects from use of established design techniques for security
+
+* Better preparation against emerging security vulnerabilities
+* Simpler testing through tightly defined test environments
+* Improved test coverage by documenting all pentesting procedures
+* All tests are up-to-date with latest security vulnerabilities
 
 ##### SUCCESS METRICS
-* >80% of projects with updated permission matrix in the past six months
-* >80% of project teams briefed on applicable security patterns in the past six months
+
+* 90% of all penetration testers are specifically trained
+* 80% of external software and hardware components are from verified vendors
 
 ##### COSTS
-* Buildout or license of applicable security patterns
-* Ongoing project overhead from maintenance of permission matrix
+
+* Common costs of projects increase due to additional verification
+* Additional training
 
 ##### PERSONNEL
+
+* Developer
 * Architects
-* Developers
-* Managers
-* Business Owners
-* Security Auditors
+* Penetration testers
+* Manager
+* Security auditors
 
 ##### RELATED LEVELS
-* Education & Guidance - 1
+
+* Threat Assessment - 3
+* Security Testing - 2
 
 # Lifecycle Security Design: SD3
-### Formally control the software design process and validate utilization of secure components
+
+### SD3 Facilitate semi-autonomous and ongoing penetration tests.
 
 ## Activities
-##### A. Establish formal reference architectures and platforms 
-After promoting integration with shared security services and working with security patterns specific to each type of architecture, a collection of code implementing these pieces of functionality should be selected from project teams and used as the basis for a shared code-base. This shared code-base can initially start as a collection of commonly recommended libraries that each project needs to use and it can grow over time into one or more software frameworks representing reference platforms upon which project teams build their software. Examples of reference platforms include frameworks for model view-controller web applications, libraries supporting transactional back-end systems, frameworks for web services platforms, scaffolding for client-server applications, frameworks for middle-ware with pluggable business logic, etc.
 
-Another method of building initial reference platforms is to select a particular project early in the life-cycle and have security-savvy staff work with them to build the security functionality in a generic way so that it could be extracted from the project and utilized elsewhere in the organization.
+##### A. Facilitate hardware independent penetration tests and implement development cycles by the use of structured data exchange
 
-Regardless of approach to creation, reference platforms have advantages in terms of shortening audit and security-related reviews, increasing efficiency in development, and lowering maintenance overhead. 
+In order to ensure the safety of a product over a longer period of time, it must be repeatedly tested against new threats.
+To be able to test old and new products quickly and efficiently against new attacks at any time, a hardware-independent test environment is needed.
+For this, great effort has to be invested in implementing a hardware-independent test interface.
+The interface should be compatible with as many products as possible.
+As a result, only the test software needs to be adapted to the respective product.
+A further measure includes the expansion of development cycles.
+This means that new development processes have to be created within the company.
+Instead of a strict schedule of planning, development, testing and deployment, these steps should be repeated more often.
+In this case, the company generally or each project has to find a suitable procedure for itself.
+However, it is important that results from tests are evaluated early on and that the planning and development make changes accordingly.
+Therefore, the planning process is repeated several times instead of only once.
 
-Architects, senior developers and other technical stakeholders should participate in design and creation of reference platforms. After creation, a team must maintain ongoing support and updates.
+##### B. Categorize, acquire and store all relevant hardware and software versions
 
-##### B. Validate usage of frameworks, patterns, and platforms
-During routine audits of projects conduct additional analysis of project artifacts to measure usage of recommended frameworks, design patterns, shared security services, and reference platforms. Though conducted during routine audits, the goal of this activity is to collect feedback from project teams as much as to measure their individual proactive
-security effort.
-
-Overall, it is important to verify several factors with project teams. Identify use of non-recommended frameworks to determine if there may be a gap in recommendations versus the organization’s functionality needs. Examine unused or incorrectly used design patterns and reference platform modules to determine if updates are needed. Additionally, there may be more or different functionality that project teams would like to see implemented in the reference platforms as the organization evolves. This analysis can be conducted by any security-savvy technical staff. 
-
-Metrics collected from each project should be collated for analysis by managers and stakeholders.
+It should be possible to test newly identified vulnerabilities immediately for all affected products.
+This can be difficult and lead to an immense overhead since a product that has been rolled out for some time often has several SW and HW versions.
+However, not being able to test every "relevant" can lead to major problems afterwards.
+Therefore, "relevant" SW and HW versions should always be present for testing.
+To make this possible, the affected departments of a company must agree on a standard for "relevant" versions.
+Then, if a new "relevant" HW or SW version is rolled out, it should be stored at least once in the company.
+In order to protect against possible losses, you should consider to store a version several times (redundancies).
+To do this, a company must create the necessary capacity and infrastructure.
+Therefore, managers, developers, testers, and security experts need to design a plan for the implementation.
+As a point of reference for relevant versions, the complexity version updates should be taken into consideration, i.e., how many adaptations a user needs to make during an update.
+To integrate the results of the tests into the software development process, appropriate languages and formats must be defined for documenting them.
+Clear responsibilities have to be defined, so that the test results can be adequately addressed and security gaps closed for all versions.
 
 ##### ASSESSMENT
-* Do project teams build software from centrally-controlled platforms and frameworks?
-* Are project teams audited for the use of secure architecture components?
+
+* Can products be tested hardware independently?
+* Can products be updated subsequently after roll out?
+* Can results from penetration tests be reused?
+* Is security already implemented into the lifecycle?
 
 ##### RESULTS
-* Customized application development platforms that provide builtin
-security protections
-* Organization-wide expectations for proactive security effort in development
-* Stakeholders better able to make tradeoff decisions based on business need for secure design
+
+* Possibility to test products independently of their hardware
+* Possibility to conduct follow up tests for new security vulnerabilities for every product
+* Always up to date Security standards  
+* Outline of the individual steps of penetration testing within the projects lifecycle
+* Guideline on appropriate methods for processing the feedback of penetration tests
 
 ##### SUCCESS METRICS
-* >50% of active projects using reference platforms
-* >80% of projects reporting framework, pattern, and platform usage feedback in the past six months
-* >3.0 Likert Scale on usefulness of guidance/platforms reported by project teams
+
+* 80% of relevant HW and SW versions are stored
+* 70 % of all tests for a project are tested with a hardware-independent test interface
 
 ##### COSTS
-* Buildout or license of reference platform(s)
-* Ongoing maintenance and support of reference platforms
-* Ongoing project overhead from usage validation during audit
+
+* Increasing effort through the intermediate storage of hardware and software versions
+* Development time for a test interface
 
 ##### PERSONNEL
-* Managers
-* Business Owners
-* Architects
+
 * Developers
-* Security Auditors
+* Architects
+* Penetration tester
+* Manager
+* Security auditor
 
 ##### RELATED LEVELS
-* Policy & Compliance - 2
-* Design Review - 3
-* Implementation Review - 3
-* Security Testing - 3
+
+* Education & Guidance - 2
+* Strategy & Metrics - 1
+* Policy & Compliance - 3
+* Security Testing - 2
+* Strategy & Metrics - 1
+* Secure Architecture - 1
+* Issue Management - 2
+* Issue Management - 3
+* Operational Enablement - 1
 
 # Design Review
 | | **DR1** | **DR2** | **DR3** |
@@ -2462,48 +2533,6 @@ We would like to thank the following sponsors who have donated funds to the SAMM
 #![Sponsors Image Here](Sponsors.png )
 
 <!--stackedit_data:
-eyJkaXNjdXNzaW9ucyI6eyIwT2lwamk2dGlKQnBhTDl5Ijp7In
-N0YXJ0Ijo0MTA1NywiZW5kIjo1MTQ3MiwidGV4dCI6IiMgRWR1
-Y2F0aW9uICYgR3VpZGFuY2U6IEVHMVxuIyMjIE9mZmVyIGRldm
-Vsb3BtZW50IHN0YWZmIGFjY2VzcyB0byByZXNvdXJjZXMgYXJv
-4oCmIn0sIlNXUlgzdTJkclJ3cDcxY1YiOnsic3RhcnQiOjM4Nz
-MwLCJlbmQiOjQxMDkwLCJ0ZXh0IjoiIyBMaWZlY3ljbGUgU2Vj
-dXJpdHkgQ3VsdHVyZVxuXG58IHwgKipTQzEqKiB8ICoqU0MyKi
-ogfCAqKlNDMyoqIHxcbnw6LS0tLS0tLS0tLS0tLeKApiJ9LCJp
-Z05hSnA4QVdoWWlja3VMIjp7InN0YXJ0Ijo4OTgyMSwiZW5kIj
-oxMDM2MDgsInRleHQiOiIjIFNlY3VyZSBBcmNoaXRlY3R1cmVc
-bnwgfCAqKlNBMSoqIHwgKipTQTIqKiB8ICoqU0EzKiogfFxufD
-otLS0tLS0tLS0tLS0tfDotLS0tLS3igKYifSwiZEU0VXh6RVY4
-MUhnNXpYaSI6eyJzdGFydCI6MTQwMTQxLCJlbmQiOjE1MjQyMC
-widGV4dCI6IiMgU2VjdXJpdHkgVGVzdGluZ1xufCB8ICoqU1Qx
-KiogfCAqKlNUMioqIHwgKipTVDMqKiB8XG58Oi0tLS0tLS0tLS
-0tLS18Oi0tLS0tLS0tLeKApiJ9LCJDUDJRVnltdVp4dFVpUENo
-Ijp7InN0YXJ0IjoxNDAxNzAsImVuZCI6MTQwMjAzLCJ0ZXh0Ij
-oifCB8ICoqU1QxKiogfCAqKlNUMioqIHwgKipTVDMqKiB8In0s
-InBXUzVzd2RJYTU0T0o0SzkiOnsic3RhcnQiOjE4OTYzOSwiZW
-5kIjoyMDE5NzMsInRleHQiOiIjIE9wZXJhdGlvbmFsIEVuaGFu
-Y2VtZW50XG58IHwgKipPRTEqKiB8ICoqT0UyKiogfCAqKk9FMy
-oqIHxcbnw6LS0tLS0tLS0tLS0tLXw6LS3igKYifX0sImNvbW1l
-bnRzIjp7InJqb29Jcng5NzI3bjFTQWwiOnsiZGlzY3Vzc2lvbk
-lkIjoiME9pcGppNnRpSkJwYUw5eSIsInN1YiI6ImdoOjE2NzA1
-MDk1IiwidGV4dCI6IlRPRE8gSsO8cmdlbiIsImNyZWF0ZWQiOj
-E1NTE2ODU4NjcxNzl9LCJtWTRjc3ZVTXVPVmVISE9UIjp7ImRp
-c2N1c3Npb25JZCI6IlNXUlgzdTJkclJ3cDcxY1YiLCJzdWIiOi
-JnaDoxNjcwNTA5NSIsInRleHQiOiJUT0RPIErDvHJnZW4iLCJj
-cmVhdGVkIjoxNTUxNjg2MDE5NzM2fSwiRmhkUmF3NmRna2FSM1
-JpYyI6eyJkaXNjdXNzaW9uSWQiOiJpZ05hSnA4QVdoWWlja3VM
-Iiwic3ViIjoiZ2g6MTY3MDUwOTUiLCJ0ZXh0IjoiVE9ETyBUYW
-JlYSBLYXRqYSIsImNyZWF0ZWQiOjE1NTE2ODYyMjk4OTJ9LCJL
-NnhYQmV5Q3BWUXZHNGp6Ijp7ImRpc2N1c3Npb25JZCI6ImRFNF
-V4ekVWODFIZzV6WGkiLCJzdWIiOiJnaDoxNjcwNTA5NSIsInRl
-eHQiOiJUT0RPIEpvaGFubmVzIiwiY3JlYXRlZCI6MTU1MTY4Nj
-M0Nzc0NH0sIjkybXBWOGpsWUNIQ3VXcmMiOnsiZGlzY3Vzc2lv
-bklkIjoiQ1AyUVZ5bXVaeHRVaVBDaCIsInN1YiI6ImdoOjE2Nz
-A1MDk1IiwidGV4dCI6IlRPRE8gY2hhbmdlIHNob3J0Y3V0Iiwi
-Y3JlYXRlZCI6MTU1MTY4NjM5OTkzMn0sIkM4ekIzcUlMd1FsYV
-Z2d2siOnsiZGlzY3Vzc2lvbklkIjoicFdTNXN3ZElhNTRPSjRL
-OSIsInN1YiI6ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRPRE8gRW
-R1YXJkIiwiY3JlYXRlZCI6MTU1MTY4NjQ4MDI2Mn19LCJoaXN0
-b3J5IjpbMzIwNjQ2NTAsLTE0MDY5MzQzODUsNjY4MzM5MTU5XX
-0=
+eyJoaXN0b3J5IjpbMTgyOTk4MDM1MCwzMjA2NDY1MCwtMTQwNj
+kzNDM4NSw2NjgzMzkxNTldfQ==
 -->
