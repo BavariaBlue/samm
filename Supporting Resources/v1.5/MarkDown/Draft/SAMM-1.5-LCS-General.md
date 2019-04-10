@@ -234,7 +234,7 @@ _…more on page 28_
 
 |                 | PC 1                                                                                                    | PC 2                                                                                                    | PC 3                                                                                          |
 | :-------------- | :------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------- |
-| **Objective:**  | **Understand relevant governance and compliance drivers to the organization.**                          | **Establish security and compliance baseline andunderstand per-project risks.**                        | **Require compliance and measure projects against organization-wide policies and standards.** |
+| **Objective:**  | **Understand relevant governance and compliance drivers to the organization.**                          | **Establish security and compliance baseline and understand per-project risks.**                        | **Require compliance and measure projects against organization-wide policies and standards.** |
 | **Activities:** | **A.** Identify and monitor external compliance drivers **B.** Build and maintain compliance guidelines | **A.** Build policies and standards for security and compliance **B.** Establish project audit practice | **A.** Create compliance gates for projects **B.** Adopt solution for audit data collection   |
 
 ### Education & Guidance
@@ -717,5 +717,6 @@ _…more on page XX_
 #!['THE SECURITY PRACTICES: An explanation of the details' IMAGES HERE](SecurityPractices.png) #![PracticesImage](PracticesImage.png)
 This section defines the building blocks of SAMM, the maturity levels under each security practice. For each practice, the three levels are covered in a summary table.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NDI1MzA5MCwxODY5NjYwMDkwXX0=
+eyJoaXN0b3J5IjpbLTE1MTI0MDI4MjIsLTU3NDI1MzA5MCwxOD
+Y5NjYwMDkwXX0=
 -->
