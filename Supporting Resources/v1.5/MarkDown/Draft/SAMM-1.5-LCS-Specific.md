@@ -585,7 +585,7 @@ Over time, the internal network of coaching resources can be used as points-of-c
 * Secure Architecture - 2
 
 
-# Lifecycle Security Culture: SC
+# Lifecycle Security Culture: SC3
 ### Mandate comprehensive security training and certify personnel for baseline knowledge
 
 
@@ -2533,6 +2533,6 @@ We would like to thank the following sponsors who have donated funds to the SAMM
 #![Sponsors Image Here](Sponsors.png )
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyOTk4MDM1MCwzMjA2NDY1MCwtMTQwNj
-kzNDM4NSw2NjgzMzkxNTldfQ==
+eyJoaXN0b3J5IjpbMTU5MzUwODQ5MywxODI5OTgwMzUwLDMyMD
+Y0NjUwLC0xNDA2OTM0Mzg1LDY2ODMzOTE1OV19
 -->
