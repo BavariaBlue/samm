@@ -2383,146 +2383,90 @@ Since code signing is not appropriate for everything, architects and developers 
 * None 
 
 # Lifecycle Security Monitoring
-| | **SM1** | **SM2** | **SM3** |
+| | **LSM1** | **LSM2** | **LSM3** |
 |:-------------|:-------------|:---------------|:-------------|:------------|
-| **Objective** | **Enable communications between development teams and operators for critical security-relevant data.** | **Enable communications between development teams and operators for critical security-relevant data.** | **Mandate communication of security information and validate artifacts for completeness.**|
-| **Activities** | **A.** Capture critical security information for deployment? **B.** Document procedures for typical application alerts| **A.** Create per-release change management procedures **B.** Maintain formal operational security guides | **A.** Expand audit program for operational information **B.** Perform code signing for application components|
-| **Assessment** | ✦Are security notes delivered with each software release? ✦Are security-related alerts and error conditions documented on a per-project basis? | ✦Do projects utilize a change management process that’s well understood? ✦Do project teams deliver an operational security guide with each product release? | ✦Are project releases audited for appropriate operational security information? ✦Is code signing routinely performed on software components using a consistent process? |
-| **Results** | ✦Ad hoc improvements to software security posture through better understanding of correct operations ✦Operators and users aware of their role in ensuring secure deployment ✦Improved communications between software developers and users for security- critical information | ✦Detailed guidance for security-relevant changes delivered with software releases ✦Updated information repository on secure operating procedures per application ✦Alignment of operations expectations among developers, operators, and users. | ✦Organization-wide understanding of expectations for security-relevant documentation ✦Stakeholders better able to make tradeoff decisions based on feedback from deployment and operations ✦Operators and/or users able to independently verify integrity of software releases |
+| **Objective** | **Awareness of potentielle Attack Patterns.** | **Knowledge about impact of attack patterns to released Hardware and Software versions and variants.** | **Minimize negative impacts for customers.**|
+| **Activities** | **A.** Maintenance of Attack pattern catalogue **B.** 1.	Maintenance of Attack pattern catalogue| **A.** Implement all relevant Pen-Tests on all relevant HW and SW versions and variants **B.** Execute all relevant pen-tests on all relevant HW and SW | **A.** Deploy degradations to customer **B.** Deploy updates to customer |
+| **Assessment** | ✦Does your organisation gather information about new vulnerability issues? ✦Are these issues filtered to dedicated project, used hardware and software stacks? ✦Are there project teams after final (serial) release responsible for these issues?| ✦Is your penetration test continuously developed further? ✦Do you assure, that penetration tests are executed for every released HW/SW Combination? ✦Does your company collect and archive all results of these pen tests? | ✦Does your company know how to contact the end users of your ECUs? ✦Does your company have a process which defines the propagation of Security Vulnerabilities to your Customers? ✦Does your project team provide security degradation guidance model? ✦Does your company have a process which defines the propagation of Security updates to your Customers?|
+| **Results** | ✦Company has improved security knowledge ✦Up to date overview of potential attack surfaces ✦c.	Always up to date catalogue of attack patterns linked with probably impacts | ✦Detailed matrix which links attack patterns to ECUs ✦Database with references from SW/HW variants of ECU and possible attack patterns ✦Detailed TODO-List / Bug-List for each product/ECU. | ✦Company has knowledge about current security risk of their products ✦Company has process and infrastructure for deploying security information and updates to end user ✦Security is guaranteed because all patches and workarounds are deployed to customers/end users|
 
-# Lifecycle Security Monitoring: SM1
-### Enable communications between development teams and operators for critical security-relevant data
-
-## Activities
-##### A. Capture critical security information for deployment
-
-With software-specific knowledge, project teams should identify any security-relevant configuration and operations information and communicate it to users and operators. This enables the actual security posture of software at deployment sites to function in the same way that designers in the project team intended.
-
-This analysis should begin with architects and developers building a list of security features built-in to the software. From that list, information about configuration options and their security impact should be captured as well. For projects that offer several different deployment models, information about the security ramifications of each should be noted to better inform users and operators about the impact of their choices.
-
-Overall, the list should be lightweight and aim to capture the most critical information. Once initially created, it should be reviewed by the project team and business stakeholders for agreement. Additionally, it is effective to review this list with select operators or users
-in order to ensure the information is understandable and actionable. Project teams should review and update this information with every release, but must do so at least every six months.
-
-##### B. Document procedures for typical application alerts
-With specific knowledge of ways in which software behaves, project teams should identify the most important error and alert messages which require user/operator attention. From each identified event, information related to appropriate user/operator actions in response to the event should be captured.
-
-From the potentially large set of events that the software might generate, select the highest priority set based on relevance in terms of the business purpose of the software. This should include any security-related events, but also may include critical errors and alerts related to software health and configuration status.
-
-For each event, actionable advice should be captured to inform users and operators of required next steps and potential root causes of the event. These procedures must be re-viewed by the project team and updated at every major product release, every 6 months, but can be done more frequently, e.g. with each release.
-
-##### ASSESSMENT
-* Are security notes delivered with each software release?
-* Are security-related alerts and error conditions documented on a per-project basis?
-
-##### RESULTS
-* Ad-hoc improvements to software security posture through better understanding of correct operations
-* Operators and users aware of their role in ensuring secure deployment
-* Improved communications between software developers and users for security-critical information
-
-##### SUCCESS METRICS
-* >50% of projects with updated deployment security information in the past six months
-* >50% of projects with operational procedures for events updated in the past six months
-
-##### COSTS
-* Ongoing project overhead from maintenance of deployment security information
-* Ongoing project overhead from maintenance of critical operating procedures
-
-##### PERSONNEL
-* Developers
-* Architects
-* Managers
-* Support/Operators
-
-##### RELATED LEVELS
-* None 
-
-# Lifecycle Security Monitoring: SM2
-### Improve expectations for continuous secure operations through provision of detailed procedures
+# Lifecycle Security Monitoring: LSM1
+### *TODO* find heading
 
 ## Activities
-##### A. Create per-release change management procedures
-To more formally update users and operators on relevant changes in the software, each release must include change management procedures relevant to upgrade and first-time installation. Overall, the goal is to capture the expected accompanying steps that ensure the deployment will be successful and not incur excessive downtime or degradation of security posture.
+##### A. *TODO* find heading
 
-To build these procedures during development, the project teams should setup a lightweight internal process for capturing relevant items that would impact deployments. It is effective to have this process in place early in the development cycle so that this information can be retained as soon as it is identified while in the requirements, design, and implementation phases.
+A central division of the company has to know about every hardware derivate and every software library which is used in any product at customer.
 
-Before each release, the project team should review the list as a whole for completeness and feasibility. For some projects, extensive change procedures accompanying a given release may warrant special handling, such as building automated upgrade scripts to prevent errors during deployment.
+With this responsibility, this division has to monitor multiple appropriate feeds to keep the knowledge about security disclosers up to date.
 
-##### B. Maintain formal operational security guides
-Starting from the information captured on critical software events and the procedures for handling each, project teams should build and maintain formal guides that capture all the security-relevant information that users and operators need to know.
+Further potential combined attacks must be investigated, documented and the risks has to be estimated.
 
-Initially, this guide should be built from the known information about the system, such as security-related configuration options, event handling procedures, installation and upgrade guides, operational environment specifications, security-related assumptions about the deployment environment, etc. Extending this, the formal operational security guide should elaborate on each of these to cover more details such that the majority of the users and operators will be informed for all the questions they might have had. For large or complex systems, this can be challenging, so project teams should work with business stakeholders to determine the appropriate level of documentation. Additionally, project teams should document any recommendations for deployments that would enhance security. 
+All the gathered information has to lead into "Attack Pattern" which are also have to be stored in a structured database.
 
-The operational security guide, after initial creation, should be reviewed by project teams and updated with each release.
 
 ##### ASSESSMENT
-* Do projects utilize a change management process that’s well understood?
-* Do project teams deliver an operational security guide with each product release?
+* Does your organisation gather information about new vulnerability issues?
+* Are these issues filtered to dedicated project, used hardware and software stacks?
+* Are there project teams after final (serial) release responsible for these issues?
+
 
 ##### RESULTS
-* Detailed guidance for security-relevant changes delivered with software releases
-* Updated information repository on secure operating procedures per application
-* Alignment of operations expectations among developers, operators, and users.
+* Company has improved security knowledge 
+* Up to date overview of potential attack surfaces
+* Always up to date catalogue of attack patterns linked with probably impacts
 
-##### SUCCESS METRICS
-* >50% of projects with updated change management procedures in the past six months
-* >80% of stakeholders briefed on status of operational security guides in the past six months
 
-##### COSTS
-* Ongoing project overhead from maintenance of change management procedures
-* Ongoing project overhead from maintenance of operational security guides
 
-##### PERSONNEL
-* Developers
-* Architects
-* Managers
-* Support/Operators
 
-##### RELATED LEVELS
-* Environment Hardening - 1
-
-# Lifecycle Security Monitoring: SM3
-### Mandate communication of security information and validate artifacts for completeness
+# Lifecycle Security Monitoring: LSM2
 
 ## Activities
-##### A. Expand audit program for operational information
-When conducting routine project-level audits, expand the review to include inspection of artifacts related to operational enablement for security. Projects should be checked to ensure they have an updated and complete operational security guides as relevant to the specifics
-of the software.
+##### *TODO* find heading
+At product level the knowledge about Attack Pattern should be classified. This classification should structure the Attack Patterns to the ECUs. Thereby only theses ECUs have to be considered which are in the field. ECUs during development for example can be lower prioritize.
 
-These audits should begin toward the end of the development cycle close to release, but must be completed and passed before a release can be made. For legacy systems or inactive projects, this type of audit should be conducted and a one-time effort should be made to address findings and verify audit compliance, after which additional audits for operational enablement are no longer required.
+Nevertheless all affected versions and variants have to be evaluated. As result a mapping from Attack Pattern to ECU in combination with Software variant must be developed.
+With this knowledge in mind specific Pen-Tests have to be developed. These Pen-Tests should be linked to the Attack Pattern to the "Attack Pattern-ECU" mapping above.
 
-Audit results must be reviewed with business stakeholders prior to release. An exception process should be created to allow projects failing an audit to continue with a release, but these projects should have a concrete timeline for mitigation of findings. Exceptions should be limited to no more that 20% of all active projects.
+Out of this mapping a coverage Report of all potential Attack Pattern can be created.
+After all, the pen-tests have to be executed for all relevant ECU Software/Hardware combinations. After reviewing the Results regarding risk, minimizing the impact at customer should be in focus. Therefor patches or workarounds maybe also degradation strategies have to be developed. Also having security issues in mind one have to guarantee quality/functionality of the ECU also. The security workaround should also be tested in ‘classic’ way to be sure, customer still has his wanted functionality in his car.
 
-##### B. Perform code signing for application components
-Though often used with special-purpose software, code signing allows users and operators to perform integrity checks on software such that they can cryptographically verify the authenticity of a module or release. By signing software modules, the project team enables deployments to operate with a greater degree of assurance against any corruption or modification of the deployed software in its operating environment.
-
-Signing code incurs overhead for management of signing credentials for the organization. An organization must follow safe key management processes to ensure the ongoing confidentiality of the signing keys. When dealing with any cryptographic keys, project stakeholders must
-also consider plans for dealing with common operational problems related to cryptography such as key rotation, key compromise, or key loss.
-
-Since code signing is not appropriate for everything, architects and developers should work with security auditors and business stakeholders to determine which parts of the software should be signed. As projects evolve, this list should be reviewed with each release, especially when adding new modules or making changes to previously signed components.
 
 ##### ASSESSMENT
-* Are project releases audited for appropriate operational security information?
-* Is code signing routinely performed on software components using a consistent process?
+* Is your penetration test continuously developed further?
+* Do you assure, that penetration tests are executed for every released HW/SW Combination?
+* Does your company collect and archive all results of these pen tests?
+
 
 ##### RESULTS
-* Organization-wide understanding of expectations for security-relevant documentation
-* Stakeholders better able to make tradeoff decisions based on feedback from deployment and operations
-* Operators and/or users able to independently verify integrity of software releases
+* Detailed matrix which links attack patterns to ECUs
+* Database with references from SW/HW variants of ECU and possible attack patterns
+* Detailed TODO-List / Bug-List for each product/ECU
+
+
+# Lifecycle Security Monitoring: LSM3
+### *TODO* find heading
+
+## Activities
+##### *TODO* find heading
+Already when starting a new ECU project one have to clarify the communication to the end user/customer. This is essential to ensure later updates and or degradations. Therefore an infrastructure has to be set up. This infrastructure has to be cleared with OEM also. It has to be maintained and ensured that it is "future save". Thus it has to guarantee later updated can be deployed.
+Secondly the infrastructure is itself a high risk channel to the ECUs in the field.
+This leads also to many efforts to be made to keep this channel secure and still working.
+Security and reliability have to be in focus.
+After in step 2 (Doing) a security update has be developed or a potential degradation is decided this has to be deployed to the ECUs out in the field. Thereby only affected ECUs should get an update. This can be dependent to Hardware and or Software version and variant. Therefor usually at OEM side a database with Software and Hardware Variants have to be maintained and used for the deployment of security updates.
+
+##### ASSESSMENT
+* Does your company know how to contact the end users of your ECUs?
+* Does your company have a process which defines the propagation of Security Vulnerabilities to your Customers?
+* Does your project team provide security degradation guidance model?
+* Does your company have a process which defines the propagation of Security updates to your Customers?
+
+
+##### RESULTS
+* Company has knowledge about current security risk of their products
+* Company has process and infrastructure for deploying security information and updates to end user
+* Security is guaranteed because all patches and workarounds are deployed to customers/end users
  
-##### SUCCESS METRICS
-* >80% of projects with updated operational security guide in the last six months
-* >80% of stakeholders briefed on code signing options and status in the past six months
-
-##### COSTS
-* Ongoing project overhead from audit of operational guides
-* Ongoing organization overhead from management of code signing credentials
-* Ongoing project overhead from identification and signing of code modules
-
-##### PERSONNEL
-* Developers
-* Architects
-* Managers
-* Security Auditors
 
 ##### RELATED LEVELS
 * None 
