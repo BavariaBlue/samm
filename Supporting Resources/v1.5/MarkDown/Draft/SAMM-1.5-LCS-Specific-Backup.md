@@ -1708,7 +1708,7 @@ testing automation
 # Lifecycle Security Testing
 | | **ST1** | **ST2** | **ST3** |
 |:-------------|:-------------|:---------------|:-------------|:------------|
-| **Objective** | **Establish process to perform basic security tests based on implementation and software requirements.** | **Make security testing during development more complete and efficient through automation.** | **Require application-specific security testing to ensure baseline security before deployment.**|
+| **Objective** | **Establish and execute a complete workflow of active penetration testing.** | **Make security testing during development more complete and efficient through automation.** | **Require application-specific security testing to ensure baseline security before deployment.**|
 | **Activities** | **A.** Derive test cases from known security requirements **B.** Conduct penetration testing on software releases | **A.** Utilize automated security testing tools **B.** Integrate security testing into development process | **A.** Employ application-specific security testing automation **B.** Establish release gates for security testing |
 | **Assessment** | ✦Do projects specify security testing based on defined security requirements? ✦Is penetration testing performed on high-risk projects prior to release? ✦Are stakeholders aware of the security test status prior to release? | ✦Do projects use automation to evaluate security test cases? ✦Do projects follow a consistent process to evaluate and report on security tests to stakeholders? | ✦Are security test cases comprehensively generated for application-specific logic? ✦Does a minimum security baseline exist for security testing? |
 | **Results** | ✦Independent verification of expected security mechanisms surrounding critical business functions ✦High-level due diligence toward security testing ✦Ad-hoc growth of a security test suite for each software project | ✦✦Deeper and more consistent verification of software functionality for security ✦Development teams enabled to self-check and correct problems before release ✦Stakeholders better aware of open vulnerabilities when making risk acceptance decisions | ✦Organization-wide baseline for expected application performance against attacks ✦Customized security test suites to improve accuracy of automated analysis ✦Project teams aware of objective goals for attack resistance SAMM |
@@ -2474,14 +2474,14 @@ Z05hSnA4QVdoWWlja3VMIjp7InN0YXJ0Ijo4OTgyMSwiZW5kIj
 oxMDM2MDgsInRleHQiOiIjIFNlY3VyZSBBcmNoaXRlY3R1cmVc
 bnwgfCAqKlNBMSoqIHwgKipTQTIqKiB8ICoqU0EzKiogfFxufD
 otLS0tLS0tLS0tLS0tfDotLS0tLS3igKYifSwiZEU0VXh6RVY4
-MUhnNXpYaSI6eyJzdGFydCI6MTQwMTQxLCJlbmQiOjE1MjQyMC
+MUhnNXpYaSI6eyJzdGFydCI6MTQwMTQxLCJlbmQiOjE1MjM5Mi
 widGV4dCI6IiMgU2VjdXJpdHkgVGVzdGluZ1xufCB8ICoqU1Qx
 KiogfCAqKlNUMioqIHwgKipTVDMqKiB8XG58Oi0tLS0tLS0tLS
 0tLS18Oi0tLS0tLS0tLeKApiJ9LCJDUDJRVnltdVp4dFVpUENo
 Ijp7InN0YXJ0IjoxNDAxNzAsImVuZCI6MTQwMjAzLCJ0ZXh0Ij
 oifCB8ICoqU1QxKiogfCAqKlNUMioqIHwgKipTVDMqKiB8In0s
-InBXUzVzd2RJYTU0T0o0SzkiOnsic3RhcnQiOjE4OTYzOSwiZW
-5kIjoyMDE5NzMsInRleHQiOiIjIE9wZXJhdGlvbmFsIEVuaGFu
+InBXUzVzd2RJYTU0T0o0SzkiOnsic3RhcnQiOjE4OTYxMSwiZW
+5kIjoyMDE5NDUsInRleHQiOiIjIE9wZXJhdGlvbmFsIEVuaGFu
 Y2VtZW50XG58IHwgKipPRTEqKiB8ICoqT0UyKiogfCAqKk9FMy
 oqIHxcbnw6LS0tLS0tLS0tLS0tLXw6LS3igKYifX0sImNvbW1l
 bnRzIjp7InJqb29Jcng5NzI3bjFTQWwiOnsiZGlzY3Vzc2lvbk
@@ -2504,6 +2504,6 @@ Y3JlYXRlZCI6MTU1MTY4NjM5OTkzMn0sIkM4ekIzcUlMd1FsYV
 Z2d2siOnsiZGlzY3Vzc2lvbklkIjoicFdTNXN3ZElhNTRPSjRL
 OSIsInN1YiI6ImdoOjE2NzA1MDk1IiwidGV4dCI6IlRPRE8gRW
 R1YXJkIiwiY3JlYXRlZCI6MTU1MTY4NjQ4MDI2Mn19LCJoaXN0
-b3J5IjpbMzIwNjQ2NTAsLTE0MDY5MzQzODUsNjY4MzM5MTU5XX
-0=
+b3J5IjpbMTI3NDIzNTMwNiwzMjA2NDY1MCwtMTQwNjkzNDM4NS
+w2NjgzMzkxNTldfQ==
 -->
