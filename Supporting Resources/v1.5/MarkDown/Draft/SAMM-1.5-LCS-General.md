@@ -213,7 +213,7 @@ In addition to training, this practice also requires pulling security-relevant i
 
 ### Lifecycle Security Culture
 
-Add long description here.
+TODO Add long description here.
 
 # Governance
 
@@ -353,7 +353,7 @@ In an advanced form, provision of this practice involves customization of testin
 
 ### Lifecycle Security Testing
 
-Add long description here.
+TODO Add long description here.
 
 # Verification
 
@@ -718,6 +718,6 @@ _…more on page XX_
 #!['THE SECURITY PRACTICES: An explanation of the details' IMAGES HERE](SecurityPractices.png) #![PracticesImage](PracticesImage.png)
 This section defines the building blocks of SAMM, the maturity levels under each security practice. For each practice, the three levels are covered in a summary table.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMxODkzMTAsOTEyMTUxOTIsLTU3NDI1Mz
-A5MCwxODY5NjYwMDkwXX0=
+eyJoaXN0b3J5IjpbLTE4NTY5NTc2NTgsOTEyMTUxOTIsLTU3ND
+I1MzA5MCwxODY5NjYwMDkwXX0=
 -->
