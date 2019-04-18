@@ -1951,29 +1951,33 @@ Another option to structure release gates could be to assign different release g
 * Do projects establish release gates in the software development lifecycle for penetration testing?
 
 ##### RESULTS
-* 
+* Projects established a preventive security feedback loop
+* Projects can draw knowledge about secure software architecture and design from security threats catalogue
+* Release gates hinder weakly conceptualized software from publishing
 
 ##### SUCCESS METRICS
-* >50% of projects using security testing customizations
-* >75% of projects passing all security tests in the past six months
+* \>50% of projects have project-wide security related feedback loops
+* \>50% of projects do have release gates
 
 ##### COSTS
-* Buildout and maintenance of customizations to security
-testing automation
-* Ongoing project overhead from security testing audit process
-* Organization overhead from project delays caused by failed security testing audits
+* Project management overhead for establishing release gates
+* Documentation overhead for security threats catalogue
 
 ##### PERSONNEL
 * Architects
 * Developers
+* Penetration Testers
 * Security Auditors
-* QA Testers
 * Business Owners
 * Managers
 
 ##### RELATED LEVELS
-* Policy & Compliance - 2
-* Secure Architecture - 3
+* Secure Architecture – 1
+* Secure Architecture – 2
+* Secure Architecture – 3
+* Design Review – 2
+* Implementation Review – 2
+* Implementation Review – 3
 
 # Issue Management
 | | **IM1** | **IM2** | **IM3** |
@@ -2573,7 +2577,7 @@ We would like to thank the following sponsors who have donated funds to the SAMM
 #![Sponsors Image Here](Sponsors.png )
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNzgyOTMwOCwxNTkzNTA4NDkzLDE4Mj
+eyJoaXN0b3J5IjpbLTU5MDcyODM0MiwxNTkzNTA4NDkzLDE4Mj
 k5ODAzNTAsMzIwNjQ2NTAsLTE0MDY5MzQzODUsNjY4MzM5MTU5
 XX0=
 -->
