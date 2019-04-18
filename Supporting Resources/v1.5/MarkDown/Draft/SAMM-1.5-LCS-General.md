@@ -391,10 +391,10 @@ _...more on page 56_
 TODO: Seitenzahlen anpassen wenn alle Änderungen eingearbeitet wurden
 _...more on page XX_
 
-|                 | ST1                                                                                                               | ST2                                                                                                        | ST3                                                                                                                |
+|                 | LST1                                                                                                               | LST2                                                                                                        | LST3                                                                                                                |
 | :-------------- | :---------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------- |
-| **Objective:**  | **Establish process to perform basic security tests based on implementation and software requirements.**          | **Make security testing during development more complete and efficient through automation.**               | **Require application- specific security testing to ensure baseline security before deployment.**                  |
-| **Activities:** | **A.** Derive test cases from known security requirements **B.** Conduct penetration testing on software releases | **A.** Utilize automated security testing tools **B.** Integrate security testing into development process | **A.** Employ application-specific security testing automation **B.** Establish release gates for security testing |
+| **Objective:**  | **Establish and execute a complete workflow of active penetration testing.**          | **Combine the project-wide penetration testing workflow with continuous integration (CI) techniques.**               | **Establish feedback loops and release gates within the continuous integration for the software design and development cycle.**                  |
+| **Activities:** | **A.** Lay out an appropriate testing structure in order to test the system against all possible vectors of attacks **B.** Add version management for maximum covering rates and criteria documentation for expressiveness of test results | **A.** Expand the automated build with related pen-testing procedures **B.** Establish a continuous integration mechanism of the automated build into the project’s version management | **A.** Report (un-) successfully tested builds on a feedback platform **B.** Establish release gates for penetration testing |
 
 # Operations
 
@@ -644,7 +644,7 @@ _…more on page XX_
 |:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
 | **LST1**
-| ✦Are identified attack pattern structured and tested within a communicated structure? | NO | SOME | HALF | MOST |
+| ✦Are identified attack pattern structured and tested within a communicated structure? | NO | ??? | ??? | ??? |
 | ✦Do projects use version control management for pen-testing? | NO | SOME | HALF | MOST |
 |✦Do projects integrate practical exploitation and mitigation comments for every attack pattern? | NO | SOME | HALF | MOST |
 | **LST2**
@@ -718,6 +718,6 @@ _…more on page XX_
 #!['THE SECURITY PRACTICES: An explanation of the details' IMAGES HERE](SecurityPractices.png) #![PracticesImage](PracticesImage.png)
 This section defines the building blocks of SAMM, the maturity levels under each security practice. For each practice, the three levels are covered in a summary table.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNDE5MTI4Myw5MTIxNTE5MiwtNTc0Mj
-UzMDkwLDE4Njk2NjAwOTBdfQ==
+eyJoaXN0b3J5IjpbNTMxODkzMTAsOTEyMTUxOTIsLTU3NDI1Mz
+A5MCwxODY5NjYwMDkwXX0=
 -->
