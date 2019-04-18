@@ -637,22 +637,23 @@ _…more on page XX_
 | ✦Do projects follow a consistent process to evaluate and report on security tests to stakeholders? | NO | SOME | HALF | MOST |
 | **ST3**
 | ✦Are security test cases comprehensively generated for application-specific logic? | NO | SOME | HALF | MOST |
-| ✦Does a minimum security baseline exist for security testing? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
+| ✦Does a minimum security baseline exist for security testing? | NO | SOME | HALF | MOST |
 
 ### Lifecycle Security Testing
 | | | | | |
 |:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
-| **ST1**
-| ✦Do projects specify security testing based on defined security requirements? | NO | SOME | HALF | MOST |
-| ✦Is penetration testing performed on high risk projects prior to release? | NO | SOME | HALF | MOST |
-|✦Are stakeholders aware of the security test status prior to release? | NO | SOME | HALF | MOST |
-| **ST2**
-| ✦Do projects use automation to evaluate security test cases? | NO | SOME | HALF | MOST |
-| ✦Do projects follow a consistent process to evaluate and report on security tests to stakeholders? | NO | SOME | HALF | MOST |
-| **ST3**
-| ✦Are security test cases comprehensively generated for application-specific logic? | NO | SOME | HALF | MOST |
-| ✦Does a minimum security baseline exist for security testing? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
+| **LST1**
+| ✦Are identified attack pattern structured and tested within a communicated structure? | NO | SOME | HALF | MOST |
+| ✦Do projects use version control management for pen-testing? | NO | SOME | HALF | MOST |
+|✦Do projects integrate practical exploitation and mitigation comments for every attack pattern? | NO | SOME | HALF | MOST |
+| **LST2**
+| ✦Do penetration testers have access to automatic software builds that include their tests? | NO | SOME | HALF | MOST |
+| ✦Is the penetration testing routine embedded in a continuous integration mechanism? | NO | NOT APPLY | AD-HOC | YES |
+✦<![endif]--> Do developers and penetration testers discuss and handle pen-test cases results? | NO | SOME | HALF | MOST |
+| **LST3**
+| ✦Do projects integrate preventive security feedback loops including penetration testing? | NO | SOME | HALF | MOST |
+| ✦Do projects establish release gates in the software development lifecycle for penetration testing? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
 
 # Operations
 ## Assessment worksheet
@@ -717,6 +718,6 @@ _…more on page XX_
 #!['THE SECURITY PRACTICES: An explanation of the details' IMAGES HERE](SecurityPractices.png) #![PracticesImage](PracticesImage.png)
 This section defines the building blocks of SAMM, the maturity levels under each security practice. For each practice, the three levels are covered in a summary table.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEyMTUxOTIsLTU3NDI1MzA5MCwxODY5Nj
-YwMDkwXX0=
+eyJoaXN0b3J5IjpbLTYzNDE5MTI4Myw5MTIxNTE5MiwtNTc0Mj
+UzMDkwLDE4Njk2NjAwOTBdfQ==
 -->
