@@ -1781,32 +1781,47 @@ testing automation
 |:-------------|:-------------|:---------------|:-------------|:------------|
 | **Objective** | **Establish and execute a complete workflow of active penetration testing.** | **Combine the project-wide penetration testing workflow with continuous integration (CI) techniques.** | **Establish feedback loops and release gates within the continuous integration for the software design and development cycle.**|
 | **Activities** | **A.** Lay out an appropriate testing structure in order to test the system against all possible vectors of attacks **B.** Add version management for maximum covering rates and criteria documentation for expressiveness of test results | **A.** Expand the automated build with related pen-testing procedures **B.** Establish a continuous integration mechanism of the automated build into the project’s version management | **A.** Report (un-) successfully tested builds on a feedback platform **B.** Establish release gates for penetration testing |
-| **Assessment** | ✦Are identified attack pattern structured and tested within a communicated structure? ✦Do projects use version control management for pen-testing? ✦ Do projects integrate practical exploitation and mitigation comments for every attack pattern? | ✦Do penetration testers have access to automatic software builds that include their tests? ✦Is the penetration testing routine embedded in a continuous integration mechanism? ✦Do developers and penetration testers discuss and handle pen-test cases results?| ✦Are security test cases comprehensively generated for application-specific logic? ✦Does a minimum security baseline exist for security testing? |
-| **Results** | ✦Establishment of a structure for pen-testing in the attack pattern catalogue ✦Introduction of additional layering of structure depending on one’s own needs ✦Introduction of version management framework for pen-testing and detailed exploitation and mitigation library | ✦Deeper and more consistent verification of software functionality for security ✦Development teams enabled to self-check and correct problems before release ✦Stakeholders better aware of open vulnerabilities when making risk acceptance decisions | ✦Organization-wide baseline for expected application performance against attacks ✦Customized security test suites to improve accuracy of automated analysis ✦Project teams aware of objective goals for attack resistance SAMM |
+| **Assessment** | ✦Are identified attack pattern structured and tested within a communicated structure? ✦Do projects use version control management for pen-testing? ✦ Do projects integrate practical exploitation and mitigation comments for every attack pattern? | ✦Do penetration testers have access to automatic software builds that include their tests? ✦Is the penetration testing routine embedded in a continuous integration mechanism? ✦Do developers and penetration testers discuss and handle pen-test cases results?| ✦Do projects integrate preventive security feedback loops including penetration testing? ✦<![endif]--> Do projects establish release gates in the software development lifecycle for penetration testing? |
+| **Results** | ✦Establishment of a structure for pen-testing in the attack pattern catalogue ✦Introduction of additional layering of structure depending on one’s own needs ✦Introduction of version management framework for pen-testing and detailed exploitation and mitigation library | ✦Enforced discipline on frequent automated penetration testing ✦Immediate feedback on system-wide impact of local changes ✦Constant availability of a current robust build for all purposes ✦Early detection mechanisms avoiding last-minute chaos | ✦Projects established a preventive security feedback loop ✦Projects can draw knowledge about secure software architecture and design from security threats catalogue ✦Release gates hinder weakly conceptualized software from publishing |
 
 # Lifecycle Security Testing: ST1
-### Establish process to perform basic security tests based on implementation and software requirements
+### Establish and execute a complete workflow of active penetration testing
 
 ## Activities
-##### A. Derive test cases from known security requirements
-From the known security requirements for a project, identify a set of test cases to check the software for correct functionality. Typically, these test cases are derived from security concerns surrounding the functional requirements and business logic of the system, but should also include generic tests for common vulnerabilities based on the implementation language or technology stack.
+##### A. Lay out an appropriate testing structure in order to test the system against all possible vectors of attacks
 
-Often, it is most effective to use the project team’s time to build application-specific test cases and utilize publicly available resources or purchased knowledge bases to select applicable general test cases for security. Although not required, automated security testing tools can also be utilized to cover the general security test cases.
+In Lifecycle Security Design, the worked out attack patterns lay the foundation for a thorough penetration testing workflow. In this section, penetration testers give an answer to the question up to which extent the supposed vulnerabilities, as researched in the LS-Design phase, pose real risks to the system.
 
-This test case planning should occur during the requirements and/or design phases, but must occur before final testing prior to release. Candidate test cases should be reviewed for applicability, efficacy, and feasibility by relevant development, security, and quality assurance staff.
+Remember that the target of this workflow is not only to execute a smooth integration of testing processes as a whole, but also – and all the more – to capture as many vulnerabilities as there may be in order to mitigate arising risks.
 
-##### B. Conduct penetration testing on software releases
-Using the set of security test cases identified for each project, penetration testing should be conducted to evaluate the system’s performance against each case. It is common for this to occur during the testing phase prior to release.
+If the project team considers this advice, the members will feel compelled to engage in the practice of attack pattern concatenation. Hence, it is recommended to build attack pattern paths that must be tested step-by-step (or in different orders/alternative ways) in order to capture as many potential vulnerabilities as possible. Attack pattern most of the time affect each other, thus finding one new attack pattern could enable other (even closed) attack patterns (again).
 
-Penetration testing cases should include both application-specific tests to check soundness of business logic as well as common vulnerability tests to check the design and implementation. Once specified, security test cases can be executed by security-savvy quality assurance or development staff, but first-time execution of security test cases for a
-project team should be monitored by a security auditor to assist and coach team members.
+Another technical aid would be to classify and catalogue attack patterns as universal or specific. Universal attack patterns tend to “awake” again when new patterns emerge.
+Attack pattern paths can be modeled on different levels and layers. Firstly, the penetration testing team could extract paths for module testing, component testing, system testing and conclusively for delivery testing. Secondly, the team should divide between application layered and network layered attack paths. Bring in mind that attack paths intertwine.
 
-Prior to release or deployment, stakeholders must review results of security tests and accept the risks indicated by failing security tests at release time. In the latter case, a concrete timeline should be established to address the gaps over time.
+##### B. Add version management for maximum covering rates and criteria documentation for expressiveness of test results
+
+Even in the presence of an appropriate structure as given in Activity 1 of LST-1, an impulsive and uncoordinated execution of penetration tests would lead to low covering rates and low expressiveness of the test results. Therefore, it is recommended to integrate a version management mechanism including a fine-grained documentation of test results into the penetration testing workflow.
+
+Version management:
+The version management guarantees that all attack paths and therefore all attack patterns constellations are getting tested at least once, leading to an overall robustness of the system.  
+As a consequence, certain penetration testers or whole penetration testing teams are hold fully responsible for certain parts of a (branched) attack path, also called test cases or spectrums.  
+There are controlling structures that oversee and manage the work in progress and to-do lists, recognize occurring bottlenecks, odd delays and that solve conflicts.
+Additionally, burn-down charts can heighten the awareness of the current penetration testing process. Integrating a scorecard, labelled with “priority” and “severity” for existing attack pattern is also feasible.
+
+The above-mentioned approach supports modern agile (testing) practices, e.g. agile testing, test-driven development or scrum events.
+
+Criteria documentation:
+One possible way to achieve great documentation after pen-testing an attack pattern against the current system is to expand an instance (object) of the attack pattern (class) with an adjusted exploitation and mitigation section.
+The exploitation section should describe in detail, how the exploit was carried out, including technical details. The criteria, as mentioned in the LS-Design phase, describes the probability, the exploitability for security, and the severity of the attack. The penetration tester now has the task to add specific comments to each of these criteria according to the elaborated, practical exploit.
+The mitigation section should also follow the previously elaborated criteria schema. Here, the tester can attach mitigation strategies to the document. One way to add structure to this chapter is to derive mitigation procedures according to well-known security goals, i.e. system hardening, authentication, encryption, authorization, intrusion detection systems, auditing/logging as well as – even if not recommended by the “Security of Design” principles – obfuscation techniques.
 
 ##### ASSESSMENT
-* Do projects specify security testing based on defined security requirements?
-* Is penetration testing performed on high risk projects prior to release?
-* Are stakeholders aware of the security test status prior to release?
+* Are identified attack pattern structured and tested within a communicated structure? F
+
+<![if !supportLists]>· <![endif]>Do projects use version control management for pen-testing? C
+
+Do projects integrate practical exploitation and mitigation comments for every attack pattern?
 
 ##### RESULTS
 * Independent verification of expected security mechanisms surrounding
@@ -2533,7 +2548,7 @@ We would like to thank the following sponsors who have donated funds to the SAMM
 #![Sponsors Image Here](Sponsors.png )
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTE3NDUwMiwxNTkzNTA4NDkzLDE4Mj
-k5ODAzNTAsMzIwNjQ2NTAsLTE0MDY5MzQzODUsNjY4MzM5MTU5
-XX0=
+eyJoaXN0b3J5IjpbMzU5OTE0MTAyLDE1OTM1MDg0OTMsMTgyOT
+k4MDM1MCwzMjA2NDY1MCwtMTQwNjkzNDM4NSw2NjgzMzkxNTld
+fQ==
 -->
