@@ -1943,16 +1943,15 @@ As mentioned in Security Testing 3, release gates prevent software from being re
 Integrate penetration testing results into these release gates in order to establish precise points in the software development lifecycle where these penetration test cases must pass in order to enable release of the software.
 
 Begin to draw an initial baseline (release gate 1) on a limited selection of attack pattern paths that must pass, so that improvement to this baseline is possible. Widen the scope of the baseline with additional attack pattern paths cases (release gate 2-4) for a more robust software release.
+
 Another option to structure release gates could be to assign different release gates to (A) releases and (B) release candidates of software development. Consider this approach if you are working on a highly cyber-security relevant system. Release candidates in software development are not intended to be seen as a finished product, rather you test the release candidates in an additional branch of software development in order to fix (security-related) bugs. Add release gates 1-3 to the earlier stages, gate 4 to the latest stage of the release candidate branch.
 
 ##### ASSESSMENT
-* Are security test cases comprehensively generated for application-specific logic?
-* Does a minimum security baseline exist for security testing?
+* Do projects integrate preventive security feedback loops including penetration testing?
+* Do projects establish release gates in the software development lifecycle for penetration testing?
 
 ##### RESULTS
-* Organization-wide baseline for expected application performance against attacks
-* Customized security test suites to improve accuracy of automated analysis
-* Project teams aware of objective goals for attack resistance
+* 
 
 ##### SUCCESS METRICS
 * >50% of projects using security testing customizations
@@ -2574,7 +2573,7 @@ We would like to thank the following sponsors who have donated funds to the SAMM
 #![Sponsors Image Here](Sponsors.png )
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUyOTQ0ODA0LDE1OTM1MDg0OTMsMTgyOT
-k4MDM1MCwzMjA2NDY1MCwtMTQwNjkzNDM4NSw2NjgzMzkxNTld
-fQ==
+eyJoaXN0b3J5IjpbMTYxNzgyOTMwOCwxNTkzNTA4NDkzLDE4Mj
+k5ODAzNTAsMzIwNjQ2NTAsLTE0MDY5MzQzODUsNjY4MzM5MTU5
+XX0=
 -->
