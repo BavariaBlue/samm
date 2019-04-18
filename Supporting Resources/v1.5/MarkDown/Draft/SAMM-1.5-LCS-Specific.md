@@ -1817,107 +1817,133 @@ The exploitation section should describe in detail, how the exploit was carried 
 The mitigation section should also follow the previously elaborated criteria schema. Here, the tester can attach mitigation strategies to the document. One way to add structure to this chapter is to derive mitigation procedures according to well-known security goals, i.e. system hardening, authentication, encryption, authorization, intrusion detection systems, auditing/logging as well as – even if not recommended by the “Security of Design” principles – obfuscation techniques.
 
 ##### ASSESSMENT
-* Are identified attack pattern structured and tested within a communicated structure? F
-
-<![if !supportLists]>· <![endif]>Do projects use version control management for pen-testing? C
-
-Do projects integrate practical exploitation and mitigation comments for every attack pattern?
+* Are identified attack pattern structured and tested within a communicated structure?
+* Do projects use version control management for pen-testing? C
+* Do projects integrate practical exploitation and mitigation comments for every attack pattern?
 
 ##### RESULTS
-* Independent verification of expected security mechanisms surrounding
-critical business functions
-* High-level due diligence toward security testing
-* Ad hoc growth of a security test suite for each software project
+* Establishment of a structure for pen-testing in the attack pattern catalogue
+* Introduction of additional layering of structure depending on one’s own needs
+* Introduction of version management framework for pen-testing and detailed exploitation and mitigation library
 
 ##### SUCCESS METRICS
-* >50% of projects specifying security test cases in the past 12 months
-* >50% of stakeholders briefed on project status against security tests in the past six months
+* \>75% of projects assessed attack paths
+* \>50% of projects use version management for pen-testing
+* \>75% of projects document exploitation & mitigation with standard criteria
 
 ##### COSTS
-* Buildout or license of security test cases
-* Ongoing project overhead from maintenance and evaluation of security test cases
+* Ongoing project overhead from establishing and maintaining attack pattern concatenation
+* Ongoing project overhead from new documentation format
+* Additional training of personnel in version management systems
 
 ##### PERSONNEL
-* QA Testers
+* -   Penetration testers
+* Project) managers
 * Security Auditor
 * Developers
 * Architects
-* Business Owners
 
 ##### RELATED LEVELS
-* Security Requirements - 1
+* Education & Guidance – 2
+* Education & Guidance – 3
+* Lifecycle Security Design – 1
+* Lifecycle Security Design – 2
+* Security Testing – 1
+* Lifecycle Security Testing – 2
+* Lifecycle Security Testing – 3
 
 # Lifecycle Security Testing: ST2
-### Make security testing during development more complete and efficient through automation
+### Combine the project-wide penetration testing workflow with continuous integration (CI) techniques
 
 ## Activities
-##### A. Utilize automated security testing tools
-In order to test for security issues, a potentially large number of input cases must be checked against each software interface, which can make effective security testing using manual test case implementation and execution unwieldy. Thus, automated security test tools should be
-used to automatically test software, resulting in more efficient security testing and higher quality results.
+##### A. Expand the automated build with related pen-testing procedures
 
-Both commercial and open-source products are available and should be reviewed for appropriateness for the organization. Selecting a suitable tool is based on several factors including robustness and accuracy of built-in security test cases, efficacy at testing architecture types important to organization, customization to change or add test cases, quality and usability of findings to the development organization, etc..
+Modern software engineering suggests the usage of automated builds as part of a continuous integration mechanism.
 
-Utilize input from security-savvy technical staff as well as development and quality assurance staff in the selection process, and review overall results with stakeholders.
+Here, we suppose that the current software development cycles are integrated in an automated build process, like _make_ in Linux, _Apache_ _Ant_ especially for Java or _MSBuild_ for .NET development.
+Open source build automation tools like Apache Maven, Jenkins, CircleCI or Travis CI help the team to build and launch the system on a local machine using only a single command.
 
-##### B. Integrate security testing into development process
-With tools to run automated security tests, projects within the organization should routinely run security tests and review results during development. In order to make this scalable with low overhead, security testing tools should be configured to automatically run on a routine basis, e.g. nightly or weekly, and findings should be inspected as they occur.
+We take this approach one step further by adding various test cases described in LS-Testing 1 to the automated build scripts. For a first shot, it will be infeasible to target highly project or hardware independent test cases. Rather, try to establish automated test cases that cover all attack patterns and related paths for a specific environment. Later, a switch to more independent solutions.
+The goal of this feature is to combine the ongoing software development of critical systems with highly integrated penetration security testing automation on the local machines of penetration testers. Therefore, the project team should seek the adaptation of test-driven development (TDD) for security related test cases..
 
-Conducting security tests as early as the requirements or design phases can be beneficial. While traditionally, used for functional test cases, this type of test-driven development approach involves identifying and running relevant security test cases early in the development cycle, usually during design. With the automatic execution of security test
-cases, projects enter the implementation phase with a number of failing tests for the nonexistent functionality. Implementation is complete when all the tests pass. This provides a clear, upfront goal for developers early in the development cycle, thus lowering risk of release delays due to security concerns or forced acceptance of risk in order to meet
-project deadlines.
+##### B. Establish a continuous integration mechanism of the automated build into the project’s version management
 
-For each project release, results from automated and manual security tests should be presented to management and business stakeholders for review. If there are unaddressed findings that remain as accepted risks for the release, stakeholders and development managers should work together to establish a concrete timeframe for addressing them.
+Following up the last activity about the automated security test cases in the automated build routine, the team can expand this approach with continuous integration (CI) techniques.
+
+Common practices of continuous integration involve: (refer to Fowler’s Continuous Integration Guideline: https://www.martinfowler.com/articles/continuousIntegration.html#AutomateTheBuild)  
+-  Maintain a single source repository (LS-Testing 1)
+-  Automate the build (LS-Testing 1)
+-  Make your build self-testing (LS-Testing 1)
+-  Everyone commits to the mainline
+-  Every Commit Should Build the Mainline on an Integration Machine
+-  Fix Broken Builds Immediately (LS-Testing 1)
+-  Keep the Build Fast (LS-Testing 1)
+-  Test in a Clone of the Production Environment (LS-Testing 1)
+-  Make it Easy for Anyone to Get the Latest Executable
+-  Everyone can see what's happening
+-  Automate Deployment
+
+Thus, the new workflow looks as follows:
+Whenever a new software version is published by developers on the version management system, a penetration tester can pull this update into his local machine and run the previously established automated build and later can review the outcomes of the security test cases.
+If a previously succeeded test case now fails, it will be the duty of the penetration tester to elaborate reasoning and suggest either a change to the automated test case (1) or to the newest iteration of software (2). If the test case is broken (1), the penetration tester rewrites it so that it operates again. Depending on the skill set the penetration tester possesses, the tester should update the code for the current iteration of software that is no more vulnerable to the failed test case, or publish an issue about the failed test case on the version management console.
 
 ##### ASSESSMENT
-* Do projects use automation to evaluate security test cases?
-* Do projects follow a consistent process to evaluate and report on security tests to stakeholders?
+* Do penetration testers have access to automatic software builds that include their tests?
+* Is the penetration testing routine embedded in a continuous integration mechanism?
+* Do developers and penetration testers discuss and handle pen-test cases results?
 
 ##### RESULTS
-* Deeper and more consistent verification of software functionality for security
-* Development teams enabled to self-check and correct problems before release
-* Stakeholders better aware of open vulnerabilities when making
-risk acceptance decisions
+* Enforced discipline on frequent automated penetration testing
+* Immediate feedback on system-wide impact of local changes
+* Constant availability of a current robust build for all purposes
+* Early detection mechanisms avoiding last-minute chaos
 
 ##### SUCCESS METRICS
-* >50% of projects with security testing and stakeholder sign-off in the past six months
-* >80% of projects with access to automated security testing results in the past month
+* \>50% of builds including penetration tests executed automatically on local machines
+* \>50% of projects work with continuous integration on a pen-testing level.
 
 ##### COSTS
-* Research and selection of automated security testing solution 
-* Initial cost and maintenance of automation integration
-* Ongoing project overhead from automated security testing and mitigation
+* Setting up or expanding the build system for automated penetration testing
+* Spreading awareness and acceptance of continuous integration for developers AND penetration testers
+* Heightened complexity of build routines due to demanded flexibility of penetration tests
 
 ##### PERSONNEL
-* Developers
-* Architects
-* Managers
-* Security Auditors
-* QA Testers
+* Penetration Tester
+* Tester
+* Developer
+* (Project) management
 
 ##### RELATED LEVELS
-* None 
+*Lifecycle Security Design – 3
+Implementation Review – 2
+Implementation Review – 3
+Security Testing 2
+Security Testing 3
+Lifecycle Security Testing – 3 
 
 # Lifecycle Security Testing: ST3
-### Require application-specific security testing to ensure baseline security before deployment
+### Establish feedback loops and release gates within the continuous integration for the software design and development cycle
 
 ## Activities
-##### A. Employ application-specific security testing automation
-Through either customization of security testing tools, enhancements to generic test case execution tools, or buildout of custom test harnesses, project teams should formally iterate through security requirements and build a set of automated checkers to test the security of the implemented business logic.
+##### A. Report (un-) successfully tested builds on a feedback platform
 
-Additionally, many automated security testing tools can be greatly improved in accuracy and depth of coverage if they are customized to understand more detail about the specific software interfaces in the project under test. Further, organization-specific concerns from
-compliance or technical standards can be codified as a reusable, central test battery to make audit data collection and per-project management visibility simpler.
+Depending on the progress of LST-2, a continuous integration platform is introduced and used not only by developers and project management but also by penetration testers. The workflow of penetration testers from LST-2 included the assessment of automated penetration tests after each minor software update. As an outcome, the penetration tester is part of a project-wide and software development cycle-spanning feedback loop that should be established in the following way:  
 
-Project teams should focus on buildout of granular security test cases based on the business functionality of their software, and an organization-level team led by a security auditor should focus on specification of automated tests for compliance and internal
-standards.
+1.  Developers integrate new software
+2.  Penetration testers review the updates and change the test cases or publish an issue of the current software
+3.  Developers skilled with security training engage in solving the conflicts
+4.  Due to 3., failures in the software could force alteration of software design and also of software architecture on a higher level.
+5.  Due to 4., project management-wide loops have to be established that iteratively check whether current software architecture and design suit the security related attack patterns
 
-##### B. Establish release gates for security testing
-To prevent software from being released with easily found security bugs, a particular point in the software development lifecycle should be identified as a checkpoint where an established set of security test cases must pass in order to make a release from the project. This establishes a baseline for the kinds of security tests all projects are expected to pass.
+It is recommended to document a catalogue of occurred changesets in software design and architecture due to security threats. This documentation can help (new) projects to preventively take care of disclosing written security vulnerabilities by default. Link the attack pattern mitigation and exploitation sections to this catalogue.
 
-Since adding too many test cases initially can result in an overhead cost bubble, begin by choosing one or two security issues and include a wide variety of test cases for each with the expectation that no project may pass if any test fails. Over time, this baseline should be improved by selecting additional security issues and adding a variety of corresponding test cases.
+##### B. Establish release gates for penetration testing
 
-Generally, this security testing checkpoint should occur toward the end of the implementation or testing, but must occur before release.
+As mentioned in Security Testing 3, release gates prevent software from being released with easily found security bugs.
+Integrate penetration testing results into these release gates in order to establish precise points in the software development lifecycle where these penetration test cases must pass in order to enable release of the software.
 
-For legacy systems or inactive projects, an exception process should be created to allow those projects to continue operations, but with an explicitly assigned timeframe for mitigation of findings. Exceptions should be limited to no more that 20% of all projects.
+Begin to draw an initial baseline (release gate 1) on a limited selection of attack pattern paths that must pass, so that improvement to this baseline is possible. Widen the scope of the baseline with additional attack pattern paths cases (release gate 2-4) for a more robust software release.
+Another option to structure release gates could be to assign different release gates to (A) releases and (B) release candidates of software development. Consider this approach if you are working on a highly cyber-security relevant system. Release candidates in software development are not intended to be seen as a finished product, rather you test the release candidates in an additional branch of software development in order to fix (security-related) bugs. Add release gates 1-3 to the earlier stages, gate 4 to the latest stage of the release candidate branch.
 
 ##### ASSESSMENT
 * Are security test cases comprehensively generated for application-specific logic?
@@ -2548,7 +2574,7 @@ We would like to thank the following sponsors who have donated funds to the SAMM
 #![Sponsors Image Here](Sponsors.png )
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU5OTE0MTAyLDE1OTM1MDg0OTMsMTgyOT
+eyJoaXN0b3J5IjpbODUyOTQ0ODA0LDE1OTM1MDg0OTMsMTgyOT
 k4MDM1MCwzMjA2NDY1MCwtMTQwNjkzNDM4NSw2NjgzMzkxNTld
 fQ==
 -->
