@@ -375,7 +375,7 @@ In an advanced form, provision of this practice involves customization of testin
 
 ### Lifecycle Security Testing
 
-TODO Add long description here.
+#TODO Add long description
 
 # Verification
 
@@ -410,7 +410,7 @@ _...more on page 56_
 
 ### Lifecycle Security Testing
 
-TODO: Seitenzahlen anpassen wenn alle Änderungen eingearbeitet wurden
+#TODO change page numbering
 _...more on page XX_
 
 |                 | LST1                                                                                                               | LST2                                                                                                        | LST3                                                                                                                |
@@ -448,7 +448,7 @@ In an advanced form, operational enablement also entails organization-level chec
 
 ### Lifecycle Security Monitoring
 
-Add long description here.
+#TOOD add long description
 
 # Operations
 
@@ -484,7 +484,7 @@ _…more on page 68_
 ### Lifecycle Security Monitoring
 
 _…more on page XX_
-
+#TODO copy paste activities and objectives
 |                 | SM1                                                                                                                   | SM2                                                                                                       | SM3                                                                                                            |
 | :-------------- | :-------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------- |
 | **Objective:**  | **Enable communications between development teams and operators for critical security-relevant data.**                | **Improve expectations for continuous secure operations through provision of detailed procedures.**       | **Mandate communication of security information and validate artifacts for completeness.**                     |
@@ -539,6 +539,7 @@ _…more on page XX_
 
 
 ### Lifecycle Security Culture
+#TODO copy paste assessment
 | | | | | |
 |:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
@@ -662,6 +663,7 @@ _…more on page XX_
 | ✦Does a minimum security baseline exist for security testing? | NO | SOME | HALF | MOST |
 
 ### Lifecycle Security Testing
+#TODO erase ???
 | | | | | |
 |:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
@@ -723,6 +725,7 @@ _…more on page XX_
 | ✦Is code signing routinely performed on software components using a consistent process? | NO | NOT APPLY | AD-HOC | YES |
 
 ### Lifecycle Security Monitoring
+#TODO copy paste assessment
 | | | | | |
 |:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
@@ -740,6 +743,6 @@ _…more on page XX_
 #!['THE SECURITY PRACTICES: An explanation of the details' IMAGES HERE](SecurityPractices.png) #![PracticesImage](PracticesImage.png)
 This section defines the building blocks of SAMM, the maturity levels under each security practice. For each practice, the three levels are covered in a summary table.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1Mjc1Mjk3OSwtMTg1Njk1NzY1OCw5MT
+eyJoaXN0b3J5IjpbMTA4NjEzMTE5OSwtMTg1Njk1NzY1OCw5MT
 IxNTE5MiwtNTc0MjUzMDkwLDE4Njk2NjAwOTBdfQ==
 -->
