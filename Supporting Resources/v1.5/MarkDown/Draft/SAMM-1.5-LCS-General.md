@@ -54,6 +54,8 @@ As an open project, SAMM content shall always remain vendor-neutral and freely a
 
 #![SAMM Overview Image Here](SAMM-Overview.png)
 
+#TODO change image
+
 # Contents
 
 Executive Summary 3
@@ -80,23 +82,33 @@ Policy & Compliance 28
 
 Education & Guidance 32
 
+Lifecycle Security Culture XX
+
 Threat Assessment 36
 
 Security Requirements 40
 
-SecureArchitecture 44
+Secure Architecture 44
+
+Lifecycle Security Design XX
 
 Design Review 48
 
 Implementation Review 52
 
-SecurityTesting 56
+Security Testing 56
+
+Lifecycle Security Testing XX
 
 Issue Management 60
 
 Environment Hardening 64
 
 Operational Enablement 68
+
+Lifecycle Security Monitoring XX
+
+#TODO change site numbers
 
 #!['Understanding the Model' Image pages Here](UnderstaingModel.png)
 ######SAMM is built upon a collection of security practices that are tied back into the core business functions involved in software development. This section introduces those business functions and the corresponding security practices for each. After covering the high-level framework, the maturity levels for each security practice are also discussed briefly in order to paint a picture of how each can be iteratively improved over time.
@@ -121,6 +133,8 @@ Governance is centered on the processes and activities related to how an organiz
 
 …_more on page 10_
 
+#TODO change page 
+
 ## Construction:
 
 Construction concerns the processes and activities related to how an organization defines goals and creates software within development projects. In general, this will include product management, requirements gathering, high-level architecture specification, detailed design, and implementation.
@@ -135,6 +149,8 @@ Construction concerns the processes and activities related to how an organizatio
 
 …_more on page 12_
 
+#TODO change page
+
 ## Verification
 
 Verification is focused on the processes and activities related to how an organization checks, and tests artifacts produced throughout software development. This typically includes quality assurance work such as testing, but it can also include other review and evaluation activities.
@@ -145,9 +161,11 @@ Verification is focused on the processes and activities related to how an organi
 
 **Security Testing** involves testing the organization’s software in its runtime environment, in order to both discover vulnerabilities, and establish a minimum standard for software releases.
 
-**Lifecycle Security Testing** add short description here.
+**Lifecycle Security Testing** involves testing the latest software releases in the system's environments against previously designed penetration testing routines as well as the integration of these testing routines into continuous integration/ delivery mechanisms with feedback loops to software design and implementation.
 
 …_more on page 14_
+
+#TODO change page
 
 ## Operations
 
@@ -162,6 +180,8 @@ Operations entails the processes and activities related to how an organization m
 **Lifecycle Security Monitoring** add short description here.
 
 _…more on page 16_
+
+#TODO change page
 
 ### Maturity Levels
 
@@ -186,6 +206,7 @@ The toolbox spreadsheet has been updated to reflect more context aware answers f
 - **Many/Most = 1**
 
 # Governance
+#TODO change all page numbers in the sections "Activity overview" of all security practices
 
 ## Description of Security Practices
 
@@ -213,7 +234,7 @@ In addition to training, this practice also requires pulling security-relevant i
 
 ### Lifecycle Security Culture
 
-Add long description here.
+#TODO Add long description here.
 
 # Governance
 
@@ -234,7 +255,7 @@ _…more on page 28_
 
 |                 | PC 1                                                                                                    | PC 2                                                                                                    | PC 3                                                                                          |
 | :-------------- | :------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------- |
-| **Objective:**  | **Understand relevant governance and compliance drivers to the organization.**                          | **Establish security and compliance baseline andunderstand per-project risks.**                        | **Require compliance and measure projects against organization-wide policies and standards.** |
+| **Objective:**  | **Understand relevant governance and compliance drivers to the organization.**                          | **Establish security and compliance baseline and understand per-project risks.**                        | **Require compliance and measure projects against organization-wide policies and standards.** |
 | **Activities:** | **A.** Identify and monitor external compliance drivers **B.** Build and maintain compliance guidelines | **A.** Build policies and standards for security and compliance **B.** Establish project audit practice | **A.** Create compliance gates for projects **B.** Adopt solution for audit data collection   |
 
 ### Education & Guidance
@@ -249,6 +270,7 @@ _…more on page 32_
 ### Lifecycle Security Culture
 
 _…more on page XX_
+#TODO copy paste objectives and activities from "LCS-Specific.md"
 
 |                 | SC 1                                                                                                    | SC 2                                                                                                                | SC 3                                                                                                           |
 | :-------------- | :------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------- |
@@ -318,7 +340,7 @@ _…more on page 44_
 
 _…more on page XX_
 
-|                 | SD 1                                                                                                                      | SD 2                                                                                                                         | SD 3                                                                                                                                                                                                               |
+|              | SD 1                                                                                                                  | SD 2                                                                                                                         | SD 3                                                                                                                                                                                                               |
 | :-------------- | :------------------------------------------------------------------------------------------------------------------------ | :--------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Objective:**  | **Identify security risks and attack potentialities for individual projects.**                                            | **Plan penetration tests in advance and take future attack potentialities into account.**                                    | **Facilitate semi-autonomous and ongoing penetration tests.**                                                                                                                                                       |
 | **Activities:** | **A.** Compile a threat and risk analysis in due consideration of security goals. **B.** Set up an attack pattern catalog | **A.** Define and categorize test environment. **B.** Downscale security risks of external software and hardware components. | **A.** Facilitate hardware independent penetration tests and implement development cycles by the use of structured data exchange. **B.** Categorize, acquire and store all relevant hardware and software versions. |
@@ -353,7 +375,13 @@ In an advanced form, provision of this practice involves customization of testin
 
 ### Lifecycle Security Testing
 
-Add long description here.
+The Lifecycle Security Testing (LST) practice is focused on the execution of penetration tests in the test and delivery environment on a project level in order to find security and safety related problems. 
+
+During the completion of the LST, methods for a complete coverage of attack vectors are used, mostly attack pattern concatenation in the form of attack pattern paths. Version management ensures the consistent and thorough processing of attack vectors.
+
+The introduction of automated penetration testing builds and continuous integration mechanisms lead to more frequent automated penetration testing and constant availability of a current robust build for all purposes.
+
+Furthermore, a detailed documentation for vulnerability mitigation and exploitation guidance, feedback loops for design and architecture as well as release gates for penetration testing guarantee a safe execution of the complete software development lifecycle.
 
 # Verification
 
@@ -388,13 +416,13 @@ _...more on page 56_
 
 ### Lifecycle Security Testing
 
-TODO: Seitenzahlen anpassen wenn alle Änderungen eingearbeitet wurden
+#TODO change page numbering
 _...more on page XX_
 
-|                 | ST1                                                                                                               | ST2                                                                                                        | ST3                                                                                                                |
+|                 | LST1                                                                                                               | LST2                                                                                                        | LST3                                                                                                                |
 | :-------------- | :---------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------- |
-| **Objective:**  | **Establish process to perform basic security tests based on implementation and software requirements.**          | **Make security testing during development more complete and efficient through automation.**               | **Require application- specific security testing to ensure baseline security before deployment.**                  |
-| **Activities:** | **A.** Derive test cases from known security requirements **B.** Conduct penetration testing on software releases | **A.** Utilize automated security testing tools **B.** Integrate security testing into development process | **A.** Employ application-specific security testing automation **B.** Establish release gates for security testing |
+| **Objective:**  | **Establish and execute a complete workflow of active penetration testing.**          | **Combine the project-wide penetration testing workflow with continuous integration (CI) techniques.**               | **Establish feedback loops and release gates within the continuous integration for the software design and development cycle.**                  |
+| **Activities:** | **A.** Lay out an appropriate testing structure in order to test the system against all possible vectors of attacks **B.** Add version management for maximum covering rates and criteria documentation for expressiveness of test results | **A.** Expand the automated build with related pen-testing procedures **B.** Establish a continuous integration mechanism of the automated build into the project’s version management | **A.** Report (un-) successfully tested builds on a feedback platform **B.** Establish release gates for penetration testing |
 
 # Operations
 
@@ -426,7 +454,7 @@ In an advanced form, operational enablement also entails organization-level chec
 
 ### Lifecycle Security Monitoring
 
-Add long description here.
+#TOOD add long description
 
 # Operations
 
@@ -462,7 +490,7 @@ _…more on page 68_
 ### Lifecycle Security Monitoring
 
 _…more on page XX_
-
+#TODO copy paste activities and objectives
 |                 | SM1                                                                                                                   | SM2                                                                                                       | SM3                                                                                                            |
 | :-------------- | :-------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------- |
 | **Objective:**  | **Enable communications between development teams and operators for critical security-relevant data.**                | **Improve expectations for continuous secure operations through provision of detailed procedures.**       | **Mandate communication of security information and validate artifacts for completeness.**                     |
@@ -517,6 +545,7 @@ _…more on page XX_
 
 
 ### Lifecycle Security Culture
+#TODO copy paste assessment
 | | | | | |
 |:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
@@ -637,22 +666,24 @@ _…more on page XX_
 | ✦Do projects follow a consistent process to evaluate and report on security tests to stakeholders? | NO | SOME | HALF | MOST |
 | **ST3**
 | ✦Are security test cases comprehensively generated for application-specific logic? | NO | SOME | HALF | MOST |
-| ✦Does a minimum security baseline exist for security testing? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
+| ✦Does a minimum security baseline exist for security testing? | NO | SOME | HALF | MOST |
 
 ### Lifecycle Security Testing
+#TODO erase ???
 | | | | | |
 |:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
-| **ST1**
-| ✦Do projects specify security testing based on defined security requirements? | NO | SOME | HALF | MOST |
-| ✦Is penetration testing performed on high risk projects prior to release? | NO | SOME | HALF | MOST |
-|✦Are stakeholders aware of the security test status prior to release? | NO | SOME | HALF | MOST |
-| **ST2**
-| ✦Do projects use automation to evaluate security test cases? | NO | SOME | HALF | MOST |
-| ✦Do projects follow a consistent process to evaluate and report on security tests to stakeholders? | NO | SOME | HALF | MOST |
-| **ST3**
-| ✦Are security test cases comprehensively generated for application-specific logic? | NO | SOME | HALF | MOST |
-| ✦Does a minimum security baseline exist for security testing? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
+| **LST1**
+| ✦Are identified attack pattern structured and tested within a communicated structure? | NO | ??? | ??? | ??? |
+| ✦Do projects use version control management for pen-testing? | NO | SOME | HALF | MOST |
+|✦Do projects integrate practical exploitation and mitigation comments for every attack pattern? | NO | SOME | HALF | MOST |
+| **LST2**
+| ✦Do penetration testers have access to automatic software builds that include their tests? | NO | SOME | HALF | MOST |
+| ✦Is the penetration testing routine embedded in a continuous integration mechanism? | NO | NOT APPLY | AD-HOC | YES |
+✦<![endif]--> Do developers and penetration testers discuss and handle pen-test cases results? | NO | SOME | HALF | MOST |
+| **LST3**
+| ✦Do projects integrate preventive security feedback loops including penetration testing? | NO | SOME | HALF | MOST |
+| ✦Do projects establish release gates in the software development lifecycle for penetration testing? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
 
 # Operations
 ## Assessment worksheet
@@ -700,6 +731,7 @@ _…more on page XX_
 | ✦Is code signing routinely performed on software components using a consistent process? | NO | NOT APPLY | AD-HOC | YES |
 
 ### Lifecycle Security Monitoring
+#TODO copy paste assessment
 | | | | | |
 |:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
@@ -717,5 +749,6 @@ _…more on page XX_
 #!['THE SECURITY PRACTICES: An explanation of the details' IMAGES HERE](SecurityPractices.png) #![PracticesImage](PracticesImage.png)
 This section defines the building blocks of SAMM, the maturity levels under each security practice. For each practice, the three levels are covered in a summary table.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2OTY2MDA5MF19
+eyJoaXN0b3J5IjpbLTIwMTUzNzcxMjYsLTE4NTY5NTc2NTgsOT
+EyMTUxOTIsLTU3NDI1MzA5MCwxODY5NjYwMDkwXX0=
 -->

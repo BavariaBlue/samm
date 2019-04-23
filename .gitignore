@@ -7,4 +7,9 @@ v2.0/package-lock.json
 Website/node_modules/
 Website/package-lock.json
 Website/npm-debug.log
+<<<<<<< HEAD
+v2\.0/\.DS_Store
+Supporting\ Resources/v1.5/MarkDown/.DS_Store
+=======
 
+>>>>>>> dev
