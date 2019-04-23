@@ -377,6 +377,13 @@ In an advanced form, provision of this practice involves customization of testin
 
 The Lifecycle Security Testing (LST) practice is focused on the execution of penetration tests in the test and delivery environment on a project level in order to find security and safety related problems. 
 
+During the completion of the LST, methods for a complete coverage of attack vectors are used, mostly attack pattern concatenation in the form of attack pattern paths. Version management ensures the consistent and thorough processing of attack vectors.
+
+The introduction of automated penetration testing builds and continuous integration mechanisms lead to more frequent automated penetration testing and constant availability of a current robust build for all purposes.
+
+Furthermore, detailed documentation and feedback loops guarantee  
+
+
 # Verification
 
 ## Activities Overview
@@ -743,6 +750,6 @@ _…more on page XX_
 #!['THE SECURITY PRACTICES: An explanation of the details' IMAGES HERE](SecurityPractices.png) #![PracticesImage](PracticesImage.png)
 This section defines the building blocks of SAMM, the maturity levels under each security practice. For each practice, the three levels are covered in a summary table.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNDE2OTMzOSwtMTg1Njk1NzY1OCw5MT
+eyJoaXN0b3J5IjpbLTk0MDgzNzcwNCwtMTg1Njk1NzY1OCw5MT
 IxNTE5MiwtNTc0MjUzMDkwLDE4Njk2NjAwOTBdfQ==
 -->
