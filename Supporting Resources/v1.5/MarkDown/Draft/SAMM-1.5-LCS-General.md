@@ -54,6 +54,8 @@ As an open project, SAMM content shall always remain vendor-neutral and freely a
 
 #![SAMM Overview Image Here](SAMM-Overview.png)
 
+#TODO change image
+
 # Contents
 
 Executive Summary 3
@@ -80,23 +82,33 @@ Policy & Compliance 28
 
 Education & Guidance 32
 
+Lifecycle Security Culture XX
+
 Threat Assessment 36
 
 Security Requirements 40
 
-SecureArchitecture 44
+Secure Architecture 44
+
+Lifecycle Security Design XX
 
 Design Review 48
 
 Implementation Review 52
 
-SecurityTesting 56
+Security Testing 56
+
+Lifecycle Security Testing XX
 
 Issue Management 60
 
 Environment Hardening 64
 
 Operational Enablement 68
+
+Lifecycle Security Monitoring XX
+
+#TODO change site numbers
 
 #!['Understanding the Model' Image pages Here](UnderstaingModel.png)
 ######SAMM is built upon a collection of security practices that are tied back into the core business functions involved in software development. This section introduces those business functions and the corresponding security practices for each. After covering the high-level framework, the maturity levels for each security practice are also discussed briefly in order to paint a picture of how each can be iteratively improved over time.
@@ -121,6 +133,8 @@ Governance is centered on the processes and activities related to how an organiz
 
 …_more on page 10_
 
+#TODO change page 
+
 ## Construction:
 
 Construction concerns the processes and activities related to how an organization defines goals and creates software within development projects. In general, this will include product management, requirements gathering, high-level architecture specification, detailed design, and implementation.
@@ -134,6 +148,8 @@ Construction concerns the processes and activities related to how an organizatio
 **Lifecycle Security Design** involves planning and setting up of penetration tests and test environment.
 
 …_more on page 12_
+
+#TODO change page
 
 ## Verification
 
@@ -149,6 +165,8 @@ Verification is focused on the processes and activities related to how an organi
 
 …_more on page 14_
 
+#TODO change page
+
 ## Operations
 
 Operations entails the processes and activities related to how an organization manages software releases that has been created. This can involve shipping products to end users, deploying products to internal or external hosts, and normal operations of software in the runtime environment.
@@ -162,6 +180,8 @@ Operations entails the processes and activities related to how an organization m
 **Lifecycle Security Monitoring** add short description here.
 
 _…more on page 16_
+
+#TODO change page
 
 ### Maturity Levels
 
@@ -186,6 +206,7 @@ The toolbox spreadsheet has been updated to reflect more context aware answers f
 - **Many/Most = 1**
 
 # Governance
+#TODO change all page numbers in the sections "Activity overview" of all security practices
 
 ## Description of Security Practices
 
@@ -213,7 +234,7 @@ In addition to training, this practice also requires pulling security-relevant i
 
 ### Lifecycle Security Culture
 
-TODO Add long description here.
+#TODO Add long description here.
 
 # Governance
 
@@ -249,6 +270,7 @@ _…more on page 32_
 ### Lifecycle Security Culture
 
 _…more on page XX_
+#TODO copy paste objectives and activities from "LCS-Specific.md"
 
 |                 | SC 1                                                                                                    | SC 2                                                                                                                | SC 3                                                                                                           |
 | :-------------- | :------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------- |
@@ -718,6 +740,6 @@ _…more on page XX_
 #!['THE SECURITY PRACTICES: An explanation of the details' IMAGES HERE](SecurityPractices.png) #![PracticesImage](PracticesImage.png)
 This section defines the building blocks of SAMM, the maturity levels under each security practice. For each practice, the three levels are covered in a summary table.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTY5NTc2NTgsOTEyMTUxOTIsLTU3ND
-I1MzA5MCwxODY5NjYwMDkwXX0=
+eyJoaXN0b3J5IjpbLTk1Mjc1Mjk3OSwtMTg1Njk1NzY1OCw5MT
+IxNTE5MiwtNTc0MjUzMDkwLDE4Njk2NjAwOTBdfQ==
 -->
