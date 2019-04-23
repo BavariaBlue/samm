@@ -381,8 +381,7 @@ During the completion of the LST, methods for a complete coverage of attack vect
 
 The introduction of automated penetration testing builds and continuous integration mechanisms lead to more frequent automated penetration testing and constant availability of a current robust build for all purposes.
 
-Furthermore, a detailed documentation, feedback loops and release gates for penetration testing guarantee a safe execution of the software development cycle.   
-
+Furthermore, a detailed documentation for vulnerability mitigation and exploitation guidance, feedback loops for design and architecture as well as release gates for penetration testing guarantee a safe execution of the complete software development lifecycle.
 
 # Verification
 
@@ -750,6 +749,6 @@ _…more on page XX_
 #!['THE SECURITY PRACTICES: An explanation of the details' IMAGES HERE](SecurityPractices.png) #![PracticesImage](PracticesImage.png)
 This section defines the building blocks of SAMM, the maturity levels under each security practice. For each practice, the three levels are covered in a summary table.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzI0MTc1NjgsLTE4NTY5NTc2NTgsOT
+eyJoaXN0b3J5IjpbLTIwMTUzNzcxMjYsLTE4NTY5NTc2NTgsOT
 EyMTUxOTIsLTU3NDI1MzA5MCwxODY5NjYwMDkwXX0=
 -->
