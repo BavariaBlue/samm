@@ -98,7 +98,7 @@ Implementation Review 52
 
 Security Testing 56
 
-Lifecycle Security Testing XX
+Lifecycle Security Penetration Testing XX
 
 Issue Management 60
 
@@ -161,7 +161,7 @@ Verification is focused on the processes and activities related to how an organi
 
 **Security Testing** involves testing the organization’s software in its runtime environment, in order to both discover vulnerabilities, and establish a minimum standard for software releases.
 
-**Lifecycle Security Testing** involves testing the latest software releases in the system's environments against previously designed penetration testing routines as well as the integration of these testing routines into continuous integration/ delivery mechanisms with feedback loops to software design and implementation.
+**Lifecycle Security Penetration Testing** involves testing the latest software releases in the system's environments against previously designed penetration testing routines as well as the integration of these testing routines into continuous integration/ delivery mechanisms with feedback loops to software design and implementation.
 
 …_more on page 14_
 
@@ -373,9 +373,9 @@ Starting with penetration testing and high-level test cases based on the functio
 
 In an advanced form, provision of this practice involves customization of testing automation to build a battery of security tests covering application-specific concerns in detail. With additional visibility at the organization level, security testing enables organizations to set minimum expectations for security testing results before a project release is accepted.
 
-### Lifecycle Security Testing
+### Lifecycle Security Penetration Testing
 
-The Lifecycle Security Testing (LST) practice is focused on the execution of penetration tests in the test and delivery environment on a project level in order to find security and safety related problems. 
+The Lifecycle Security Penetration Testing (LST) practice is focused on the execution of penetration tests in the test and delivery environment on a project level in order to find security and safety related problems. 
 
 During the completion of the LST, methods for a complete coverage of attack vectors are used, mostly attack pattern concatenation in the form of attack pattern paths. Version management ensures the consistent and thorough processing of attack vectors.
 
@@ -414,7 +414,7 @@ _...more on page 56_
 | **Objective:**  | **Establish process to perform basic security tests based on implementation and software requirements.**          | **Make security testing during development more complete and efficient through automation.**               | **Require application- specific security testing to ensure baseline security before deployment.**                  |
 | **Activities:** | **A.** Derive test cases from known security requirements **B.** Conduct penetration testing on software releases | **A.** Utilize automated security testing tools **B.** Integrate security testing into development process | **A.** Employ application-specific security testing automation **B.** Establish release gates for security testing |
 
-### Lifecycle Security Testing
+### Lifecycle Security Penetration Testing
 
 #TODO change page numbering
 _...more on page XX_
@@ -454,7 +454,7 @@ In an advanced form, operational enablement also entails organization-level chec
 
 ### Lifecycle Security Monitoring
 
-#TOOD add long description
+#TODO add long description
 
 # Operations
 
@@ -491,6 +491,7 @@ _…more on page 68_
 
 _…more on page XX_
 #TODO copy paste activities and objectives
+
 |                 | SM1                                                                                                                   | SM2                                                                                                       | SM3                                                                                                            |
 | :-------------- | :-------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------- |
 | **Objective:**  | **Enable communications between development teams and operators for critical security-relevant data.**                | **Improve expectations for continuous secure operations through provision of detailed procedures.**       | **Mandate communication of security information and validate artifacts for completeness.**                     |
@@ -546,6 +547,7 @@ _…more on page XX_
 
 ### Lifecycle Security Culture
 #TODO copy paste assessment
+
 | | | | | |
 |:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
@@ -668,8 +670,9 @@ _…more on page XX_
 | ✦Are security test cases comprehensively generated for application-specific logic? | NO | SOME | HALF | MOST |
 | ✦Does a minimum security baseline exist for security testing? | NO | SOME | HALF | MOST |
 
-### Lifecycle Security Testing
+### Lifecycle Security Penetration Testing
 #TODO erase ???
+
 | | | | | |
 |:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
@@ -732,6 +735,7 @@ _…more on page XX_
 
 ### Lifecycle Security Monitoring
 #TODO copy paste assessment
+
 | | | | | |
 |:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
