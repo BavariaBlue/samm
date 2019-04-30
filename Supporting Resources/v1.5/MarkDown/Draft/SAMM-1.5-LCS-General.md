@@ -129,7 +129,7 @@ Governance is centered on the processes and activities related to how an organiz
 
 **Policy & Compliance** involves setting up a security, compliance, and audit control framework throughout an organization to achieve increased assurance in software under contruction and in operation.
 
-**Lifecycle Security Culture** add short description here.
+**Lifecycle Security Culture** #TODO add short description here.
 
 …_more on page 10_
 
@@ -177,7 +177,7 @@ Operations entails the processes and activities related to how an organization m
 
 **Operational Enablement** involves identifying and capturing security-relevant information needed by an operator to properly configure, deploy, and run an organization’s software.
 
-**Lifecycle Security Monitoring** add short description here.
+**Lifecycle Security Monitoring** #TODO add short description here.
 
 _…more on page 16_
 
@@ -270,12 +270,11 @@ _…more on page 32_
 ### Lifecycle Security Culture
 
 _…more on page XX_
-#TODO copy paste objectives and activities from "LCS-Specific.md"
 
-|                 | SC 1                                                                                                    | SC 2                                                                                                                | SC 3                                                                                                           |
+|                 | LSC 1                                                                                                    | LSC 2                                                                                                                | LSC 3                                                                                                           |
 | :-------------- | :------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------- |
-| **Objective:**  | **Offer development staff access to resources around the topics of secure programming and deployment.** | **Educate all personnel in the software lifecycle with role-specific guidance on secure development.**              | **Mandate comprehensive security training and certify personnel for baseline knowledge.**                      |
-| **Activities:** | **A.** Conduct technical security awareness training **B.** Build and maintain technical guidelines     | **A.** Conduct role-specific application security training **B.** Utilize security coaches to enhance project teams | **A.** Create formal application security support portal **B.** Establish role-based examination/certification |
+| **Objective:**  | **Establish first elements of a security culture.** | **Refinement of the IT-Security culture.** | **Regular assessment of IT-Security culture and continuous enhancement of IT-Security culture.**                      |
+| **Activities:** | **A.** Establish communication **B.** Creating values diversity     | **A.** Giving culture commitment **B.** Acting as team and lifelong learning | **A.** Culture Benchmarking **B.** Culture retrospective and reflection |
 
 # Construction
 
@@ -551,15 +550,15 @@ _…more on page XX_
 | | | | | |
 |:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
-| **SC1** 
-| ✦Have developers been given high-level security awareness training?| NO | ONCE | EVERY 2-3 YEARS | ANNUALLY |
-|✦Does each project team understand where to find secure development best-practices and guidance? | NO | SOME | HALF | MOST |
-|**SC2** 
-|✦Are those involved in the development process given role-specific security training and guidance? | NO | SOME | HALF | MOST |
-|✦ Are stakeholders able to pull in security coaches for use on projects? | NO | SOME | HALF | MOST |
-| **SC3** 
-| ✦Is security-related guidance centrally controlled and consistently distributed throughout the organization? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
-| ✦ Are developers tested to ensure a baseline skill- set for secure development practices? | NO | ONCE | EVERY 2-3 YEARS | ANNUALLY |
+| **LSC1** 
+| ✦Have ...?| NO | ONCE | EVERY 2-3 YEARS | ANNUALLY |
+|✦Does ...? | NO | SOME | HALF | MOST |
+|**LSC2** 
+|✦Are ...? | NO | SOME | HALF | MOST |
+|✦ Are ...? | NO | SOME | HALF | MOST |
+| **LSC3** 
+| ✦...? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
+| ✦ ...? | NO | ONCE | EVERY 2-3 YEARS | ANNUALLY |
 
 # Construction
 ## Assessment worksheet
@@ -683,7 +682,7 @@ _…more on page XX_
 | **LST2**
 | ✦Do penetration testers have access to automatic software builds that include their tests? | NO | SOME | HALF | MOST |
 | ✦Is the penetration testing routine embedded in a continuous integration mechanism? | NO | NOT APPLY | AD-HOC | YES |
-✦<![endif]--> Do developers and penetration testers discuss and handle pen-test cases results? | NO | SOME | HALF | MOST |
+✦Do developers and penetration testers discuss and handle pen-test cases results? | NO | SOME | HALF | MOST |
 | **LST3**
 | ✦Do projects integrate preventive security feedback loops including penetration testing? | NO | SOME | HALF | MOST |
 | ✦Do projects establish release gates in the software development lifecycle for penetration testing? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |

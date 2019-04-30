@@ -476,159 +476,140 @@ Based upon pass/fail criteria or exceptional performance, staff should be ranked
 
 # Lifecycle Security Culture
 
-| | **SC1** | **SC2** | **SC3** |
-|:-------------|:-------------|:---------------|:-------------|:------------|
-| **Objective** | **Offer development staff access to resources around the topics of secure programming and deployment.** | **Educate all personnel in the software life-cycle with role-specific guidance on secure development.** | **Mandate comprehensive security training and certify personnel for baseline knowledge.**|
-| **Activities** | **A.** Conduct technical security awareness training **B.** Build and maintain technical guidelines | **A.** Conduct role-specific application security training **B.** Utilize security coaches to enhance project teams | **A.** Create formal application security support portal **B.** Establish role-based examination/certification |
-| **Assessment** | ✦Have developers been given high-level security awareness training? ✦Does each project team understand where to find secure development best-practices and guidance? | ✦Are those involved in the development process given role-specific security training and guidance? ✦Are stakeholders able to pull in security coaches for use on projects? | ✦Is security-related guidance centrally controlled and consistently distributed throughout the organization? ✦Are developers tested to ensure a baseline skill-set for secure development practices? |
-| **Results** | ✦Increased developer awareness on the most common problems at the code level ✦Maintain software with rudimentary security best-practices in place ✦Set baseline for security know-how among technical staff ✦Enable qualitative security checks for baseline security knowledge | ✦End-to-end awareness of the issues that leads to security vulnerabilities at the product, design, and code levels ✦Build plans to remediate vulnerabilities and design flaws in ongoing projects ✦Enable qualitative security checkpoints at requirements, design, and development stages ✦Deeper understanding of security issues encourages more proactive security planning | ✦Efficient remediation of vulnerabilities in both ongoing and legacy code bases ✦Quickly understand and mitigate against new attacks and threats ✦Measure the amount of security knowledge of the staff and measure against a common standard ✦Establish fair incentives toward security awareness |
+#TODO add assessment, results
 
-# Lifecycle Security Culture: SC1
-### Offer development staff access to resources around the topics of secure programming and deployment
+| | **LSC1** | **LSC2** | **LSC3** |
+|:-------------|:-------------|:---------------|:-------------|:------------|
+| **Objective** | **Establish first elements of a security culture.** | **Refinement of the IT-Security culture.** | **Regular assessment of IT-Security culture and continuous enhancement of IT-Security culture.**|
+| **Activities** | **A.** Establish communication **B.** Creating values diversity | **A.** Giving culture commitment **B.** Acting as team and lifelong learning | **A.** Culture Benchmarking **B.** Culture retrospective and reflection |
+| **Assessment** | ✦Have ? | ✦Are ? | ✦Is ? ✦Are ? |
+| **Results** | ✦Increased  ✦Maintain  ✦Set  ✦Enable  | ✦End-to-end  ✦Build plans to remediate vulnerabilities and design flaws in ongoing projects ✦Enable stages ✦Deeper  | ✦Efficient  ✦Quickly  ✦Measure  ✦Establish  |
+
+# Lifecycle Security Culture: LSC1
+### Establish first elements of a security culture
 
 ## Activities
-##### A. Conduct technical security awareness training
-Either internally or externally sourced, conduct security training for technical staff that covers the basic tenets of application security. Generally, this can be accomplished via instructor-led training in 1-2 days or via computer-based training with modules taking about the same amount of time per developer.
+##### A. Establish communication
 
-Course content should cover both conceptual and technical information. Appropriate topics include high-level best practices surrounding input validation, output encoding, error handling, logging, authentication, authorization, and data protection. Additional coverage of commonplace software vulnerabilities is also desirable such as a Top 10 list appropriate to the software being devel-oped (web applications, embedded devices, client- server applications, back-end transaction systems, etc.). Wherever possible, use code samples and lab exercises in the specific pro-gramming language(s) that applies.
+#TODO write description of activity out in full 
 
-To rollout such training, it is recommended to mandate annual security training and then hold courses (either instructor-led or computer-based) as often as required based on development head-count.
+Open discussion about organizational personal factors [1, 2] in IT-Security: Organizational deficiencies; Human faults; Intentional activities
 
-##### B. Build and maintain technical guidelines
-For development staff, assemble a list of approved documents, web pages, and technical notes that provide technology-specific security advice. These references can be assembled from many publicly available resources on the Internet. In cases where very specialized or pro- prietary technologies permeate the development environment, utilize senior, security-savvy staff to build security notes over time to create such a knowledge base in an ad hoc fashion.
+Motivation for IT-Security Training and a mindset of security awareness [3]
 
-Ensure management is aware of the resources and briefs oncoming staff about their expected usage. Try to keep the guidelines lightweight and up-to-date to avoid clutter and irrelevance. Once a comfort-level has been established, they can be used as a qualitative checklist to ensure that the guidelines have been read, understood, and followed in the development process.
+IT-Security as high-level value [4]
+
+Establish a reward system for IT-Security [4]
+
+Using diversity in the development process regarding [4], e.g. in different opinions in review meetings
+
+Proactive attitude regarding handling vulnerabilities and system hardening [5]
+
+Positive concept of human being [8]
+
+Team characteristic [8]:
+Working group
+Pseudo team
+
+Create IT-Security values in Schneider’s model [9] using the topics of culture, collaboration, control and competency
+
+
+
+##### B. Creating values diversity
+#TODO write description of activity out in full (see activity A)
+
+
+#TODO add assessment, results, success metrics, costs, personnel, related levels for all three tiers!
 
 ##### ASSESSMENT
-* Have developers been given high-level security awareness training?
-* Does each project team understand where to find secure development best-practices and guidance?
+* XXX
 
 ##### RESULTS
-* Increased developer awareness on the most common problems at the code level
-* Maintain software with rudimentary security best-practices in place
-* Set baseline for security know-how among technical staff
-* Enable qualitative security checks
-for baseline security knowledge
+* XXX 
 
 ##### SUCCESS METRICS
 * >50% development staff briefed on security issues within the past year
-* >75% senior development/ architect staff briefed on security issues within the past year
-* Launch technical guidance within three months of first training
 
 ##### COSTS
-* Training course buildout or license 
-* Ongoing maintenance of technical guidance
+* XXX 
 
 ##### PERSONNEL
-* Developers 
-* Architects
+* XXX 
 
 ##### RELATED LEVELS
-* Policy & Compliance - 2 
-* Security Requirements - 1 
-* Secure Architecture - 1
+* XXX
 
-# Lifecycle Security Culture: SC2
-### Educate all personnel in the software lifecycle with role-specific guidance on secure development
+# Lifecycle Security Culture: LSC2
+### Refinement of the IT-Security culture
 
 ## Activities
-##### A. Conduct role-specific application security training
-Conduct security training for staff that highlights application security in the context of each role’s job function. Generally, this can be accomplished via instructor-led training in 1-2 days or via computer-based training with modules taking about the same amount of time per person.
+##### A. Giving culture commitment
 
-For managers and requirements specifiers, course content should feature security requirements planning, vulnerability and incident management, threat modeling, and misuse/abuse case design.
+#TODO write description of activity out in full 
 
-Tester and auditor training should focus on training staff to understand and more effectively analyze software for security-relevant issues. As such, it should feature techniques for code review, architecture and design analysis, runtime analysis, and effective security test planning.
+Further value development [6]: Commitment to IT-Security
+1Involvement: Employees take extra effort and voice their concerns regarding Security even when it is not their direct responsibility
+2Personal Responsibility: Employees understand that not only IT/ Information Security department is responsible for Security assurance; thus, they take responsibility for acting IT-Security
+3Impact – my actions matter: Employees understand how their actions and decisions affect the “bigger security picture”: they see the connection between their everyday work and IT-Security
 
-Expand technical training targeting developers and architects to include other relevant topics such as security design patterns, tool-specific training, threat modeling and software assessment techniques.
+Team characteristic [8]:
+Potential team
+Real team
 
-To rollout such training, it is recommended to mandate annual security awareness training and periodic specialized topics training. Course should be available (either instructor-led or computer-based) as often as required based on head-count per role.
-
-##### B. Utilize security coaches to enhance project teams
-Using either internal or external experts, make security-savvy staff available to project teams for consultation. Further, this coaching resource should be advertised internally to ensure that staff are aware of its availability.
-The coaching staff can be created by recruiting experienced individuals within the organization to spend some percentage of their time, around 10% maximum, performing coaching activities. The coaches should communicate between one another to ensure they are aware of each other’s area of expertise and route questions accordingly for efficiency.
-
-While coaches can be used at any point in the software lifecycle, appropriate times to use the coaches include during initial product conception, before completion of functional or detailed design specification(s), when issues arise during development, test planning, and when operational security incidents occur.
-
-Over time, the internal network of coaching resources can be used as points-of-contact for communicating security-relevant information throughout the organization as well as being local resources that have greater familiarity with the ongoing project teams than a purely centralized security team might.
-
-##### ASSESSMENT
-* Are those involved in the development process given role-specific security training and guidance?
-* Are stakeholders able to pull in security coaches for use on projects?
-
-##### RESULTS
-* End-to-end awareness of the issues that leads to security vulnerabilities at the product, design, and code levels
-* Build plans to remediate vulnerabilities and design flaws in ongoing projects
-* Enable qualitative security checkpoints at requirements, design, and development stages
-* Deeper understanding of security issues encourages more proactive security planning
-
-##### SUCCESS METRICS
-* >60% development staff trained within the past year
-* >50% management/analyst staff trained within the past year
-* >80% senior development/architect staff trained within the past year
-* >3.0 Likert Scale on usefulness of training courses
-
-##### COSTS
-* Training library build-out or license
-* Security-savvy staff for hands-on coaching
-
-##### PERSONNEL
-* Developers
-* Architects
-* Managers
-* Business Owners 
-* QA Testers
-* Security Auditors
-
-##### RELATED LEVELS
-* Issue Management - 1 
-* Design Review - 2
-* Secure Architecture - 2
+Lifelong Learning [9]
+Establish self-controlled learning based on constructivism-based methods
 
 
-# Lifecycle Security Culture: SC3
-### Mandate comprehensive security training and certify personnel for baseline knowledge
+##### B. Acting as a team and lifelong learning
 
-
-##### A. Create formal application security support portal
-Building upon written resources on topics relevant to application security, create and advertise a centralized repository (usually an internal web site). The guidelines themselves can be created in any way that makes sense for the organization, but an approval board and straightforward change control processes must be established.
-
-Beyond static content in the form of best-practices lists, tool-specific guides, FAQs, and other articles, the support portal should feature interactive components such as mailing lists, web- based forums, or wikis to allow internal resources to cross-communicate security relevant topics and have the information cataloged for future reference.
-
-The content should be cataloged and easily searchable based upon several common factors such as platform, programming language, pertinence to specific third party libraries or frameworks, lifecycle stage, etc. Project teams creating software should align themselves early in product development to the specific guidelines that they will follow. In product as-sessments, the list of applicable guidelines and product-related discussions should be used as audit criteria.
-
-##### B. Establish role-based examination/certification
-Either per role or per training class/module, create and administer aptitude exams that test people for comprehension and utilization of security knowledge. Typically, exams should be created based on the role-based curricula and target a minimum passing score around 75% correct. While staff should be required to take applicable training or refresher courses an- nually, certification exams should be required biannually at a minimum.
-
-Based upon pass/fail criteria or exceptional performance, staff should be ranked into tiers such that other security-related activities could require individuals of a particular certification level to sign-off before the activity is complete, e.g. an uncertified developer cannot pass a design into implementation without explicit approval from a certified architect. This provides granular visibility on an per-project basis for tracking security decisions with individual accountability. Overall, this provides a foundation for rewarding or penalizing staff for making good business decisions regarding application security.
+#TODO write description of activity out in full (see activity A)
 
 ##### ASSESSMENT
-* Is security-related guidance centrally controlled and consistently distributed throughout the organization?
-* Are developers tested to ensure a baseline skill-set for secure development practices?
+* XXX
 
 ##### RESULTS
-* Efficient remediation of vulnerabilities in both ongoing and legacy code bases
-* Quickly understand and mitigate against new attacks and threats 
-* Judge security-savvy of staff and measure against a common standard 
-* Establish fair incentives toward security awareness
+* XXX 
 
 ##### SUCCESS METRICS
-* >80% staff certified within the past year
+* >50% development staff briefed on security issues within the past year
 
 ##### COSTS
-* Certification examination build-out or license
-* Ongoing maintenance and change control for application security support portal
-* Human-resources and overhead cost for implementing employee certification
+* XXX 
 
 ##### PERSONNEL
-* Developers
-* Architects
-* Managers
-* Business Owners 
-* QA Testers
-* Security Auditors
+* XXX 
 
 ##### RELATED LEVELS
-* Policy & Compliance - 2 & 3
+* XXX
+
+
+# Lifecycle Security Culture: LSC3
+### Regular assessment of IT-Security culture and continuous enhancement of IT-Security culture
+
+
+##### A. Culture Benchmarking
+
+##### B. Culture retrospective and reflection
+
+#TODO write description of activity out in full (see activity A)
+
+##### ASSESSMENT
+* XXX
+
+##### RESULTS
+* XXX 
+
+##### SUCCESS METRICS
+* >50% development staff briefed on security issues within the past year
+
+##### COSTS
+* XXX 
+
+##### PERSONNEL
+* XXX 
+
+##### RELATED LEVELS
+* XXX
 
 # Threat Assessment
 | | **TA1** | **TA2** | **TA3** |
@@ -1777,14 +1758,14 @@ testing automation
 * Secure Architecture - 3
 
 # Lifecycle Security Testing
-| | **ST1** | **ST2** | **ST3** |
+| | **LST1** | **LST2** | **LST3** |
 |:-------------|:-------------|:---------------|:-------------|:------------|
 | **Objective** | **Establish and execute a complete workflow of active penetration testing.** | **Combine the project-wide penetration testing workflow with continuous integration (CI) techniques.** | **Establish feedback loops and release gates within the continuous integration for the software design and development cycle.**|
 | **Activities** | **A.** Lay out an appropriate testing structure in order to test the system against all possible vectors of attacks **B.** Add version management for maximum covering rates and criteria documentation for expressiveness of test results | **A.** Expand the automated build with related pen-testing procedures **B.** Establish a continuous integration mechanism of the automated build into the project’s version management | **A.** Report (un-) successfully tested builds on a feedback platform **B.** Establish release gates for penetration testing |
 | **Assessment** | ✦Are identified attack pattern structured and tested within a communicated structure? ✦Do projects use version control management for pen-testing? ✦ Do projects integrate practical exploitation and mitigation comments for every attack pattern? | ✦Do penetration testers have access to automatic software builds that include their tests? ✦Is the penetration testing routine embedded in a continuous integration mechanism? ✦Do developers and penetration testers discuss and handle pen-test cases results?| ✦Do projects integrate preventive security feedback loops including penetration testing? ✦<![endif]--> Do projects establish release gates in the software development lifecycle for penetration testing? |
 | **Results** | ✦Establishment of a structure for pen-testing in the attack pattern catalogue ✦Introduction of additional layering of structure depending on one’s own needs ✦Introduction of version management framework for pen-testing and detailed exploitation and mitigation library | ✦Enforced discipline on frequent automated penetration testing ✦Immediate feedback on system-wide impact of local changes ✦Constant availability of a current robust build for all purposes ✦Early detection mechanisms avoiding last-minute chaos | ✦Projects established a preventive security feedback loop ✦Projects can draw knowledge about secure software architecture and design from security threats catalogue ✦Release gates hinder weakly conceptualized software from publishing |
 
-# Lifecycle Security Testing: ST1
+# Lifecycle Security Testing: LST1
 ### Establish and execute a complete workflow of active penetration testing
 
 ## Activities
@@ -1852,7 +1833,7 @@ The mitigation section should also follow the previously elaborated criteria sch
 * Lifecycle Security Testing – 2
 * Lifecycle Security Testing – 3
 
-# Lifecycle Security Testing: ST2
+# Lifecycle Security Testing: LST2
 ### Combine the project-wide penetration testing workflow with continuous integration (CI) techniques
 
 ## Activities
@@ -1921,7 +1902,7 @@ Security Testing 2
 Security Testing 3
 Lifecycle Security Testing – 3 
 
-# Lifecycle Security Testing: ST3
+# Lifecycle Security Testing: LST3
 ### Establish feedback loops and release gates within the continuous integration for the software design and development cycle
 
 ## Activities
