@@ -482,7 +482,7 @@ Based upon pass/fail criteria or exceptional performance, staff should be ranked
 |:-------------|:-------------|:---------------|:-------------|:------------|
 | **Objective** | **Establish first elements of a security culture.** | **Refinement of the IT-Security culture.** | **Regular assessment of IT-Security culture and continuous enhancement of IT-Security culture.**|
 | **Activities** | **A.** Establish communication **B.** Creating values diversity | **A.** Giving culture commitment **B.** Acting as team and lifelong learning | **A.** Culture Benchmarking **B.** Culture retrospective and reflection |
-| **Assessment** | ✦Have ? | ✦Are ? | ✦Is ? ✦Are ? |
+| **Assessment** | ✦Does your organization have an open discussion about organizational deficiencies, human faults and Intentional activities? | ✦Are ? | ✦Is ? ✦Are ? |
 | **Results** | ✦Increased  ✦Maintain  ✦Set  ✦Enable  | ✦End-to-end  ✦Build plans to remediate vulnerabilities and design flaws in ongoing projects ✦Enable stages ✦Deeper  | ✦Efficient  ✦Quickly  ✦Measure  ✦Establish  |
 
 # Lifecycle Security Culture: LSC1
@@ -511,15 +511,29 @@ Team characteristic [8]:
 Working group
 Pseudo team
 
+Social Awareness [10]
+Sporadic individual, not organization wide
+
+Individual Artifacts Integration [10]
+
 Create IT-Security values in Schneider’s model [9] using the topics of culture, collaboration, control and competency
 
+Collaboration Characteristic based on Col_MM [11]
+e.g. low interdependence
+
+Collaboration Management based on Col_MM [11]
+e.g. decisions made randomly
+
+Collaboration Process based on Col_MM [11]
+e.g. missing conflict handling
+
+Information and Knowledge integration based on Col_MM [11]
+e.g. randomly knowledge generation
 
 
 ##### B. Creating values diversity
 #TODO write description of activity out in full (see activity A)
-
-
-#TODO add assessment, results, success metrics, costs, personnel, related levels for all three tiers!
+#TODO add assessment, results, success metrics, costs, personnel, related levels for all three levels
 
 ##### ASSESSMENT
 * XXX
@@ -528,7 +542,7 @@ Create IT-Security values in Schneider’s model [9] using the topics of culture
 * XXX 
 
 ##### SUCCESS METRICS
-* >50% development staff briefed on security issues within the past year
+* XXX
 
 ##### COSTS
 * XXX 
@@ -556,13 +570,33 @@ Team characteristic [8]:
 Potential team
 Real team
 
+Social Awareness [10]
+organization wide
+
+Process Awareness [10]
+
+Explicit Knowledge Sharing [10]
+
 Lifelong Learning [9]
 Establish self-controlled learning based on constructivism-based methods
+
+Collaboration Characteristic based on Col_MM [11]
+e.g. non regular strong interactions
+
+Collaboration Management based on Col_MM [11]
+e.g. decisions made reactive
+
+Collabration Process based on Col_MM [11]
+e.g. hierarchical conflict interventions
+
+Information and Knowledge integration based on Col_MM [11]
+e.g. individual knowledge generation
 
 
 ##### B. Acting as a team and lifelong learning
 
 #TODO write description of activity out in full (see activity A)
+#TODO add assessment, results, success metrics, costs, personnel, related levels for all three levels
 
 ##### ASSESSMENT
 * XXX
@@ -571,7 +605,7 @@ Establish self-controlled learning based on constructivism-based methods
 * XXX 
 
 ##### SUCCESS METRICS
-* >50% development staff briefed on security issues within the past year
+* XXX
 
 ##### COSTS
 * XXX 
@@ -589,9 +623,38 @@ Establish self-controlled learning based on constructivism-based methods
 
 ##### A. Culture Benchmarking
 
+IT-Security Culture Benchmarking [7]:
+Extract from information security culture questionnaire
+
+Trust [7]:
+Assesses the perceptions of users regarding the safekeeping of private information and their trust in the communications of the organization
+
+Team characteristic [8]:
+High efficiency team
+
+Collaboration Awareness [10]
+
+Tactic Knowledge Sharing [10]
+
+Value retrospective and reflection [9]:
+Adopt and modify the organization IT-Security values with Schneider‘s model
+
+Collaboration Characteristic based on Col_MM [11]
+e.g. regular strong interactions
+
+Collaboration Management based on Col_MM [11]
+e.g. decisions made proactive and collective with consensus
+
+Collaboration Process based on Col_MM [11]
+e.g. conflicts solved collectively
+
+Information and Knowledge integration based on Col_MM [11]
+e.g.  knowledge sharing in a co-creation manner
+
 ##### B. Culture retrospective and reflection
 
 #TODO write description of activity out in full (see activity A)
+#TODO add assessment, results, success metrics, costs, personnel, related levels for all three levels
 
 ##### ASSESSMENT
 * XXX
@@ -600,7 +663,7 @@ Establish self-controlled learning based on constructivism-based methods
 * XXX 
 
 ##### SUCCESS METRICS
-* >50% development staff briefed on security issues within the past year
+* XXX
 
 ##### COSTS
 * XXX 

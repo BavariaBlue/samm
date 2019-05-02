@@ -551,11 +551,11 @@ _…more on page XX_
 |:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
 | **LSC1** 
-| ✦Have ...?| NO | ONCE | EVERY 2-3 YEARS | ANNUALLY |
-|✦Does ...? | NO | SOME | HALF | MOST |
+| ✦Does your organization have an open discussion about organizational deficiencies, human faults and Intentional activities? | NO | ONCE | EVERY 2-3 YEARS | ANNUALLY |
+| ✦Does ...? | NO | SOME | HALF | MOST |
 |**LSC2** 
 |✦Are ...? | NO | SOME | HALF | MOST |
-|✦ Are ...? | NO | SOME | HALF | MOST |
+|✦Are ...? | NO | SOME | HALF | MOST |
 | **LSC3** 
 | ✦...? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
 | ✦ ...? | NO | ONCE | EVERY 2-3 YEARS | ANNUALLY |
@@ -575,7 +575,7 @@ _…more on page XX_
 | ✦Are stakeholders aware of relevant threats and ratings? | NO | SOME | HALF | MOST |
 | **TA3** 
 | ✦Do project teams specifically consider risk from external software? | NO | SOME | HALF | MOST |
-| ✦ Are the majority of the protection mechanisms and controls captured and mapped back to threats? | NO | SOME | HALF | MOST |
+| ✦Are the majority of the protection mechanisms and controls captured and mapped back to threats? | NO | SOME | HALF | MOST |
 
 ### Security Requirements
 | | | | | |
