@@ -1834,7 +1834,7 @@ testing automation
 ## Activities
 ##### A. Lay out an appropriate testing structure in order to test the system against all possible vectors of attacks
 
-In Lifecycle Security Design, the worked out attack patterns lay the foundation for a thorough penetration testing workflow. In this section, penetration testers give an answer to the question up to which extent the supposed vulnerabilities, as researched in the LS-Design phase, pose real risks to the system.
+In Lifecycle Security Design, the worked-out attack patterns lay the foundation for a thorough penetration testing workflow. In this section, penetration testers give an answer to the question up to which extent the supposed vulnerabilities, as researched in the LS-Design phase, pose real risks to the system.
 
 Remember that the target of this workflow is not only to execute a smooth integration of testing processes as a whole, but also – and all the more – to capture as many vulnerabilities as there may be in order to mitigate arising risks.
 
