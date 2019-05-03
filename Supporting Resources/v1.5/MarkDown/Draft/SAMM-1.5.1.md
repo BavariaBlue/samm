@@ -730,7 +730,7 @@ This section defines the building blocks of SAMM, the maturity levels under each
 | **Results** | ✦Concrete list of the most critical business-level risks caused by software ✦Tailored roadmap that addresses the security needs for your organization with minimal overhead ✦Organization-wide understanding of how the assurance program will grow over time | ✦Customized assurance plans per project based on core value to the business ✦Organization-wide understanding of security-relevance of data and application assets ✦Better informed stakeholders with respect to understanding and accepting risks | ✦Information to make informed case-by-case decisions on security expenditures ✦Estimates of past loss due to security issues ✦Per-project consideration of security expense versus loss potential ✦Industry-wide due diligence with regard to security |
 
 # Strategy & Metrics: SM1
-###Establish unified strategic roadmap for software security within the organization
+### Establish unified strategic roadmap for software security within the organization
 
 ## Activities
 ##### A. Estimate overall business risk profile.
@@ -892,6 +892,7 @@ The tracking of security spend per project should be done quarterly at the assur
 # Policy & Compliance: PC1
 ### Understand relevant governance and compliance drivers to the organization
 
+## Activities
 ##### A. Identify and monitor external compliance drivers
 While an organization might have a wide variety of compliance requirements, this activity is specifically oriented around those that either directly or indirectly affect the way in which the organization builds or uses software and/or data. Leverage internal staff focused on compliance if available.
 
@@ -1150,7 +1151,7 @@ Over time, the internal network of coaching resources can be used as points-of-c
 # Education & Guidance: EG3
 ### Mandate comprehensive security training and certify personnel for baseline knowledge
 
-
+## Activities
 ##### A. Create formal application security support portal
 Building upon written resources on topics relevant to application security, create and advertise a centralized repository (usually an internal web site). The guidelines themselves can be created in any way that makes sense for the organization, but an approval board and straightforward change control processes must be established.
 
@@ -1192,6 +1193,202 @@ Based upon pass/fail criteria or exceptional performance, staff should be ranked
 ##### RELATED LEVELS
 * Policy & Compliance - 2 & 3
 
+# Lifecycle Security Culture
+
+TODO add assessment, results
+
+| | **LSC1** | **LSC2** | **LSC3** |
+|:-------------|:-------------|:---------------|:-------------|:------------|
+| **Objective** | **Establish first elements of a security culture.** | **Refinement of the IT-Security culture.** | **Regular assessment of IT-Security culture and continuous enhancement of IT-Security culture.**|
+| **Activities** | **A.** Establish communication **B.** Creating values diversity | **A.** Giving culture commitment **B.** Acting as team and lifelong learning | **A.** Culture benchmarking **B.** Culture retrospective and reflection |
+| **Assessment** | ✦Does your organization have an open discussion about organizational deficiencies, human faults and Intentional activities? ✦placeholder ? | ✦placeholder ✦placeholder | ✦placeholder ✦placeholder |
+| **Results** | ✦placeholder  ✦placeholder  ✦placeholder  ✦placeholder  | ✦placeholder  ✦placeholder  ✦placeholder  | ✦placeholder  ✦placeholder  ✦placeholder  ✦placeholder  |
+
+# Lifecycle Security Culture: LSC1
+### Establish first elements of a security culture
+
+## Activities
+##### A. Establish communication
+TODO write description of activity out in full 
+
+Open discussion about organizational personal factors [1, 2] in IT-Security: Organizational deficiencies; Human faults; Intentional activities
+
+Motivation for IT-Security Training and a mindset of security awareness [3]
+
+IT-Security as high-level value [4]
+
+Establish a reward system for IT-Security [4]
+
+Using diversity in the development process regarding [4], e.g. in different opinions in review meetings
+
+Proactive attitude regarding handling vulnerabilities and system hardening [5]
+
+Positive concept of human being [8]
+
+Team characteristic [8]:
+Working group
+Pseudo team
+
+Social Awareness [10]
+Sporadic individual, not organization wide
+
+Individual Artifacts Integration [10]
+
+Create IT-Security values in Schneider’s model [9] using the topics of culture, collaboration, control and competency
+
+Collaboration Characteristic based on Col_MM [11]
+e.g. low interdependence
+
+Collaboration Management based on Col_MM [11]
+e.g. decisions made randomly
+
+Collaboration Process based on Col_MM [11]
+e.g. missing conflict handling
+
+Information and Knowledge integration based on Col_MM [11]
+e.g. randomly knowledge generation
+
+##### B. Creating values diversity
+TODO write description of activity out in full (see activity A)
+
+TODO add assessment, results, success metrics, costs, personnel, related levels for all three levels
+
+##### ASSESSMENT
+* XXX
+
+##### RESULTS
+* XXX 
+
+##### SUCCESS METRICS
+* XXX
+
+##### COSTS
+* XXX 
+
+##### PERSONNEL
+* XXX 
+
+##### RELATED LEVELS
+* XXX
+
+# Lifecycle Security Culture: LSC2
+### Refinement of the IT-Security culture
+
+## Activities
+##### A. Giving culture commitment
+TODO write description of activity out in full 
+
+Further value development [6]: Commitment to IT-Security
+1Involvement: Employees take extra effort and voice their concerns regarding Security even when it is not their direct responsibility
+2Personal Responsibility: Employees understand that not only IT/ Information Security department is responsible for Security assurance; thus, they take responsibility for acting IT-Security
+3Impact – my actions matter: Employees understand how their actions and decisions affect the “bigger security picture”: they see the connection between their everyday work and IT-Security
+
+Team characteristic [8]:
+Potential team
+Real team
+
+Social Awareness [10]
+organization wide
+
+Process Awareness [10]
+
+Explicit Knowledge Sharing [10]
+
+Lifelong Learning [9]
+Establish self-controlled learning based on constructivism-based methods
+
+Collaboration Characteristic based on Col_MM [11]
+e.g. non regular strong interactions
+
+Collaboration Management based on Col_MM [11]
+e.g. decisions made reactive
+
+Collabration Process based on Col_MM [11]
+e.g. hierarchical conflict interventions
+
+Information and Knowledge integration based on Col_MM [11]
+e.g. individual knowledge generation
+
+##### B. Acting as a team and lifelong learning
+TODO write description of activity out in full (see activity A)
+
+TODO add assessment, results, success metrics, costs, personnel, related levels for all three levels
+
+##### ASSESSMENT
+* XXX
+
+##### RESULTS
+* XXX 
+
+##### SUCCESS METRICS
+* XXX
+
+##### COSTS
+* XXX 
+
+##### PERSONNEL
+* XXX 
+
+##### RELATED LEVELS
+* XXX
+
+# Lifecycle Security Culture: LSC3
+### Regular assessment of IT-Security culture and continuous enhancement of IT-Security culture
+
+## Activities
+##### A. Culture benchmarking
+TODO write description of activity out in full 
+
+IT-Security Culture Benchmarking [7]:
+Extract from information security culture questionnaire
+
+Trust [7]:
+Assesses the perceptions of users regarding the safekeeping of private information and their trust in the communications of the organization
+
+Team characteristic [8]:
+High efficiency team
+
+Collaboration Awareness [10]
+
+Tactic Knowledge Sharing [10]
+
+Value retrospective and reflection [9]:
+Adopt and modify the organization IT-Security values with Schneider‘s model
+
+Collaboration Characteristic based on Col_MM [11]
+e.g. regular strong interactions
+
+Collaboration Management based on Col_MM [11]
+e.g. decisions made proactive and collective with consensus
+
+Collaboration Process based on Col_MM [11]
+e.g. conflicts solved collectively
+
+Information and Knowledge integration based on Col_MM [11]
+e.g.  knowledge sharing in a co-creation manner
+
+##### B. Culture retrospective and reflection
+TODO write description of activity out in full (see activity A)
+
+TODO add assessment, results, success metrics, costs, personnel, related levels for all three levels
+
+##### ASSESSMENT
+* XXX
+
+##### RESULTS
+* XXX 
+
+##### SUCCESS METRICS
+* XXX
+
+##### COSTS
+* XXX 
+
+##### PERSONNEL
+* XXX 
+
+##### RELATED LEVELS
+* XXX
 
 # Threat Assessment
 | | **TA1** | **TA2** | **TA3** |
@@ -1204,7 +1401,7 @@ Based upon pass/fail criteria or exceptional performance, staff should be ranked
 # Threat Assessment: TA1
 ### Identify and understand high-level threats to the organization and individual projects
 
-
+## Activities
 ##### A. Build and maintain application-specific threat models
 Based purely on the business purpose of each software project and the business risk profile (if available) identify likely worst-case scenarios for the software under development in each project team. This can be conducted using simple attack trees or through a more formal threat modeling process such as Microsoft’s STRIDE, Trike, etc.
 
@@ -1249,7 +1446,7 @@ This assessment should be conducted with business owners and other stakeholders 
 # Threat Assessment: TA2
 ### Increase accuracy of threat assessment and improve granularity of per-project understanding
 
-
+## Activities
 ##### A. Build and maintain abuse-case models per project
 Further considering the threats to the organization, conduct a more formal analysis to determine potential misuse or abuse of functionality. Typically, this process begins with identification of normal usage scenarios, e.g. use-case diagrams if available.
 
@@ -1272,20 +1469,22 @@ After assigning each threat to a rating, use this information to prioritize risk
 * Are stakeholders aware of relevant threats and ratings?
 
 ##### RESULTS
-* Granular understanding of likely threats to individual projects 
-* Framework for better tradeoff decisions within project teams 
+* Granular understanding of likely threats to individual projects
+* Framework for better tradeoff decisions within project teams
 * Ability to prioritize development efforts within a project team based on risk weighting
 
 ##### SUCCESS METRICS
-* >75% of project teams with identified and rated threats 
+* >75% of project teams with identified and rated threats
 * >75% of project stakeholders briefed on threat and abuse models of relevant projects within the past six months
 
 ##### COSTS
-* Project overhead from maintenance of threat models and attacker profiles  
+* Project overhead from maintenance of threat models and attacker profiles
+
 ##### PERSONNEL
 * Security Auditor 
 * Business Owner 
-* Managers  
+* Managers
+
 ##### RELATED LEVELS
 * ✦ Strategy & Metrics - 2 
 * Secure Architecture - 2
@@ -1293,7 +1492,7 @@ After assigning each threat to a rating, use this information to prioritize risk
 # Threat Assessment: TA3
 ### Concretely tie compensating controls to each threat against internal and third-party software
 
-
+## Activities
 ##### A. Explicitly evaluate risk from third-party components 
 Conduct an assessment of your software code-base and identify any components that are of external origin. Typically, these will include open-source projects, purchased consumer of the shelf (COTS) software, and online services which your software uses. 
 
@@ -1319,7 +1518,8 @@ After initially conducted for a project, this must be updated and reviewed durin
 ##### RESULTS
 * Deeper consideration of full threat profile for each software project 
 * Detailed mapping of assurance features to established threats against each software project 
-* Artifacts to document due diligence based on business function of each software project  
+* Artifacts to document due diligence based on business function of each software project
+
 ##### SUCCESS METRICS
 * >80% of project teams with updated threat models prior to every implementation cycle 
 * >80% of project teams with updated inventory of third-party components prior to every release 
@@ -1351,6 +1551,7 @@ After initially conducted for a project, this must be updated and reviewed durin
 # Security Requirements: SR1
 ###Consider security explicitly during the software requirements process
 
+## Activities
 ##### A. Derive security requirements from business functionality 
 Conduct a review of functional requirements that specify the business logic and overall behavior for each software project. After gathering requirements for a project, conduct an assessment to derive relevant security requirements. Even if software is being built by a third-party, these requirements, once identified, should be included with functional requirements delivered to vendors. 
 
@@ -1394,11 +1595,11 @@ This review should be performed by a security auditor with input from business s
 * Policy & Compliance - 2 
 * Design Review - 1 
 * Implementation Review - 1 
-* Security Testing - 1  
+* Security Testing - 1 
 # Security Requirements: SR2
 ### Increase granularity of security requirements derived from business logic and known risks
 
-
+## Activities
 ##### A. Build an access control matrix for resources and capabilities
 Based upon the business purpose of the application, identify user and operator roles. Additionally, build a list of resources and capabilities by gathering all relevant data assets and application-specific features that are guarded by any form of access control.
 
@@ -1644,6 +1845,209 @@ security protections
 * Design Review - 3
 * Implementation Review - 3
 * Security Testing - 3
+
+# Lifecycle Security Design
+
+| | **LSD 1**  | **LSD 2**  | **LSD 3** |
+|:-------------|:------------- |:---------------|:-------------|
+| **Objective:** | **Identify security risks and attack potentialities for individual projects.** | **Plan penetration tests in advance and take future attack potentialities into account.** | **Facilitate semi-autonomous and ongoing penetration tests.** |
+| **Activities:** | **A.** Compile a threat and risk analysis in due consideration of security goals. **B.** Set up an attack pattern catalog. | **A.** Define and categorize test environment. **B.** Downscale security risks of external software and hardware components. | **A.** Facilitate hardware independent penetration tests and implement development cycles by the use of structured data exchange.  **B.** Categorize, acquire and store all relevant hardware and software versions. |
+| **Assessment** | ✦Do projects execute risk analysis (e.g., in regard to (A)SIL)? ✦Are identified attack patterns documented? | ✦Are penetration tests planned and executed for all products? ✦How often are external security reports reviewed? ✦Is special staff trained or are external certified testers employed? | ✦Can products be tested hardware independently? ✦Can products be updated subsequently after roll out? ✦Can results from penetration tests be reused? ✦Is security already implemented into the lifecycle? |
+| **Results** | ✦Understanding of possible security risks. ✦Better understanding of risk functions that need to be tested. ✦Reusable catalog of possible attacks. ✦Mapping of security vulnerabilities to safety-relevant functions. | ✦Better preparation against emerging security vulnerabilities. ✦Simpler testing through tightly defined test environments. ✦Improved test coverage by documenting all pentesting procedures. ✦All tests are up-to-date with latest security vulnerabilities. | ✦Possibility to test products independently of their hardware. ✦Possibility to conduct follow up tests for new security vulnerabilities for every product. ✦Always up to date security standards. ✦Outline of the individual steps of penetration testing within the projects lifecycle. ✦Guideline on appropriate methods for processing the feedback of penetration tests. |
+
+# Lifecycle Security Design: SD1
+
+### Identify security risks and attack potentialities for individual projects
+
+## Activities
+##### A. Compile a threat and risk analysis in due consideration of security goals
+Start with a summary of security relevant features and compile a security and risk analysis in regard to potential attacks for every feature.
+A risk function or risk matrix according to EN61508 or ISO26262 can be used to support the analysis. EN61508 defines Safety Integrity Level (SIL) that is also used by ISO26262 as Automotive SIL (ASIL). (A)SIL provides a way to classify risks and validate whether they meet security requirements.
+Security relevant features can be identified by listing all features of a product and come up with different scenarios and situations in which security could be affected by the feature.
+Then identify all internal and external components that influence a product's relevant security features.
+Security goals should be drafted in such a way that the elaborated risks will not occur.
+
+In the second step, define all known attacks on the identified functions---also think about functions that are similar to the identified ones---and carve out attack surfaces.
+Assign a risk level to every found attack by, e.g., considering the frequency of occurrence of such an attack and the severity of resulting harms.
+
+During this activity, developers and penetration testers should work together in several meetings. Offer a security training for staff members.
+Different views of external advisors can be helpful, too.
+
+##### B. Set up an attack pattern catalog
+To prepare for penetration tests you should create and maintain an attack pattern catalog across all products.
+For this, known attacks that are relevant to one or more products should be gathered.
+In addition, attacks that are only known by your company are to be included, e.g., from previous penetration tests.
+The gathered information can than be used to create attack patterns.
+Experiences from previous penetration tests can also be of great help here.
+An attack pattern is an abstract mechanism that describes how an attack works.
+It should begin with a name and include its probability, the exploitability for security, and the severity of the attack.
+Then, it should list the affected domain, the used mechanisms, and link possible attacks that follow the same schema.
+In addition, a short text with a description should be included. The goal, the motivation and the necessary abilities of the attacker should be documented as well.
+Then follows a detailed explanation of the attack. This should include the exploited vulnerability, necessary tools, and the exact steps of the process, dependencies, possible follow-up attacks and indicators and obfuscation.
+In addition, known examples should be provided in the form of code or known attacks and possible defense mechanisms should be proposed (mitigation).
+In the end, if existing, relationships with other known patterns or vulnerabilities can also be listed.
+For the creation and maintaining of the catalog several meetings are needed.
+
+##### ASSESSMENT
+* Do projects execute risk analysis (e.g., in regard to (A)SIL)?
+* Are identified attack patterns documented?
+
+##### RESULTS
+* Understanding of possible security risks. ✦Better understanding of risk functions that need to be tested
+* Reusable catalog of possible attacks. ✦Mapping of security vulnerabilities to safety-relevant functions
+
+##### SUCCESS METRICS
+* 75% of all projects have compiled a risk analysis
+* 50% of all projects have compiled attack patterns
+
+##### COSTS
+* Setup and maintenance of project artifacts for risk analysis of attack patterns
+
+##### PERSONNEL
+* Developer
+* Architects
+* Penetration testers
+* Manager
+* Security auditors
+
+##### RELATED LEVELS
+* Education & Guidance -1
+* Threat Assessment - 1
+* Threat Assessment - 2
+* Security Requirements - 1
+* Lifecycle Security Design - 2
+* Lifecycle Security Design - 3
+
+# Lifecycle Security Design: SD2
+
+### Plan penetration tests in advance and take future attack potentialities into account
+
+## Activities
+##### A. Define and categorize test environment
+Penetration tests have to be planned in advance with regard to the security goals.
+For that reason standards and test environments should be established within the company according to which the test environment can be defined.
+Furthermore, a policy has to be compiled, which includes a list of used tools, whether it's black box or white box testing and which interfaces are to be implemented in software or hardware. Please note that these suggestions should be a guideline and no mandatory regulation.
+Before the tests start, the test environment has to be set up, e.g., required software and hardware has to be provided and the approach has to be planned and documented.
+
+After defining the test environment, the penetration tests dependent on security goals and found risk functions can be planned, e.g., in regard to (A)SIL. Furthermore the penetration tests have to be selected and a prioritization and categorization of these tests should be made.
+
+Use the BSI guideline for IT-Security Penetrationtests (https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Studien/Penetrationstest/penetrationstest.pdf?__blob=publicationFile&v=3) and the BSI Study of Penetration Tests (https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Sicherheitsberatung/Pentest_Webcheck/Leitfaden_Penetrationstest.pdf?__blob=publicationFile&v=10) if applicable.
+
+Additional measures for planning the penetration tests can be offered in form of training and certifications for internal penetration testers.
+Alternatively, External penetration testers can be tasked for certification.
+
+Experience and previous made results should be taken into account during planning of penetration tests.
+
+##### B. Downscale security risks of external software and hardware components
+Every project team that uses external software or hardware has to ensure the security of said hardware.
+
+Extensive research of the vendor is essential. Especially consider the history of security risks and the vendor's reaction to these issues.
+
+Moreover, the chosen vendor should have a notification system that informs about occurring problems as soon as possible. 
+If such a system is not available, a reporting obligation of all security exploits at the time they become known should be included in the contract.
+Additionally, public services, which publish security exploits, should be searched and either subscribed to or periodically examined.
+
+##### ASSESSMENT
+* Are penetration tests planned and executed for all products?
+* How often are external security reports reviewed? ✦Is special staff trained or are external certified testers employed?
+
+##### RESULTS
+* Better preparation against emerging security vulnerabilities
+* Simpler testing through tightly defined test environments
+* Improved test coverage by documenting all pentesting procedures
+* All tests are up-to-date with latest security vulnerabilities
+
+##### SUCCESS METRICS
+* 90% of all penetration testers are specifically trained
+* 80% of external software and hardware components are from verified vendors
+
+##### COSTS
+* Common costs of projects increase due to additional verification
+* Additional training
+
+##### PERSONNEL
+* Developer
+* Architects
+* Penetration testers
+* Manager
+* Security auditors
+
+##### RELATED LEVELS
+* Threat Assessment - 3
+* Security Testing - 2
+
+# Lifecycle Security Design: SD3
+
+### SD3 Facilitate semi-autonomous and ongoing penetration tests.
+
+## Activities
+##### A. Facilitate hardware independent penetration tests and implement development cycles by the use of structured data exchange
+
+In order to ensure the safety of a product over a longer period of time, it must be repeatedly tested against new threats.
+To be able to test old and new products quickly and efficiently against new attacks at any time, a hardware-independent test environment is needed.
+For this, great effort has to be invested in implementing a hardware-independent test interface.
+The interface should be compatible with as many products as possible.
+As a result, only the test software needs to be adapted to the respective product.
+A further measure includes the expansion of development cycles.
+This means that new development processes have to be created within the company.
+Instead of a strict schedule of planning, development, testing and deployment, these steps should be repeated more often.
+In this case, the company generally or each project has to find a suitable procedure for itself.
+However, it is important that results from tests are evaluated early on and that the planning and development make changes accordingly.
+Therefore, the planning process is repeated several times instead of only once.
+
+##### B. Categorize, acquire and store all relevant hardware and software versions
+
+It should be possible to test newly identified vulnerabilities immediately for all affected products.
+This can be difficult and lead to an immense overhead since a product that has been rolled out for some time often has several SW and HW versions.
+However, not being able to test every "relevant" can lead to major problems afterwards.
+Therefore, "relevant" SW and HW versions should always be present for testing.
+To make this possible, the affected departments of a company must agree on a standard for "relevant" versions.
+Then, if a new "relevant" HW or SW version is rolled out, it should be stored at least once in the company.
+In order to protect against possible losses, you should consider to store a version several times (redundancies).
+To do this, a company must create the necessary capacity and infrastructure.
+Therefore, managers, developers, testers, and security experts need to design a plan for the implementation.
+As a point of reference for relevant versions, the complexity version updates should be taken into consideration, i.e., how many adaptations a user needs to make during an update.
+To integrate the results of the tests into the software development process, appropriate languages and formats must be defined for documenting them.
+Clear responsibilities have to be defined, so that the test results can be adequately addressed and security gaps closed for all versions.
+
+##### ASSESSMENT
+* Can products be tested hardware independently?
+* Can products be updated subsequently after roll out?
+* Can results from penetration tests be reused?
+* Is security already implemented into the lifecycle?
+
+##### RESULTS
+* Possibility to test products independently of their hardware
+* Possibility to conduct follow up tests for new security vulnerabilities for every product
+* Always up to date Security standards  
+* Outline of the individual steps of penetration testing within the projects lifecycle
+* Guideline on appropriate methods for processing the feedback of penetration tests
+
+##### SUCCESS METRICS
+* 80% of relevant HW and SW versions are stored
+* 70 % of all tests for a project are tested with a hardware-independent test interface
+
+##### COSTS
+* Increasing effort through the intermediate storage of hardware and software versions
+* Development time for a test interface
+
+##### PERSONNEL
+* Developers
+* Architects
+* Penetration tester
+* Manager
+* Security auditor
+
+##### RELATED LEVELS
+* Education & Guidance - 2
+* Strategy & Metrics - 1
+* Policy & Compliance - 3
+* Security Testing - 2
+* Strategy & Metrics - 1
+* Secure Architecture - 1
+* Issue Management - 2
+* Issue Management - 3
+* Operational Enablement - 1
 
 # Design Review
 | | **DR1** | **DR2** | **DR3** |
@@ -2107,6 +2511,203 @@ testing automation
 * Policy & Compliance - 2
 * Secure Architecture - 3
 
+# Lifecycle Security Testing
+| | **LST1** | **LST2** | **LST3** |
+|:-------------|:-------------|:---------------|:-------------|:------------|
+| **Objective** | **Establish and execute a complete workflow of active penetration testing.** | **Combine the project-wide penetration testing workflow with continuous integration (CI) techniques.** | **Establish feedback loops and release gates within the continuous integration for the software design and development cycle.**|
+| **Activities** | **A.** Lay out an appropriate testing structure in order to test the system against all possible vectors of attacks **B.** Add version management for maximum covering rates and criteria documentation for expressiveness of test results | **A.** Expand the automated build with related pen-testing procedures **B.** Establish a continuous integration mechanism of the automated build into the project’s version management | **A.** Report (un-) successfully tested builds on a feedback platform **B.** Establish release gates for penetration testing |
+| **Assessment** | ✦Are identified attack pattern structured and tested within a communicated structure? ✦Do projects use version control management for pen-testing? ✦ Do projects integrate practical exploitation and mitigation comments for every attack pattern? | ✦Do penetration testers have access to automatic software builds that include their tests? ✦Is the penetration testing routine embedded in a continuous integration mechanism? ✦Do developers and penetration testers discuss and handle pen-test cases results?| ✦Do projects integrate preventive security feedback loops including penetration testing? ✦<![endif]--> Do projects establish release gates in the software development lifecycle for penetration testing? |
+| **Results** | ✦Establishment of a structure for pen-testing in the attack pattern catalogue ✦Introduction of additional layering of structure depending on one’s own needs ✦Introduction of version management framework for pen-testing and detailed exploitation and mitigation library | ✦Enforced discipline on frequent automated penetration testing ✦Immediate feedback on system-wide impact of local changes ✦Constant availability of a current robust build for all purposes ✦Early detection mechanisms avoiding last-minute chaos | ✦Projects established a preventive security feedback loop ✦Projects can draw knowledge about secure software architecture and design from security threats catalogue ✦Release gates hinder weakly conceptualized software from publishing |
+
+# Lifecycle Security Testing: LST1
+### Establish and execute a complete workflow of active penetration testing
+
+## Activities
+##### A. Lay out an appropriate testing structure in order to test the system against all possible vectors of attacks
+In Lifecycle Security Design, the worked-out attack patterns lay the foundation for a thorough penetration testing workflow. In this section, penetration testers give an answer to the question up to which extent the supposed vulnerabilities, as researched in the LS-Design phase, pose real risks to the system.
+
+Remember that the target of this workflow is not only to execute a smooth integration of testing processes as a whole, but also – and all the more – to capture as many vulnerabilities as there may be in order to mitigate arising risks.
+
+If the project team considers this advice, the members will feel compelled to engage in the practice of attack pattern concatenation. Hence, it is recommended to build attack pattern paths that must be tested step-by-step (or in different orders/alternative ways) in order to capture as many potential vulnerabilities as possible. Attack pattern most of the time affect each other, thus finding one new attack pattern could enable other (even closed) attack patterns (again).
+
+Another technical aid would be to classify and catalogue attack patterns as universal or specific. Universal attack patterns tend to “awake” again when new patterns emerge.
+Attack pattern paths can be modeled on different levels and layers. Firstly, the penetration testing team could extract paths for module testing, component testing, system testing and conclusively for delivery testing. Secondly, the team should divide between application layered and network layered attack paths. Bring in mind that attack paths intertwine.
+
+##### B. Add version management for maximum covering rates and criteria documentation for expressiveness of test results
+Even in the presence of an appropriate structure as given in Activity 1 of LST-1, an impulsive and uncoordinated execution of penetration tests would lead to low covering rates and low expressiveness of the test results. Therefore, it is recommended to integrate a version management mechanism including a fine-grained documentation of test results into the penetration testing workflow.
+
+Version management:
+The version management guarantees that all attack paths and therefore all attack patterns constellations are getting tested at least once, leading to an overall robustness of the system.  
+As a consequence, certain penetration testers or whole penetration testing teams are hold fully responsible for certain parts of a (branched) attack path, also called test cases or spectrums.  
+There are controlling structures that oversee and manage the work in progress and to-do lists, recognize occurring bottlenecks, odd delays and that solve conflicts.
+Additionally, burn-down charts can heighten the awareness of the current penetration testing process. Integrating a scorecard, labelled with “priority” and “severity” for existing attack pattern is also feasible.
+
+The above-mentioned approach supports modern agile (testing) practices, e.g. agile testing, test-driven development or scrum events.
+
+Criteria documentation:
+One possible way to achieve great documentation after pen-testing an attack pattern against the current system is to expand an instance (object) of the attack pattern (class) with an adjusted exploitation and mitigation section.
+The exploitation section should describe in detail, how the exploit was carried out, including technical details. The criteria, as mentioned in the LS-Design phase, describes the probability, the exploitability for security, and the severity of the attack. The penetration tester now has the task to add specific comments to each of these criteria according to the elaborated, practical exploit.
+The mitigation section should also follow the previously elaborated criteria schema. Here, the tester can attach mitigation strategies to the document. One way to add structure to this chapter is to derive mitigation procedures according to well-known security goals, i.e. system hardening, authentication, encryption, authorization, intrusion detection systems, auditing/logging as well as – even if not recommended by the “Security of Design” principles – obfuscation techniques.
+
+##### ASSESSMENT
+* Are identified attack pattern structured and tested within a communicated structure?
+* Do projects use version control management for pen-testing? C
+* Do projects integrate practical exploitation and mitigation comments for every attack pattern?
+
+##### RESULTS
+* Establishment of a structure for pen-testing in the attack pattern catalogue
+* Introduction of additional layering of structure depending on one’s own needs
+* Introduction of version management framework for pen-testing and detailed exploitation and mitigation library
+
+##### SUCCESS METRICS
+* >75% of projects assessed attack paths
+* >50% of projects use version management for pen-testing
+* >75% of projects document exploitation & mitigation with standard criteria
+
+##### COSTS
+* Ongoing project overhead from establishing and maintaining attack pattern concatenation
+* Ongoing project overhead from new documentation format
+* Additional training of personnel in version management systems
+
+##### PERSONNEL
+* Penetration testers
+* Project) managers
+* Security Auditor
+* Developers
+* Architects
+
+##### RELATED LEVELS
+* Education & Guidance – 2
+* Education & Guidance – 3
+* Lifecycle Security Design – 1
+* Lifecycle Security Design – 2
+* Security Testing – 1
+* Lifecycle Security Testing – 2
+* Lifecycle Security Testing – 3
+
+# Lifecycle Security Testing: LST2
+### Combine the project-wide penetration testing workflow with continuous integration (CI) techniques
+
+## Activities
+##### A. Expand the automated build with related pen-testing procedures
+Modern software engineering suggests the usage of automated builds as part of a continuous integration mechanism.
+
+Here, we suppose that the current software development cycles are integrated in an automated build process, like _make_ in Linux, _Apache_ _Ant_ especially for Java or _MSBuild_ for .NET development.
+Open source build automation tools like Apache Maven, Jenkins, CircleCI or Travis CI help the team to build and launch the system on a local machine using only a single command.
+
+We take this approach one step further by adding various test cases described in LS-Testing 1 to the automated build scripts. For a first shot, it will be infeasible to target highly project or hardware independent test cases. Rather, try to establish automated test cases that cover all attack patterns and related paths for a specific environment. Later, a switch to more independent solutions.
+The goal of this feature is to combine the ongoing software development of critical systems with highly integrated penetration security testing automation on the local machines of penetration testers. Therefore, the project team should seek the adaptation of test-driven development (TDD) for security related test cases..
+
+##### B. Establish a continuous integration mechanism of the automated build into the project’s version management
+Following up the last activity about the automated security test cases in the automated build routine, the team can expand this approach with continuous integration (CI) techniques.
+
+Common practices of continuous integration involve: (refer to Fowler’s Continuous Integration Guideline: https://www.martinfowler.com/articles/continuousIntegration.html#AutomateTheBuild)  
+-  Maintain a single source repository (LS-Testing 1)
+-  Automate the build (LS-Testing 1)
+-  Make your build self-testing (LS-Testing 1)
+-  Everyone commits to the mainline
+-  Every Commit Should Build the Mainline on an Integration Machine
+-  Fix Broken Builds Immediately (LS-Testing 1)
+-  Keep the Build Fast (LS-Testing 1)
+-  Test in a Clone of the Production Environment (LS-Testing 1)
+-  Make it Easy for Anyone to Get the Latest Executable
+-  Everyone can see what's happening
+-  Automate Deployment
+
+Thus, the new workflow looks as follows:
+Whenever a new software version is published by developers on the version management system, a penetration tester can pull this update into his local machine and run the previously established automated build and later can review the outcomes of the security test cases.
+If a previously succeeded test case now fails, it will be the duty of the penetration tester to elaborate reasoning and suggest either a change to the automated test case (1) or to the newest iteration of software (2). If the test case is broken (1), the penetration tester rewrites it so that it operates again. Depending on the skill set the penetration tester possesses, the tester should update the code for the current iteration of software that is no more vulnerable to the failed test case, or publish an issue about the failed test case on the version management console.
+
+##### ASSESSMENT
+* Do penetration testers have access to automatic software builds that include their tests?
+* Is the penetration testing routine embedded in a continuous integration mechanism?
+* Do developers and penetration testers discuss and handle pen-test cases results?
+
+##### RESULTS
+* Enforced discipline on frequent automated penetration testing
+* Immediate feedback on system-wide impact of local changes
+* Constant availability of a current robust build for all purposes
+* Early detection mechanisms avoiding last-minute chaos
+
+##### SUCCESS METRICS
+* >50% of builds including penetration tests executed automatically on local machines
+* >50% of projects work with continuous integration on a pen-testing level.
+
+##### COSTS
+* Setting up or expanding the build system for automated penetration testing
+* Spreading awareness and acceptance of continuous integration for developers AND penetration testers
+* Heightened complexity of build routines due to demanded flexibility of penetration tests
+
+##### PERSONNEL
+* Penetration Tester
+* Tester
+* Developer
+* (Project) management
+
+##### RELATED LEVELS
+* Lifecycle Security Design – 3
+* Implementation Review – 2
+* Implementation Review – 3
+* Security Testing 2
+* Security Testing 3
+* Lifecycle Security Testing – 3 
+
+# Lifecycle Security Testing: LST3
+### Establish feedback loops and release gates within the continuous integration for the software design and development cycle
+
+## Activities
+##### A. Report (un-) successfully tested builds on a feedback platform
+Depending on the progress of LST-2, a continuous integration platform is introduced and used not only by developers and project management but also by penetration testers. The workflow of penetration testers from LST-2 included the assessment of automated penetration tests after each minor software update. As an outcome, the penetration tester is part of a project-wide and software development cycle-spanning feedback loop that should be established in the following way:  
+
+1.  Developers integrate new software
+2.  Penetration testers review the updates and change the test cases or publish an issue of the current software
+3.  Developers skilled with security training engage in solving the conflicts
+4.  Due to 3., failures in the software could force alteration of software design and also of software architecture on a higher level.
+5.  Due to 4., project management-wide loops have to be established that iteratively check whether current software architecture and design suit the security related attack patterns
+
+It is recommended to document a catalogue of occurred changesets in software design and architecture due to security threats. This documentation can help (new) projects to preventively take care of disclosing written security vulnerabilities by default. Link the attack pattern mitigation and exploitation sections to this catalogue.
+
+##### B. Establish release gates for penetration testing
+As mentioned in Security Testing 3, release gates prevent software from being released with easily found security bugs.
+Integrate penetration testing results into these release gates in order to establish precise points in the software development lifecycle where these penetration test cases must pass in order to enable release of the software.
+
+Begin to draw an initial baseline (release gate 1) on a limited selection of attack pattern paths that must pass, so that improvement to this baseline is possible. Widen the scope of the baseline with additional attack pattern paths cases (release gate 2-4) for a more robust software release.
+
+Another option to structure release gates could be to assign different release gates to (A) releases and (B) release candidates of software development. Consider this approach if you are working on a highly cyber-security relevant system. Release candidates in software development are not intended to be seen as a finished product, rather you test the release candidates in an additional branch of software development in order to fix (security-related) bugs. Add release gates 1-3 to the earlier stages, gate 4 to the latest stage of the release candidate branch.
+
+##### ASSESSMENT
+* Do projects integrate preventive security feedback loops including penetration testing?
+* Do projects establish release gates in the software development lifecycle for penetration testing?
+
+##### RESULTS
+* Projects established a preventive security feedback loop
+* Projects can draw knowledge about secure software architecture and design from security threats catalogue
+* Release gates hinder weakly conceptualized software from publishing
+
+##### SUCCESS METRICS
+* >50% of projects have project-wide security related feedback loops
+* >50% of projects do have release gates
+
+##### COSTS
+* Project management overhead for establishing release gates
+* Documentation overhead for security threats catalogue
+
+##### PERSONNEL
+* Architects
+* Developers
+* Penetration Testers
+* Security Auditors
+* Business Owners
+* Managers
+
+##### RELATED LEVELS
+* Secure Architecture – 1
+* Secure Architecture – 2
+* Secure Architecture – 3
+* Design Review – 2
+* Implementation Review – 2
+* Implementation Review – 3
+
 # Issue Management
 | | **IM1** | **IM2** | **IM3** |
 |:-------------|:-------------|:---------------|:-------------|:------------|
@@ -2553,6 +3154,127 @@ Since code signing is not appropriate for everything, architects and developers 
 
 ##### RELATED LEVELS
 * None 
+
+# Lifecycle Security Monitoring
+| | **LSM1** | **LSM2** | **LSM3** |
+|:-------------|:-------------|:---------------|:-------------|:------------|
+| **Objective** | **Awareness of potentielle Attack Patterns.** | **Knowledge about impact of attack patterns to released Hardware and Software versions and variants.** | **Minimize negative impacts for customers.**|
+| **Activities** | **A.** Maintenance of Attack pattern catalogue **B.** 1.	Maintenance of Attack pattern catalogue| **A.** Implement all relevant Pen-Tests on all relevant HW and SW versions and variants **B.** Execute all relevant pen-tests on all relevant HW and SW | **A.** Deploy degradations to customer **B.** Deploy updates to customer |
+| **Assessment** | ✦Does your organisation gather information about new vulnerability issues? ✦Are these issues filtered to dedicated project, used hardware and software stacks? ✦Are there project teams after final (serial) release responsible for these issues?| ✦Is your penetration test continuously developed further? ✦Do you assure, that penetration tests are executed for every released HW/SW Combination? ✦Does your company collect and archive all results of these pen tests? | ✦Does your company know how to contact the end users of your ECUs? ✦Does your company have a process which defines the propagation of Security Vulnerabilities to your Customers? ✦Does your project team provide security degradation guidance model? ✦Does your company have a process which defines the propagation of Security updates to your Customers?|
+| **Results** | ✦Company has improved security knowledge ✦Up to date overview of potential attack surfaces ✦c.	Always up to date catalogue of attack patterns linked with probably impacts | ✦Detailed matrix which links attack patterns to ECUs ✦Database with references from SW/HW variants of ECU and possible attack patterns ✦Detailed TODO-List / Bug-List for each product/ECU. | ✦Company has knowledge about current security risk of their products ✦Company has process and infrastructure for deploying security information and updates to end user ✦Security is guaranteed because all patches and workarounds are deployed to customers/end users|
+
+# Lifecycle Security Monitoring: LSM1
+### Awareness of potential attack patterns
+
+## Activities
+##### A. Maintenance of the attack pattern catalogue
+A central division of the company has to know about every hardware derivate and every software library which is used in any product at customer.
+
+With this responsibility, this division has to monitor multiple appropriate feeds to keep the knowledge about security disclosers up to date.
+
+Further potential combined attacks must be investigated, documented and the risks has to be estimated.
+
+All the gathered information has to lead into "Attack Pattern" which are also have to be stored in a structured database.
+
+##### B. Maintenance of the attack pattern catalogue
+TODO add long description + metrics, costs, personnel, related levels
+
+##### ASSESSMENT
+* Does your organisation gather information about new vulnerability issues?
+* Are these issues filtered to dedicated project, used hardware and software stacks?
+* Are there project teams after final (serial) release responsible for these issues?
+
+##### RESULTS
+* Company has improved security knowledge 
+* Up to date overview of potential attack surfaces
+* Always up to date catalogue of attack patterns linked with probably impacts
+
+##### SUCCESS METRICS
+* XXX
+
+##### COSTS
+* XXX
+
+##### PERSONNEL
+* XXX
+
+##### RELATED LEVELS
+* XXX
+
+# Lifecycle Security Monitoring: LSM2
+### Knowledge about impact of attack patterns to released hardware and software versions and variants
+
+## Activities
+##### A. Implement all relevant penetration tests on all relevant hardware and software versions and variants
+At product level the knowledge about attack pattern should be classified. This classification should structure the attack patterns to the ECUs. Thereby only theses ECUs have to be considered which are in the field. ECUs during development for example can be lower prioritize.
+
+Nevertheless all affected versions and variants have to be evaluated. As result a mapping from Attack Pattern to ECU in combination with Software variant must be developed.
+With this knowledge in mind specific Pen-Tests have to be developed. These penetration tests should be linked to the attack pattern to the "attack pattern-ECU" mapping above.
+
+Out of this mapping a coverage Report of all potential attack pattern can be created.
+After all, the pen-tests have to be executed for all relevant ECU software/hardware combinations. After reviewing the Results regarding risk, minimizing the impact at customer should be in focus. Therefore patches or workarounds maybe also degradation strategies have to be developed. Also having security issues in mind one have to guarantee quality/functionality of the ECU also. The security workaround should also be tested in ‘classic’ way to be sure, customer still has his wanted functionality in his car.
+
+##### B. Execute all relevant penetration tests on all relevant hardware and software
+TODO add long description + metrics, costs, personnel, related levels
+
+##### ASSESSMENT
+* Is your penetration test continuously developed further?
+* Do you assure, that penetration tests are executed for every released hardware/software combination?
+* Does your company collect and archive all results of these pen tests?
+
+##### RESULTS
+* Detailed matrix which links attack patterns to ECUs
+* Database with references from software/hardware variants of ECU and possible attack patterns
+* Detailed TODO list / bug list for each product/ECU
+
+##### SUCCESS METRICS
+* XXX
+
+##### COSTS
+* XXX
+
+##### PERSONNEL
+* XXX
+
+##### RELATED LEVELS
+* XXX
+
+# Lifecycle Security Monitoring: LSM3
+### Minimize negative impacts for customers
+
+## Activities
+##### A. Deploy degradations to customer
+Already when starting a new ECU project one have to clarify the communication to the end user/customer. This is essential to ensure later updates and or degradations. Therefore an infrastructure has to be set up. This infrastructure has to be cleared with OEM also. It has to be maintained and ensured that it is "future save". Thus it has to guarantee later updated can be deployed.
+Secondly the infrastructure is itself a high risk channel to the ECUs in the field.
+This leads also to many efforts to be made to keep this channel secure and still working.
+Security and reliability have to be in focus.
+After in step 2 (Doing) a security update has be developed or a potential degradation is decided this has to be deployed to the ECUs out in the field. Thereby only affected ECUs should get an update. This can be dependent to Hardware and or Software version and variant. Therefore usually at OEM side a database with software and hardware Variants have to be maintained and used for the deployment of security updates.
+
+##### B. Deploy updates to customer
+TODO add long description + metrics, costs, personnel, related levels
+
+##### ASSESSMENT
+* Does your company know how to contact the end users of your ECUs?
+* Does your company have a process which defines the propagation of security vulnerabilities to your customers?
+* Does your project team provide security degradation guidance model?
+* Does your company have a process which defines the propagation of security updates to your customers?
+
+##### RESULTS
+* Company has knowledge about current security risk of their products
+* Company has process and infrastructure for deploying security information and updates to end user
+* Security is guaranteed because all patches and workarounds are deployed to customers/end users
+ 
+##### SUCCESS METRICS
+* XXX
+
+##### COSTS
+* XXX
+
+##### PERSONNEL
+* XXX
+
+##### RELATED LEVELS
+* XXX
 
 # Sponsors
 We would like to thank the following sponsors who have donated funds to the SAMM project in the past:
