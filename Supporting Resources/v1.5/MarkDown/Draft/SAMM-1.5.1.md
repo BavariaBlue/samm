@@ -123,7 +123,7 @@ Governance is centered on the processes and activities related to how an organiz
 
 **Strategy & Metrics** involves the overall strategic direction of the software assurance program and instrumentation of processes and activities to collect metrics about an or- ganization’s security posture.
 
-**Policy & Compliance** involves setting up a security, compliance, and audit control framework throughout an organization to achieve increased assurance in software under contruction and in operation.
+**Policy & Compliance** involves setting up a security, compliance, and audit control framework throughout an organization to achieve increased assurance in software under construction and in operation.
 
 **Education & Guidance** involves increasing security knowledge amongst personnel in software development through training and guidance on security topics relevant to individual job functions.
 
@@ -181,7 +181,7 @@ TODO change number of pages
 
 ### Maturity Levels
 
-Each of the twelve security practices has three defined maturity levels and an implicit starting point at zero. The details for each level differs between the practices, but they generally represent:
+Each of the twelve security practices has three defined maturity levels and an implicit starting point at zero. The details for each level differ between the practices, but they generally represent:
 
 * 0. Implicit starting point representing the activities in the practice being unfulfilled
 * 1. Initial understanding and adhoc provision of security practice
@@ -204,7 +204,7 @@ The toolbox spreadsheet has been updated to reflect more context aware answers f
 # Governance
 ## Description of Security Practices
 
-TODO change all numbers of pages  in the sections "Activity overview" of all security practices
+TODO change all numbers of pages in the sections "Activity overview" of all security practices
 
 ### Strategy & Metrics
 The Strategy & Metrics (SM) practice is focused on establishing the framework within an organization for a software security assurance program. This is the most fundamental step in defining security goals in a way that’s both measurable and aligned with the organization’s real business risk.
@@ -431,7 +431,7 @@ TODO add long description
 | | IM 1 | IM 2 | IM 3 |
 |:-------------|:------------- |:---------------|:-------------|
 | **Objective:** |**Understand high-level plan for responding to issue reports or incidents.**|**Elaborate expectations for response process to improve consistency and communications.**|**Improve analysis and data gathering within response process for feedback into proactive planning.**|  
-| **Activities:** |**A.** Identify point of contact for security issues **B.** Create informal security response team(s) | **A.** Establish consistent issue reponse process **B.** Adopt a security issue disclosure process |**A.** Conduct root cause analysis for for issues **B.** Collect per-issue metrics|
+| **Activities:** |**A.** Identify point of contact for security issues **B.** Create informal security response team(s) | **A.** Establish consistent issue response process **B.** Adopt a security issue disclosure process |**A.** Conduct root cause analysis for issues **B.** Collect per-issue metrics|
 
 ### Environment Hardening
 *…more on page 64*
@@ -582,7 +582,7 @@ TODO copy paste assessment
 | ✦ Is special staff trained or are external certified testers employed? | NO | SOME | HALF | MOST |
 |**LSD3**
 | ✦ Can products be tested hardware independently? | NO | SOME | HALF | MOST |
-| ✦ Can products be updated subsequently after roll out? | NO | SOME | HALF | MOST |
+| ✦ Can products be updated subsequently after rollout? | NO | SOME | HALF | MOST |
 | ✦ Can results from penetration tests be reused? | NO | SOME | HALF | MOST |
 | ✦ Is security already implemented into the lifecycle? | NO | IN SOME PRODUCTS | IN MANY PRODUCTS | COMPLETELY
 |
@@ -623,7 +623,7 @@ TODO copy paste assessment
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
 | **ST1**
 | ✦Do projects specify security testing based on defined security requirements? | NO | SOME | HALF | MOST |
-| ✦Is penetration testing performed on high risk projects prior to release? | NO | SOME | HALF | MOST |
+| ✦Is penetration testing performed on high-risk projects prior to release? | NO | SOME | HALF | MOST |
 |✦Are stakeholders aware of the security test status prior to release? | NO | SOME | HALF | MOST |
 | **ST2**
 | ✦Do projects use automation to evaluate security test cases? | NO | SOME | HALF | MOST |
@@ -703,7 +703,7 @@ TODO add levels & remove automotive-only character
 |:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
 | **LSM1**
-| ✦Does your organisation gather information about new vulnerability issues? | ??? | ??? | ??? | ??? |
+| ✦Does your organization gather information about new vulnerability issues? | ??? | ??? | ??? | ??? |
 | ✦Are these issues filtered to dedicated project, used hardware and software stacks? | ??? | ??? | ??? | ??? |
 | ✦Are there project teams after final (serial) release responsible for these issues? | ??? | ??? | ??? | ??? |
 | **LSM2**
@@ -714,7 +714,7 @@ TODO add levels & remove automotive-only character
 | ✦Does your company know how to contact the end users of your ECUs? | ??? | ??? | ??? | ??? |
 | ✦Does your company have a process which defines the propagation of security vulnerabilities to your customers? | ??? | ??? | ??? | ??? |
 | ✦Does your project team provide security degradation guidance model? | ??? | ??? | ??? | ??? |
-| ✦Does your company have a process which defines the propagation of Security updates to your Customers? | ??? | ??? | ??? | ??? |
+| ✦Does your company have a process which defines the propagation of security updates to your customers? | ??? | ??? | ??? | ??? |
 
 #!['THE SECURITY PRACTICES: An explanation of the details' IMAGES HERE](SecurityPractices.png )
 #![PracticesImage](PracticesImage.png )
@@ -736,14 +736,14 @@ This section defines the building blocks of SAMM, the maturity levels under each
 ##### A. Estimate overall business risk profile.
 Interview business owners and stakeholders and create a list of worst-case scenarios across the organization’s various application and data assets. Based on the way in which your organization builds, uses, or sells software, the list of worst-case scenarios can vary widely, but common issues include data theft or corruption, service outages, monetary loss, reverse engineering, account compromise, etc.
 
-After broadly capturing worst-case scenario ideas, collate and select the most important based on collected information and knowledge about the core business. Any number can be selected, but aim for at least three and no more than seven to make efficient use of time and keep the exercise focused.
+After broadly capturing worst-case scenario ideas, collate and select the most important based on collected information and knowledge about the core business. Any number can be selected but aim for at least three and no more than seven to make efficient use of time and keep the exercise focused.
 
 Elaborate a description of each of the selected items and document details of contributing worst-case scenarios, potential contributing factors, and potential mitigating factors for the organization.
 
 The final business risk profile should be reviewed with business owners and other stakeholders for understanding.
 
 ##### B. Build and maintain assurance program roadmap. 
-Understanding the main business risks to the organization, evaluate the current performance of the organization against each the twelve practices. Calculate a score for each practice based on the answers to the multiple choice questions using the toolbox spreadsheet or SAMM survey application.
+Understanding the main business risks to the organization, evaluate the current performance of the organization against each the twelve practices. Calculate a score for each practice based on the answers to the multiple-choice questions using the toolbox spreadsheet or SAMM survey application.
 
 Once a good understanding of current status is obtained, the next goal is to identify the practices that will be improved in the next iteration. Select them based on business risk profile, other business drivers, compliance requirements, budget tolerance, etc. Once practices are selected, the goals of the iteration are to achieve the next objective under each.
 Iterations of improvement on the assurance program should be approximately 3-6 months, but an assurance strategy session should take place at least every three months to review progress on activities, performance against success metrics and other business drivers that may require program changes.
@@ -850,7 +850,7 @@ Using the application risk categories and the respective prescribed assurance pr
 
 Combine the application-specific cost information with the general cost model based on risk category, and then evaluate projects for outliers, i.e. sums disproportionate to the risk rating. These indicate either an error in risk evaluation/classification or the necessity to tune the organization’s assurance program to address root causes for security cost more effectively.
 
-The tracking of security spend per project should be done quarterly at the assurance program strategy session, and the information should be reviewed and evaluated by stakeholders at least annually. Outliers and other unforeseen costs should be discussed for potential affect on assurance program roadmap.
+The tracking of security spend per project should be done quarterly at the assurance program strategy session, and the information should be reviewed and evaluated by stakeholders at least annually. Outliers and other unforeseen costs should be discussed for potential effect on assurance program roadmap.
 
 ##### ASSESSMENT
 * Is per-project data for the cost of assurance activities collected?
@@ -939,7 +939,7 @@ At a minimum, update and review control statements with stakeholders at least bi
 
 ## Activities
 ##### A. Build policies and standards for security and compliance
-Beginning with a current compliance guidelines, review regulatory standards and note any optional or recommended security requirements. Also, the organization should conduct a small amount of research to discover any potential future changes in compliance requirements that are relevant.
+Beginning with a current compliance guideline, review regulatory standards and note any optional or recommended security requirements. Also, the organization should conduct a small amount of research to discover any potential future changes in compliance requirements that are relevant.
 
 Augment the list with any additional requirements based on known business drivers for security. Often it is simplest to consult existing guidance being provided to development staff and gather a set of best practices.
 
@@ -1157,12 +1157,12 @@ Building upon written resources on topics relevant to application security, crea
 
 Beyond static content in the form of best-practices lists, tool-specific guides, FAQs, and other articles, the support portal should feature interactive components such as mailing lists, web- based forums, or wikis to allow internal resources to cross-communicate security relevant topics and have the information cataloged for future reference.
 
-The content should be cataloged and easily searchable based upon several common factors such as platform, programming language, pertinence to specific third party libraries or frameworks, lifecycle stage, etc. Project teams creating software should align themselves early in product development to the specific guidelines that they will follow. In product as-sessments, the list of applicable guidelines and product-related discussions should be used as audit criteria.
+The content should be cataloged and easily searchable based upon several common factors such as platform, programming language, pertinence to specific third-party libraries or frameworks, lifecycle stage, etc. Project teams creating software should align themselves early in product development to the specific guidelines that they will follow. In product as-sessments, the list of applicable guidelines and product-related discussions should be used as audit criteria.
 
 ##### B. Establish role-based examination/certification
 Either per role or per training class/module, create and administer aptitude exams that test people for comprehension and utilization of security knowledge. Typically, exams should be created based on the role-based curricula and target a minimum passing score around 75% correct. While staff should be required to take applicable training or refresher courses an- nually, certification exams should be required biannually at a minimum.
 
-Based upon pass/fail criteria or exceptional performance, staff should be ranked into tiers such that other security-related activities could require individuals of a particular certification level to sign-off before the activity is complete, e.g. an uncertified developer cannot pass a design into implementation without explicit approval from a certified architect. This provides granular visibility on an per-project basis for tracking security decisions with individual accountability. Overall, this provides a foundation for rewarding or penalizing staff for making good business decisions regarding application security.
+Based upon pass/fail criteria or exceptional performance, staff should be ranked into tiers such that other security-related activities could require individuals of a particular certification level to sign-off before the activity is complete, e.g. an uncertified developer cannot pass a design into implementation without explicit approval from a certified architect. This provides granular visibility on a per-project basis for tracking security decisions with individual accountability. Overall, this provides a foundation for rewarding or penalizing staff for making good business decisions regarding application security.
 
 ##### ASSESSMENT
 * Is security-related guidance centrally controlled and consistently distributed throughout the organization?
@@ -1303,7 +1303,7 @@ e.g. non regular strong interactions
 Collaboration Management based on Col_MM [11]
 e.g. decisions made reactive
 
-Collabration Process based on Col_MM [11]
+Collaboration Process based on Col_MM [11]
 e.g. hierarchical conflict interventions
 
 Information and Knowledge integration based on Col_MM [11]
@@ -1409,7 +1409,7 @@ To build attack trees, identify each worst-case scenario in one sentence and lab
 
 Regardless of the threat modeling approach, review each current and historic functional requirement to augment the attack tree to indicate security failures relevant to each. Brain- storm by iteratively dissecting each failure scenario into all the possible ways in which an attacker might be able to reach one of the goals. After initial creation, the threat model for an application should be updated when significant changes to the software are made. This assessment should be conducted with senior developers and architects as well as one or more security auditors.
 
-##### B. Develop attacker profile rom sotware architecture
+##### B. Develop attacker profile rom software architecture
 Initially, conduct an assessment to identify all likely threats to the organization based on software projects. For this assessment, consider threats to be limited to agents of malicious intent and omit other risks such as known vulnerabilities, potential weaknesses, etc.
 
 Begin by generally considering external agents and their corresponding motivations for attack. To this list, add internal roles that could cause damage and their motivations for insider attack. Based on the architecture of the software project(s) under consideration, it can be more efficient to conduct this analysis once per architecture type instead of for each project individually since applications of architecture and business purpose will generally be suscep-tible to similar threats.
@@ -1624,7 +1624,7 @@ Ultimately, the notion of risks leading to new security requirements should beco
 ##### RESULTS
 * Detailed understanding of attack scenarios against business logic
 * Prioritized development effort for security features based on likely attacks
-* More educated decisionmaking for tradeoffs between features and security efforts
+* More educated decision-making for tradeoffs between features and security efforts
 * Stakeholders that can better avoid functional requirements that inherently have security flaws
 
 ##### SUCCESS METRICS
@@ -1759,7 +1759,7 @@ Several factors should contribute to decisions for inclusion on the recommended 
 This list should be created by senior developers and architects, but also include input from managers and security auditors. After creation, this list of recommended components matched against functional categories should be advertised to the development organization. Ultimately, the goal is to provide well-known defaults for project teams.
 
 ##### B. Identify security design patterns from architecture
-Across software projects at an organization, each should be categorized in terms of the generic architecture type. Common categories include client-server applications, embedded systems, desktop applications, web-facing applications, web services platforms, transactional middleware systems, mainframe applications, etc. Depending on your organizations specialty, more detailed categories may need to be developed based upon language, or processor architecture, or even era of deployment.
+Across software projects at an organization, each should be categorized in terms of the generic architecture type. Common categories include client-server applications, embedded systems, desktop applications, web-facing applications, web services platforms, transactional middleware systems, mainframe applications, etc. Depending on your organization's specialty, more detailed categories may need to be developed based upon language, or processor architecture, or even era of deployment.
 
 For the generic software architecture type, a set of general design patterns representing sound methods of implementing security functionality can be derived and applied to the individual designs of an organization’s software projects. These security design patterns represent general definitions of generic design elements they can be researched or purchased, and it is often even more effective if these patterns are customized to be made more specific to your organization. Example patterns include a single-sign-on subsystem, a cross-tier delegation model, a hardened interface design, separation-of-duties authorization model, a centralized logging pattern, etc.
 
@@ -1797,7 +1797,7 @@ The process of identification of applicable and appropriate patterns should be c
 
 ## Activities
 ##### A. Establish formal reference architectures and platforms 
-After promoting integration with shared security services and working with security patterns specific to each type of architecture, a collection of code implementing these pieces of functionality should be selected from project teams and used as the basis for a shared code-base. This shared code-base can initially start as a collection of commonly recommended libraries that each project needs to use and it can grow over time into one or more software frameworks representing reference platforms upon which project teams build their software. Examples of reference platforms include frameworks for model view-controller web applications, libraries supporting transactional back-end systems, frameworks for web services platforms, scaffolding for client-server applications, frameworks for middle-ware with pluggable business logic, etc.
+After promoting integration with shared security services and working with security patterns specific to each type of architecture, a collection of code implementing these pieces of functionality should be selected from project teams and used as the basis for a shared code-base. This shared code-base can initially start as a collection of commonly recommended libraries that each project needs to use, and it can grow over time into one or more software frameworks representing reference platforms upon which project teams build their software. Examples of reference platforms include frameworks for model view-controller web applications, libraries supporting transactional back-end systems, frameworks for web services platforms, scaffolding for client-server applications, frameworks for middle-ware with pluggable business logic, etc.
 
 Another method of building initial reference platforms is to select a particular project early in the life-cycle and have security-savvy staff work with them to build the security functionality in a generic way so that it could be extracted from the project and utilized elsewhere in the organization.
 
@@ -1818,7 +1818,7 @@ Metrics collected from each project should be collated for analysis by managers 
 * Are project teams audited for the use of secure architecture components?
 
 ##### RESULTS
-* Customized application development platforms that provide builtin
+* Customized application development platforms that provide built-in
 security protections
 * Organization-wide expectations for proactive security effort in development
 * Stakeholders better able to make tradeoff decisions based on business need for secure design
@@ -1852,8 +1852,8 @@ security protections
 |:-------------|:------------- |:---------------|:-------------|
 | **Objective:** | **Identify security risks and attack potentialities for individual projects.** | **Plan penetration tests in advance and take future attack potentialities into account.** | **Facilitate semi-autonomous and ongoing penetration tests.** |
 | **Activities:** | **A.** Compile a threat and risk analysis in due consideration of security goals. **B.** Set up an attack pattern catalog. | **A.** Define and categorize test environment. **B.** Downscale security risks of external software and hardware components. | **A.** Facilitate hardware independent penetration tests and implement development cycles by the use of structured data exchange.  **B.** Categorize, acquire and store all relevant hardware and software versions. |
-| **Assessment** | ✦Do projects execute risk analysis (e.g., in regard to (A)SIL)? ✦Are identified attack patterns documented? | ✦Are penetration tests planned and executed for all products? ✦How often are external security reports reviewed? ✦Is special staff trained or are external certified testers employed? | ✦Can products be tested hardware independently? ✦Can products be updated subsequently after roll out? ✦Can results from penetration tests be reused? ✦Is security already implemented into the lifecycle? |
-| **Results** | ✦Understanding of possible security risks. ✦Better understanding of risk functions that need to be tested. ✦Reusable catalog of possible attacks. ✦Mapping of security vulnerabilities to safety-relevant functions. | ✦Better preparation against emerging security vulnerabilities. ✦Simpler testing through tightly defined test environments. ✦Improved test coverage by documenting all pentesting procedures. ✦All tests are up-to-date with latest security vulnerabilities. | ✦Possibility to test products independently of their hardware. ✦Possibility to conduct follow up tests for new security vulnerabilities for every product. ✦Always up to date security standards. ✦Outline of the individual steps of penetration testing within the projects lifecycle. ✦Guideline on appropriate methods for processing the feedback of penetration tests. |
+| **Assessment** | ✦Do projects execute risk analysis (e.g., in regard to (A)SIL)? ✦Are identified attack patterns documented? | ✦Are penetration tests planned and executed for all products? ✦How often are external security reports reviewed? ✦Is special staff trained or are external certified testers employed? | ✦Can products be tested hardware independently? ✦Can products be updated subsequently after roll-out? ✦Can results from penetration tests be reused? ✦Is security already implemented into the lifecycle? |
+| **Results** | ✦Understanding of possible security risks. ✦Better understanding of risk functions that need to be tested. ✦Reusable catalog of possible attacks. ✦Mapping of security vulnerabilities to safety-relevant functions. | ✦Better preparation against emerging security vulnerabilities. ✦Simpler testing through tightly defined test environments. ✦Improved test coverage by documenting all penetration testing procedures. ✦All tests are up-to-date with latest security vulnerabilities. | ✦Possibility to test products independently of their hardware. ✦Possibility to conduct follow-up tests for new security vulnerabilities for every product. ✦Always up to date security standards. ✦Outline of the individual steps of penetration testing within the project's lifecycle. ✦Guideline on appropriate methods for processing the feedback of penetration tests. |
 
 # Lifecycle Security Design: SD1
 
@@ -1877,7 +1877,7 @@ Different views of external advisors can be helpful, too.
 To prepare for penetration tests you should create and maintain an attack pattern catalog across all products.
 For this, known attacks that are relevant to one or more products should be gathered.
 In addition, attacks that are only known by your company are to be included, e.g., from previous penetration tests.
-The gathered information can than be used to create attack patterns.
+The gathered information can then be used to create attack patterns.
 Experiences from previous penetration tests can also be of great help here.
 An attack pattern is an abstract mechanism that describes how an attack works.
 It should begin with a name and include its probability, the exploitability for security, and the severity of the attack.
@@ -1925,13 +1925,13 @@ For the creation and maintaining of the catalog several meetings are needed.
 ## Activities
 ##### A. Define and categorize test environment
 Penetration tests have to be planned in advance with regard to the security goals.
-For that reason standards and test environments should be established within the company according to which the test environment can be defined.
+For that reason, standards and test environments should be established within the company according to which the test environment can be defined.
 Furthermore, a policy has to be compiled, which includes a list of used tools, whether it's black box or white box testing and which interfaces are to be implemented in software or hardware. Please note that these suggestions should be a guideline and no mandatory regulation.
 Before the tests start, the test environment has to be set up, e.g., required software and hardware has to be provided and the approach has to be planned and documented.
 
-After defining the test environment, the penetration tests dependent on security goals and found risk functions can be planned, e.g., in regard to (A)SIL. Furthermore the penetration tests have to be selected and a prioritization and categorization of these tests should be made.
+After defining the test environment, the penetration tests dependent on security goals and found risk functions can be planned, e.g., in regard to (A)SIL. Furthermore, the penetration tests have to be selected and a prioritization and categorization of these tests should be made.
 
-Use the BSI guideline for IT-Security Penetrationtests (https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Studien/Penetrationstest/penetrationstest.pdf?__blob=publicationFile&v=3) and the BSI Study of Penetration Tests (https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Sicherheitsberatung/Pentest_Webcheck/Leitfaden_Penetrationstest.pdf?__blob=publicationFile&v=10) if applicable.
+Use the BSI guideline for IT-Security penetration tests (https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Studien/Penetrationstest/penetrationstest.pdf?__blob=publicationFile&v=3) and the BSI Study of Penetration Tests (https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Sicherheitsberatung/Pentest_Webcheck/Leitfaden_Penetrationstest.pdf?__blob=publicationFile&v=10) if applicable.
 
 Additional measures for planning the penetration tests can be offered in form of training and certifications for internal penetration testers.
 Alternatively, External penetration testers can be tasked for certification.
@@ -1954,7 +1954,7 @@ Additionally, public services, which publish security exploits, should be search
 ##### RESULTS
 * Better preparation against emerging security vulnerabilities
 * Simpler testing through tightly defined test environments
-* Improved test coverage by documenting all pentesting procedures
+* Improved test coverage by documenting all penetration testing procedures
 * All tests are up-to-date with latest security vulnerabilities
 
 ##### SUCCESS METRICS
@@ -2003,16 +2003,16 @@ However, not being able to test every "relevant" can lead to major problems afte
 Therefore, "relevant" SW and HW versions should always be present for testing.
 To make this possible, the affected departments of a company must agree on a standard for "relevant" versions.
 Then, if a new "relevant" HW or SW version is rolled out, it should be stored at least once in the company.
-In order to protect against possible losses, you should consider to store a version several times (redundancies).
+In order to protect against possible losses, you should consider storing a version several times (redundancies).
 To do this, a company must create the necessary capacity and infrastructure.
 Therefore, managers, developers, testers, and security experts need to design a plan for the implementation.
 As a point of reference for relevant versions, the complexity version updates should be taken into consideration, i.e., how many adaptations a user needs to make during an update.
 To integrate the results of the tests into the software development process, appropriate languages and formats must be defined for documenting them.
-Clear responsibilities have to be defined, so that the test results can be adequately addressed and security gaps closed for all versions.
+Clear responsibilities have to be defined, so that the test results can be adequately addressed, and security gaps closed for all versions.
 
 ##### ASSESSMENT
 * Can products be tested hardware independently?
-* Can products be updated subsequently after roll out?
+* Can products be updated subsequently after rollout?
 * Can results from penetration tests be reused?
 * Is security already implemented into the lifecycle?
 
@@ -2020,7 +2020,7 @@ Clear responsibilities have to be defined, so that the test results can be adequ
 * Possibility to test products independently of their hardware
 * Possibility to conduct follow up tests for new security vulnerabilities for every product
 * Always up to date Security standards  
-* Outline of the individual steps of penetration testing within the projects lifecycle
+* Outline of the individual steps of penetration testing within the project's lifecycle
 * Guideline on appropriate methods for processing the feedback of penetration tests
 
 ##### SUCCESS METRICS
@@ -2068,7 +2068,7 @@ From the single page architecture view, analyze each component in terms of acces
 
 For each interface, further elaborate the one-page diagram to note any security-related functionality. Based on the identified interface groups comprising the attack surface, check the model for design-level consistency for how interfaces with similar access are secured. Any breaks in consistency can be noted as assessment findings. 
 
-This analysis should be conducted by security-savvy technical staff, either within the project team or external. Typically, after initial creation, the diagram and attack surface analysis only needs to be updated during the design phase when additions or changes are made to the edge system interfaces.
+This analysis should be conducted by security-savvy technical staff, either within the project team or external. Typically, after initial creation, the diagram and attack surface analysis only need to be updated during the design phase when additions or changes are made to the edge system interfaces.
 
 ##### B. Analyze design against known security requirements
 Security requirements, either formally identified or informally known, should be identified and collected. Additionally, identify and include any security assumptions upon which safe operation of the system relies.
@@ -2121,7 +2121,7 @@ Institute a process whereby project stakeholders can request a design review. Th
 
 The review service should be centrally managed in that the review request queue should be triaged by senior managers, architects, and stakeholders that are familiar with the overall business risk profile for the organization. This allows prioritization of project reviews in alignment with overall business risk.
 
-During a design review, the review team should work with project teams to collect information sufficient to formulate an understanding of the attack surface, match projectspecific security requirements to design elements, and verify security mechanisms at module interfaces.
+During a design review, the review team should work with project teams to collect information sufficient to formulate an understanding of the attack surface, match project-specific security requirements to design elements, and verify security mechanisms at module interfaces.
 
 ##### ASSESSMENT
 * Do project teams specifically analyze design elements for security mechanisms?
@@ -2162,7 +2162,7 @@ Beyond data, high-risk functionality also includes project-specific business log
 With data-flow diagrams created for a project, conduct analysis over them to determine internal choke-points in the design. Generally, these will be individual software modules that handle data with differing sensitivity levels or those that gate access to several business functions of various levels of business criticality.
 
 ##### B. Establish release gates for design review
-Having established a consistent design review program, the next step of enforcement is to set a particular point in the software development lifecycle where a project cannot pass until an design review is conducted and findings are reviewed and accepted. In order to accomplish this, a baseline level of expectations should be set, e.g. no projects
+Having established a consistent design review program, the next step of enforcement is to set a particular point in the software development lifecycle where a project cannot pass until a design review is conducted and findings are reviewed and accepted. In order to accomplish this, a baseline level of expectations should be set, e.g. no projects
 with any high-severity findings will be allowed to pass and all other findings must be accepted by the business owner.
 
 Generally, design reviews should occur toward the end of the design phase to aide early detection of security issues, but it must occur before releases can be made from the project team.
@@ -2212,9 +2212,9 @@ For legacy systems or inactive projects, an exception process should be created 
 ##### A. Create review checklists from known security requirements
 From the known security requirements for a project, derive a lightweight
 implementation review checklist for security. These can be checks specific to the security concerns surrounding the functional requirements or checks for secure coding best practices based on the implementation language, platform, typical technology stack,
-etc. Due to these variations, often a set of checklist are needed to cover the different types of software development within an organization.
+etc. Due to these variations, often a set of checklists are needed to cover the different types of software development within an organization.
 
-Regardless of whether created from publicly available resources or purchased, technical stakeholders such as development managers, architects, developers, and security auditors should review the checklists for efficacy and feasibility. It is important to keep the lists short and simple, aiming to catch high-priority issues that are straightforward to find in code either manually or with simple search tools. Code analysis automation tools may also be used to achieve this same end, but should also be customized to reduce the overall set of security checks to a small, valuable set in order to make the scan and review process efficient.
+Regardless of whether created from publicly available resources or purchased, technical stakeholders such as development managers, architects, developers, and security auditors should review the checklists for efficacy and feasibility. It is important to keep the lists short and simple, aiming to catch high-priority issues that are straightforward to find in code either manually or with simple search tools. Code analysis automation tools may also be used to achieve this same end but should also be customized to reduce the overall set of security checks to a small, valuable set in order to make the scan and review process efficient.
 
 Developers should be briefed on the goals of checklists appropriate to their job function.
 
@@ -2267,7 +2267,7 @@ Many security vulnerabilities at the code level are complex to understand and re
 
 There are both commercial and open-source products available to cover popular programming languages and frameworks. Selection of an appropriate code analysis solution is based on several factors including depth and accuracy of inspection, product usability and usage model, expandability and customization features, applicability to the organization’s architec-ture and technology stack(s), etc.
 
-Utilize input from security-savvy technical staff as well as developers and development managers in the selection process, and review overall results with stakeholders.
+Utilize input from security-savvy technical staff as well as developers and development managers in the selection process and review overall results with stakeholders.
 
 ##### B. Integrate code analysis into development process
 Once a code analysis solution is selected, it must be integrated into the development process to encourage project teams to utilize its capabilities. An effective way to accomplish this is to setup the infrastructure for the scans to run automatically at build time or from code in the project’s code repository. In this fashion, results are available earlier thus enabling development teams to self-check along the way before release.
@@ -2308,7 +2308,7 @@ If unaddressed findings from implementation review remain at time of release, th
 
 ## Activities
 ##### A. Customize code analysis for application-specific concerns
-Code scanning tools are powered by built-in a knowledge-base of rules to check code based on language APIs and commonly used libraries, but have limited ability to understand custom APIs and designs to apply analogous checks. However, through customization, a code scanner can be a powerful, generic analysis engine for finding organization and project-specific security concerns.
+Code scanning tools are powered by built-in a knowledge-base of rules to check code based on language APIs and commonly used libraries but have limited ability to understand custom APIs and designs to apply analogous checks. However, through customization, a code scanner can be a powerful, generic analysis engine for finding organization and project-specific security concerns.
 
 While details vary between tools in terms of ease and power of custom analysis, code scanner customization generally involves specifying checks to be performed at specific APIs and function call sites. Checks can include analysis for adherence to internal coding standards, unchecked tainted data being passed to custom interfaces, tracking and verification of sensitive data handling, correct usage of an internal API, etc.
 
@@ -2319,7 +2319,7 @@ To set a code-level security baseline for all software projects, a particular po
 
 To begin, this standard should be straightforward to meet, for example by choosing one or two vulnerability types and a setting the standard that no project may pass with any corresponding findings. Over time, this baseline standard should be improved by adding additional criteria for passing the checkpoint.
 
-Generally, the implementation review checkpoint should occur toward the end of the implementation phase, but must occur before release. 
+Generally, the implementation review checkpoint should occur toward the end of the implementation phase but must occur before release. 
 
 For legacy systems or inactive projects, an exception process should be created to allow those projects to continue operations, but with an explicitly assigned timeframe for mitigation of findings. Exceptions should be limited to no more that 20% of all projects.
 
@@ -2365,11 +2365,11 @@ For legacy systems or inactive projects, an exception process should be created 
 
 ## Activities
 ##### A. Derive test cases from known security requirements
-From the known security requirements for a project, identify a set of test cases to check the software for correct functionality. Typically, these test cases are derived from security concerns surrounding the functional requirements and business logic of the system, but should also include generic tests for common vulnerabilities based on the implementation language or technology stack.
+From the known security requirements for a project, identify a set of test cases to check the software for correct functionality. Typically, these test cases are derived from security concerns surrounding the functional requirements and business logic of the system but should also include generic tests for common vulnerabilities based on the implementation language or technology stack.
 
 Often, it is most effective to use the project team’s time to build application-specific test cases and utilize publicly available resources or purchased knowledge bases to select applicable general test cases for security. Although not required, automated security testing tools can also be utilized to cover the general security test cases.
 
-This test case planning should occur during the requirements and/or design phases, but must occur before final testing prior to release. Candidate test cases should be reviewed for applicability, efficacy, and feasibility by relevant development, security, and quality assurance staff.
+This test case planning should occur during the requirements and/or design phases but must occur before final testing prior to release. Candidate test cases should be reviewed for applicability, efficacy, and feasibility by relevant development, security, and quality assurance staff.
 
 ##### B. Conduct penetration testing on software releases
 Using the set of security test cases identified for each project, penetration testing should be conducted to evaluate the system’s performance against each case. It is common for this to occur during the testing phase prior to release.
@@ -2381,7 +2381,7 @@ Prior to release or deployment, stakeholders must review results of security tes
 
 ##### ASSESSMENT
 * Do projects specify security testing based on defined security requirements?
-* Is penetration testing performed on high risk projects prior to release?
+* Is penetration testing performed on high-risk projects prior to release?
 * Are stakeholders aware of the security test status prior to release?
 
 ##### RESULTS
@@ -2416,9 +2416,9 @@ critical business functions
 In order to test for security issues, a potentially large number of input cases must be checked against each software interface, which can make effective security testing using manual test case implementation and execution unwieldy. Thus, automated security test tools should be
 used to automatically test software, resulting in more efficient security testing and higher quality results.
 
-Both commercial and open-source products are available and should be reviewed for appropriateness for the organization. Selecting a suitable tool is based on several factors including robustness and accuracy of built-in security test cases, efficacy at testing architecture types important to organization, customization to change or add test cases, quality and usability of findings to the development organization, etc..
+Both commercial and open-source products are available and should be reviewed for appropriateness for the organization. Selecting a suitable tool is based on several factors including robustness and accuracy of built-in security test cases, efficacy at testing architecture types important to organization, customization to change or add test cases, quality and usability of findings to the development organization, etc.
 
-Utilize input from security-savvy technical staff as well as development and quality assurance staff in the selection process, and review overall results with stakeholders.
+Utilize input from security-savvy technical staff as well as development and quality assurance staff in the selection process and review overall results with stakeholders.
 
 ##### B. Integrate security testing into development process
 With tools to run automated security tests, projects within the organization should routinely run security tests and review results during development. In order to make this scalable with low overhead, security testing tools should be configured to automatically run on a routine basis, e.g. nightly or weekly, and findings should be inspected as they occur.
@@ -2476,7 +2476,7 @@ To prevent software from being released with easily found security bugs, a parti
 
 Since adding too many test cases initially can result in an overhead cost bubble, begin by choosing one or two security issues and include a wide variety of test cases for each with the expectation that no project may pass if any test fails. Over time, this baseline should be improved by selecting additional security issues and adding a variety of corresponding test cases.
 
-Generally, this security testing checkpoint should occur toward the end of the implementation or testing, but must occur before release.
+Generally, this security testing checkpoint should occur toward the end of the implementation or testing but must occur before release.
 
 For legacy systems or inactive projects, an exception process should be created to allow those projects to continue operations, but with an explicitly assigned timeframe for mitigation of findings. Exceptions should be limited to no more that 20% of all projects.
 
@@ -2596,7 +2596,7 @@ Here, we suppose that the current software development cycles are integrated in 
 Open source build automation tools like Apache Maven, Jenkins, CircleCI or Travis CI help the team to build and launch the system on a local machine using only a single command.
 
 We take this approach one step further by adding various test cases described in LS-Testing 1 to the automated build scripts. For a first shot, it will be infeasible to target highly project or hardware independent test cases. Rather, try to establish automated test cases that cover all attack patterns and related paths for a specific environment. Later, a switch to more independent solutions.
-The goal of this feature is to combine the ongoing software development of critical systems with highly integrated penetration security testing automation on the local machines of penetration testers. Therefore, the project team should seek the adaptation of test-driven development (TDD) for security related test cases..
+The goal of this feature is to combine the ongoing software development of critical systems with highly integrated penetration security testing automation on the local machines of penetration testers. Therefore, the project team should seek the adaptation of test-driven development (TDD) for security related test cases.
 
 ##### B. Establish a continuous integration mechanism of the automated build into the project’s version management
 Following up the last activity about the automated security test cases in the automated build routine, the team can expand this approach with continuous integration (CI) techniques.
@@ -2616,7 +2616,7 @@ Common practices of continuous integration involve: (refer to Fowler’s Continu
 
 Thus, the new workflow looks as follows:
 Whenever a new software version is published by developers on the version management system, a penetration tester can pull this update into his local machine and run the previously established automated build and later can review the outcomes of the security test cases.
-If a previously succeeded test case now fails, it will be the duty of the penetration tester to elaborate reasoning and suggest either a change to the automated test case (1) or to the newest iteration of software (2). If the test case is broken (1), the penetration tester rewrites it so that it operates again. Depending on the skill set the penetration tester possesses, the tester should update the code for the current iteration of software that is no more vulnerable to the failed test case, or publish an issue about the failed test case on the version management console.
+If a previously succeeded test case now fails, it will be the duty of the penetration tester to elaborate reasoning and suggest either a change to the automated test case (1) or to the newest iteration of software (2). If the test case is broken (1), the penetration tester rewrites it so that it operates again. Depending on the skill set the penetration tester possesses, the tester should update the code for the current iteration of software that is no more vulnerable to the failed test case or publish an issue about the failed test case on the version management console.
 
 ##### ASSESSMENT
 * Do penetration testers have access to automatic software builds that include their tests?
@@ -2842,7 +2842,7 @@ Lastly, many states and countries legally require external communications for in
 
 ##### SUCCESS METRICS
 * >80% of incidents documented with root causes and further recommendations in the past six months
-* >80% of incidents collated for metrics in the the past six months
+* >80% of incidents collated for metrics in the past six months
 
 ##### COSTS
 * Ongoing organization overhead from conducting deeper research and analysis of incidents
@@ -2863,7 +2863,7 @@ Lastly, many states and countries legally require external communications for in
 |:-------------|:-------------|:---------------|:-------------|:------------|
 | **Objective** | **Understand baseline operational environment for applications and software components.** | **Improve confidence in application operations by hardening the operating environment.** | **Validate application health and status of operational environment against known best practices.**|
 | **Activities** | **A.** Maintain operational environment specification **B.** Identify and install critical security upgrades and patches | **A.** Establish routine patch management process **B.** Monitor baseline environment configuration status | **A.** Identify and deploy relevant operations protection tools **B.** Expand audit program for environment configuration |
-| **Assessment** | ✦Do projects document operational environment security requirements? ✦Do projects check for security updates to third-party software components? | ✦Is a consistent process used to apply upgrades and patches to critical dependencies? ✦Do projects leverage automation to check application and environment health? | ✦Are stakeholders aware of options for additional tools to protect software while running in operations? ✦Does a minimum security baseline exist for environment health (versioning, patching, etc)? |
+| **Assessment** | ✦Do projects document operational environment security requirements? ✦Do projects check for security updates to third-party software components? | ✦Is a consistent process used to apply upgrades and patches to critical dependencies? ✦Do projects leverage automation to check application and environment health? | ✦Are stakeholders aware of options for additional tools to protect software while running in operations? ✦Does a minimum security baseline exist for environment health (versioning, patching, etc.)? |
 | **Results** | ✦Clear understanding of operational expectations within the development team ✦High-priority risks from underlying infrastructure mitigated on a well-understood timeline ✦Software operators with a high-level plan for security-critical maintenance of infrastructure | ✦Granular verification of security characteristics of systems in operations ✦Formal expectations on timelines for infrastructure risk mitigation ✦Stakeholders consistently aware of current operations status of software projects | ✦✦Reinforced operational environment with layered checks for security ✦Established and measured goals for operational
 maintenance and performance ✦Reduced likelihood of successful attack via flaws in external dependencies |
 
@@ -2895,7 +2895,7 @@ As such, regular research or ongoing monitoring of high-risk dependencies should
 * Clear understanding of operational expectations within the development team
 * High-priority risks from underlying infrastructure mitigated on a
 well-understood timeline
-* Software operators with a highlevel plan for security-critical maintenance of infrastructure
+* Software operators with a high-level plan for security-critical maintenance of infrastructure
 
 ##### SUCCESS METRICS
 * >50% of projects with updated operational environment specification in the past six months
@@ -2931,7 +2931,7 @@ Additionally, development staff should share a list of third-party components up
 ##### B. Monitor baseline environment configuration status
 Given the complexity of monitoring and managing patches alone across the variety of components composing the infrastructure for a software project, automation tools should be utilized to automatically monitor systems for soundness of configuration. 
 
-There are both commercial and open-source tools available to provide this type of functionality, so project teams should select a solution based on appropriateness to the organization’s needs. Typical selection criteria includes ease of deployment and customization, applicability to the organization’s platforms and technology stacks, built-in features for change management and alerting, metrics collection and trend tracking etc.
+There are both commercial and open-source tools available to provide this type of functionality, so project teams should select a solution based on appropriateness to the organization’s needs. Typical selection criteria include ease of deployment and customization, applicability to the organization’s platforms and technology stacks, built-in features for change management and alerting, metrics collection and trend tracking etc.
 
 In addition to host and platform checks, monitoring automation should be customized to perform application-specific health checks and configuration verifications. Support and operations personnel should work with architects and developers to determine the optimal amount of monitoring for a given software project. 
 
@@ -2973,18 +2973,18 @@ In order to build a better assurance case for software in its operating environm
 
 Commonly used protections tools include web application firewalls, XML security gateways for web services, anti-tamper and obfuscation packages for client/embedded systems, network intrusion detection/prevention systems for legacy infrastructure, forensic log aggregation tools, host-based integrity verification tools, etc.
 
-Based on the organization and project-specific knowledge, technical stakeholders should work with support and operations staff to identify and recommend selected operations protection tools to business stakeholders. If deemed a valuable investment in terms of riskreduction
+Based on the organization and project-specific knowledge, technical stakeholders should work with support and operations staff to identify and recommend selected operations protection tools to business stakeholders. If deemed a valuable investment in terms of risk reduction
 versus cost of implementation, stakeholders should agree on plans for a pilot, widespread rollout, and ongoing maintenance.
 
 ##### B. Expand audit program for environment configuration
 When conducting routine project-level audits, expand the review to include inspection of artifacts related to hardening the operating environment. Beyond an up-to-date specification for the operational environment, audits should inspect current patch status and historic
 data since the previous audit. By tapping into monitoring tools, audits can also verify key factors about application configuration management and historic changes. Audits should also inspect the usage of operations protections tools against those available for the software’s architecture type.
 
-Audits for infrastructure can occur at any point after a project’s initial release and deployment, but should occur at least every six months. For legacy systems or projects without active development, infrastructure audits should still be conducted and reviewed by business stakeholders. An exception process should be created to allow special-case projects to continue operations, but with an explicitly assigned timeframe for mitigation of findings. Exceptions should be limited to no more that 20% of all projects. 
+Audits for infrastructure can occur at any point after a project’s initial release and deployment but should occur at least every six months. For legacy systems or projects without active development, infrastructure audits should still be conducted and reviewed by business stakeholders. An exception process should be created to allow special-case projects to continue operations, but with an explicitly assigned timeframe for mitigation of findings. Exceptions should be limited to no more that 20% of all projects. 
 
 ##### ASSESSMENT 
 * Are stakeholders aware of options for additional tools to protect software while running in operations?
-* Does a minimum security baseline exist for environment health (versioning, patching, etc)?
+* Does a minimum security baseline exist for environment health (versioning, patching, etc.)?
 
 ##### RESULTS
 * Reinforced operational environment with layered checks for security
@@ -3029,7 +3029,7 @@ With software-specific knowledge, project teams should identify any security-rel
 This analysis should begin with architects and developers building a list of security features built-in to the software. From that list, information about configuration options and their security impact should be captured as well. For projects that offer several different deployment models, information about the security ramifications of each should be noted to better inform users and operators about the impact of their choices.
 
 Overall, the list should be lightweight and aim to capture the most critical information. Once initially created, it should be reviewed by the project team and business stakeholders for agreement. Additionally, it is effective to review this list with select operators or users
-in order to ensure the information is understandable and actionable. Project teams should review and update this information with every release, but must do so at least every six months.
+in order to ensure the information is understandable and actionable. Project teams should review and update this information with every release but must do so at least every six months.
 
 ##### B. Document procedures for typical application alerts
 With specific knowledge of ways in which software behaves, project teams should identify the most important error and alert messages which require user/operator attention. From each identified event, information related to appropriate user/operator actions in response to the event should be captured.
@@ -3116,9 +3116,9 @@ The operational security guide, after initial creation, should be reviewed by pr
 When conducting routine project-level audits, expand the review to include inspection of artifacts related to operational enablement for security. Projects should be checked to ensure they have an updated and complete operational security guides as relevant to the specifics
 of the software.
 
-These audits should begin toward the end of the development cycle close to release, but must be completed and passed before a release can be made. For legacy systems or inactive projects, this type of audit should be conducted and a one-time effort should be made to address findings and verify audit compliance, after which additional audits for operational enablement are no longer required.
+These audits should begin toward the end of the development cycle close to release but must be completed and passed before a release can be made. For legacy systems or inactive projects, this type of audit should be conducted, and a one-time effort should be made to address findings and verify audit compliance, after which additional audits for operational enablement are no longer required.
 
-Audit results must be reviewed with business stakeholders prior to release. An exception process should be created to allow projects failing an audit to continue with a release, but these projects should have a concrete timeline for mitigation of findings. Exceptions should be limited to no more that 20% of all active projects.
+Audit results must be reviewed with business stakeholders prior to release. An exception process should be created to allow projects failing an audit to continue with a release but these projects should have a concrete timeline for mitigation of findings. Exceptions should be limited to no more that 20% of all active projects.
 
 ##### B. Perform code signing for application components
 Though often used with special-purpose software, code signing allows users and operators to perform integrity checks on software such that they can cryptographically verify the authenticity of a module or release. By signing software modules, the project team enables deployments to operate with a greater degree of assurance against any corruption or modification of the deployed software in its operating environment.
@@ -3158,9 +3158,9 @@ Since code signing is not appropriate for everything, architects and developers 
 # Lifecycle Security Monitoring
 | | **LSM1** | **LSM2** | **LSM3** |
 |:-------------|:-------------|:---------------|:-------------|:------------|
-| **Objective** | **Awareness of potentielle Attack Patterns.** | **Knowledge about impact of attack patterns to released Hardware and Software versions and variants.** | **Minimize negative impacts for customers.**|
-| **Activities** | **A.** Maintenance of Attack pattern catalogue **B.** 1.	Maintenance of Attack pattern catalogue| **A.** Implement all relevant Pen-Tests on all relevant HW and SW versions and variants **B.** Execute all relevant pen-tests on all relevant HW and SW | **A.** Deploy degradations to customer **B.** Deploy updates to customer |
-| **Assessment** | ✦Does your organisation gather information about new vulnerability issues? ✦Are these issues filtered to dedicated project, used hardware and software stacks? ✦Are there project teams after final (serial) release responsible for these issues?| ✦Is your penetration test continuously developed further? ✦Do you assure, that penetration tests are executed for every released HW/SW Combination? ✦Does your company collect and archive all results of these pen tests? | ✦Does your company know how to contact the end users of your ECUs? ✦Does your company have a process which defines the propagation of Security Vulnerabilities to your Customers? ✦Does your project team provide security degradation guidance model? ✦Does your company have a process which defines the propagation of Security updates to your Customers?|
+| **Objective** | **Awareness of potential attack patterns.** | **Knowledge about impact of attack patterns to released Hardware and Software versions and variants.** | **Minimize negative impacts for customers.**|
+| **Activities** | **A.** Maintenance of attack pattern catalogue **B.** 1.	Maintenance of attack pattern catalogue| **A.** Implement all relevant Pen-Tests on all relevant HW and SW versions and variants **B.** Execute all relevant pen-tests on all relevant HW and SW | **A.** Deploy degradations to customer **B.** Deploy updates to customer |
+| **Assessment** | ✦Does your organization gather information about new vulnerability issues? ✦Are these issues filtered to dedicated project, used hardware and software stacks? ✦Are there project teams after final (serial) release responsible for these issues?| ✦Is your penetration test continuously developed further? ✦Do you assure, that penetration tests are executed for every released HW/SW Combination? ✦Does your company collect and archive all results of these pen tests? | ✦Does your company know how to contact the end users of your ECUs? ✦Does your company have a process which defines the propagation of Security Vulnerabilities to your customers? ✦Does your project team provide security degradation guidance model? ✦Does your company have a process which defines the propagation of Security updates to your customers?|
 | **Results** | ✦Company has improved security knowledge ✦Up to date overview of potential attack surfaces ✦c.	Always up to date catalogue of attack patterns linked with probably impacts | ✦Detailed matrix which links attack patterns to ECUs ✦Database with references from SW/HW variants of ECU and possible attack patterns ✦Detailed TODO-List / Bug-List for each product/ECU. | ✦Company has knowledge about current security risk of their products ✦Company has process and infrastructure for deploying security information and updates to end user ✦Security is guaranteed because all patches and workarounds are deployed to customers/end users|
 
 # Lifecycle Security Monitoring: LSM1
@@ -3174,13 +3174,13 @@ With this responsibility, this division has to monitor multiple appropriate feed
 
 Further potential combined attacks must be investigated, documented and the risks has to be estimated.
 
-All the gathered information has to lead into "Attack Pattern" which are also have to be stored in a structured database.
+All the gathered information has to lead into "attack pattern" which must be stored in a structured database.
 
 ##### B. Maintenance of the attack pattern catalogue
 TODO add long description + metrics, costs, personnel, related levels
 
 ##### ASSESSMENT
-* Does your organisation gather information about new vulnerability issues?
+* Does your organization gather information about new vulnerability issues?
 * Are these issues filtered to dedicated project, used hardware and software stacks?
 * Are there project teams after final (serial) release responsible for these issues?
 
@@ -3208,11 +3208,11 @@ TODO add long description + metrics, costs, personnel, related levels
 ##### A. Implement all relevant penetration tests on all relevant hardware and software versions and variants
 At product level the knowledge about attack pattern should be classified. This classification should structure the attack patterns to the ECUs. Thereby only theses ECUs have to be considered which are in the field. ECUs during development for example can be lower prioritize.
 
-Nevertheless all affected versions and variants have to be evaluated. As result a mapping from Attack Pattern to ECU in combination with Software variant must be developed.
+Nevertheless, all affected versions and variants have to be evaluated. As result a mapping from Attack Pattern to ECU in combination with Software variant must be developed.
 With this knowledge in mind specific Pen-Tests have to be developed. These penetration tests should be linked to the attack pattern to the "attack pattern-ECU" mapping above.
 
 Out of this mapping a coverage Report of all potential attack pattern can be created.
-After all, the pen-tests have to be executed for all relevant ECU software/hardware combinations. After reviewing the Results regarding risk, minimizing the impact at customer should be in focus. Therefore patches or workarounds maybe also degradation strategies have to be developed. Also having security issues in mind one have to guarantee quality/functionality of the ECU also. The security workaround should also be tested in ‘classic’ way to be sure, customer still has his wanted functionality in his car.
+After all, the pen-tests have to be executed for all relevant ECU software/hardware combinations. After reviewing the Results regarding risk, minimizing the impact at customer should be in focus. Therefore, patches or workarounds maybe also degradation strategies have to be developed. Also having security issues in mind, one has to guarantee quality/functionality of the ECU also. The security workaround should also be tested in a ‘classic’ way to be sure that the customer still has his wanted functionality in his car.
 
 ##### B. Execute all relevant penetration tests on all relevant hardware and software
 TODO add long description + metrics, costs, personnel, related levels
@@ -3244,11 +3244,11 @@ TODO add long description + metrics, costs, personnel, related levels
 
 ## Activities
 ##### A. Deploy degradations to customer
-Already when starting a new ECU project one have to clarify the communication to the end user/customer. This is essential to ensure later updates and or degradations. Therefore an infrastructure has to be set up. This infrastructure has to be cleared with OEM also. It has to be maintained and ensured that it is "future save". Thus it has to guarantee later updated can be deployed.
-Secondly the infrastructure is itself a high risk channel to the ECUs in the field.
+Already when starting a new ECU project, one has to clarify the communication to the end user/customer. This is essential to ensure later updates and or degradations. Therefore, an infrastructure has to be set up. This infrastructure has to be cleared with OEM also. It has to be maintained and ensured that it is "future save". Thus, it has to guarantee later updated can be deployed.
+Secondly the infrastructure is itself a high-risk channel to the ECUs in the field.
 This leads also to many efforts to be made to keep this channel secure and still working.
 Security and reliability have to be in focus.
-After in step 2 (Doing) a security update has be developed or a potential degradation is decided this has to be deployed to the ECUs out in the field. Thereby only affected ECUs should get an update. This can be dependent to Hardware and or Software version and variant. Therefore usually at OEM side a database with software and hardware Variants have to be maintained and used for the deployment of security updates.
+After in step 2 (Doing) a security update has been developed or a potential degradation is decided this has to be deployed to the ECUs out in the field. Thereby only affected ECUs should get an update. This can be dependent to Hardware and or Software version and variant. Therefore, usually at OEM side a database with software and hardware Variants have to be maintained and used for the deployment of security updates.
 
 ##### B. Deploy updates to customer
 TODO add long description + metrics, costs, personnel, related levels
