@@ -57,7 +57,7 @@ As an open project, SAMM content shall always remain vendor-neutral and freely a
 ![SAMM Overview Image Here](images/SAMM-Overview.png )
 # Contents
 
-TODO change image
+<!-- TODO change image -->
 
 Executive Summary  3
 #### Understanding the model 6
@@ -107,7 +107,7 @@ Operational Enablement 68
 
 Lifecycle Security Monitoring XX
 
-TODO change number of pages
+<!-- TODO change number of pages -->
 
 !['Understanding the Model' Image pages Here](images/UnderstandingModel.png)
 ######SAMM is built upon a collection of security practices that are tied back into the core business functions involved in software development. This section introduces those business functions and the corresponding security practices for each. After covering the high-level framework, the maturity levels for each security practice are also discussed briefly in order to paint a picture of how each can be iteratively improved over time.
@@ -133,7 +133,7 @@ Governance is centered on the processes and activities related to how an organiz
 
 …*more on page 10*
 
-TODO change number of pages
+<!-- TODO change number of pages -->
 
 ## Construction: 
 Construction concerns the processes and activities related to how an organization defines goals and creates software within development projects. In general, this will include product management, requirements gathering, high-level architecture specification, detailed design, and implementation.
@@ -148,7 +148,7 @@ Construction concerns the processes and activities related to how an organizatio
 
 …*more on page 12*
 
-TODO change number of pages
+<!-- TODO change number of pages -->
 
 ## Verification
 Verification is focused on the processes and activities related to how an organization checks, and tests artifacts produced throughout software development. This typically includes quality assurance work such as testing, but it can also include other review and evaluation activities.
@@ -163,7 +163,7 @@ Verification is focused on the processes and activities related to how an organi
 
 …*more on page 14*
 
-TODO change number of pages
+<!-- TODO change number of pages -->
 
 ## Operations
 Operations entails the processes and activities related to how an organization manages software releases that has been created. This can involve shipping products to end users, deploying products to internal or external hosts, and normal operations of software in the runtime environment.
@@ -179,7 +179,7 @@ Process and organization wide structural abilities and skills for finding and de
 
 *…more on page 16*
 
-TODO change number of pages
+<!-- TODO change number of pages -->
 
 ### Maturity Levels
 
@@ -206,7 +206,7 @@ The toolbox spreadsheet has been updated to reflect more context aware answers f
 # Governance
 ## Description of Security Practices
 
-TODO change all numbers of pages in the sections "Activity overview" of all security practices
+<!-- TODO change all numbers of pages in the sections "Activity overview" of all security practices -->
 
 ### Strategy & Metrics
 The Strategy & Metrics (SM) practice is focused on establishing the framework within an organization for a software security assurance program. This is the most fundamental step in defining security goals in a way that’s both measurable and aligned with the organization’s real business risk.
@@ -465,7 +465,7 @@ Advanced organizations need a complete security strategy and team. Also they sho
 ### Lifecycle Security Monitoring
 *…more on page 68*
 
-TODO change activity B of LSM1
+<!-- TODO change activity B of LSM1 -->
 
 | | LSM1 | LSM2 | LSM3 |
 |:-------------|:------------- |:---------------|:-------------|
@@ -520,7 +520,6 @@ TODO change activity B of LSM1
 | ✦ Are developers tested to ensure a baseline skill- set for secure development practices? | NO | ONCE | EVERY 2-3 YEARS | ANNUALLY |
 
 ### Lifecycle Security Culture
-TODO copy paste assessment
 
 | | | | | |
 |:-------------|:-------------|:---------------|:-------------|:------------|
@@ -648,15 +647,16 @@ TODO copy paste assessment
 | ✦Does a minimum security baseline exist for security testing? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS|
 
 ### Lifecycle Security Penetration Testing
-TODO add levels to LST1 - question 1
+<!-- TODO add levels to LST1 - question 1 -->
 
 | | | | | |
 |:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
 | **LST1**
-| ✦Are identified attack pattern structured and tested within a communicated structure? | NO | ??? | ??? | ??? |
+| ✦Are identified attack pattern structured and tested in an ordered way? | NO | ??? | ??? | ??? |
 | ✦Do projects use version control management for penetration testing? | NO | SOME | HALF | MOST |
 | ✦Do projects integrate practical exploitation and mitigation comments for every attack pattern? | NO | SOME | HALF | MOST |
+| ✦Are all relevant and found attacks tested on the software? | NO | SOME | HALF | MOST |
 | **LST2**
 | ✦Do penetration testers have access to automatic software builds that include their tests? | NO | SOME | HALF | MOST |
 | ✦Is the penetration testing routine embedded in a continuous integration mechanism? | NO | NOT APPLY | AD-HOC | YES |
@@ -712,7 +712,7 @@ TODO add levels to LST1 - question 1
 | ✦Is code signing routinely performed on software components using a consistent process? | NO | NOT APPLY | AD-HOC | YES |
 
 ### Lifecycle Security Monitoring
-TODO add levels & remove automotive-only character
+<!-- TODO add levels & remove automotive-only character -->
 
 | | | | | |
 |:-------------|:-------------|:---------------|:-------------|:------------|
@@ -2594,7 +2594,7 @@ testing automation
 |:-------------|:-------------|:---------------|:-------------|:------------|
 | **Objective** | **Establish and execute a complete workflow of active penetration testing.** | **Combine the project-wide penetration testing workflow with continuous integration (CI) techniques.** | **Establish feedback loops and release gates within the continuous integration for the software design and development cycle.**|
 | **Activities** | **A.** Lay out an appropriate testing structure in order to test the system against all possible vectors of attacks **B.** Add version management for maximum covering rates and criteria documentation for expressiveness of test results | **A.** Expand the automated build with related penetration testing procedures **B.** Establish a continuous integration mechanism of the automated build into the project’s version management | **A.** Report (un-) successfully tested builds on a feedback platform **B.** Establish release gates for penetration testing |
-| **Assessment** | ✦Are identified attack pattern structured and tested within a communicated structure? ✦Do projects use version control management for penetration testing? ✦Do projects integrate practical exploitation and mitigation comments for every attack pattern? | ✦Do penetration testers have access to automatic software builds that include their tests? ✦Is the penetration testing routine embedded in a continuous integration mechanism? ✦Do developers and penetration testers discuss and handle the results of penetration test cases?| ✦Do projects integrate preventive security feedback loops including penetration testing? ✦Do projects establish release gates in the software development lifecycle for penetration testing? |
+| **Assessment** | ✦Are identified attack pattern structured and tested in an ordered way? ✦Do projects use version control management for penetration testing? ✦Do projects integrate practical exploitation and mitigation comments for every attack pattern? ✦Are all relevant and found attacks tested on the software | ✦Do penetration testers have access to automatic software builds that include their tests? ✦Is the penetration testing routine embedded in a continuous integration mechanism? ✦Do developers and penetration testers discuss and handle the results of penetration test cases?| ✦Do projects integrate preventive security feedback loops including penetration testing? ✦Do projects establish release gates in the software development lifecycle for penetration testing? |
 | **Results** | ✦Establishment of a structure for penetration testing in the attack pattern catalogue ✦Introduction of additional layering of structure depending on one’s own needs ✦Introduction of version management framework for penetration testing and detailed exploitation and mitigation library | ✦Enforced discipline on frequent automated penetration testing ✦Immediate feedback on system-wide impact of local changes ✦Constant availability of a current robust build for all purposes ✦Early detection mechanisms avoiding last-minute chaos | ✦Projects established a preventive security feedback loop ✦Projects can draw knowledge about secure software architecture and design from security threats catalogue ✦Release gates hinder weakly conceptualized software from publishing |
 
 # Lifecycle Security Penetration Testing: LST1
@@ -2602,21 +2602,15 @@ testing automation
 
 ## Activities
 ##### A. Lay out an appropriate testing structure in order to test the system against all possible vectors of attacks
-<!-- delete -->
-In Lifecycle Security Design, the worked-out attack patterns lay the foundation for a thorough penetration testing workflow. In this section, penetration testers give an answer to the question up to which extent the supposed vulnerabilities, as researched in the LS-Design phase, pose real risks to the system. #delete
+The project team should execute a smooth integration of testing processes including found attack patterns and should capture as many vulnerabilities as there may be in order to mitigate arising risks.
 
-<!-- delete -->
-Remember that the target of this workflow is not only to execute a smooth integration of testing processes as a whole, but also – and all the more – to capture as many vulnerabilities as there may be in order to mitigate arising risks. 
-
-<!-- re-assess-->
-If the project team considers this advice, the members will feel compelled to engage in the practice of attack pattern concatenation. Hence, it is recommended to build attack pattern paths that must be tested step-by-step (or in different orders/alternative ways) in order to capture as many potential vulnerabilities as possible. Attack pattern most of the time affect each other, thus finding one new attack pattern could enable other (even closed) attack patterns (again).
+If the project team considers the twofold advice, the members will feel compelled to engage in the practice of attack pattern concatenation. Hence, it is recommended to build attack pattern paths that must be tested step-by-step (or in different orders/alternative ways) in order to capture as many potential vulnerabilities as possible. Attack pattern most of the time affect each other, thus finding one new attack pattern could enable other (even closed) attack patterns (again).
 
 Another technical aid would be to classify and catalogue attack patterns as universal or specific. Universal attack patterns tend to “awake” again when new patterns emerge.
 Attack pattern paths can be modeled on different levels and layers. Firstly, the penetration testing team could extract paths for module testing, component testing, system testing and conclusively for delivery testing. Secondly, the team should divide between application layered and network layered attack paths. Bring in mind that attack paths intertwine.
 
 ##### B. Add version management for maximum covering rates and criteria documentation for expressiveness of test results
-<!-- re-assess -->
-Even in the presence of an appropriate structure as given in Activity A of LST-1, an impulsive and uncoordinated execution of penetration tests would lead to low covering rates and low expressiveness of the test results. Therefore, it is recommended to integrate a version management mechanism including a fine-grained documentation of test results into the penetration testing workflow.
+Even in the presence of an appropriate attack pattern structure, an impulsive and uncoordinated execution of penetration tests would lead to low covering rates and low expressiveness of the test results. Therefore, it is recommended to integrate a version management mechanism including a fine-grained documentation of test results into the penetration testing workflow.
 
 Version management:
 The version management guarantees that all attack paths and therefore all attack patterns constellations are getting tested at least once, leading to an overall robustness of the system.  
@@ -2624,31 +2618,26 @@ As a consequence, certain penetration testers or whole penetration testing teams
 There are controlling structures that oversee and manage the work in progress and to-do lists, recognize occurring bottlenecks, odd delays and that solve conflicts.
 Additionally, burn-down charts can heighten the awareness of the current penetration testing process. Integrating a scorecard, labelled with “priority” and “severity” for existing attack pattern is also feasible.
 
-<!-- delete -->
-The above-mentioned approach supports modern agile (testing) practices, e.g. agile testing, test-driven development or scrum events.
-
 Criteria documentation:
 One possible way to achieve great documentation after penetration testing an attack pattern against the current system is to expand an instance (object) of the attack pattern (class) with an adjusted exploitation and mitigation section.
 The exploitation section should describe in detail and reproducibly, how the exploit was carried out, including technical details. The criteria, as mentioned in the LS-Design phase, describes the probability, the exploitability for security, and the severity of the attack. The penetration tester now has the task to add specific comments to each of these criteria according to the elaborated, practical exploit.
 The mitigation section should also follow the previously elaborated criteria schema. Here, the tester can attach mitigation strategies to the document. One way to add structure to this chapter is to derive mitigation procedures according to well-known security goals, i.e., system hardening, authentication, encryption, authorization, intrusion detection systems, auditing/logging as well as--–even if not recommended by the “Security of Design” principles–--obfuscation techniques.
 
 ##### ASSESSMENT
-* Are identified attack pattern structured and tested in a ordered way?
-- Attack patterns are documented by every project and assessable in the entire company. (no, for some projects, for half the projects, yes)
-- There is a guideline for testing attack patterns out of a configuration management system. (No, for less than a year, for a year, for several years)
+* Are identified attack pattern structured and tested in an ordered way?
+  - Attack patterns are documented by every project and assessable in the entire company. (no, for some projects, for half the projects, yes)
+  - There is a guideline for testing attack patterns out of a configuration management system. (No, for less than a year, for a year, for several years)
 * Do projects use version control management for penetration testing?
-- Guidance 1: The company provides version control software. (no, for some projects, for half the projects, yes)
-- Guidance 2: All projects use version control for everything. (no, for some projects, for half the projects, yes)
-- Guidance 3: Every new Version of a test has well documented changes. (no, for some test, for half the test, yes)
+  - The company provides version control software. (no, for some projects, for half the projects, yes)
+  - All projects use version control for everything. (no, for some projects, for half the projects, yes)
+  - Every new version of a test has well documented changes. (no, for some test, for half the test, yes)
 * Do projects integrate practical exploitation and mitigation comments for every attack pattern?
-- Guidance 1: Employees involved in penetration tests get trainings for writing attack patterns. (none, a small percentage, half of them, all)
+  - Employees involved in penetration tests get trainings for writing attack patterns. (none, a small percentage, half of them, all)
+* Are all relevant and found attacks tested on the software?	
+  - There is a pool of attacks for every developed software.
+  - Testers have an overview of all attacks and are able to test them on the software.
+  - Attack paths of attacks in the pool are expanded to find new threads.
 
-<!-- umformulieren-->
-* Are all relevant found attacks tested on the software?	
-Guidance:	There is a pool of attacks.
-Guidance:	Testers have an overview of all attacks and are able to test them on the software.
-Guidance:	Attack paths of attacks in the pool are expanded to find new threads.
-	
 
 ##### RESULTS
 * Establishment of a structure for penetration testing in the attack pattern catalogue
@@ -2688,13 +2677,11 @@ Guidance:	Attack paths of attacks in the pool are expanded to find new threads.
 ##### A. Expand the automated build with related penetration testing procedures
 Modern software engineering suggests the usage of automated builds as part of a continuous integration mechanism.
 
-<!-- shorten && technology independent -->
-Here, we suppose that the current software development cycles are integrated in an automated build process, like _make_ in Linux, _Apache_ _Ant_ especially for Java or _MSBuild_ for .NET development.
-Open source build automation tools like Jenkins, CircleCI or Travis CI help the team to build and launch the system on a local machine using only a single command.
+Suppose that the current software development cycles are integrated in an automated build process.
+Most of the time, open source build automation tools that help the team to build and launch the system on a local machine using only a single command.
 
-<!-- we take... -->
-We take this approach one step further by adding various test cases described in LST-1 to the automated build scripts. For a first shot, it will be infeasible to target highly project or hardware independent test cases. Rather, try to establish automated test cases that cover all attack patterns and related paths for a specific environment.
-The goal of this feature is to combine the ongoing software development of critical systems with highly integrated penetration security testing automation on the local machines (including all relevant hardware and software) of penetration testers. Therefore, the project team should seek the adaptation of test-driven development (TDD) for security related test cases.
+Add various test cases described to the automated build scripts. For a first shot, it will be infeasible to target highly project or hardware independent test cases. Rather, try to establish automated test cases that cover all attack patterns and related paths for a specific environment.
+The goal of this feature is to combine the ongoing software development of critical systems with highly integrated penetration security testing automation on the local machines (including all relevant hardware and software) of penetration testers. Therefore, the project team should seek the adaptation of [test-driven development (TDD)](https://doi.org/10.1109/MC.2005.314) for security related test cases.
 
 ##### B. Establish a continuous integration mechanism of the automated build into the project’s version management
 Following up the last activity about the automated security test cases in the automated build routine, the team can expand this approach with continuous integration (CI) techniques.
@@ -2710,22 +2697,21 @@ If the penetration test case does not compile anymore (2), the penetration teste
 
 ##### ASSESSMENT
 * Do penetration testers have access to automatic software builds that include their tests?
-- The company uses automatic software builds in their projects. (no, for some projects, for half the projects, yes)
-- Penetration tests are layed out to be integrated in automatic software builds. (no, for some projects, for half the projects, yes)
-- Penetration testers get training to use the software that is used for the automatic software builds. (none, a small percentage, half of them, all)
+  - The company uses automatic software builds in their projects. (no, for some projects, for half the projects, yes)
+  - Penetration tests are layed out to be integrated in automatic software builds. (no, for some projects, for half the projects, yes)
+  - Penetration testers get training to use the software that is used for the automatic software builds. (none, a small percentage, half of them, all)
 * Is the penetration testing routine embedded in a continuous integration mechanism?
-- Tests can be run by a few simple commands
-- The company uses continuous integration. (no, for some projects, for half the projects, yes)
-- Penetration tests are build to be run in a continuous integration environment. (no, for some projects, for half the projects, yes)
-- The continuous integration-environment includes different hardware or simulates it. (no, for some projects, for half the projects, yes)
-- Workflow to first test software before roll out is conducted
-- Tests are run in nightly build.
-- Penetration tests run in a dedicated test environment.
-
+  - Tests can be run by a few simple commands
+  - The company uses continuous integration. (no, for some projects, for half the projects, yes)
+  - Penetration tests are build to be run in a continuous integration environment. (no, for some projects, for half the projects, yes)
+  - The continuous integration-environment includes different hardware or simulates it. (no, for some projects, for half the projects, yes)
+  - Workflow to first test software before roll out is conducted
+  - Tests run in nightly build.
+  - Penetration tests run in a dedicated test environment.
 * Do developers and penetration testers discuss and handle the results of penetration test cases?
-- Guidance 1: Developers and penetration tester have regular meetings. (no, once a year, once every 6 month, every month)
-- Guidance 2: Developers have training in security relevant topics. (none, a small percentage, half of them, all)
-- Recommendations by testers flow back into the software and are fixed immediately.
+  - Developers and penetration tester have regular meetings. (no, once a year, once every 6 month, every month)
+  - Developers have training in security relevant topics. (none, a small percentage, half of them, all)
+  - Recommendations by testers flow back into the software and are fixed immediately.
 
 
 ##### RESULTS
@@ -2762,8 +2748,7 @@ If the penetration test case does not compile anymore (2), the penetration teste
 
 ## Activities
 ##### A. Report (un-) successfully tested builds on a feedback platform
-<!-- delete reference -->
-Depending on the progress of LST-2, a continuous integration platform is introduced and used not only by developers and project management but also by penetration testers. The workflow of penetration testers from LST-2 included the assessment of automated penetration tests after each minor software update. As an outcome, the penetration tester is part of a project-wide and software development cycle-spanning feedback loop that should be established in the following way:  
+A continuous integration platform is introduced and used not only by developers and project management but also by penetration testers. As an outcome, the penetration tester is part of a project-wide and software development cycle-spanning feedback loop that should be established in the following way:  
 
 1.  Developers integrate new software
 2.  Penetration testers review the updates and change the test cases or publish an issue of the current software
@@ -2783,14 +2768,14 @@ Another option to structure release gates could be to assign different release g
 
 ##### ASSESSMENT
 * Do projects integrate preventive security feedback loops including penetration testing?
-- Broken pipelines are communicated on specified channels. (no, for some projects, for half the projects, yes)
-- A version with a broken penetration test can not be rolled out and is marked. (no, for some projects, for half the projects, yes)
-- There is a platform specifically for exploit reports.
+  - Broken pipelines are communicated on specified channels. (no, for some projects, for half the projects, yes)
+  - A version with a broken penetration test can not be rolled out and is marked. (no, for some projects, for half the projects, yes)
+  - There is a platform specifically for exploit reports.
 
 * Do projects establish release gates in the software development lifecycle for penetration testing?
-- Release gates are enhanced with penetration test results. (no, for some projects, for half the projects, yes)
-- The gate is part of the software development lifecycle.
-- No software is rolled out to customers before testing is done.
+  - Release gates are enhanced with penetration test results. (no, for some projects, for half the projects, yes)
+  - The gate is part of the software development lifecycle.
+  - No software is rolled out to customers before testing is done.
 
 
 ##### RESULTS
