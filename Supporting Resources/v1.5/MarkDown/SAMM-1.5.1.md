@@ -3279,16 +3279,16 @@ All the gathered information have to lead into attack pattern, which must be sto
 
 ##### ASSESSMENT
 * Does your organization gather information about new vulnerability issues?
-- Every team knows whom to contact about newly found vulnerability issues. (no, some teams, half of the teams, yes)
-- All contracts with subcontractors require them to report security flaws they discover. (no, some, half, yes)
-- Feeds about vulnerability issues are monitored. (no, some, half, yes)
-- The company regularly checks for new sources for vulnerabilities. (no, yearly, half a year, every month)
+  - Every team knows whom to contact about newly found vulnerability issues.
+  - All contracts with subcontractors require them to report security flaws they discover.
+  - Feeds about vulnerability issues are monitored.
+  - The company regularly checks for new sources for vulnerabilities.
 * Are vulnerability issues filtered to dedicated project, used hardware and software stacks?
-- Every project documents all used hardware and software, including 3rd party. (no, for some projects, for half the projects, yes)
-- A newly found vulnerability is immediately transmitted to all affected teams. (no, some, half, yes)
+  - Every project records all used hardware and software, including 3rd party.
+  - A newly found vulnerability is immediately transmitted to all affected teams.
 * Are there project teams after final (serial) release responsible for these issues?
-- Every team or part of it has to maintain their project after the release (including security concerns). (no, for some projects, for half the projects, yes)
-- Developers consider 3rd party libraries in their development and testing lifecycle.
+  - Every team or part of it has to maintain their project after the release (including security concerns).
+  - Developers consider 3rd party libraries in their development and testing lifecycle.
 
 
 ##### RESULTS
@@ -3337,22 +3337,19 @@ After all, the penetration tests have to be executed for all relevant software/h
 
 ##### ASSESSMENT
 * Is your penetration test continuously developed?
-- Penetration tests are evaluated regularly. (no, yearly, half a year, every month)
-- Penetration testers have the goal to find new vulnerabilities. (no, some, half, yes)
-- New externally found vulnerabilities are added to the penetration tests. (no, some, half, yes)
-
+  - Penetration tests are evaluated regularly.
+  - Penetration testers have the goal to find new vulnerabilities.
+  - New externally found vulnerabilities are added to the penetration tests.
 * Do you assure that penetration tests are executed for every released hardware/software combination?
-- Penetration tests are executed for every project. (no, for some projects, for half the projects, yes)
-- Every possible HW/SW combination is documented. (no, for some projects, for half the projects, yes)
-- Every new rollout generates new penetration tests. (no, for some rollouts, for half the rollouts, yes)
-- Temporarily security establishing workarounds do not impede safety or functionality of the product, which must be ensured by tests.	
-
-
+  - Penetration tests are executed for every project.
+  - Every possible HW/SW combination is documented.
+  - Every new rollout generates new penetration tests.
+  - Temporarily security establishing workarounds do not impede safety or functionality of the product, which must be ensured by tests.	
 * Does your company collect and archive all results of these penetration tests?
-- Penetration tests are well documented. (yes, some, half, yes)
-- Found issues are reported and documented. (yes, some, half, yes)
-- The software and hardware combinations that are vulnerable to a specific attack are documented immediately.
-- Software and hardware is prioritized depending on if it's in the field or not.
+  - Penetration tests are well documented.
+  - Found issues are reported and documented.
+  - The software and hardware combinations that are vulnerable to a specific attack are documented immediately.
+  - Software and hardware are prioritized depending on if it's in the field or not.
 
 
 ##### RESULTS
@@ -3398,23 +3395,20 @@ This means, the action  has to be deployed to the devices out in the field. Ther
 
 ##### ASSESSMENT
 * Does your company know how to contact the end users of your devices?
-- Guidance 1: The company has records of all customers. (yes, of some, of half, yes)
-- Customer can be contacted sufficiently, within a specific time frame and future save.
-
+  - The company has records of all customers.
+  - Customer can be contacted sufficiently, within a specific time frame and future save.
 * Does your company have a process which defines the propagation of security vulnerabilities to your customers?
-- A database with hardware and software in the field is maintained.
-- The company has guidelines how to handle found security issues. (No, for less than a year, for a year, for several years)
-- The company defines the handling of found security issues in the contract with its customers. (no, for some, for half, yes)
-- Customers with affected software and/or hardware can be identified.
-
+  - A database with hardware and software in the field is maintained.
+  - The company has guidelines how to handle found security issues.
+  - The company defines the handling of found security issues in the contract with its customers.
+  - Customers with affected software and/or hardware can be identified.
 * Do your project teams provide a security degradation guidance model?
-- Guidance 1: Project teams are required to implement software in their projects that enable updates and degradation. (no, some, half, yes)
-- Guidance 2: Customers are made aware of all possible risks and actions in case of a security issue. (no, some, half, yes)
-
+  - Project teams are required to implement software in their projects that enable updates and degradation.
+  - Customers are made aware of all possible risks and actions in case of a security issue.
 * Does your company have a process which defines the propagation of security updates to end users?
-- Guidance 1: The company has guidelines how to define a security update process. (No, for less than a year, for a year, for several years)
-- Software updates reach the customer mostly unnoticed.
-- Update channel is established.
+  - The company has guidelines how to define a security update process.
+  - Software updates reach the customer mostly unnoticed.
+  - An update channel is established.
 
 
 ##### RESULTS
