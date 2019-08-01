@@ -520,18 +520,17 @@ Advanced organizations need a complete security strategy and team. Also they sho
 | ✦ Are developers tested to ensure a baseline skill- set for secure development practices? | NO | ONCE | EVERY 2-3 YEARS | ANNUALLY |
 
 ### Lifecycle Security Culture
-
 | | | | | |
 |:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
 | **LSC1** 
 | ✦Does your organization have an open discussion about organizational deficiencies, human faults and intentional activities? | NO | SOME | HALF | MOST |
-| ✦Is diversity used in the organization? | NO | SOME | HALF | MOST |
+| ✦Are diversity principles used in the organization? | NO | SOME | HALF | MOST |
+| ✦Do employees consider security a high-priority issue? | NO | SOME | HALF | MOST |
 |**LSC2** 
-|✦Is a value development established, e.g. a commitment to IT-Security? | NO | SOME | HALF | MOST |
+|✦Is a value development established? | NO | SOME | HALF | MOST |
 |✦Is lifelong learning established in the organization? | NO | SOME | HALF | MOST |
 |✦Is a fundamental collaboration visible in the organization? | NO | SOME | HALF | MOST |
-|✦Is a security reward system established? | NO | SOME | HALF | MOST |
 | **LSC3** 
 |✦Is a regular IT-Security culture benchmarking (assessment) established? | NO | SOME | HALF | MOST |
 |✦Is a value retrospective and reflection on IT-Security culture established? | NO | SOME | HALF | MOST |
@@ -1214,7 +1213,7 @@ Based upon pass/fail criteria or exceptional performance, staff should be ranked
 |:-------------|:-------------|:---------------|:-------------|:------------|
 | **Objective** | **Establish first elements of a security culture.** | **Refinement of the IT-Security culture.** | **Regular assessment and continuous enhancement of IT-Security culture.**|
 | **Activities** | **A.** Establish communication **B.** Creating values diversity | **A.** Giving culture commitment **B.** Acting as team and lifelong learning | **A.** Culture benchmarking **B.** Culture retrospective and reflection |
-| **Assessment** | ✦Does your organization have an open discussion about organizational deficiencies, human faults and Intentional activities? ✦Is diversity used in the organization? | ✦Is a value development established, e.g. a commitment to IT-Security? ✦Is lifelong learning established in the organization? ✦•	Is a fundamental collaboration visible in the organization? ✦Is a security reward system established? | ✦Is a regular IT-Security culture benchmarking (assessment) established? ✦•	Is a value retrospective and reflection on IT-Security culture established? ✦Is a mature collaboration visible in the organization? |
+| **Assessment** | ✦Does your organization have an open discussion about organizational deficiencies, human faults and Intentional activities? ✦Are diversity principles used in the organization? ✦Do employees consider security a high-priority issue? | ✦Is a value development established? ✦Is lifelong learning established in the organization? ✦Is a fundamental collaboration visible in the organization? | ✦Is a regular IT-Security culture benchmarking (assessment) established? ✦•	Is a value retrospective and reflection on IT-Security culture established? ✦Is a mature collaboration visible in the organization? |
 | **Results** | ✦Established fault reporting regarding development process and product  ✦Concrete list of organizational deficiencies, human faults and intentional activities  ✦Diversity in profile of team members and diversity in systems architecture (HW, SW) | ✦Awareness of staff members regarding values  ✦Customized plans for lifelong learning ✦Approach for development of collaboration within the organization  ✦Accurate tracking of lifelong learning activities  ✦Organization-wide participation in a reward system  | ✦Regular Assessment report of IT-Security culture  ✦Established retrospective process  ✦Regular measurement of team collaboration |
 
 # Lifecycle Security Culture: LSC1
@@ -1242,20 +1241,17 @@ The privacy perception is described by empowerment of privacy awareness.
 
 ##### ASSESSMENT
 * Does your organization have an open discussion about organizational deficiencies, human faults and intentional activities?
-- Do employees feel safe voicing their opinion about IT-Security?
-- Does the company encourage employees to take part in IT-Security discussions?
-- Are IT-Security goals communicated throughout the company?
+  - Employees feel safe voicing their opinion about IT-Security.
+  - The company encourages employees to take part in IT-Security discussions.
+  - IT-Security goals are communicated throughout the company.
 * Are diversity principles used in the organization?
-- Different communication settings, like workshops, online forums or open space?
-- Team members with different backgrounds
-- The organization embraces a positive concept of human being for every individuum.
+  - There are different communication settings, like workshops, online forums or open space.
+  - There are team members with different backgrounds.
+  - The organization embraces a positive concept of human being for every individual.
 * Do employees consider security a high-priority issue?
-- Attend security workshops and open discussions at a regular basis
-- Do teams review their testing effectiveness, found vulnerabilities and the incident response plan?
-- Is there a privacy and IT-Security awareness throughout the team members?
-
-
-* Does the organization motivate towards an open discussion and therefore a positive concept of human being? G
+  - Attend security workshops and open discussions at a regular basis.
+  - Teams review their testing effectiveness, found vulnerabilities and the incident response plan.
+  - There is a privacy and IT-Security awareness throughout the team members.
 
 
 ##### RESULTS
@@ -1311,21 +1307,21 @@ The collaboration characteristic based on Col_MM is non regular strong interacti
 
 ##### ASSESSMENT
 * Is a value development established?
-- A commitment to IT-Security
-- An ethical hacking process
+  - Team members commit to IT-Security.
+  - Project leadership embraces an ethical hacking process.
 * Is lifelong learning established in the organization?
-- A reward system
-- workshops
+  - Project introduces a reward system.
+  - Team members visit workshops.
 * Is a fundamental collaboration visible in the organization?
-- Do employees document security related issues thoroughly?
-- There is a in-house point of contact for employees to speak to regarding security concerns or questions?
+  - Employees document security related issues thoroughly.
+  - There is an in-house point of contact for employees to speak to regarding security concerns or questions.
 
-
+<!-- TODO delete unnecessary assessment questions -->
 * Do teams commit to IT-Security in order to advance the value development? C
 * Is the social awareness of hacking processes clarified throughout the organization? D
 * Is a lifelong learning process introduced that includes a reward system for IT-Security? G
-Assessment 2: There are workshops for employees to learn how to minimize there own security risks?
-Is Security discussed in all departments at a regular basis?
+* *There are workshops for employees to learn how to minimize there own security risks?
+* Is Security discussed in all departments at a regular basis?
 
 
 
