@@ -587,19 +587,18 @@ Advanced organizations need a complete security strategy and team. Also they sho
 |:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
 | **LCSD1**
-| ✦ Do projects execute risk analysis (e.g., in regard to (A)SIL)? | NO | SOME | HALF | MOST |
+| ✦ Do project teams execute risk analysis (e.g., in regard to (A)SIL)? | NO | SOME | HALF | MOST |
 | ✦ Are identified attack patterns documented in a reusable catalog? | NO | SOME | HALF | MOST |
 | **LCSD2**
 | ✦ Are penetration tests planned and categorized for all products? | NO | SOME | HALF | MOST |
-| ✦ How often are external security reports reviewed? | MONTHLY | WEEKLY | DAILY | HOURLY OR MORE OFTEN |
+| ✦ Are external security reports reviewed? | NO | ONCE | EVERY 2-3 YEARS | ANNUALLY |
 | ✦ Is special staff trained or are external certified testers employed? | NO | SOME | HALF | MOST |
 | ✦ Is the security of external SW and HW components guaranteed? | NO | SOME | HALF | MOST |
 |**LCSD3**
 | ✦ Can products be tested hardware independently? | NO | SOME | HALF | MOST |
 | ✦ Can products be updated subsequently after rollout? | NO | SOME | HALF | MOST |
 | ✦ Can results from penetration tests be reused? | NO | SOME | HALF | MOST |
-| ✦ Is security already implemented into the lifecycle? | NO | IN SOME PRODUCTS | IN MANY PRODUCTS | COMPLETELY
-|
+| ✦ Is security already implemented into the lifecycle? | NO | BUS AREA | ORG WIDE | ORG WIDE & REQUIRED |
 
 # Verification
 ## Assessment worksheet
@@ -644,16 +643,14 @@ Advanced organizations need a complete security strategy and team. Also they sho
 | ✦Do projects follow a consistent process to evaluate and report on security tests to stakeholders? | NO | SOME | HALF | MOST |
 | **ST3**
 | ✦Are security test cases comprehensively generated for application-specific logic? | NO | SOME | HALF | MOST |
-| ✦Does a minimum security baseline exist for security testing? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS|
+| ✦Does a minimum security baseline exist for security testing? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
 
 ### Lifecycle Security Penetration Testing
-<!-- TODO add levels to LST1 - question 1 -->
-
 | | | | | |
 |:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
 | **LST1**
-| ✦Are identified attack pattern structured and tested orderly? | NO | ??? | ??? | ??? |
+| ✦Are identified attack pattern structured and tested orderly? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS|
 | ✦Do projects use version control management for penetration testing? | NO | SOME | HALF | MOST |
 | ✦Do projects integrate practical exploitation and mitigation comments for every attack pattern? | NO | SOME | HALF | MOST |
 | ✦Are all relevant and found attacks tested on the software? | NO | SOME | HALF | MOST |
@@ -663,8 +660,7 @@ Advanced organizations need a complete security strategy and team. Also they sho
 | ✦Do developers and penetration testers discuss and handle the results of penetration test cases? | NO | SOME | HALF | MOST |
 | **LST3**
 | ✦Do projects integrate preventive security feedback loops including penetration testing? | NO | SOME | HALF | MOST |
-| ✦Do projects establish release gates in the software development lifecycle for penetration testing? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS 
-|
+| ✦Do projects establish release gates in the software development lifecycle for penetration testing? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
 
 # Operations
 ## Assessment worksheet
@@ -712,24 +708,22 @@ Advanced organizations need a complete security strategy and team. Also they sho
 | ✦Is code signing routinely performed on software components using a consistent process? | NO | NOT APPLY | AD-HOC | YES |
 
 ### Lifecycle Security Monitoring
-<!-- TODO add levels & remove automotive-only character -->
-
 | | | | | |
 |:-------------|:-------------|:---------------|:-------------|:------------|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
 | **LSM1**
-| ✦Does your organization gather information about new vulnerability issues? | NO | SOME | HALF  | MOST |
-| ✦Are vulnerability issues filtered to dedicated project, used hardware and software stacks? | NO | SOME | HALF  | MOST|
-| ✦Are there project teams after final (serial) release responsible for these issues? | NO | SOME | HALF  | MOST |
+| ✦Does your organization gather information about new vulnerability issues? | NO | ONCE | EVERY 2-3 YRS | ANNUALLY |
+| ✦Are vulnerability issues filtered to dedicated project, used hardware and software stacks? | NO | NOT APPLY | AD-HOC | YES |
+| ✦Are there project teams after final (serial) release responsible for these issues? | NO | SOME | HALF | MOST |
 | **LSM2**
-| ✦Is your penetration test continuously developed? | NO | SOME | HALF  | MOST|
-| ✦Do you assure, that penetration tests are executed for every released hardware/software combination? | NO | SOME | HALF  | MOST |
-| ✦Does your company collect and archive all results of these penetration tests? | NO | SOME | HALF  | MOST |
+| ✦Is your penetration test continuously developed? | NO | NOT APPLY | AD-HOC | YES |
+| ✦Do you assure, that penetration tests are executed for every released hardware/software combination? | NO | NOT APPLY | AD-HOC | YES |
+| ✦Does your company collect and archive all results of these penetration tests? | NO | SOME | HALF | MOST |
 | **LSM3**
-| ✦Does your company know how to contact the end users of your ECUs? | NO | SOME | HALF  | MOST|
-| ✦Does your company have a process which defines the propagation of security vulnerabilities to your customers? | NO | SOME | HALF  | MOST |
-| ✦Do your project teams provide a security degradation guidance model? | NO | SOME | HALF  | MOST |
-| ✦Does your company have a process which defines the propagation of security updates to your customers? | NO | SOME | HALF  | MOST |
+| ✦Does your company know how to contact the end users of your ECUs? | NO | SOME | HALF | MOST|
+| ✦Does your company have a process which defines the propagation of security vulnerabilities to your customers? | NO | BUS AREA | ORG WIDE | ORG WIDE & REQUIRED |
+| ✦Do your project teams provide a security degradation guidance model? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
+| ✦Does your company have a process which defines the propagation of security updates to your customers? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
 
 !['THE SECURITY PRACTICES: An explanation of the details' IMAGES HERE](images/SecurityPractices.png )
 ![PracticesImage](images/PracticesImage.png )
@@ -1874,7 +1868,7 @@ security protections
 |:-------------|:------------- |:---------------|:-------------|
 | **Objective:** | **Identify security risks and attack potentialities for individual projects.** | **Plan penetration tests in advance and take future attack potentialities into account.** | **Facilitate hardware independent and ongoing penetration tests.** |
 | **Activities:** | **A.** Compile a risk analysis in due consideration of security and safety goals. **B.** Set up an attack pattern catalog. | **A.** Define test environment and categorize penetration tests. **B.** Downscale security risks of external software and hardware components. | **A.** Facilitate hardware independent penetration tests and implement development cycles by the use of structured data exchange.  **B.** Categorize, acquire and store all relevant hardware and software versions. |
-| **Assessment** | ✦Do projects execute risk analysis (e.g., in regard to (A)SIL)? ✦Are identified attack patterns documented in a reusable catalog? | ✦Are penetration tests planned and categorized for all products? ✦How often are external security reports reviewed? ✦Is special staff trained or are external certified testers employed? ✦Is the security of external SW and HW components guaranteed?| ✦Can products be tested hardware independently? ✦Can products be updated subsequently after rollout? ✦Can results from penetration tests be reused? ✦Is security already implemented into the lifecycle? |
+| **Assessment** | ✦Do project teams execute risk analysis (e.g., in regard to (A)SIL)? ✦Are identified attack patterns documented in a reusable catalog? | ✦Are penetration tests planned and categorized for all products? ✦Are external security reports reviewed? ✦Is special staff trained or are external certified testers employed? ✦Is the security of external SW and HW components guaranteed?| ✦Can products be tested hardware independently? ✦Can products be updated subsequently after rollout? ✦Can results from penetration tests be reused? ✦Is security already implemented into the lifecycle? |
 | **Results** | ✦Understanding of possible security risks. ✦Better understanding of risk functions that need to be tested. ✦Reusable catalog of possible attacks. ✦Mapping of security vulnerabilities to safety-relevant functions. | ✦Better preparation against emerging security vulnerabilities. ✦Simpler testing through tightly defined test environments. ✦Improved test coverage by documenting all penetration testing procedures. ✦All tests are up-to-date with latest security vulnerabilities. | ✦Possibility to test products independently of their hardware. ✦Possibility to conduct follow-up tests for new security vulnerabilities for every product. ✦Always up to date security standards. ✦Outline of the individual steps of penetration testing within the project's lifecycle. ✦Guideline on appropriate methods for processing the feedback of penetration tests. |
 
 # Lifecycle Security Design: LCSD1
@@ -1913,17 +1907,8 @@ In the end, existing relationships with other known patterns or vulnerabilities 
 For the creation and maintaining of the catalog several meetings are needed.
 
 ##### ASSESSMENT
-* Do projects execute risk analysis (e.g., in regard to (A)SIL)?
-  - Projects have their own security goals.
-  - Risks of security objectives are defined and evaluated with risk levels in a risk matrix.
-  - Internal and external components affected by the security objectives are determined.
-  - Assess an attack surface on top of the security and risk analysis.
+* Do project teams execute risk analysis (e.g., in regard to (A)SIL)?
 * Are identified attack patterns documented in a reusable catalog?
-  - There is an active search for known (product relevant) attacks.
-  - New attacks are transformed into attack patters and documented.
-  - Relevant public and company-internal attacks are listed and new project-related attacks are added.
-  - Attack patterns are described alongside their name, probability, exploitability, severity, and examples.
-
 
 ##### RESULTS
 * Understanding of possible security risks
@@ -1984,23 +1969,9 @@ Additionally, public services, which publish security exploits, should be search
 
 ##### ASSESSMENT
 * Are penetration tests planned and categorized for all products?
-  - The company has guidelines and policies for penetration testing.
-  - There are trained (and certified) penetration testers.
-  - Penetration tests are planned during development.
-* How often are external security reports reviewed?
-  - Employees know sources with current security gaps.
-  - Where possible, automatic messages for security risks were subscribed.
-  - There are regular meetings to talk about new security risks.
+* Are external security reports reviewed?
 * Is special staff trained or are external certified testers employed?
-  - There is additional staff only responsible for penetration testing.
-  - Staff is trained regularly regarding security tests.
-  - If deemed necessary external help is brought in.
 * Is the security of external SW and HW components guaranteed?
-  - There are agreements with suppliers and subcontractors to ensure the security of their products.
-  - External and third-party software that is used, is also evaluated and penetration tested.
-  - Newly discovered security vulnerabilities are communicated immediately by the suppliers and subcontractors.
-  - Vendors of third-party software promise to patch their frameworks regularly and quickly after hazards are found.
-
 
 ##### RESULTS
 * Better preparation against emerging security vulnerabilities
@@ -2069,22 +2040,9 @@ Clear responsibilities have to be defined, such that the test results can be ade
 
 ##### ASSESSMENT
 * Can products be tested hardware independently?
-  - There is a hardware independent test environment.
-  - There is a test software for each product.
 * Can products be updated subsequently after rollout?
-  - The company stores all relevant HW and SW versions for each product.
-  - Update infrastructure is planned for every project.
-  - Environment to test older software version is implemented.
-  - Penetration testers check newly found hazards in older versions, too.
 * Can results from penetration tests be reused?
-  - Results from penetration tests are documented for every version.
-  - Penetration test results are taken into consideration during the planning process.
 * Is security already implemented into the lifecycle?
-  - In project planning, risk assessments are drawn from other projects.
-  - Penetration test results will be included in each project.
-  - Every employee has access to a common training in IT-Security and functional safety.
-  - No product is rolled out without thorough penetration testing.
-
 
 ##### RESULTS
 * Possibility to test products independently of their hardware
@@ -2618,19 +2576,9 @@ The mitigation section should also follow the previously elaborated criteria sch
 
 ##### ASSESSMENT
 * Are identified attack pattern structured and tested orderly?
-  - Attack patterns are documented by every project and assessable in the entire company.
-  - There is a guideline for testing attack patterns out of a configuration management system.
 * Do projects use version control management for penetration testing?
-  - The company provides version control software.
-  - All projects use version control for everything.
-  - Every new version of a test has well documented changes.
 * Do projects integrate practical exploitation and mitigation comments for every attack pattern?
-  - Employees involved in penetration tests get trainings for writing attack patterns.
 * Are all relevant and found attacks tested on the software?
-  - There is a pool of attacks for every developed software.
-  - Testers have an overview of all attacks and are able to test them on the software.
-  - Attack paths of attacks in the pool are expanded to find new threads.
-
 
 ##### RESULTS
 * Establishment of a structure for penetration testing in the attack pattern catalog
@@ -2690,27 +2638,8 @@ If the penetration test case does not compile anymore (2), the penetration teste
 
 ##### ASSESSMENT
 * Do penetration testers have access to automatic software builds that include their tests?
-  - The organization encourages penetration testers to add penetration tests to the automated build workflow.
-  - There are extensive penetration tests included in the automated build workflow.
-  - Development managers use the same build automation tool project-wide or even organization-wide to improve standardization.
-  - The company uses automatic software builds in their projects.
-  - Penetration tests are laid out to be integrated in automatic software builds.
-  - Penetration testers get training to use the software that is used for the automatic software builds.
 * Is the penetration testing routine embedded in a continuous integration mechanism?
-  - Penetration testers have a constant access to a current robust build.
-  - Developers and penetration tester have easy access to the latest working product/executables.
-  - Tests can be run by a few simple commands.
-  - The company uses continuous integration.
-  - The continuous integration-environment includes different hardware or simulates it.
-  - Workflow to first test software before rollout is conducted.
-  - Penetration tests run in nightly build  and in a dedicated test environment.
-  - Penetration tests are built to be run in a continuous integration environment.
-  - Deployment is automated.
 * Do developers and penetration testers discuss and handle the results of penetration test cases?
-  - Developers and penetration tester have regular meetings.
-  - Developers have training in security relevant topics.
-  - Recommendations by testers flow back into the software and are fixed immediately.
-
 
 ##### RESULTS
 * Enforced discipline on frequent automated penetration testing
@@ -2766,19 +2695,7 @@ Another option to structure release gates could be to assign different release g
 
 ##### ASSESSMENT
 * Do projects integrate preventive security feedback loops including penetration testing?
-  - Broken pipelines are communicated on specified channels.
-  - A version with a broken penetration test cannot be rolled out and is marked.
-  - There is a platform specifically for exploit reports.
-  - Penetration testing results do have effects on the software architecture and design on an irregular basis.
-  - Developers skilled with security training engage in solving conflicts related to penetration test results.
 * Do projects establish release gates in the software development lifecycle for penetration testing?
-  - Release gates are enhanced with penetration test results.
-  - The gate is part of the software development lifecycle.
-  - No software is rolled out to customers before testing is done.
-  - Developers and penetration testers find a baseline for the first release gate.
-  - Developers and penetration testers agree on penetration test cases that must pass in order to fulfill a specific release gate.
-  - Released and deployed software does not contain easily found security bugs.
-
 
 ##### RESULTS
 * Projects established a preventive security feedback loop
@@ -3279,17 +3196,8 @@ All the gathered information have to lead into attack pattern, which must be sto
 
 ##### ASSESSMENT
 * Does your organization gather information about new vulnerability issues?
-  - Every team knows whom to contact about newly found vulnerability issues.
-  - All contracts with subcontractors require them to report security flaws they discover.
-  - Feeds about vulnerability issues are monitored.
-  - The company regularly checks for new sources for vulnerabilities.
 * Are vulnerability issues filtered to dedicated project, used hardware and software stacks?
-  - Every project records all used hardware and software, including 3rd party.
-  - A newly found vulnerability is immediately transmitted to all affected teams.
 * Are there project teams after final (serial) release responsible for these issues?
-  - Every team or part of it has to maintain their project after the release (including security concerns).
-  - Developers consider 3rd party libraries in their development and testing lifecycle.
-
 
 ##### RESULTS
 * Company has improved security knowledge 
@@ -3301,7 +3209,6 @@ All the gathered information have to lead into attack pattern, which must be sto
 * at least one person fulltime monitoring security feeds
 * >70% of products/derivatives/libraries in central *configuration management* database
 * respond team for after sale security management installed
-
 
 ##### COSTS
 * Ongoing project overhead from need of security engineering
@@ -3332,25 +3239,12 @@ Out of this mapping a coverage report of all potential attack pattern can be cre
 
 
 ##### B. Execute all relevant penetration tests on all relevant hardware and software
-
 After all, the penetration tests have to be executed for all relevant software/hardware combinations. After reviewing the results regarding risk, minimizing the impact at customer should be in focus. Therefore, patches or workarounds---maybe also degradation strategies---have to be developed. Also having security issues in mind, one has to guarantee quality/functionality and availability of the device also. The security workaround should also be tested whith current functional tests to be sure that the customer still has his wanted functionality in his car.
 
 ##### ASSESSMENT
 * Is your penetration test continuously developed?
-  - Penetration tests are evaluated regularly.
-  - Penetration testers have the goal to find new vulnerabilities.
-  - New externally found vulnerabilities are added to the penetration tests.
 * Do you assure that penetration tests are executed for every released hardware/software combination?
-  - Penetration tests are executed for every project.
-  - Every possible HW/SW combination is documented.
-  - Every new rollout generates new penetration tests.
-  - Temporarily security establishing workarounds do not impede safety or functionality of the product, which must be ensured by tests.	
 * Does your company collect and archive all results of these penetration tests?
-  - Penetration tests are well documented.
-  - Found issues are reported and documented.
-  - The software and hardware combinations that are vulnerable to a specific attack are documented immediately.
-  - Software and hardware are prioritized depending on if it's in the field or not.
-
 
 ##### RESULTS
 * Detailed matrix which links attack patterns to devices
@@ -3368,7 +3262,6 @@ After all, the penetration tests have to be executed for all relevant software/h
 * Ongoing project overhead from need of executing security tests
 * Ongoing organization overhead from testing all relevant devices and variants
 * Ongoing organization overhead from maintaining attack pattern catalog
-
 
 ##### PERSONNEL
 * Developers
@@ -3395,21 +3288,9 @@ This means, the action  has to be deployed to the devices out in the field. Ther
 
 ##### ASSESSMENT
 * Does your company know how to contact the end users of your devices?
-  - The company has records of all customers.
-  - Customer can be contacted sufficiently, within a specific time frame and future save.
 * Does your company have a process which defines the propagation of security vulnerabilities to your customers?
-  - A database with hardware and software in the field is maintained.
-  - The company has guidelines how to handle found security issues.
-  - The company defines the handling of found security issues in the contract with its customers.
-  - Customers with affected software and/or hardware can be identified.
 * Do your project teams provide a security degradation guidance model?
-  - Project teams are required to implement software in their projects that enable updates and degradation.
-  - Customers are made aware of all possible risks and actions in case of a security issue.
 * Does your company have a process which defines the propagation of security updates to end users?
-  - The company has guidelines how to define a security update process.
-  - Software updates reach the customer mostly unnoticed.
-  - An update channel is established.
-
 
 ##### RESULTS
 * Company has knowledge about current security risk of their products
@@ -3428,7 +3309,6 @@ This means, the action  has to be deployed to the devices out in the field. Ther
 * Ongoing project overhead from need of for providing degredation models
 * Ongoing organization overhead from maintaining an update/patch process
 * Ongoing organization overhead from maintaining an update channel
-
 
 ##### PERSONNEL
 * Developers
