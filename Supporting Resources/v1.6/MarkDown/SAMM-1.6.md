@@ -23,6 +23,7 @@ OWASP is an international organization and the OWASP Foundation supports OWASP e
 ### License
 
 This work is licensed under the Creative Commons Attribution-Share Alike 4.0 License. To view a copy of this license, visit <https://creativecommons.org/licenses/bysa/4.0/>, send an email to <info@creativecommons.org>, or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042.
+
 ![CC Logo](images/CC_Logo.png)
 
 # Executive Summary
@@ -401,7 +402,7 @@ Furthermore, a detailed documentation for vulnerability mitigation and exploitat
 
 *...more on page 48*
 
-| | DR1 | DR2 | DR3 |
+| | DR 1 | DR 2 | DR 3 |
 |:-------------|:------------- |:---------------|:-------------|
 | **Objective:** |**Support ad-hoc reviews of software design to ensure baseline mitigations for known risks.**|**Offer assessment services to review software design against comprehensive best practices for security.**|**Require assessments and validate artifacts to develop detailed understanding of protection mechanisms.**|
 | **Activities:** |**A.** Identify software attack surface **B.** Analyze design against known security requirements | **A.** Inspect for complete provision of security mechanisms **B.** Deploy design review service for project teams|**A.** Develop data-flow diagrams for sensitive resources **B.** Establish release gates for design review|
@@ -419,7 +420,7 @@ Furthermore, a detailed documentation for vulnerability mitigation and exploitat
 
 *...more on page 56*
 
-| | ST1 | ST2 | ST3 |
+| | ST 1 | ST 2 | ST 3 |
 |:-------------|:------------- |:---------------|:-------------|
 | **Objective:**| **Establish process to perform basic security tests based on implementation and software requirements.** |**Make security testing during development more complete and efficient through automation.** | **Require application- specific security testing to ensure baseline security before deployment.** |
 | **Activities:**|**A.** Derive test cases from known security requirements **B.** Conduct penetration testing on software releases | **A.** Utilize automated security testing tools **B.** Integrate security testing into development process | **A.** Employ application-specific security testing automation **B.** Establish release gates for security testing
@@ -428,7 +429,7 @@ Furthermore, a detailed documentation for vulnerability mitigation and exploitat
 
 *...more on page XX*
 
-| | SP1 | SP2 | SP3 |
+| | SP 1 | SP 2 | SP 3 |
 |:-------------|:------------- |:---------------|:-------------|
 | **Objective:** | **Establish and execute a complete workflow for active penetration testing.** | **Combine the project-wide penetration testing workflow with continuous integration (CI) techniques.** | **Establish feedback loops and release gates within the continuous integration for the software design and development cycle.** |
 | **Activities:** | **A.** Lay out an appropriate testing structure in order to test the system against all possible vectors of attacks **B.** Add version management for maximum covering rates and criteria documentation for expressiveness of test results | **A.** Expand the automated build with related penetration testing procedures **B.** Establish a continuous integration mechanism of the automated build into the project’s version management | **A.** Report (un-) successfully tested builds on a feedback platform **B.** Establish release gates for penetration testing |
@@ -487,7 +488,7 @@ Advanced organizations need a complete security strategy and team. Also they sho
 
 *…more on page 64*
 
-| | EH1 | EH2 | EH3|
+| | EH 1 | EH 2 | EH 3|
 |:-------------|:------------- |:---------------|:-------------|
 |**Objective:** | **Understand baseline operational environment for applications and software components.** | **Improve confidence in application operations by hardening the operating environment.** | **Validate application health and status of operational environment against known best practices.** |
 |**Activities:** | **A.** Maintain operational environment specification **B.** Identify and install critical security upgrades and patches | **A.** Establish routine patch management process **B.** Monitor baseline environment configuration status | **A.** Identify and deploy relevant operations protection tools **B.** Expand audit program for environment configuration |
@@ -496,7 +497,7 @@ Advanced organizations need a complete security strategy and team. Also they sho
 
 *…more on page 68*
 
-| | OE1 | OE2 | OE3 |
+| | OE 1 | OE 2 | OE 3 |
 |:-------------|:------------- |:---------------|:-------------|
 |**Objective:** | **Enable communications between development teams and operators for critical security-relevant data.** | **Improve expectations for continuous secure operations through provision of detailed procedures.** | **Mandate communication of security information and validate artifacts for completeness.** |
 | **Activities:** | **A.** Capture critical security information for deployment **B.** Document procedures for typical application alerts | **A.** Create per-release change management procedures **B.** Maintain formal operational security guides | **A.** Expand audit program for operational information **B.** Perform code signing for application components |
@@ -505,10 +506,10 @@ Advanced organizations need a complete security strategy and team. Also they sho
 
 *…more on page XX*
 
-| | MO1 | MO2 | MO3 |
+| | MO 1 | MO 2 | MO 3 |
 |:-------------|:------------- |:---------------|:-------------|
-|**Objective** | **Awareness of potential attack patterns.** | **Knowledge about impact of attack patterns to released hardware and software versions and variants.** | **Minimize negative impacts for customers.**|
- **Activities** | **A.** Maintenance of the attack pattern catalog | **A.** Implement all relevant penetration tests on all relevant hardware and software versions and variants **B.** Execute all relevant penetration tests on all relevant hardware and software | **A.** Operation of deployment infrastructure **B.** Deploy degradations/updates to customer |
+|**Objective:** | **Awareness of potential attack patterns.** | **Knowledge about impact of attack patterns to released hardware and software versions and variants.** | **Minimize negative impacts for customers.**|
+ **Activities:** | **A.** Maintenance of the attack pattern catalog | **A.** Implement all relevant penetration tests on all relevant hardware and software versions and variants **B.** Execute all relevant penetration tests on all relevant hardware and software | **A.** Operation of deployment infrastructure **B.** Deploy degradations/updates to customer |
 
 # Governance
 
@@ -648,7 +649,6 @@ Advanced organizations need a complete security strategy and team. Also they sho
 | ✦ Can products be updated subsequently after rollout? | NO | SOME | HALF | MOST |
 | ✦ Can results from penetration tests be reused? | NO | SOME | HALF | MOST |
 | ✦ Is security already implemented into the lifecycle? | NO | BUS AREA | ORG WIDE | ORG WIDE & REQUIRED |
-|
 
 # Verification
 
@@ -717,7 +717,6 @@ Advanced organizations need a complete security strategy and team. Also they sho
 | **SP3**
 | ✦Do projects integrate preventive security feedback loops including penetration testing? | NO | SOME | HALF | MOST |
 | ✦Do projects establish release gates in the software development lifecycle for penetration testing? | NO | SOME | HALF | MOST |
-|
 
 # Operations
 
@@ -795,7 +794,7 @@ This section defines the building blocks of SAMM, the maturity levels under each
 # Strategy & Metrics
 
 | | **SM1** | **SM2** | **SM3** |
-|:-------------|:-------------|:---------------|:-------------|:------------|
+|:---------------|:---------------|:---------------|:---------------|
 | **Objective** | **Establish unified strategic roadmap for software security within the organization.** | **Measure relative value of data and software assets and choose risk tolerance.** | **Align security expenditure with relevant business indicators and asset value.**|
 | **Activities** | **A.** Estimate overall business risk profile **B.** Build and maintain assurance program roadmap | **A.** Classify data and applications based on business risk **B.** Establish and measure per- classification security goals | **A.** Conduct periodic industry-wide cost comparisons **B.** Collect metrics for historic security spend |
 | **Assessment** | ✦Is there a software security assurance program in place? ✦Are development staff aware of future plans for the assurance program? ✦Do the business stakeholders understand your organization’s risk profile? | ✦Are many of your applications and resources categorized by risk? ✦Are risk ratings used to tailor the required assurance activities? ✦Does the organization know about what’s required based on risk ratings? | ✦Is per-project data for the cost of assurance activities collected? ✦Does your organization regularly compare your security spend with that of other organizations? |
@@ -838,9 +837,9 @@ Iterations of improvement on the assurance program should be approximately 3-6 m
 
 ##### SUCCESS METRICS
 
-* >80% of stakeholders briefed on business risk profile in the past six months
-* >80% of staff briefed on assurance program roadmap in the past three months
-* >1 assurance program strategy session in the past three months
+* \>80% of stakeholders briefed on business risk profile in the past six months
+* \>80% of staff briefed on assurance program roadmap in the past three months
+* \>1 assurance program strategy session in the past three months
 
 ##### COSTS
 
@@ -901,9 +900,9 @@ This process establishes the organization’s risk tolerance since active decisi
 
 ##### SUCCESS METRICS
 
-* >90% applications and data assets evaluated for risk classification in the past 12 months
-* >80% of staff briefed on relevant application and data risk ratings in the past six months
-* >80% of staff briefed on relevant assurance program roadmap in the past three months
+* \>90% applications and data assets evaluated for risk classification in the past 12 months
+* \>80% of staff briefed on relevant application and data risk ratings in the past six months
+* \>80% of staff briefed on relevant assurance program roadmap in the past three months
 
 ##### COSTS
 
@@ -963,9 +962,9 @@ The tracking of security spend per project should be done quarterly at the assur
 
 ##### SUCCESS METRICS
 
-* >80% of projects reporting security costs in the past three months
-* >1 industry-wide cost comparison in the past year
-* >1 historic security spend evaluation in the past year
+* \>80% of projects reporting security costs in the past three months
+* \>1 industry-wide cost comparison in the past year
+* \>1 historic security spend evaluation in the past year
 
 ##### COSTS
 
@@ -986,7 +985,7 @@ The tracking of security spend per project should be done quarterly at the assur
 # Policy & Compliance
 
 | | **PC1** | **PC2** | **PC3** |
-|:-------------|:-------------|:---------------|:-------------|:------------|
+|:---------------|:---------------|:---------------|:---------------|
 | **Objective** | **Understand relevant governance and compliance drivers to the organization.** | **Establish security and compliance baseline and understand per-project risks.** | **Require compliance and measure projects against organization-wide policies and standards.**|
 | **Activities** | **A.** Identify and monitor external compliance drivers **B.** Build and maintain compliance guidelines | **A.** Build policies and standards for security and compliance **B.** Establish project audit practice | **A.** Create compliance gates for projects **B.** Adopt solution for audit data collection |
 | **Assessment** | ✦Do project stakeholders know their project’s compliance status? ✦Are compliance requirements specifically considered by project teams? | ✦Does the organization utilize a set of policies and standards to control software development? ✦Are project teams able to request an audit for compliance with policies and standards? | ✦Are projects periodically audited to ensure a baseline of compliance with policies and standards? ✦Does the organization systematically use audits to collect and control compliance evidence? |
@@ -1029,9 +1028,9 @@ At a minimum, update and review control statements with stakeholders at least bi
 
 ##### SUCCESS METRICS
 
-* >1 compliance discovery meeting in the past six months
+* \>1 compliance discovery meeting in the past six months
 * Compliance checklist completed and updated within the past six months
-* >1 compliance review meeting with stakeholders in the past six months
+* \>1 compliance review meeting with stakeholders in the past six months
 
 ##### COSTS
 
@@ -1086,8 +1085,8 @@ Advertise this service to business owners and other stakeholders so that they ma
 
 ##### SUCCESS METRICS
 
-* >75% of staff briefed on policies and standards in the past six months
-* >80% stakeholders aware of compliance status against policies and standards
+* \>75% of staff briefed on policies and standards in the past six months
+* \>80% stakeholders aware of compliance status against policies and standards
 
 ##### COSTS
 
@@ -1148,7 +1147,7 @@ All instructions and procedures related to accessing compliance data as well as 
 
 ##### SUCCESS METRICS
 
-* >80% projects in compliance with policies and standards as seen by audit
+* \>80% projects in compliance with policies and standards as seen by audit
 * <50% time per audit as compared to manual
 
 ##### COSTS
@@ -1171,7 +1170,7 @@ All instructions and procedures related to accessing compliance data as well as 
 # Education & Guidance
 
 | | **EG1** | **EG2** | **EG3** |
-|:-------------|:-------------|:---------------|:-------------|:------------|
+|:---------------|:---------------|:---------------|:---------------|
 | **Objective** | **Offer development staff access to resources around the topics of secure programming and deployment.** | **Educate all personnel in the software life-cycle with role-specific guidance on secure development.** | **Mandate comprehensive security training and certify personnel for baseline knowledge.**|
 | **Activities** | **A.** Conduct technical security awareness training **B.** Build and maintain technical guidelines | **A.** Conduct role-specific application security training **B.** Utilize security coaches to enhance project teams | **A.** Create formal application security support portal **B.** Establish role-based examination/certification |
 | **Assessment** | ✦Have developers been given high-level security awareness training? ✦Does each project team understand where to find secure development best-practices and guidance? | ✦Are those involved in the development process given role-specific security training and guidance? ✦Are stakeholders able to pull in security coaches for use on projects? | ✦Is security-related guidance centrally controlled and consistently distributed throughout the organization? ✦Are developers tested to ensure a baseline skill-set for secure development practices? |
@@ -1207,13 +1206,12 @@ Ensure management is aware of the resources and briefs oncoming staff about thei
 * Increased developer awareness on the most common problems at the code level
 * Maintain software with rudimentary security best-practices in place
 * Set baseline for security know-how among technical staff
-* Enable qualitative security checks
-for baseline security knowledge
+* Enable qualitative security checks for baseline security knowledge
 
 ##### SUCCESS METRICS
 
-* >50% development staff briefed on security issues within the past year
-* >75% senior development/ architect staff briefed on security issues within the past year
+* \>50% development staff briefed on security issues within the past year
+* \>75% senior development/ architect staff briefed on security issues within the past year
 * Launch technical guidance within three months of first training
 
 ##### COSTS
@@ -1273,10 +1271,10 @@ Over time, the internal network of coaching resources can be used as points-of-c
 
 ##### SUCCESS METRICS
 
-* >60% development staff trained within the past year
-* >50% management/analyst staff trained within the past year
-* >80% senior development/architect staff trained within the past year
-* >3.0 Likert Scale on usefulness of training courses
+* \>60% development staff trained within the past year
+* \>50% management/analyst staff trained within the past year
+* \>80% senior development/architect staff trained within the past year
+* \>3.0 Likert Scale on usefulness of training courses
 
 ##### COSTS
 
@@ -1332,7 +1330,7 @@ Based upon pass/fail criteria or exceptional performance, staff should be ranked
 
 ##### SUCCESS METRICS
 
-* >80% staff certified within the past year
+* \>80% staff certified within the past year
 
 ##### COSTS
 
@@ -1356,7 +1354,7 @@ Based upon pass/fail criteria or exceptional performance, staff should be ranked
 # Security Culture
 
 | | **SC1** | **SC2** | **SC3** |
-|:-------------|:-------------|:---------------|:-------------|:------------|
+|:---------------|:---------------|:---------------|:---------------|
 | **Objective** | **Establish first elements of a security culture.** | **Refinement of the security culture.** | **Regular assessment and continuous enhancement of the security culture.**|
 | **Activities** | **A.** Establish communication **B.** Creating values diversity | **A.** Giving culture commitment **B.** Acting as a team and apply lifelong learning | **A.** Culture benchmarking **B.** Culture retrospective and reflection |
 | **Assessment** | ✦Does your organization have an open discussion about organizational deficiencies, human faults and Intentional activities? ✦Are diversity principles used in the organization? ✦Do employees consider security a high-priority issue? | ✦Is a value development established? ✦Is lifelong learning established in the organization? ✦Is a fundamental collaboration visible in the organization? | ✦Is a customized security culture benchmarking (assessment) established? ✦Do teams perform value retrospective and reflection of the security culture? ✦Is a mature collaboration visible in the organization? |
@@ -1460,7 +1458,7 @@ The collaboration characteristic based on Col_MM is non regular strong interacti
 
 ##### SUCCESS METRICS
 
-* >75% of the staff is involved in the security culture
+* \>75% of the staff is involved in the security culture
 
 ##### COSTS
 
@@ -1538,7 +1536,7 @@ The organization has independent penetration testers. The process uses external 
 # Threat Assessment
 
 | | **TA1** | **TA2** | **TA3** |
-|:-------------|:-------------|:---------------|:-------------|:------------|
+|:---------------|:---------------|:---------------|:---------------|
 | **Objective** | **Identify and understand high-level threats to the organization and individual projects.** | **Increase accuracy of threat assessment and improve granularity of per-project understanding.** | **Concretely align compensating controls to each threat against internal and third-party software.**|
 | **Activities** | **A.** Build and maintain application-specific threat models  **B.** Develop attacker profile from software architecture | **A.**Build and maintain abuse-case models per project **B.**Adopt a weighting system for measurement of threats | **A.**Explicitly evaluate risk from third-party components **B.**Elaborate threat models with compensating controls |
 | **Assessment** | ✦Do projects in your organization consider and document likely threats? ✦Does your organization understand and document the types of attackers it faces? | ✦Do project teams regularly analyze functional requirements for likely abuses? ✦Do project teams use a method of rating threats for relative comparison? ✦Are stakeholders aware of relevant threats and ratings? | ✦Do project teams specifically consider risk from external software? ✦Are the majority of the protection mechanisms and controls captured and mapped back to threats? |
@@ -1579,8 +1577,8 @@ This assessment should be conducted with business owners and other stakeholders 
 
 ##### SUCCESS METRICS
 
-* >50% of project stakeholders briefed on the threat models of relevant projects within the past 12 months
-* >75% of project stakeholders briefed on attacker profiles for relevant architectures
+* \>50% of project stakeholders briefed on the threat models of relevant projects within the past 12 months
+* \>75% of project stakeholders briefed on attacker profiles for relevant architectures
 
 ##### COSTS
 
@@ -1637,8 +1635,8 @@ After assigning each threat to a rating, use this information to prioritize risk
 
 ##### SUCCESS METRICS
 
-* >75% of project teams with identified and rated threats
-* >75% of project stakeholders briefed on threat and abuse models of relevant projects within the past six months
+* \>75% of project teams with identified and rated threats
+* \>75% of project stakeholders briefed on threat and abuse models of relevant projects within the past six months
 
 ##### COSTS
 
@@ -1694,9 +1692,9 @@ After initially conducted for a project, this must be updated and reviewed durin
 
 ##### SUCCESS METRICS
 
-* >80% of project teams with updated threat models prior to every implementation cycle
-* >80% of project teams with updated inventory of third-party components prior to every release
-* >50% of all security incidents identified a priori by threat models in the past 12 months
+* \>80% of project teams with updated threat models prior to every implementation cycle
+* \>80% of project teams with updated inventory of third-party components prior to every release
+* \>50% of all security incidents identified a priori by threat models in the past 12 months
 
 ##### COSTS
 
@@ -1718,7 +1716,7 @@ After initially conducted for a project, this must be updated and reviewed durin
 # Security Requirements
 
 | | **SR1** | **SR2** | **SR3** |
-|:-------------|:-------------|:---------------|:-------------|:------------|
+|:---------------|:---------------|:---------------|:---------------|
 | **Objective** | **Consider security explicitly during the software requirements process.** | **Increase granularity of security requirements derived from business logic and known risks.** | **Mandate security requirements process for all software projects and third-party dependencies.**|
 | **Activities** | **A.** Derive security requirements from business functionality  **B.** Evaluate security and compliance guidance for requirements | **A.** Build an access control matrix for resources and capabilities **B.** Specify security requirements based on known risks | **A.** Build security requirements into supplier agreements **B.** Expand audit program for security requirements |
 | **Assessment** | ✦Do project teams specify security requirements during development? ✦Do project teams pull requirements from best practices and compliance guidance? | ✦Do stakeholders review access control matrices for relevant projects? ✦Do project teams specify requirements based on feedback from other security activities? | ✦Do stakeholders review vendor agreements for security requirements? ✦Are audits performed against the security requirements specified by project teams? |
@@ -1762,7 +1760,7 @@ This review should be performed by a security auditor with input from business s
 
 ##### SUCCESS METRICS
 
-* >50% of project teams with explicitly defined security requirements
+* \>50% of project teams with explicitly defined security requirements
 
 ##### COSTS
 
@@ -1822,11 +1820,11 @@ Ultimately, the notion of risks leading to new security requirements should beco
 
 ##### SUCCESS METRICS
 
-* ✦>75% of all projects with updated abuse-case models within past six months
+* \>75% of all projects with updated abuse-case models within past six months
 
 ##### COSTS
 
-* ✦Project overhead from buildout and maintenance of abuse-case models
+* Project overhead from buildout and maintenance of abuse-case models
 
 ##### PERSONNEL
 
@@ -1877,8 +1875,8 @@ This audit should be performed during every development iteration, ideally towar
 
 ##### SUCCESS METRICS
 
-* >80% of projects passing security requirements audit in past six months
-* >80% of vendor agreements analyzed for contractual security requirements in the past 12 months
+* \>80% of projects passing security requirements audit in past six months
+* \>80% of vendor agreements analyzed for contractual security requirements in the past 12 months
 
 ##### COSTS
 
@@ -1900,7 +1898,7 @@ security requirements
 # Secure Architecture
 
 | | **SA1** | **SA2** | **SA3** |
-|:-------------|:-------------|:---------------|:-------------|:------------|
+|:---------------|:---------------|:---------------|:---------------|
 | **Objective** | **Insert consideration of proactive security guidance into the software design process.** | **Direct the software design process toward known secure services and secure-by-default designs.** | **Formally control the software design process and validate utilization of secure components.**|
 | **Activities** | **A.** Maintain list of recommended software frameworks **B.** Explicitly apply security principles to design | **A.** Identify and promote security services and infrastructure **B.** Identify security design patterns from architecture | **A.** Establish formal reference architectures and platforms **B.** Validate usage of frameworks, patterns, and platforms |
 | **Assessment** | ✦Are project teams provided with a list of recommended third-party components? ✦Are project teams aware of secure design principles and do they apply them consistently? | ✦Do you advertise shared security services with guidance for project teams? ✦Are project teams provided with prescriptive design patterns based on their application architecture? | ✦Do project teams build software from centrally-controlled platforms and frameworks? ✦Are project teams audited for the use of secure architecture components? |
@@ -1944,8 +1942,8 @@ While this process should be conducted by each project team after being trained 
 
 ##### SUCCESS METRICS
 
-* >80% of development staff briefed on software framework recommendations in the past year
-* >50% of projects self-reporting application of security principles to design
+* \>80% of development staff briefed on software framework recommendations in the past year
+* \>50% of projects self-reporting application of security principles to design
 
 ##### COSTS
 
@@ -2000,8 +1998,8 @@ The process of identification of applicable and appropriate patterns should be c
 
 ##### SUCCESS METRICS
 
-* >80% of projects with updated permission matrix in the past six months
-* >80% of project teams briefed on applicable security patterns in the past six months
+* \>80% of projects with updated permission matrix in the past six months
+* \>80% of project teams briefed on applicable security patterns in the past six months
 
 ##### COSTS
 
@@ -2059,9 +2057,9 @@ security protections
 
 ##### SUCCESS METRICS
 
-* >50% of active projects using reference platforms
-* >80% of projects reporting framework, pattern, and platform usage feedback in the past six months
-* >3.0 Likert Scale on usefulness of guidance/platforms reported by project teams
+* \>50% of active projects using reference platforms
+* \>80% of projects reporting framework, pattern, and platform usage feedback in the past six months
+* \>3.0 Likert Scale on usefulness of guidance/platforms reported by project teams
 
 ##### COSTS
 
@@ -2086,10 +2084,10 @@ security protections
 
 # Security Design
 
-| | **SD 1**  | **SD 2**  | **SD 3** |
-|:-------------|:------------- |:---------------|:-------------|
-| **Objective:** | **Identify security risks and attack potentialities for individual projects.** | **Plan penetration tests in advance and take future attack potentialities into account.** | **Facilitate hardware independent and ongoing penetration tests.** |
-| **Activities:** | **A.** Compile a risk analysis in due consideration of security and safety goals. **B.** Set up an attack pattern catalog. | **A.** Define test environment and categorize penetration tests. **B.** Downscale security risks of external software and hardware components. | **A.** Facilitate hardware independent penetration tests and implement development cycles by the use of structured data exchange.  **B.** Categorize, acquire and store all relevant hardware and software versions. |
+| | **SD1**  | **SD2**  | **SD3** |
+|:---------------|:---------------|:---------------|:---------------|
+| **Objective** | **Identify security risks and attack potentialities for individual projects.** | **Plan penetration tests in advance and take future attack potentialities into account.** | **Facilitate hardware independent and ongoing penetration tests.** |
+| **Activities** | **A.** Compile a risk analysis in due consideration of security and safety goals. **B.** Set up an attack pattern catalog. | **A.** Define test environment and categorize penetration tests. **B.** Downscale security risks of external software and hardware components. | **A.** Facilitate hardware independent penetration tests and implement development cycles by the use of structured data exchange.  **B.** Categorize, acquire and store all relevant hardware and software versions. |
 | **Assessment** | ✦Do projects execute risk analysis (e.g., in regard to (A)SIL)? ✦Are identified attack patterns documented in a reusable catalog? | ✦Are penetration tests planned and categorized for all products? ✦How often are external security reports reviewed? ✦Is special staff trained or are external certified testers employed? ✦Is the security of external software and hardware components guaranteed? | ✦Can products be tested hardware independently? ✦Can products be updated subsequently after rollout? ✦Can results from penetration tests be reused? ✦Is security already implemented into the lifecycle? |
 | **Results** | ✦Understanding of possible security risks. ✦Better understanding of risk functions that need to be tested. ✦Reusable catalog of possible attacks. ✦Mapping of security vulnerabilities to safety-relevant functions. | ✦Better preparation against emerging security vulnerabilities. ✦Simpler testing through tightly defined test environments. ✦Improved test coverage by documenting all penetration testing procedures. ✦All tests are up-to-date with latest security vulnerabilities. | ✦Possibility to test products independently of their hardware. ✦Possibility to conduct follow-up tests for new security vulnerabilities for every product. ✦Always up to date security standards. ✦Outline of the individual steps of penetration testing within the project's lifecycle. ✦Guideline on appropriate methods for processing the feedback of penetration tests. |
 
@@ -2145,8 +2143,8 @@ For the creation and maintaining of the catalog several meetings are needed.
 
 ##### SUCCESS METRICS
 
-* >75% of all projects have compiled a risk analysis
-* >50% of all projects have compiled attack patterns
+* \>75% of all projects have compiled a risk analysis
+* \>50% of all projects have compiled attack patterns
 
 ##### COSTS
 
@@ -2217,8 +2215,8 @@ Additionally, public services, which publish security exploits, should be search
 
 ##### SUCCESS METRICS
 
-* >90% of all penetration testers are specifically trained
-* >80% of external software and hardware components are from verified vendors
+* \>90% of all penetration testers are specifically trained
+* \>80% of external software and hardware components are from verified vendors
 
 ##### COSTS
 
@@ -2296,8 +2294,8 @@ Clear responsibilities have to be defined, such that the test results can be ade
 
 ##### SUCCESS METRICS
 
-* >80% of relevant hardware and software versions are stored
-* >70 % of all tests for a project are tested with a hardware-independent test interface
+* \>80% of relevant hardware and software versions are stored
+* \>70% of all tests for a project are tested with a hardware-independent test interface
 
 ##### COSTS
 
@@ -2328,7 +2326,7 @@ Clear responsibilities have to be defined, such that the test results can be ade
 # Design Review
 
 | | **DR1** | **DR2** | **DR3** |
-|:-------------|:-------------|:---------------|:-------------|:------------|
+|:---------------|:---------------|:---------------|:---------------|
 | **Objective** | **Support ad hoc reviews of software design to ensure baseline mitigations for known risks.** | **Offer assessment services to review software design against comprehensive best practices for security.** | **Require assessments and validate artifacts to develop detailed understanding of protection mechanisms.**|
 | **Activities** | **A.** Identify software attack surface **B.** Analyze design against known security requirements | **A.** Inspect for complete provision of security mechanisms **B.** Deploy design review service for project teams | **A.** Develop data-flow diagrams for sensitive resources **B.** Establish release gates for design review |
 | **Assessment** | ✦Do project teams document the attack perimeter of software designs? ✦Do project teams check software designs against known security risks? | ✦Do project teams specifically analyze design elements for security mechanisms? ✦Are project stakeholders aware of how to obtain a formal secure design review? | ✦Does the secure design review process incorporate detailed data-level analysis? ✦Does a minimum security baseline exist for secure design review results? |
@@ -2372,8 +2370,8 @@ This analysis should be conducted by security-savvy technical staff with input f
 
 ##### SUCCESS METRICS
 
-* >50% of projects with updated attack surface analysis in past 12 months
-* >50% of projects with updated security requirements design-level analysis in past 12 months
+* \>50% of projects with updated attack surface analysis in past 12 months
+* \>50% of projects with updated security requirements design-level analysis in past 12 months
 
 ##### COSTS
 
@@ -2428,8 +2426,8 @@ During a design review, the review team should work with project teams to collec
 
 ##### SUCCESS METRICS
 
-* >80% of stakeholders briefed on status of review requests in the past six months
-* >75% of projects undergoing design review in the past 12 months
+* \>80% of stakeholders briefed on status of review requests in the past six months
+* \>75% of projects undergoing design review in the past 12 months
 
 ##### COSTS
 
@@ -2484,8 +2482,8 @@ For legacy systems or inactive projects, an exception process should be created 
 
 ##### SUCCESS METRICS
 
-* >80% of projects with updated dataflow diagrams in the past six months
-* >75% of projects passing design review audit in the past six months
+* \>80% of projects with updated dataflow diagrams in the past six months
+* \>75% of projects passing design review audit in the past six months
 
 ##### COSTS
 
@@ -2508,13 +2506,13 @@ For legacy systems or inactive projects, an exception process should be created 
 # Implementation Review
 
 | | **IR1** | **IR2** | **IR3** |
-|:-------------|:-------------|:---------------|:-------------|:------------|
+|:---------------|:---------------|:---------------|:---------------|
 | **Objective** | **Opportunistically find basic code-level vulnerabilities and other high-risk security issues.** | **Make implementation review during development more accurate and efficient through automation.** | **Mandate comprehensive code review process to discover language-level and application-specific risks.**|
 | **Activities** | **A.** Create review checklists from known security requirements **B.** Perform point-review of high-risk code | **A.** Utilize automated code analysis tools **B.** Integrate code analysis into development process | **A.** Customize code analysis for application-specific concerns  **B.** Establish release gates for implementation review |
 | **Assessment** | ✦Do project teams have review checklists based on common security-related problems? ✦Do project teams review selected high-risk code? | ✦Can project teams access automated code analysis tools to find security problems? ✦Do stakeholders consistently review results from code reviews? | ✦Do project teams utilize automation to check code against application-specific coding standards? ✦Does a minimum security baseline exist for code review results? |
 | **Results** | ✦Inspection for common configuration or code vulnerabilities that lead to likely discovery or attack ✦Lightweight review for coding errors that lead to severe security impact ✦Basic code-level due diligence for security assurance | ✦Development enabled to consistently self-check for code-level security vulnerabilities ✦Routine analysis results to compile historic data on per-team secure coding habits ✦Stakeholders aware of unmitigated vulnerabilities to support better tradeoff analysis | ✦Increased confidence in accuracy and applicability of code analysis results ✦Organization-wide baseline for secure coding expectations ✦Project teams with an objective goal for judging code-level security |
 
-# Implementation Review: IR1
+# Implementation Review: IR 1
 
 ### Opportunistically find basic code-level vulnerabilities and other high-risk security issues
 
@@ -2554,10 +2552,10 @@ to likely discovery or attack
 
 ##### SUCCESS METRICS
 
-* >80% of project teams briefed on relevant code review checklists in
+* \>80% of project teams briefed on relevant code review checklists in
 the past six months
-* >50% of project teams performing code review on high-risk code in the past six months
-* >3.0 Likert Scale on usefulness of code review checklists reported by developers
+* \>50% of project teams performing code review on high-risk code in the past six months
+* \>3.0 Likert Scale on usefulness of code review checklists reported by developers
 
 ##### COSTS
 
@@ -2575,7 +2573,7 @@ the past six months
 
 * Security Requirements - 1
 
-# Implementation Review:IR2
+# Implementation Review:IR 2
 
 ### Make implementation review during development more accurate and efficient through automation
 
@@ -2612,8 +2610,8 @@ If unaddressed findings from implementation review remain at time of release, th
 
 ##### SUCCESS METRICS
 
-* >50% of projects with code review and stakeholder sign-off in the past six months
-* >80% of projects with access to automated code review results in the past month
+* \>50% of projects with code review and stakeholder sign-off in the past six months
+* \>80% of projects with access to automated code review results in the past month
 
 ##### COSTS
 
@@ -2632,7 +2630,7 @@ If unaddressed findings from implementation review remain at time of release, th
 
 * None
 
-# Implementation Review:IR3
+# Implementation Review:IR 3
 
 ### Mandate comprehensive implementation review process to discover language-level and application-specific risks
 
@@ -2669,8 +2667,8 @@ For legacy systems or inactive projects, an exception process should be created 
 
 ##### SUCCESS METRICS
 
-* >50% of projects using code analysis customizations
-* >75% of projects passing code review audit in the past six months
+* \>50% of projects using code analysis customizations
+* \>75% of projects passing code review audit in the past six months
 
 ##### COSTS
 
@@ -2694,7 +2692,7 @@ For legacy systems or inactive projects, an exception process should be created 
 # Security Testing
 
 | | **ST1** | **ST2** | **ST3** |
-|:-------------|:-------------|:---------------|:-------------|:------------|
+|:---------------|:---------------|:---------------|:---------------|
 | **Objective** | **Establish process to perform basic security tests based on implementation and software requirements.** | **Make security testing during development more complete and efficient through automation.** | **Require application-specific security testing to ensure baseline security before deployment.**|
 | **Activities** | **A.** Derive test cases from known security requirements **B.** Conduct penetration testing on software releases | **A.** Utilize automated security testing tools **B.** Integrate security testing into development process | **A.** Employ application-specific security testing automation **B.** Establish release gates for security testing |
 | **Assessment** | ✦Do projects specify security testing based on defined security requirements? ✦Is penetration testing performed on high-risk projects prior to release? ✦Are stakeholders aware of the security test status prior to release? | ✦Do projects use automation to evaluate security test cases? ✦Do projects follow a consistent process to evaluate and report on security tests to stakeholders? | ✦Are security test cases comprehensively generated for application-specific logic? ✦Does a minimum security baseline exist for security testing? |
@@ -2738,8 +2736,8 @@ critical business functions
 
 ##### SUCCESS METRICS
 
-* >50% of projects specifying security test cases in the past 12 months
-* >50% of stakeholders briefed on project status against security tests in the past six months
+* \>50% of projects specifying security test cases in the past 12 months
+* \>50% of stakeholders briefed on project status against security tests in the past six months
 
 ##### COSTS
 
@@ -2797,8 +2795,8 @@ risk acceptance decisions
 
 ##### SUCCESS METRICS
 
-* >50% of projects with security testing and stakeholder sign-off in the past six months
-* >80% of projects with access to automated security testing results in the past month
+* \>50% of projects with security testing and stakeholder sign-off in the past six months
+* \>80% of projects with access to automated security testing results in the past month
 
 ##### COSTS
 
@@ -2857,8 +2855,8 @@ For legacy systems or inactive projects, an exception process should be created 
 
 ##### SUCCESS METRICS
 
-* >50% of projects using security testing customizations
-* >75% of projects passing all security tests in the past six months
+* \>50% of projects using security testing customizations
+* \>75% of projects passing all security tests in the past six months
 
 ##### COSTS
 
@@ -2884,7 +2882,7 @@ testing automation
 # Security Pentesting
 
 | | **SP1** | **SP2** | **SP3** |
-|:-------------|:-------------|:---------------|:-------------|:------------|
+|:---------------|:---------------|:---------------|:---------------|
 | **Objective** | **Establish and execute a complete workflow for active penetration testing.** | **Combine the project-wide penetration testing workflow with continuous integration (CI) techniques.** | **Establish feedback loops and release gates within the continuous integration for the software design and development cycle.**|
 | **Activities** | **A.** Lay out an appropriate testing structure in order to test the system against all possible vectors of attacks **B.** Add version management for maximum covering rates and criteria documentation for expressiveness of test results | **A.** Expand the automated build with related penetration testing procedures **B.** Establish a continuous integration mechanism of the automated build into the project’s version management | **A.** Report (un-) successfully tested builds on a feedback platform **B.** Establish release gates for penetration testing |
 | **Assessment** | ✦Are identified attack pattern structured and tested orderly? ✦Do projects use version control management for penetration testing? ✦Do projects integrate practical exploitation and mitigation comments for every attack pattern? ✦Are all relevant and found attacks tested on the software? | ✦Do penetration testers have access to automatic software builds that include their tests? ✦Is the penetration testing routine embedded in a continuous integration mechanism? ✦Do developers and penetration testers discuss and handle the results of penetration test cases? | ✦Do projects integrate preventive security feedback loops including penetration testing? ✦Do projects establish release gates in the software development lifecycle for penetration testing? |
@@ -2935,9 +2933,9 @@ The mitigation section should also follow the previously elaborated criteria sch
 
 ##### SUCCESS METRICS
 
-* >75% of projects assessed attack paths
-* >50% of projects use version management for penetration testing
-* >75% of projects document exploitation & mitigation with standard criteria
+* \>75% of projects assessed attack paths
+* \>50% of projects use version management for penetration testing
+* \>75% of projects document exploitation & mitigation with standard criteria
 
 ##### COSTS
 
@@ -3007,8 +3005,8 @@ If the penetration test case does not compile anymore (2), the penetration teste
 
 ##### SUCCESS METRICS
 
-* >50% of builds per project that include penetration tests can be executed automatically on hardware-supported local machines
-* >50% of projects work with continuous integration on a penetration testing level
+* \>50% of builds per project that include penetration tests can be executed automatically on hardware-supported local machines
+* \>50% of projects work with continuous integration on a penetration testing level
 
 ##### COSTS
 
@@ -3072,8 +3070,8 @@ Another option to structure release gates could be to assign different release g
 
 ##### SUCCESS METRICS
 
-* >50% of projects have project-wide security related feedback loops
-* >50% of projects do have release gates
+* \>50% of projects have project-wide security related feedback loops
+* \>50% of projects do have release gates
 
 ##### COSTS
 
@@ -3101,7 +3099,7 @@ Another option to structure release gates could be to assign different release g
 # Issue Management
 
 | | **IM1** | **IM2** | **IM3** |
-|:-------------|:-------------|:---------------|:-------------|:------------|
+|:---------------|:---------------|:---------------|:---------------|
 | **Objective** | **Understand high-level plan for responding to issue reports or incidents.** | **Elaborate expectations for response process to improve consistency and communications.** | **Improve analysis and data gathering within response process for feedback into proactive planning.**|
 | **Activities** | **A.** Identify point of contact for security issues **B.** Create informal security response team(s) | **A.** Establish consistent incident response process **B.** Adopt a security issue disclosure process | **A.** Conduct root cause analysis for incidents **B.** Collect per-incident metrics |
 | **Assessment** | ✦Do projects have a point of contact for security issues or incidents? ✦Does your organization have an assigned security response team? ✦Are project teams aware of their security point(s) of contact and response team(s)? | ✦Does the organization utilize a consistent process for incident reporting and handling? ✦Are project stakeholders aware of relevant security disclosures related to their software projects? | ✦Are incidents inspected for root causes to generate further recommendations? ✦Do projects consistently collect and report data and metrics related to incidents? |
@@ -3144,9 +3142,9 @@ The response team should hold a meeting at least annually to brief security poin
 
 ##### SUCCESS METRICS
 
-* >50% of the organization briefed on closest security point of
+* \>50% of the organization briefed on closest security point of
 contact in the past six months
-* >1 meeting of security response team and points of contact in the past 12 months
+* \>1 meeting of security response team and points of contact in the past 12 months
 
 ##### COSTS
 
@@ -3203,8 +3201,8 @@ Lastly, many states and countries legally require external communications for in
 
 ##### SUCCESS METRICS
 
-* >80% of project teams briefed on incident response process in the past six months
-* >80% of stakeholders briefed on security issue disclosures in the past six months
+* \>80% of project teams briefed on incident response process in the past six months
+* \>80% of stakeholders briefed on security issue disclosures in the past six months
 
 ##### COSTS
 
@@ -3259,8 +3257,8 @@ Lastly, many states and countries legally require external communications for in
 
 ##### SUCCESS METRICS
 
-* >80% of incidents documented with root causes and further recommendations in the past six months
-* >80% of incidents collated for metrics in the past six months
+* \>80% of incidents documented with root causes and further recommendations in the past six months
+* \>80% of incidents collated for metrics in the past six months
 
 ##### COSTS
 
@@ -3281,7 +3279,7 @@ Lastly, many states and countries legally require external communications for in
 # Environment Hardening
 
 | | **EH1** | **EH2** | **EH3** |
-|:-------------|:-------------|:---------------|:-------------|:------------|
+|:---------------|:---------------|:---------------|:---------------|
 | **Objective** | **Understand baseline operational environment for applications and software components.** | **Improve confidence in application operations by hardening the operating environment.** | **Validate application health and status of operational environment against known best practices.**|
 | **Activities** | **A.** Maintain operational environment specification **B.** Identify and install critical security upgrades and patches | **A.** Establish routine patch management process **B.** Monitor baseline environment configuration status | **A.** Identify and deploy relevant operations protection tools **B.** Expand audit program for environment configuration |
 | **Assessment** | ✦Do projects document operational environment security requirements? ✦Do projects check for security updates to third-party software components? | ✦Is a consistent process used to apply upgrades and patches to critical dependencies? ✦Do projects leverage automation to check application and environment health? | ✦Are stakeholders aware of options for additional tools to protect software while running in operations? ✦Does a minimum security baseline exist for environment health (versioning, patching, etc.)? |
@@ -3326,8 +3324,8 @@ well-understood timeline
 
 ##### SUCCESS METRICS
 
-* >50% of projects with updated operational environment specification in the past six months
-* >50% of projects with updated list of relevant critical security patches in the past six months
+* \>50% of projects with updated operational environment specification in the past six months
+* \>50% of projects with updated list of relevant critical security patches in the past six months
 
 ##### COSTS
 
@@ -3385,8 +3383,8 @@ Ultimately, after a solution is deployed for monitoring the environment’s conf
 
 ##### SUCCESS METRICS
 
-* >80% of project teams briefed on patch management process in the past 12 months
-* >80% of stakeholders aware of current patch status in the past six months
+* \>80% of project teams briefed on patch management process in the past 12 months
+* \>80% of stakeholders aware of current patch status in the past six months
 
 ##### COSTS
 
@@ -3440,9 +3438,9 @@ Audits for infrastructure can occur at any point after a project’s initial rel
 
 ##### SUCCESS METRICS
 
-* >80% of stakeholders briefed on relevant operations protection
+* \>80% of stakeholders briefed on relevant operations protection
 tools in the past six months
-* >75% of projects passing infrastructure audits in the past six months
+* \>75% of projects passing infrastructure audits in the past six months
 
 ##### COSTS
 
@@ -3464,7 +3462,7 @@ tools in the past six months
 # Operational Enhancement
 
 | | **OE1** | **OE2** | **OE3** |
-|:-------------|:-------------|:---------------|:-------------|:------------|
+|:---------------|:---------------|:---------------|:---------------|
 | **Objective** | **Enable communications between development teams and operators for critical security-relevant data.** | **Enable communications between development teams and operators for critical security-relevant data.** | **Mandate communication of security information and validate artifacts for completeness.**|
 | **Activities** | **A.** Capture critical security information for deployment? **B.** Document procedures for typical application alerts| **A.** Create per-release change management procedures **B.** Maintain formal operational security guides | **A.** Expand audit program for operational information **B.** Perform code signing for application components|
 | **Assessment** | ✦Are security notes delivered with each software release? ✦Are security-related alerts and error conditions documented on a per-project basis? | ✦Do projects utilize a change management process that’s well understood? ✦Do project teams deliver an operational security guide with each product release? | ✦Are project releases audited for appropriate operational security information? ✦Is code signing routinely performed on software components using a consistent process? |
@@ -3506,8 +3504,8 @@ For each event, actionable advice should be captured to inform users and operato
 
 ##### SUCCESS METRICS
 
-* >50% of projects with updated deployment security information in the past six months
-* >50% of projects with operational procedures for events updated in the past six months
+* \>50% of projects with updated deployment security information in the past six months
+* \>50% of projects with operational procedures for events updated in the past six months
 
 ##### COSTS
 
@@ -3560,8 +3558,8 @@ The operational security guide, after initial creation, should be reviewed by pr
 
 ##### SUCCESS METRICS
 
-* >50% of projects with updated change management procedures in the past six months
-* >80% of stakeholders briefed on status of operational security guides in the past six months
+* \>50% of projects with updated change management procedures in the past six months
+* \>80% of stakeholders briefed on status of operational security guides in the past six months
 
 ##### COSTS
 
@@ -3616,8 +3614,8 @@ Since code signing is not appropriate for everything, architects and developers 
 
 ##### SUCCESS METRICS
 
-* >80% of projects with updated operational security guide in the last six months
-* >80% of stakeholders briefed on code signing options and status in the past six months
+* \>80% of projects with updated operational security guide in the last six months
+* \>80% of stakeholders briefed on code signing options and status in the past six months
 
 ##### COSTS
 
@@ -3639,7 +3637,7 @@ Since code signing is not appropriate for everything, architects and developers 
 # Security Monitoring
 
 | | **MO1** | **MO2** | **MO3** |
-|:-------------|:-------------|:---------------|:-------------|:------------|
+|:---------------|:---------------|:---------------|:---------------|
 | **Objective** | **Awareness of potential attack patterns.** | **Knowledge about impact of attack patterns to released hardware and software versions and variants.** | **Minimize negative impacts for customers.**|
 | **Activities** |  **A.** Maintenance of the attack pattern catalog| **A.** Implement all relevant penetration tests on all relevant hardware and software versions and variants **B.** Execute all relevant penetration tests on all relevant hardware and software | **A.** Operation of deployment infrastructure **B.** Deploy degradations/updates to customer |
 | **Assessment** | ✦Does your organization gather information about new vulnerability issues? ✦Are vulnerability issues filtered to dedicated project, used hardware and software stacks? ✦Are there project teams after final (serial) release responsible for these issues? | ✦Is your penetration test continuously developed? ✦Do you assure that penetration tests are executed for every released hardware/software Combination? ✦Does your company collect and archive all results of these penetration tests? | ✦Does your company know how to contact the end users of your devices? ✦Does your company have a process which defines the propagation of security vulnerabilities to your customers? ✦Do your project teams provide a security degradation guidance model? ✦Does your company have a process which defines the propagation of security updates to end users? |
@@ -3677,7 +3675,7 @@ All the gathered information have to lead into attack pattern which must be stor
 
 * Database for attack patern installed
 * At least one person fulltime monitoring security feeds
-* >70% of products/derivatives/libraries in central configuration management database
+* \>70% of products/derivatives/libraries in central configuration management database
 * Respond team for after sale security management installed
 
 ##### COSTS
@@ -3790,7 +3788,7 @@ This means, the action  has to be deployed to the devices out in the field. Ther
 * Information channels to end user are all known
 * Updated guideline for developers at least two times per year
 * Implemented process for distributing patches/updates/degradation (>80% automated)
-* >80% of the developers are skilled regarding security
+* \>80% of the developers are skilled regarding security
 * Training for developers at least two times a year
 * Trainings for operators and managers at least once per year
 

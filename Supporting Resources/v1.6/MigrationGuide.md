@@ -30,9 +30,9 @@ Use the available .markdownlint.json config file and add the following exception
 
 * Images
   * changed image locations to its own directory 'images/', changed links
-  * deleted '\#' from image links
+  * deleted '#' from image links
   * changed the following images in order to integrate all 16 security practices in v1.6
-    * Cover (v1.5 \-> v1.6)
+    * Cover (v1.5 -> v1.6)
     * SAMM-Overview (4 new security practices)
     * PNGDoc (deleted)
 * License
@@ -44,9 +44,9 @@ Use the available .markdownlint.json config file and add the following exception
   * TODO set new page numbers
 
 * Understanding the model
-  * deleted '\#'
+  * deleted '#'
   * Business Functions
-    * 'twelve' \-> 'sixteen'
+    * 'twelve' -> 'sixteen'
     * TODO set new page numbers >
     * Governance
       * added Security Culture + linting all
@@ -62,43 +62,49 @@ Use the available .markdownlint.json config file and add the following exception
   
 * Governance (linting)
   * Description & Activity overview & Assessment worksheet
-    * SM, PC, EG: linting
+    * SM, PC, EG: linting and alignment
     * Security Culture added
 * Construction (linting)
   * Description & Activity overview & Assessment worksheet
-    * TA, SR, SA: linting
+    * TA, SR, SA: linting and alignment
     * Security Design added
-* Verification (linting)
+* Verification (linting) and alignment
   * Description & Activity overview & Assessment worksheet
-    * DR, IP, ST: linting
+    * DR, IP, ST: linting and alignment
     * Security Pentesting added
 * Operations (linting)
   * Description & Activity overview & Assessment worksheet
-    * IM, EH, OE: linting
+    * IM, EH, OE: linting and alignment
     * Security Monitoring added
 
-* Security Practices in detail (linting in all sec practice && levels)
+* Security Practices in detail (linting in all sec practice && levels && escaping '>')
+  * *all*:
+    * linting sec practices && levels
+    * escaping '>'
+    * changing table format so that it is correctly displayed in github (5 columns -> 4 columns)
   * SM
     * SM1
     * deleted '.' in activity summary sentence
     * SM2
-      * results \-> ##### Results
+      * results -> ##### Results
   * PC
   * EG
+    * EG1: Results, deleted new line
   * Sec Culture
   * TA
   * SR
     * SR1
-      * objective ###Consider \-> ### Consider
+      * objective ###Consider -> ### Consider
   * SA
   * Sec Design
   * DR
-  * IP
+  * IR
+    * IR1-3 added space: 'Implementation Review:IR1' -> 'Implementation Review: IR1
   * ST
   * Sec Pentesting
   * IM
     * IM2
-      * third party \-> third-party
+      * third party -> third-party
   * EH
   * OE
 
