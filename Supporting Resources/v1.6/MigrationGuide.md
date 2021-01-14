@@ -18,6 +18,7 @@ Please refer to the following sections for detailed information.
 
 If you want to inspect the markdown file with a linter, prefer the markdownlinter extension of VS code.
 Use the available .markdownlint.json config file and add the following exceptions:
+
 {
     "MD001" : false,
     "MD013" : false,
@@ -26,10 +27,17 @@ Use the available .markdownlint.json config file and add the following exception
     "MD041" : false
 }
 
+If you want to create a new PDf file from the current v1.6. markdown file, call the following command in the MarkDown dir(requires font DejaVuSans):
+
+"pandoc --pdf-engine=xelatex -V geometry:"top=2cm,bottom=1.5cm,left=2cm,right=2cm" -V mainfont:"DejaVuSans" -V monofont:"DejaVuSans" SAMM-1.6.md -f markdown-implicit_figures -o SAMM_Core_V1-6_FINAL.pdf"
+
+This command requires \\pagebreak and \\newpage commands in the markdown file (which are currently included)
+
 ## SAMM 1.6 Markdown Changelog v1.6
 
 * Images
   * changed image locations to its own directory 'images/', changed links
+  * changed image descriptions
   * deleted '#' from image links
   * changed the following images in order to integrate all 16 security practices in v1.6
     * Cover (v1.5 -> v1.6)
@@ -39,15 +47,17 @@ Use the available .markdownlint.json config file and add the following exception
   * linting
 * Executive Summary
   * linting
+  * added indentation
 * Contents
   * linting
-  * TODO set new page numbers
+  * set new page numbers
+  * facilitated the format
 
 * Understanding the model
   * deleted '#'
   * Business Functions
     * 'twelve' -> 'sixteen'
-    * TODO set new page numbers >
+    * set new page numbers
     * Governance
       * added Security Culture + linting all
     * Construction
@@ -61,27 +71,20 @@ Use the available .markdownlint.json config file and add the following exception
       * None
   
 * Governance (linting)
-  * Description & Activity overview & Assessment worksheet
-    * SM, PC, EG: linting and alignment
-    * Security Culture added
-* Construction (linting)
-  * Description & Activity overview & Assessment worksheet
-    * TA, SR, SA: linting and alignment
-    * Security Design added
-* Verification (linting) and alignment
-  * Description & Activity overview & Assessment worksheet
-    * DR, IP, ST: linting and alignment
-    * Security Pentesting added
-* Operations (linting)
-  * Description & Activity overview & Assessment worksheet
-    * IM, EH, OE: linting and alignment
-    * Security Monitoring added
+  * in all Business Functions / Security Practices:
+    * tables rearranged for better latex-based conversion to PDF
+    * linting and alignment
+  * Security Culture added
+  * Security Design added
+  * Security Pentesting added
+  * Security Monitoring added
 
 * Security Practices in detail (linting in all sec practice && levels && escaping '>')
   * *all*:
     * linting sec practices && levels
     * escaping '>'
     * changing table format so that it is correctly displayed in github (5 columns -> 4 columns)
+    * changed ordering of "Related Levels" to match the SAMM-overview order
   * SM
     * SM1
     * deleted '.' in activity summary sentence
@@ -90,23 +93,28 @@ Use the available .markdownlint.json config file and add the following exception
   * PC
   * EG
     * EG1: Results, deleted new line
-  * Sec Culture
+  * added Sec Culture
   * TA
+    * TA2: deleted star in related levels section
   * SR
     * SR1
       * objective ###Consider -> ### Consider
   * SA
-  * Sec Design
+  * added Sec Design
   * DR
+    * DR3
+      * Related Levels: "Code Review" -> "Implementation Review"
   * IR
     * IR1-3 added space: 'Implementation Review:IR1' -> 'Implementation Review: IR1
   * ST
-  * Sec Pentesting
+  * added Sec Pentesting
   * IM
     * IM2
       * third party -> third-party
   * EH
+    * Table: Results EH3: two stars --> one star ("Reinforced operational environment...")
   * OE
+  * added Sec Monitoring
 
 ## SAMM Assessment Toolbox Changelog v1.6
 

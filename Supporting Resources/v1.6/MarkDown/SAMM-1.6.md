@@ -1,4 +1,6 @@
 ![Cover](images/Cover.png)
+
+\pagebreak
 **For the latest version and additional info, please see the project web site at**
 
 <https://www.owasp.org/index.php/OWASP_SAMM_Project>
@@ -16,7 +18,7 @@ This work would not be possible without the support of many individual reviewers
 
 This is an OWASP Project
 
-![OWASP LOGO HERE](images/Logo.png)
+![OWASP LOGO](images/Logo.png)
 
 OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at <https://www.owasp.org>.
 
@@ -26,17 +28,18 @@ This work is licensed under the Creative Commons Attribution-Share Alike 4.0 Lic
 
 ![CC Logo](images/CC_Logo.png)
 
+\pagebreak
 # Executive Summary
 
 The Software Assurance Maturity Model (SAMM) is an open framework to help organizations formulate and implement a strategy for software security that is tailored to the specific risks facing the organization. The resources provided by SAMM will aid in:
 
-✦ Evaluating an organization’s existing software security practices.
+      ✦ Evaluating an organization’s existing software security practices.
 
-✦ Building a balanced software security assurance program in well-defined iterations.
+      ✦ Building a balanced software security assurance program in well-defined iterations.
 
-✦ Demonstrating concrete improvements to a security assurance program.
+      ✦ Demonstrating concrete improvements to a security assurance program.
 
-✦ Defining and measuring security-related activities throughout an organization.
+      ✦ Defining and measuring security-related activities throughout an organization.
 
 Version 1.1 of SAMM expanded and restructured its predecessor into four complementary resources: this document that describes the core SAMM model, the How-To Guide that explains how to apply the model, the Quick Start Guide to help accelerate learning and adoption, and the toolbox that provides simple automation for data collection, metrics, and graphs. Furthermore, a number of elements have been renamed to better represent their purpose.
 
@@ -44,76 +47,85 @@ Version 1.5 of SAMM incorporates a refinement of the scoring model to provide mo
 
 SAMM was defined with flexibility in mind such that it can be utilized by small, medium, and large organizations using any style of development. Additionally, this model can be applied organization-wide, for a single line-of-business, or even for an individual project. Beyond these traits, SAMM was built on the following principles:
 
-✦ An organization’s behavior changes slowly over time - A successful software security program should be specified in small iterations that deliver tangible assurance gains while incrementally working toward long-term goals.
+      ✦ An organization’s behavior changes slowly over time
+          A successful software security program should be specified in small iterations
+          that deliver tangible assurance gains while incrementally working toward long-term goals.
 
-✦ There is no single recipe that works for all organizations - A software security framework must be flexible and allow organizations to tailor their choices based on their risk tolerance and the way in which they build and use software.
+      ✦ There is no single recipe that works for all organizations
+          A software security framework must be flexible and allow organizations to tailor their
+          choices based on their risk tolerance and the way in which they build and use software.
 
-✦ Guidance related to security activities must be prescriptive - All the steps in building and assessing an assurance program should be simple, well-defined, and measurable. This model also provides roadmap templates for common types of organizations.
+      ✦ Guidance related to security activities must be prescriptive
+          All the steps in building and assessing an assurance program should be simple,
+          well-defined, and measurable. 
+          This model also provides roadmap templates for common types of organizations.
 
 The foundation of the model is built upon the core business functions of software development with security practices tied to each (see diagram below). The building blocks of the model are the three maturity levels defined for each of the twelve security practices. These define a wide variety of activities in which an organization could engage to reduce security risks and increase software assurance. Additional details are included to measure successful activity performance, understand the associated assurance benefits, estimate personnel and other costs.
 
 As an open project, SAMM content shall always remain vendor-neutral and freely available for all to use.
 
-![SAMM Overview Image Here](images/SAMM-Overview.png )
+![SAMM Overview 1](images/SAMM-Overview.png)
 
+\pagebreak
 # Contents
 
 Executive Summary  3
 
-#### Understanding the model 6
+## Understanding The Model 6
 
-Business Functions  8
+Business Functions 8
 
-Governance 10
+Governance 11
 
-Construction 12
+Construction 15
 
-Verification 14
+Verification 19
 
-Operations 16
+Operations 23
 
-Assessment worksheets 18
+Assessment worksheets 27
 
-#### The Security Practices 22
+## The Security Practices 36
 
-Strategy & Metrics 24
+Strategy & Metrics 38
 
-Policy & Compliance 28
+Policy & Compliance 45
 
-Education & Guidance 32
+Education & Guidance 52
 
-Security Culture XX
+Security Culture 59
 
-Threat Assessment 36
+Threat Assessment 66
 
-Security Requirements 40
+Security Requirements 73
 
-Secure Architecture 44
+Secure Architecture 80
 
-Security Design XX
+Security Design 87
 
-Design Review 48
+Design Review 94
 
-Implementation Review 52
+Implementation Review 101
 
-Security Testing 56
+Security Testing 108
 
-Security Penetration Testing XX
+Security Penetration Testing 115
 
-Issue Management 60
+Issue Management 122
 
-Environment Hardening 64
+Environment Hardening 129
 
-Operational Enablement 68
+Operational Enablement 136
 
-Security Monitoring XX
+Security Monitoring 143
 
-<!-- TODO change number of pages -->
+![Understanding the Model 1](images/UnderstandingModel.png)
+![Understanding the Model 2](images/Image.png)
 
-!['Understanding the Model' Image pages Here](images/UnderstandingModel.png)
 
 SAMM is built upon a collection of security practices that are tied back into the core business functions involved in software development. This section introduces those business functions and the corresponding security practices for each. After covering the high-level framework, the maturity levels for each security practice are also discussed briefly in order to paint a picture of how each can be iteratively improved over time.
 
+\pagebreak
 # Business Functions
 
 **At the highest level, SAMM defines four critical business functions.** Each business function is a category of activities related to the nuts-and-bolts of software development, or stated another way, any organization involved with software development must fulfill each of these business functions to some degree.
@@ -134,9 +146,7 @@ Governance is centered on the processes and activities related to how an organiz
 
 **Security Culture** Security Culture reduces vulnerabilities by human faults, and it grows up by the human players of the software organization.
 
-…*more on page 10*
-
-<!-- TODO change number of pages -->
+…*more on page 11*
 
 ## Construction
 
@@ -150,10 +160,9 @@ Construction concerns the processes and activities related to how an organizatio
 
 **Security Design** involves planning and setting up of penetration tests and test environment.
 
-…*more on page 12*
+…*more on page 15*
 
-<!-- TODO change number of pages -->
-
+\pagebreak
 ## Verification
 
 Verification is focused on the processes and activities related to how an organization checks, and tests artifacts produced throughout software development. This typically includes quality assurance work such as testing, but it can also include other review and evaluation activities.
@@ -166,9 +175,7 @@ Verification is focused on the processes and activities related to how an organi
 
 **Penetration Testing** involves testing the latest software releases in the system's environments against previously designed penetration testing routines as well as the integration of these testing routines into continuous integration/delivery mechanisms with feedback loops to software design and implementation.
 
-…*more on page 14*
-
-<!-- TODO change number of pages -->
+…*more on page 19*
 
 ## Operations
 
@@ -182,10 +189,9 @@ Operations entails the processes and activities related to how an organization m
 
 **Security Monitoring** involves process and organization wide structural abilities and skills for finding and dealing with cyber security threats, reacting to them and rolling out updates/degradations to the end user.
 
-*…more on page 16*
+…*more on page 23*
 
-<!-- TODO change number of pages -->
-
+\pagebreak
 ### Maturity Levels
 
 Each of the twelve security practices has three defined maturity levels and an implicit starting point at zero. The details for each level differ between the practices, but they generally represent:
@@ -208,11 +214,10 @@ The toolbox spreadsheet has been updated to reflect more context aware answers f
 * **At Least Half = .5**
 * **Many/Most = 1**
 
+\pagebreak
 # Governance
 
 ## Description of Security Practices
-
-<!-- TODO change all numbers of pages in the sections "Activity overview" of all security practices -->
 
 ### Strategy & Metrics
 
@@ -236,6 +241,7 @@ One major theme for improvement across the objectives is providing training for 
 
 In addition to training, this practice also requires pulling security-relevant information into guidelines that serve as reference information to staff. This builds a foundation for establishing a baseline expectation for security practices in your organization, and later allows for incremental improvement once usage of the guidelines has been adopted.
 
+\pagebreak
 ### Security Culture
 
 The Security Culture (SC) focuses on establishing a framework of communication and value work within a software organization. An open discussion about faults regarding the development process and product is initiated. Therefore, a list of organizational deficiencies, human faults and intentional activities is created.
@@ -244,46 +250,48 @@ The staff members will have a value set and they will be aware of vulnerabilitie
 
 In a sophisticated form, a regular assessment of the security culture and continuous enhancement of the security culture is established. Teams learn with retrospective. Teams regularly measure their collaboration maturity level.
 
+\pagebreak
 # Governance
 
 ## Activities Overview
 
 ### Strategy & Metrics
 
-*…more on page 24*
+…*more on page 38*
 
 | | SM 1  | SM 2  | SM 3 |
-:-------------|:------------- |:---------------|:-------------|
+:------|:---------------|:---------------|:---------------|
 | **Objective:** | **Establish a unified strategic roadmap for software security within the organization.** | **Measure relative value of data and software assets and choose risk tolerance.** | **Align security expenditure with relevant business indicators and asset value.** |
 | **Activities:** | **A.** Estimate overall business risk profile **B.** Build and maintain assurance program roadmap| **A.** Classify data and applications based on business risk **B.** Establish and measure per–classification security goals | **A.** Conduct periodic industry-wide cost comparisons **B.** Collect metrics for historic security spend |
 
 ### Policy & Compliance
 
-*…more on page 28*
+…*more on page 45*
 
 | | PC 1  | PC 2  | PC 3 |
-:-------------|:------------- |:---------------|:-------------|
+:------|:---------------|:---------------|:---------------|
 | **Objective:** | **Understand relevant governance and compliance drivers to the organization.** | **Establish security and compliance baseline and understand per-project risks.** | **Require compliance and measure projects against organization-wide policies and standards.** |
 | **Activities:** | **A.** Identify and monitor external compliance drivers **B.** Build and maintain compliance guidelines| **A.** Build policies and standards for security and compliance **B.** Establish project audit practice | **A.** Create compliance gates for projects **B.** Adopt solution for audit data collection |
 
 ### Education & Guidance
 
-*…more on page 32*
+…*more on page 52*
 
 | | EG 1  | EG 2  | EG 3 |
-:-------------|:------------- |:---------------|:-------------|
+:------|:---------------|:---------------|:---------------|
 | **Objective:** | **Offer development staff access to resources around the topics of secure programming and deployment.** | **Educate all personnel in the software lifecycle with role-specific guidance on secure development.** | **Mandate comprehensive security training and certify personnel for baseline knowledge.** |
 | **Activities:** | **A.** Conduct technical security awareness training **B.** Build and maintain technical guidelines| **A.** Conduct role-specific application security training **B.** Utilize security coaches to enhance project teams | **A.** Create formal application security support portal **B.** Establish role-based examination/certification|
 
 ### Security Culture
 
-*…more on page XX*
+…*more on page 59*
 
 | | SC 1  | SC 2  | SC 3 |
-:-------------|:------------- |:---------------|:-------------|
+:------|:---------------|:---------------|:---------------|
 | **Objective:**  | **Establish first elements of a security culture.** | **Refinement of the security culture.** | **Regular assessment and continuous enhancement of the security culture.**                      |
 | **Activities:** | **A.** Establish communication **B.** Creating values diversity | **A.** Giving culture commitment **B.** Acting as a team and apply lifelong learning | **A.** Culture benchmarking **B.** Culture retrospective and reflection |
 
+\pagebreak
 # Construction
 
 ## Description of Security Practices
@@ -308,6 +316,7 @@ Beginning from simple recommendations about software frameworks and explicit con
 
 As an organization evolves over time, sophisticated provision of this practice entails organizations building reference platforms to cover the generic types of software they build. These serve as frameworks upon which developers can build custom software with lower risk of vulnerabilities.
 
+\pagebreak
 ### Security Design
 
 The Security Design (SD) method focuses on proactive planning of penetration tests and its test environment on project level. The analysis of security risks and potential attacks during development ensures purposefully testing. A verification of implications on robustness against attacks and reliability is especially important.
@@ -316,46 +325,48 @@ Furthermore, planning of legal principles for security/safety will be integrated
 
 Ongoing auditing and testing steadily expands the company's knowledge. Tools for hardware independent testing, which enables partial automation to simplify the process, can be developed due to diligent planning and knowledge acquisition.
 
+\pagebreak
 # Construction
 
 ## Activities Overview
 
 ### Threat Assessment
 
-*…more on page 36*
+…*more on page 66*
 
 | | TA 1  | TA 2  | TA 3 |
-:-------------|:------------- |:---------------|:-------------|
+:------|:---------------|:---------------|:---------------|
 | **Objective:** | **Identify and understand high-level threats to the organization and individual projects.** | **Increase accuracy of threat assessment and improve granularity of per-project understanding.** | **Concretely align compensating controls to each threat against internal and third-party software.** |
 | **Activities:** | **A.** Build and maintain application-specific threat models  **B.**  Develop attacker profile from software architecture | **A.** Build and maintain abuse-case models per project **B.** Adopt a weighting system for measurement of threats | **A.** Explicitly evaluate risk from third-party components **B.** Elaborate threat models with compensating controls |
 
 ### Security Requirements
 
-*…more on page 40*
+…*more on page 73*
 
 | | SR 1  | SR 2  | SR 3 |
-|:-------------|:------------- |:---------------| -------------|
+:------|:---------------|:---------------|:---------------|
 | **Objective:** | **Consider security explicitly during the software requirements process.** | **Increase granularity of security requirements derived from business logic and known risks.** | **Mandate security requirements process for all software projects and third-party dependencies.** |
 | **Activities:** | **A.** Derive security requirements from business functionality **B.** Evaluate security and compliance guidance for requirements | **A.**  Build an access control matrix for resources and capabilities **B.** Specify security requirements based on known risks | **A.** Build security requirements into supplier agreements **B.** Expand audit program for security requirements |
 
 ### Secure Architecture
 
-*…more on page 44*
+…*more on page 80*
 
 | | SA 1  | SA 2  | SA 3 |
-|:-------------|:------------- |:---------------|:-------------|
+:------|:---------------|:---------------|:---------------|
 | **Objective:** | **Insert consideration of proactive security guidance into the software design process.** | **Direct the software design process toward known- secure services and secure-by-default designs.** | **Formally control the software design process and validate utilization of secure components.** |
 | **Activities:** | **A.** Maintain list of recommended software frameworks **B.** Explicitly apply security principles to design | **A.** . Identify and promote security services and infrastructure **B.** Identify security design patterns from architecture | **A.** Establish formal reference architectures and platforms **B.** Validate usage of frameworks, patterns, and platforms |
 
 ### Security Design
 
-_…more on page XX_
+…*more on page 87*
 
 | | SD 1  | SD 2  | SD 3 |
-|:-------------|:------------- |:---------------|:-------------|
+:------|:---------------|:---------------|:---------------|
 | **Objective:** | **Identify security risks and attack potentialities for individual projects.** | **Plan penetration tests in advance and take future attack potentialities into account.** | **Facilitate hardware independent and ongoing penetration tests.**
 | **Activities:** | **A.** Compile a risk analysis in due consideration of security goals. **B.** Set up an attack pattern catalog | **A.** Define test environment and categorize penetration tests. **B.** Downscale security risks of external software and hardware components. | **A.** Facilitate hardware independent penetration tests and implement development cycles by the use of structured data exchange. **B.** Categorize, acquire and store all relevant hardware and software versions. |
 
+\pagebreak
 # Verification
 
 ## Description of Security Practices
@@ -384,6 +395,7 @@ Starting with penetration testing and high-level test cases based on the functio
 
 In an advanced form, provision of this practice involves customization of testing automation to build a battery of security tests covering application-specific concerns in detail. With additional visibility at the organization level, security testing enables organizations to set minimum expectations for security testing results before a project release is accepted.
 
+\pagebreak
 ### Security Pentesting
 
 The Security Pentesting (SP) practice is focused on the execution of penetration tests in the test and delivery environment on a project level in order to find security and safety related problems.
@@ -394,46 +406,49 @@ The introduction of automated penetration testing builds and continuous integrat
 
 Furthermore, a detailed documentation for vulnerability mitigation and exploitation guidance, feedback loops for design and architecture as well as release gates for penetration testing guarantee a safe execution of the complete software development lifecycle.
 
+\pagebreak
 # Verification
 
 ## Activities Overview
 
 ### Design Review
 
-*...more on page 48*
+…*more on page 94*
 
 | | DR 1 | DR 2 | DR 3 |
-|:-------------|:------------- |:---------------|:-------------|
+:------|:---------------|:---------------|:---------------|
 | **Objective:** |**Support ad-hoc reviews of software design to ensure baseline mitigations for known risks.**|**Offer assessment services to review software design against comprehensive best practices for security.**|**Require assessments and validate artifacts to develop detailed understanding of protection mechanisms.**|
 | **Activities:** |**A.** Identify software attack surface **B.** Analyze design against known security requirements | **A.** Inspect for complete provision of security mechanisms **B.** Deploy design review service for project teams|**A.** Develop data-flow diagrams for sensitive resources **B.** Establish release gates for design review|
 
 ### Implementation Review
 
-*...more on page 52*
+…*more on page 101*
 
 | | IR 1 | IR 2 | IR 3 |
-|:-------------|:------------- |:---------------|:-------------|
+:------|:---------------|:---------------|:---------------|
 | **Objective:** |**Opportunistically find basic code-level vulnerabilities and other high-risk security issues.**| **Make implementation review during development more accurate and efficient through automation.**|**Mandate comprehensive implementation review process to discover language-level and application-specific risks.**|
 |**Activities**|**A.** Create review checklists from known security requirements **B.** Perform point-review of high-risk code|*A.* Utilize automated code analysis tools **B.** Integrate code analysis into development process|**A.** Customize code analysis for application-specific concerns **B.** Establish release gates for code review|
 
+\pagebreak
 ### Security Testing
 
-*...more on page 56*
+…*more on page 108*
 
 | | ST 1 | ST 2 | ST 3 |
-|:-------------|:------------- |:---------------|:-------------|
+:------|:---------------|:---------------|:---------------|
 | **Objective:**| **Establish process to perform basic security tests based on implementation and software requirements.** |**Make security testing during development more complete and efficient through automation.** | **Require application- specific security testing to ensure baseline security before deployment.** |
 | **Activities:**|**A.** Derive test cases from known security requirements **B.** Conduct penetration testing on software releases | **A.** Utilize automated security testing tools **B.** Integrate security testing into development process | **A.** Employ application-specific security testing automation **B.** Establish release gates for security testing
 
 ### Security Pentesting
 
-*...more on page XX*
+…*more on page 115*
 
 | | SP 1 | SP 2 | SP 3 |
-|:-------------|:------------- |:---------------|:-------------|
+:------|:---------------|:---------------|:---------------|
 | **Objective:** | **Establish and execute a complete workflow for active penetration testing.** | **Combine the project-wide penetration testing workflow with continuous integration (CI) techniques.** | **Establish feedback loops and release gates within the continuous integration for the software design and development cycle.** |
 | **Activities:** | **A.** Lay out an appropriate testing structure in order to test the system against all possible vectors of attacks **B.** Add version management for maximum covering rates and criteria documentation for expressiveness of test results | **A.** Expand the automated build with related penetration testing procedures **B.** Establish a continuous integration mechanism of the automated build into the project’s version management | **A.** Report (un-) successfully tested builds on a feedback platform **B.** Establish release gates for penetration testing |
 
+\pagebreak
 # Operations
 
 ## Description of Security Practices
@@ -462,6 +477,7 @@ Starting from lightweight documentation to capture the most important details fo
 
 In an advanced form, operational enablement also entails organization-level checks against individual project teams to ensure that information is being captured and shared according to expectations.
 
+\pagebreak
 ### Security Monitoring
 
 The Security Monitoring (MO) practice is focused on the overall process and operations which have to be installed in the organization to guarantee cyber security for products during the whole lifecycle.
@@ -471,46 +487,49 @@ More advanced organizations should structure their knowledge gathered from penet
 
 Advanced organizations need a complete security strategy and team. Also they should have a clear deployment strategy and update channel for every product at the end user. Also, the need for continuously watching the state of the art, and thus derive the evaluation of current threat risks has to be maintained by a centrally organized cyber security team.
 
+\pagebreak
 # Operations
 
 ## Activities Overview
 
 ### Issue Management
 
-*…more on page 60*
+…*more on page 122*
 
 | | IM 1 | IM 2 | IM 3 |
-|:-------------|:------------- |:---------------|:-------------|
+:------|:---------------|:---------------|:---------------|
 | **Objective:** |**Understand high-level plan for responding to issue reports or incidents.**|**Elaborate expectations for response process to improve consistency and communications.**|**Improve analysis and data gathering within response process for feedback into proactive planning.**|  
 | **Activities:** |**A.** Identify point of contact for security issues **B.** Create informal security response team(s) | **A.** Establish consistent issue response process **B.** Adopt a security issue disclosure process |**A.** Conduct root cause analysis for issues **B.** Collect per-issue metrics|
 
 ### Environment Hardening
 
-*…more on page 64*
+…*more on page 129*
 
 | | EH 1 | EH 2 | EH 3|
-|:-------------|:------------- |:---------------|:-------------|
+:------|:---------------|:---------------|:---------------|
 |**Objective:** | **Understand baseline operational environment for applications and software components.** | **Improve confidence in application operations by hardening the operating environment.** | **Validate application health and status of operational environment against known best practices.** |
 |**Activities:** | **A.** Maintain operational environment specification **B.** Identify and install critical security upgrades and patches | **A.** Establish routine patch management process **B.** Monitor baseline environment configuration status | **A.** Identify and deploy relevant operations protection tools **B.** Expand audit program for environment configuration |
 
 ### Operational Enablement
 
-*…more on page 68*
+…*more on page 136*
 
 | | OE 1 | OE 2 | OE 3 |
-|:-------------|:------------- |:---------------|:-------------|
+:------|:---------------|:---------------|:---------------|
 |**Objective:** | **Enable communications between development teams and operators for critical security-relevant data.** | **Improve expectations for continuous secure operations through provision of detailed procedures.** | **Mandate communication of security information and validate artifacts for completeness.** |
 | **Activities:** | **A.** Capture critical security information for deployment **B.** Document procedures for typical application alerts | **A.** Create per-release change management procedures **B.** Maintain formal operational security guides | **A.** Expand audit program for operational information **B.** Perform code signing for application components |
 
+\pagebreak
 ### Security Monitoring
 
-*…more on page XX*
+…*more on page 143*
 
 | | MO 1 | MO 2 | MO 3 |
 |:-------------|:------------- |:---------------|:-------------|
 |**Objective:** | **Awareness of potential attack patterns.** | **Knowledge about impact of attack patterns to released hardware and software versions and variants.** | **Minimize negative impacts for customers.**|
  **Activities:** | **A.** Maintenance of the attack pattern catalog | **A.** Implement all relevant penetration tests on all relevant hardware and software versions and variants **B.** Execute all relevant penetration tests on all relevant hardware and software | **A.** Operation of deployment infrastructure **B.** Deploy degradations/updates to customer |
 
+\pagebreak
 # Governance
 
 ## Assessment worksheet
@@ -518,15 +537,15 @@ Advanced organizations need a complete security strategy and team. Also they sho
 ### Strategy & Metrics
 
 | | | | | |
-|:-------------|:-------------|:---------------|:-------------|:------------|
+|:----------|:--|:--|:--|:---|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
 | **SM1**
 | ✦Is there a software security assurance program in place? | NO | <1 YR | >1 YR | MATURE |
-| ✦ Are development staff aware of future plans for the assurance program? | NO | SOME | HALF | MOST |
+| ✦Are development staff aware of future plans for the assurance program? | NO | SOME | HALF | MOST |
 | ✦Do the business stakeholders understand your organization’s risk profile? | NO |SOME| HALF | MOST|
 | **SM2**
-| ✦ Are many of your applications and resources categorized by risk? | NO | SOME | HALF | MOST |
-| ✦ Are risk ratings used to tailor the required assurance activities? | NO | SOME | HALF | MOST |
+| ✦Are many of your applications and resources categorized by risk? | NO | SOME | HALF | MOST |
+| ✦Are risk ratings used to tailor the required assurance activities? | NO | SOME | HALF | MOST |
 | ✦Does the organization know about what’s required based on risk ratings? | NO | SOME | HALF | MOST |
 | **SM3**
 | ✦Is per-project data for the cost of assurance activities collected? | NO | SOME | HALF | MOST |
@@ -535,14 +554,14 @@ Advanced organizations need a complete security strategy and team. Also they sho
 ### Policy & Compliance
 
 | | | | | |
-|:-------------|:-------------|:---------------|:-------------|:------------|
+|:----------|:--|:--|:--|:---|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
 | **PC1**
 | ✦Do project stakeholders know their project’s compliance status? | NO | SOME | HALF | MOST |
-| ✦ Are compliance requirements specifically considered by project teams? | NO | NOT APPLY | AD-HOC | YES |
+| ✦Are compliance requirements specifically considered by project teams? | NO | NOT APPLY | AD-HOC | YES |
 | **PC2**
-| ✦ Does the organization utilize a set of policies and standards to control software development? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
-| ✦ Are project teams able to request an audit for compliance with policies and standards? | NO | SOME | HALF | MOST |
+| ✦Does the organization utilize a set of policies and standards to control software development? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
+| ✦Are project teams able to request an audit for compliance with policies and standards? | NO | SOME | HALF | MOST |
 | **PC3**
 | ✦Are projects periodically audited to ensure a baseline of compliance with policies and standards? | NO | SOME | HALF | MOST |
 | ✦Does the organization systematically use audits to collect and control compliance evidence? | NO | BUS AREA | ORG WIDE | ORG WIDE & REQUIRED |
@@ -550,7 +569,7 @@ Advanced organizations need a complete security strategy and team. Also they sho
 ### Education & Guidance
 
 | | | | | |
-|:-------------|:-------------|:---------------|:-------------|:------------|
+|:----------|:--|:--|:--|:---|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
 | **EG1**
 | ✦Have developers been given high-level security awareness training? | NO | ONCE | EVERY 2-3 YEARS | ANNUALLY |
@@ -560,12 +579,12 @@ Advanced organizations need a complete security strategy and team. Also they sho
 | ✦Are stakeholders able to pull in security coaches for use on projects? | NO | SOME | HALF | MOST |
 | **EG3**
 | ✦Is security-related guidance centrally controlled and consistently distributed throughout the organization? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
-| ✦ Are developers tested to ensure a baseline skill- set for secure development practices? | NO | ONCE | EVERY 2-3 YEARS | ANNUALLY |
+| ✦Are developers tested to ensure a baseline skill- set for secure development practices? | NO | ONCE | EVERY 2-3 YEARS | ANNUALLY |
 
 ### Security Culture
 
 | | | | | |
-|:-------------|:-------------|:---------------|:-------------|:------------|
+|:----------|:--|:--|:--|:---|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
 | **SC1**
 | ✦Does your organization have an open discussion about organizational deficiencies, human faults and intentional activities? | NO | BUS AREA | ORG WIDE | ORG WIDE & REQUIRED |
@@ -587,7 +606,7 @@ Advanced organizations need a complete security strategy and team. Also they sho
 ### Threat Assessment
 
 | | | | | |
-|:-------------|:-------------|:---------------|:-------------|:------------|
+|:----------|:--|:--|:--|:---|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
 | **TA1**
 | ✦Do projects in your organization consider and document likely threats? | NO | SOME | HALF | MOST |
@@ -603,7 +622,7 @@ Advanced organizations need a complete security strategy and team. Also they sho
 ### Security Requirements
 
 | | | | | |
-|:-------------|:-------------|:---------------|:-------------|:------------|
+|:----------|:--|:--|:--|:---|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
 | **SR1**
 | ✦Do project teams specify security requirements during development? | NO | SOME | HALF | MOST |
@@ -614,41 +633,42 @@ Advanced organizations need a complete security strategy and team. Also they sho
 | ✦Do project teams specify requirements based on feedback from other security activities? | NO | SOME | HALF | MOST |
 | **SR3**
 | ✦Do stakeholders review vendor agreements for security requirements? | NO | SOME | HALF | MOST |
-| ✦ Are audits performed against the security requirements specified by project teams? | NO | ONCE | EVERY 2-3 YEARS | ANNUALLY |
+| ✦Are audits performed against the security requirements specified by project teams? | NO | ONCE | EVERY 2-3 YEARS | ANNUALLY |
 
+\pagebreak
 ### Secure Architecture
 
 | | | | | |
-|:-------------|:-------------|:---------------|:-------------|:------------|
+|:----------|:--|:--|:--|:---|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
 | **SA1**
-|✦ Are project teams provided with a list of recommended third-party components? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
-| ✦ Are project teams aware of secure design principles and do they apply them consistently? | NO | SOME | HALF | MOST |
+| ✦Are project teams provided with a list of recommended third-party components? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
+| ✦Are project teams aware of secure design principles and do they apply them consistently? | NO | SOME | HALF | MOST |
 | **SA2**
 | ✦Do you advertise shared security services with guidance for project teams? | NO | BUS AREA | ORG WIDE | ORG WIDE & REQUIRED |
-| ✦ Are project teams provided with prescriptive design patterns based on their application architecture? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
+| ✦Are project teams provided with prescriptive design patterns based on their application architecture? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
 | **SA3**
 | ✦Do project teams build software from centrally- controlled platforms and frameworks? | NO | SOME | HALF | MOST |
-| ✦ Are project teams audited for the use of secure architecture components? | NO | ONCE | EVERY 2-3 YEARS | ANNUALLY |
+| ✦Are project teams audited for the use of secure architecture components? | NO | ONCE | EVERY 2-3 YEARS | ANNUALLY |
 
 ### Security Design
 
 | | | | | |
-|:-------------|:-------------|:---------------|:-------------|:------------|
+|:----------|:--|:--|:--|:---|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
 | **SD1**
-| ✦ Do projects execute risk analysis (e.g., in regard to (A)SIL)? | NO | SOME | HALF | MOST |
-| ✦ Are identified attack patterns documented in a reusable catalog? | NO | SOME | HALF | MOST |
+| ✦Do projects execute risk analysis (e.g., in regard to (A)SIL)? | NO | SOME | HALF | MOST |
+| ✦Are identified attack patterns documented in a reusable catalog? | NO | SOME | HALF | MOST |
 | **SD2**
-| ✦ Are penetration tests planned and categorized for all products? | NO | SOME | HALF | MOST |
-| ✦ How often are external security reports reviewed? | NO | ONCE | EVERY 2-3 YEARS | ANNUALLY |
-| ✦ Is special staff trained or are external certified testers employed? | NO | SOME | HALF | MOST |
-| ✦ Is the security of external software and hardware components guaranteed? | NO | SOME | HALF | MOST |
+| ✦Are penetration tests planned and categorized for all products? | NO | SOME | HALF | MOST |
+| ✦How often are external security reports reviewed? | NO | ONCE | EVERY 2-3 YEARS | ANNUALLY |
+| ✦Is special staff trained or are external certified testers employed? | NO | SOME | HALF | MOST |
+| ✦Is the security of external software and hardware components guaranteed? | NO | SOME | HALF | MOST |
 | **SD3**
-| ✦ Can products be tested hardware independently? | NO | SOME | HALF | MOST |
-| ✦ Can products be updated subsequently after rollout? | NO | SOME | HALF | MOST |
-| ✦ Can results from penetration tests be reused? | NO | SOME | HALF | MOST |
-| ✦ Is security already implemented into the lifecycle? | NO | BUS AREA | ORG WIDE | ORG WIDE & REQUIRED |
+| ✦Can products be tested hardware independently? | NO | SOME | HALF | MOST |
+| ✦Can products be updated subsequently after rollout? | NO | SOME | HALF | MOST |
+| ✦Can results from penetration tests be reused? | NO | SOME | HALF | MOST |
+| ✦Is security already implemented into the lifecycle? | NO | BUS AREA | ORG WIDE | ORG WIDE & REQUIRED |
 
 # Verification
 
@@ -657,7 +677,7 @@ Advanced organizations need a complete security strategy and team. Also they sho
 ### Design Review
 
 | | | | | |
-|:-------------|:-------------|:---------------|:-------------|:------------|
+|:----------|:--|:--|:--|:---|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
 | **DR1**
 | ✦Do project teams document the attack perimeter of software designs? | NO | SOME | HALF | MOST |
@@ -672,7 +692,7 @@ Advanced organizations need a complete security strategy and team. Also they sho
 ### Implementation Review
 
 | | | | | |
-|:-------------|:-------------|:---------------|:-------------|:------------|
+|:----------|:--|:--|:--|:---|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
 | **IR1**
 | ✦Do project teams have review checklists based on common security related problems? | NO | BUS AREA | ORG WIDE | ORG WIDE & REQUIRED |
@@ -684,10 +704,11 @@ Advanced organizations need a complete security strategy and team. Also they sho
 | ✦Do project teams utilize automation to check code against application-specific coding standards? | NO | BUS AREA | ORG WIDE | ORG WIDE & REQUIRED |
 | ✦Does a minimum security baseline exist for code review results? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
 
+\pagebreak
 ### Security Testing
 
 | | | | | |
-|:-------------|:-------------|:---------------|:-------------|:------------|
+|:----------|:--|:--|:--|:---|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
 | **ST1**
 | ✦Do projects specify security testing based on defined security requirements? | NO | SOME | HALF | MOST |
@@ -703,7 +724,7 @@ Advanced organizations need a complete security strategy and team. Also they sho
 ### Security Pentesting
 
 | | | | | |
-|:-------------|:-------------|:---------------|:-------------|:------------|
+|:----------|:--|:--|:--|:---|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
 | **SP1**
 | ✦Are identified attack pattern structured and tested orderly? | NO | PER TEAM | ORG WIDE | INTEGRATED PROCESS |
@@ -725,7 +746,7 @@ Advanced organizations need a complete security strategy and team. Also they sho
 ### Issue Management
 
 | | | | | |
-|:-------------|:-------------|:---------------|:-------------|:------------|
+|:----------|:--|:--|:--|:---|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
 | **IM1**
 | ✦Do projects have a point of contact for security issues or incidents? | NO | SOME | HALF | MOST |
@@ -741,7 +762,7 @@ Advanced organizations need a complete security strategy and team. Also they sho
 ### Environment Hardening
 
 | | | | | |
-|:-------------|:-------------|:---------------|:-------------|:------------|
+|:----------|:--|:--|:--|:---|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
 | **EH1**
 | ✦Do projects document operational environment security requirements? | NO | SOME | HALF | MOST |
@@ -756,7 +777,7 @@ Advanced organizations need a complete security strategy and team. Also they sho
 ### Operational Enablement
 
 | | | | | |
-|:-------------|:-------------|:---------------|:-------------|:------------|
+|:----------|:--|:--|:--|:---|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
 | **OE1**
 | ✦Are security notes delivered with each software release? | NO | SOME | HALF | MOST |
@@ -771,7 +792,7 @@ Advanced organizations need a complete security strategy and team. Also they sho
 ### Security Monitoring
 
 | | | | | |
-|:-------------|:-------------|:---------------|:-------------|:------------|
+|:----------|:--|:--|:--|:---|
 | **SCORE** | **0.0** | **0.2** | **0.5** | **1.0** |
 | **MO1**
 | ✦Does your organization gather information about new vulnerability issues? | NO | ONCE | EVERY 2-3 YRS | ANNUALLY |
@@ -787,19 +808,24 @@ Advanced organizations need a complete security strategy and team. Also they sho
 | ✦Do your project teams provide a security degradation guidance model? | NO | BUS AREA | ORG WIDE | ORG WIDE & REQUIRED |
 | ✦Does your company have a process which defines the propagation of security updates to end users? | NO | BUS AREA | ORG WIDE | ORG WIDE & REQUIRED |
 
-!['THE SECURITY PRACTICES: An explanation of the details' IMAGES HERE](images/SecurityPractices.png )
-![PracticesImage](images/PracticesImage.png )
+\pagebreak
+![The Security Practices 1](images/SecurityPractices.png)
+\newpage
+![The Security Practices 2](images/PracticesImage.png)
+
 This section defines the building blocks of SAMM, the maturity levels under each security practice. For each practice, the three levels are covered in a summary table. Following that, the description for each level includes detailed explanations of the required activities, results an organization can expect from attaining the level, success metrics to gauge performance, required ongoing personnel investment, and additional associated costs.
 
+\pagebreak
 # Strategy & Metrics
 
 | | **SM1** | **SM2** | **SM3** |
-|:---------------|:---------------|:---------------|:---------------|
+|:-------|:---------------|:---------------|:---------------|
 | **Objective** | **Establish unified strategic roadmap for software security within the organization.** | **Measure relative value of data and software assets and choose risk tolerance.** | **Align security expenditure with relevant business indicators and asset value.**|
 | **Activities** | **A.** Estimate overall business risk profile **B.** Build and maintain assurance program roadmap | **A.** Classify data and applications based on business risk **B.** Establish and measure per- classification security goals | **A.** Conduct periodic industry-wide cost comparisons **B.** Collect metrics for historic security spend |
 | **Assessment** | ✦Is there a software security assurance program in place? ✦Are development staff aware of future plans for the assurance program? ✦Do the business stakeholders understand your organization’s risk profile? | ✦Are many of your applications and resources categorized by risk? ✦Are risk ratings used to tailor the required assurance activities? ✦Does the organization know about what’s required based on risk ratings? | ✦Is per-project data for the cost of assurance activities collected? ✦Does your organization regularly compare your security spend with that of other organizations? |
 | **Results** | ✦Concrete list of the most critical business-level risks caused by software ✦Tailored roadmap that addresses the security needs for your organization with minimal overhead ✦Organization-wide understanding of how the assurance program will grow over time | ✦Customized assurance plans per project based on core value to the business ✦Organization-wide understanding of security-relevance of data and application assets ✦Better informed stakeholders with respect to understanding and accepting risks | ✦Information to make informed case-by-case decisions on security expenditures ✦Estimates of past loss due to security issues ✦Per-project consideration of security expense versus loss potential ✦Industry-wide due diligence with regard to security |
 
+\pagebreak
 # Strategy & Metrics: SM1
 
 ### Establish unified strategic roadmap for software security within the organization
@@ -861,6 +887,7 @@ Iterations of improvement on the assurance program should be approximately 3-6 m
 * Threat Assessment - 1
 * Security Requirements - 2
 
+\pagebreak
 # Strategy & Metrics: SM2
 
 ### Measure relative value of data and software assets and choose risk tolerance
@@ -922,6 +949,7 @@ This process establishes the organization’s risk tolerance since active decisi
 * Threat Assessment - 2
 * Design Review - 2
 
+\pagebreak
 # Strategy & Metrics: SM3
 
 ### Align security expenditure with relevant business indicators and asset value
@@ -982,15 +1010,17 @@ The tracking of security spend per project should be done quarterly at the assur
 
 * Issue Management - 1
 
+\pagebreak
 # Policy & Compliance
 
 | | **PC1** | **PC2** | **PC3** |
-|:---------------|:---------------|:---------------|:---------------|
+|:-------|:---------------|:---------------|:---------------|
 | **Objective** | **Understand relevant governance and compliance drivers to the organization.** | **Establish security and compliance baseline and understand per-project risks.** | **Require compliance and measure projects against organization-wide policies and standards.**|
 | **Activities** | **A.** Identify and monitor external compliance drivers **B.** Build and maintain compliance guidelines | **A.** Build policies and standards for security and compliance **B.** Establish project audit practice | **A.** Create compliance gates for projects **B.** Adopt solution for audit data collection |
 | **Assessment** | ✦Do project stakeholders know their project’s compliance status? ✦Are compliance requirements specifically considered by project teams? | ✦Does the organization utilize a set of policies and standards to control software development? ✦Are project teams able to request an audit for compliance with policies and standards? | ✦Are projects periodically audited to ensure a baseline of compliance with policies and standards? ✦Does the organization systematically use audits to collect and control compliance evidence? |
 | **Results** | ✦Increased assurance for handling third-party audit with positive outcome ✦Alignment of internal resources based on priority of compliance requirements ✦Timely discovery of evolving regulatory requirements that affect your organization | ✦Awareness for project teams regarding expectations for both security and compliance ✦Business owners that better understand specific compliance risks in their product lines ✦Optimized approach for efficiently meeting compliance with opportunistic security improvement | ✦Organization-level visibility of accepted risks due to non-compliance ✦Concrete assurance for compliance at the project level ✦Accurate tracking of past project compliance history ✦Efficient audit process leveraging tools to cut manual effort |
 
+\pagebreak
 # Policy & Compliance: PC1
 
 ### Understand relevant governance and compliance drivers to the organization
@@ -1046,6 +1076,7 @@ At a minimum, update and review control statements with stakeholders at least bi
 
 * Strategy & Metrics - 1
 
+\pagebreak
 # Policy & Compliance: PC2
 
 ### Establish security and compliance baseline and understand per-project risks
@@ -1101,14 +1132,15 @@ Advertise this service to business owners and other stakeholders so that they ma
 
 ##### RELATED LEVELS
 
-* Education & Guidance - 1 & 3  
 * Strategy & Metrics - 2
+* Education & Guidance - 1 & 3  
 * Security Requirements - 1 & 3
 * Secure Architecture - 3
-* Implementation Review - 3
 * Design Review - 3
+* Implementation Review - 3
 * Environment Hardening - 3
 
+\pagebreak
 # Policy & Compliance: PC3
 
 ### Require compliance and measure projects against organization-wide policies and standards
@@ -1167,15 +1199,17 @@ All instructions and procedures related to accessing compliance data as well as 
 * Implementation Review - 2
 * Security Testing - 2
 
+\pagebreak
 # Education & Guidance
 
 | | **EG1** | **EG2** | **EG3** |
-|:---------------|:---------------|:---------------|:---------------|
+|:-------|:---------------|:---------------|:---------------|
 | **Objective** | **Offer development staff access to resources around the topics of secure programming and deployment.** | **Educate all personnel in the software life-cycle with role-specific guidance on secure development.** | **Mandate comprehensive security training and certify personnel for baseline knowledge.**|
 | **Activities** | **A.** Conduct technical security awareness training **B.** Build and maintain technical guidelines | **A.** Conduct role-specific application security training **B.** Utilize security coaches to enhance project teams | **A.** Create formal application security support portal **B.** Establish role-based examination/certification |
 | **Assessment** | ✦Have developers been given high-level security awareness training? ✦Does each project team understand where to find secure development best-practices and guidance? | ✦Are those involved in the development process given role-specific security training and guidance? ✦Are stakeholders able to pull in security coaches for use on projects? | ✦Is security-related guidance centrally controlled and consistently distributed throughout the organization? ✦Are developers tested to ensure a baseline skill-set for secure development practices? |
 | **Results** | ✦Increased developer awareness on the most common problems at the code level ✦Maintain software with rudimentary security best-practices in place ✦Set baseline for security know-how among technical staff ✦Enable qualitative security checks for baseline security knowledge | ✦End-to-end awareness of the issues that leads to security vulnerabilities at the product, design, and code levels ✦Build plans to remediate vulnerabilities and design flaws in ongoing projects ✦Enable qualitative security checkpoints at requirements, design, and development stages ✦Deeper understanding of security issues encourages more proactive security planning | ✦Efficient remediation of vulnerabilities in both ongoing and legacy code bases ✦Quickly understand and mitigate against new attacks and threats ✦Measure the amount of security knowledge of the staff and measure against a common standard ✦Establish fair incentives toward security awareness |
 
+\pagebreak
 # Education & Guidance: EG1
 
 ### Offer development staff access to resources around the topics of secure programming and deployment
@@ -1230,6 +1264,7 @@ Ensure management is aware of the resources and briefs oncoming staff about thei
 * Security Requirements - 1
 * Secure Architecture - 1
 
+\pagebreak
 # Education & Guidance: EG2
 
 ### Educate all personnel in the software lifecycle with role-specific guidance on secure development
@@ -1292,10 +1327,11 @@ Over time, the internal network of coaching resources can be used as points-of-c
 
 ##### RELATED LEVELS
 
-* Issue Management - 1
-* Design Review - 2
 * Secure Architecture - 2
+* Design Review - 2
+* Issue Management - 1
 
+\pagebreak
 # Education & Guidance: EG3
 
 ### Mandate comprehensive security training and certify personnel for baseline knowledge
@@ -1351,15 +1387,17 @@ Based upon pass/fail criteria or exceptional performance, staff should be ranked
 
 * Policy & Compliance - 2 & 3
 
+\pagebreak
 # Security Culture
 
 | | **SC1** | **SC2** | **SC3** |
-|:---------------|:---------------|:---------------|:---------------|
+|:-------|:---------------|:---------------|:---------------|
 | **Objective** | **Establish first elements of a security culture.** | **Refinement of the security culture.** | **Regular assessment and continuous enhancement of the security culture.**|
 | **Activities** | **A.** Establish communication **B.** Creating values diversity | **A.** Giving culture commitment **B.** Acting as a team and apply lifelong learning | **A.** Culture benchmarking **B.** Culture retrospective and reflection |
 | **Assessment** | ✦Does your organization have an open discussion about organizational deficiencies, human faults and Intentional activities? ✦Are diversity principles used in the organization? ✦Do employees consider security a high-priority issue? | ✦Is a value development established? ✦Is lifelong learning established in the organization? ✦Is a fundamental collaboration visible in the organization? | ✦Is a customized security culture benchmarking (assessment) established? ✦Do teams perform value retrospective and reflection of the security culture? ✦Is a mature collaboration visible in the organization? |
 | **Results** | ✦Established fault reporting regarding development process and product  ✦Concrete list of organizational deficiencies, human faults and intentional activities  ✦Diversity in profile of team members and diversity in systems architecture (hardware, software) | ✦Awareness of staff members regarding values  ✦Customized plans for lifelong learning ✦Approach for development of collaboration within the organization  ✦Accurate tracking of lifelong learning activities  ✦Organization-wide participation in a reward system  | ✦Regular Assessment report of the security culture  ✦Established retrospective process  ✦Regular measurement of team collaboration |
 
+\pagebreak
 # Security Culture: SC1
 
 ### Establish first elements of a security culture
@@ -1422,6 +1460,7 @@ The privacy perception is described by empowerment of privacy awareness.
 
 * Policy & Compliance – 1
 
+\pagebreak
 # Security Culture: SC2
 
 ### Refinement of the security culture
@@ -1479,6 +1518,7 @@ The collaboration characteristic based on Col_MM is non regular strong interacti
 
 * Policy & Compliance – 2
 
+\pagebreak
 # Security Culture: SC3
 
 ### Regular assessment and continuous enhancement of the security culture
@@ -1533,15 +1573,17 @@ The organization has independent penetration testers. The process uses external 
 
 * Policy & Compliance – 3
 
+\pagebreak
 # Threat Assessment
 
 | | **TA1** | **TA2** | **TA3** |
-|:---------------|:---------------|:---------------|:---------------|
+|:-------|:---------------|:---------------|:---------------|
 | **Objective** | **Identify and understand high-level threats to the organization and individual projects.** | **Increase accuracy of threat assessment and improve granularity of per-project understanding.** | **Concretely align compensating controls to each threat against internal and third-party software.**|
 | **Activities** | **A.** Build and maintain application-specific threat models  **B.** Develop attacker profile from software architecture | **A.**Build and maintain abuse-case models per project **B.**Adopt a weighting system for measurement of threats | **A.**Explicitly evaluate risk from third-party components **B.**Elaborate threat models with compensating controls |
 | **Assessment** | ✦Do projects in your organization consider and document likely threats? ✦Does your organization understand and document the types of attackers it faces? | ✦Do project teams regularly analyze functional requirements for likely abuses? ✦Do project teams use a method of rating threats for relative comparison? ✦Are stakeholders aware of relevant threats and ratings? | ✦Do project teams specifically consider risk from external software? ✦Are the majority of the protection mechanisms and controls captured and mapped back to threats? |
 | **Results** | ✦High-level understanding of factors that may lead to negative outcomes ✦Increased awareness of threats amongst project teams ✦Inventory of threats for your organization | ✦Granular understanding of likely threats to individual projects ✦Framework for better tradeoff decisions within project teams ✦Ability to prioritize development efforts within a project team based on risk weighting | ✦Deeper consideration of full threat profile for each software project ✦Detailed mapping of assurance features to established threats against each software project ✦Artifacts to document due diligence based on business function of each software project |
 
+\pagebreak
 # Threat Assessment: TA1
 
 ### Identify and understand high-level threats to the organization and individual projects
@@ -1597,6 +1639,7 @@ This assessment should be conducted with business owners and other stakeholders 
 * Strategy & Metrics - 1
 * Security Requirements - 2
 
+\pagebreak
 # Threat Assessment: TA2
 
 ### Increase accuracy of threat assessment and improve granularity of per-project understanding
@@ -1650,9 +1693,10 @@ After assigning each threat to a rating, use this information to prioritize risk
 
 ##### RELATED LEVELS
 
-* ✦ Strategy & Metrics - 2
+* Strategy & Metrics - 2
 * Secure Architecture - 2
 
+\pagebreak
 # Threat Assessment: TA3
 
 ### Concretely tie compensating controls to each threat against internal and third-party software
@@ -1713,15 +1757,17 @@ After initially conducted for a project, this must be updated and reviewed durin
 
 * Security Requirements - 2 & 3
 
+\pagebreak
 # Security Requirements
 
 | | **SR1** | **SR2** | **SR3** |
-|:---------------|:---------------|:---------------|:---------------|
+|:-------|:---------------|:---------------|:---------------|
 | **Objective** | **Consider security explicitly during the software requirements process.** | **Increase granularity of security requirements derived from business logic and known risks.** | **Mandate security requirements process for all software projects and third-party dependencies.**|
 | **Activities** | **A.** Derive security requirements from business functionality  **B.** Evaluate security and compliance guidance for requirements | **A.** Build an access control matrix for resources and capabilities **B.** Specify security requirements based on known risks | **A.** Build security requirements into supplier agreements **B.** Expand audit program for security requirements |
 | **Assessment** | ✦Do project teams specify security requirements during development? ✦Do project teams pull requirements from best practices and compliance guidance? | ✦Do stakeholders review access control matrices for relevant projects? ✦Do project teams specify requirements based on feedback from other security activities? | ✦Do stakeholders review vendor agreements for security requirements? ✦Are audits performed against the security requirements specified by project teams? |
 | **Results** | ✦High-level alignment of development effort with business risks ✦Ad hoc capturing of industry best-practices for security as explicit requirements ✦Awareness amongst stakeholders of measures being taken to mitigate risk from software | ✦Detailed understanding of attack scenarios against business logic ✦Prioritized development effort for security features based on likely attacks ✦More educated decision-making for tradeoffs between features and security efforts ✦Stakeholders that can better avoid functional requirements that inherently have security flaws | ✦Formally set baseline for security expectations from external code ✦Centralized information on security effort undertaken by each project team ✦Ability to align resources to projects based on application risk and desired security requirements |
 
+\pagebreak
 # Security Requirements: SR1
 
 ### Consider security explicitly during the software requirements process
@@ -1775,12 +1821,13 @@ This review should be performed by a security auditor with input from business s
 
 ##### RELATED LEVELS
 
-* Education & Guidance - 1
 * Policy & Compliance - 2
+* Education & Guidance - 1
 * Design Review - 1
 * Implementation Review - 1
 * Security Testing - 1
 
+\pagebreak
 # Security Requirements: SR2
 
 ### Increase granularity of security requirements derived from business logic and known risks
@@ -1835,9 +1882,10 @@ Ultimately, the notion of risks leading to new security requirements should beco
 
 ##### RELATED LEVELS
 
-* Threat Assessment - 1 & 3
 * Strategy & Metrics - 1
+* Threat Assessment - 1 & 3
 
+\pagebreak
 # Security Requirements: SR3
 
 ### Mandate security requirements process for all software projects and third-party dependencies
@@ -1892,18 +1940,20 @@ security requirements
 
 ##### RELATED LEVELS
 
-* Threat Assessment - 3
 * Policy & Compliance - 2
+* Threat Assessment - 3
 
+\pagebreak
 # Secure Architecture
 
 | | **SA1** | **SA2** | **SA3** |
-|:---------------|:---------------|:---------------|:---------------|
+|:-------|:---------------|:---------------|:---------------|
 | **Objective** | **Insert consideration of proactive security guidance into the software design process.** | **Direct the software design process toward known secure services and secure-by-default designs.** | **Formally control the software design process and validate utilization of secure components.**|
 | **Activities** | **A.** Maintain list of recommended software frameworks **B.** Explicitly apply security principles to design | **A.** Identify and promote security services and infrastructure **B.** Identify security design patterns from architecture | **A.** Establish formal reference architectures and platforms **B.** Validate usage of frameworks, patterns, and platforms |
 | **Assessment** | ✦Are project teams provided with a list of recommended third-party components? ✦Are project teams aware of secure design principles and do they apply them consistently? | ✦Do you advertise shared security services with guidance for project teams? ✦Are project teams provided with prescriptive design patterns based on their application architecture? | ✦Do project teams build software from centrally-controlled platforms and frameworks? ✦Are project teams audited for the use of secure architecture components? |
 | **Results** | ✦Ad hoc prevention of unexpected dependencies and one-off implementation choices ✦Stakeholders aware of increased project risk due to libraries and frameworks chosen ✦Established protocol within development for proactively applying security mechanisms to a design | ✦Detailed mapping of assets to user roles to encourage better compartmentalization in design ✦Reusable design building blocks for provision of security protections and functionality ✦Increased confidence for software projects from use of established design techniques for security | ✦Customized application development platforms that provide built-in security protections ✦Organization-wide expectations for proactive security effort in development ✦Stakeholders better able to make tradeoff decisions based on business need for secure design |
 
+\pagebreak
 # Secure Architecture: SA1
 
 ### Insert consideration of proactive security guidance into the software design process
@@ -1961,6 +2011,7 @@ While this process should be conducted by each project team after being trained 
 
 * Education & Guidance - 1
 
+\pagebreak
 # Secure Architecture: SA2
 
 ### Direct the software design process toward known-secure services and secure-by-default designs
@@ -2018,6 +2069,7 @@ The process of identification of applicable and appropriate patterns should be c
 
 * Education & Guidance - 1
 
+\pagebreak
 # Secure Architecture: SA3
 
 ### Formally control the software design process and validate utilization of secure components
@@ -2082,15 +2134,17 @@ security protections
 * Implementation Review - 3
 * Security Testing - 3
 
+\pagebreak
 # Security Design
 
 | | **SD1**  | **SD2**  | **SD3** |
-|:---------------|:---------------|:---------------|:---------------|
+|:-------|:---------------|:---------------|:---------------|
 | **Objective** | **Identify security risks and attack potentialities for individual projects.** | **Plan penetration tests in advance and take future attack potentialities into account.** | **Facilitate hardware independent and ongoing penetration tests.** |
 | **Activities** | **A.** Compile a risk analysis in due consideration of security and safety goals. **B.** Set up an attack pattern catalog. | **A.** Define test environment and categorize penetration tests. **B.** Downscale security risks of external software and hardware components. | **A.** Facilitate hardware independent penetration tests and implement development cycles by the use of structured data exchange.  **B.** Categorize, acquire and store all relevant hardware and software versions. |
 | **Assessment** | ✦Do projects execute risk analysis (e.g., in regard to (A)SIL)? ✦Are identified attack patterns documented in a reusable catalog? | ✦Are penetration tests planned and categorized for all products? ✦How often are external security reports reviewed? ✦Is special staff trained or are external certified testers employed? ✦Is the security of external software and hardware components guaranteed? | ✦Can products be tested hardware independently? ✦Can products be updated subsequently after rollout? ✦Can results from penetration tests be reused? ✦Is security already implemented into the lifecycle? |
 | **Results** | ✦Understanding of possible security risks. ✦Better understanding of risk functions that need to be tested. ✦Reusable catalog of possible attacks. ✦Mapping of security vulnerabilities to safety-relevant functions. | ✦Better preparation against emerging security vulnerabilities. ✦Simpler testing through tightly defined test environments. ✦Improved test coverage by documenting all penetration testing procedures. ✦All tests are up-to-date with latest security vulnerabilities. | ✦Possibility to test products independently of their hardware. ✦Possibility to conduct follow-up tests for new security vulnerabilities for every product. ✦Always up to date security standards. ✦Outline of the individual steps of penetration testing within the project's lifecycle. ✦Guideline on appropriate methods for processing the feedback of penetration tests. |
 
+\pagebreak
 # Security Design: SD1
 
 ### Identify security risks and attack potentialities for individual projects
@@ -2161,12 +2215,11 @@ For the creation and maintaining of the catalog several meetings are needed.
 ##### RELATED LEVELS
 
 * Education & Guidance -1
-* Threat Assessment - 1
-* Threat Assessment - 2
+* Threat Assessment - 1 & 2
 * Security Requirements - 1
-* Security Design - 2
-* Security Design - 3
+* Security Design - 2 & 3
 
+\pagebreak
 # Security Design: SD2
 
 ### Plan penetration tests in advance and take future attack potentialities into account
@@ -2233,10 +2286,11 @@ Additionally, public services, which publish security exploits, should be search
 
 ##### RELATED LEVELS
 
+* Education & Guidance - 2
 * Threat Assessment - 3
 * Security Testing - 2
-* Education & Guidance - 2
 
+\pagebreak
 # Security Design: SD3
 
 ### Facilitate hardware independent and ongoing penetration tests
@@ -2312,26 +2366,26 @@ Clear responsibilities have to be defined, such that the test results can be ade
 
 ##### RELATED LEVELS
 
-* Education & Guidance - 2
 * Strategy & Metrics - 1
 * Policy & Compliance - 3
-* Security Testing - 2
-* Strategy & Metrics - 1
+* Education & Guidance - 2
 * Secure Architecture - 1
-* Issue Management - 2
-* Issue Management - 3
+* Security Testing - 2
+* Issue Management - 2 & 3
 * Operational Enablement - 1
 * Security Monitoring - 1
 
+\pagebreak
 # Design Review
 
 | | **DR1** | **DR2** | **DR3** |
-|:---------------|:---------------|:---------------|:---------------|
+|:-------|:---------------|:---------------|:---------------|
 | **Objective** | **Support ad hoc reviews of software design to ensure baseline mitigations for known risks.** | **Offer assessment services to review software design against comprehensive best practices for security.** | **Require assessments and validate artifacts to develop detailed understanding of protection mechanisms.**|
 | **Activities** | **A.** Identify software attack surface **B.** Analyze design against known security requirements | **A.** Inspect for complete provision of security mechanisms **B.** Deploy design review service for project teams | **A.** Develop data-flow diagrams for sensitive resources **B.** Establish release gates for design review |
 | **Assessment** | ✦Do project teams document the attack perimeter of software designs? ✦Do project teams check software designs against known security risks? | ✦Do project teams specifically analyze design elements for security mechanisms? ✦Are project stakeholders aware of how to obtain a formal secure design review? | ✦Does the secure design review process incorporate detailed data-level analysis? ✦Does a minimum security baseline exist for secure design review results? |
 | **Results** | ✦High-level understanding of security implications from perimeter architecture ✦Enable development teams to self-check designs for security best-practices ✦Lightweight process for conducting project-level design reviews | ✦Formally offered assessment service to consistently review architecture for security ✦Pinpoint security flaws in maintenance-mode and legacy systems ✦Deeper understanding amongst project stakeholders on how the software provides assurance protections | ✦Granular view of weak points in a system design to encourage better compartmentalization ✦Organization-level awareness of project standing against baseline security expectations for architecture ✦Comparisons between projects for efficiency and progress toward mitigating known flaws |
 
+\pagebreak
 # Design Review: DR1
 
 ### Support ad hoc reviews of software design to ensure baseline mitigations for known risks
@@ -2389,6 +2443,7 @@ This analysis should be conducted by security-savvy technical staff with input f
 
 * Security Requirements - 1
 
+\pagebreak
 # Design Review: DR2
 
 ### Offer assessment services to review software design against comprehensive best practices for security
@@ -2443,9 +2498,10 @@ During a design review, the review team should work with project teams to collec
 
 ##### RELATED LEVELS
 
-* Education & Guidance - 2
 * Strategy & Metrics - 2
+* Education & Guidance - 2
 
+\pagebreak
 # Design Review: DR3
 
 ### Require assessments and validate artifacts to develop detailed understanding of protection mechanisms
@@ -2501,18 +2557,20 @@ For legacy systems or inactive projects, an exception process should be created 
 ##### RELATED LEVELS
 
 * Secure Architecture - 3
-* Code Review - 3
+* Implemenation Review - 3
 
+\pagebreak
 # Implementation Review
 
 | | **IR1** | **IR2** | **IR3** |
-|:---------------|:---------------|:---------------|:---------------|
+|:-------|:---------------|:---------------|:---------------|
 | **Objective** | **Opportunistically find basic code-level vulnerabilities and other high-risk security issues.** | **Make implementation review during development more accurate and efficient through automation.** | **Mandate comprehensive code review process to discover language-level and application-specific risks.**|
 | **Activities** | **A.** Create review checklists from known security requirements **B.** Perform point-review of high-risk code | **A.** Utilize automated code analysis tools **B.** Integrate code analysis into development process | **A.** Customize code analysis for application-specific concerns  **B.** Establish release gates for implementation review |
 | **Assessment** | ✦Do project teams have review checklists based on common security-related problems? ✦Do project teams review selected high-risk code? | ✦Can project teams access automated code analysis tools to find security problems? ✦Do stakeholders consistently review results from code reviews? | ✦Do project teams utilize automation to check code against application-specific coding standards? ✦Does a minimum security baseline exist for code review results? |
 | **Results** | ✦Inspection for common configuration or code vulnerabilities that lead to likely discovery or attack ✦Lightweight review for coding errors that lead to severe security impact ✦Basic code-level due diligence for security assurance | ✦Development enabled to consistently self-check for code-level security vulnerabilities ✦Routine analysis results to compile historic data on per-team secure coding habits ✦Stakeholders aware of unmitigated vulnerabilities to support better tradeoff analysis | ✦Increased confidence in accuracy and applicability of code analysis results ✦Organization-wide baseline for secure coding expectations ✦Project teams with an objective goal for judging code-level security |
 
-# Implementation Review: IR 1
+\pagebreak
+# Implementation Review: IR1
 
 ### Opportunistically find basic code-level vulnerabilities and other high-risk security issues
 
@@ -2573,7 +2631,8 @@ the past six months
 
 * Security Requirements - 1
 
-# Implementation Review:IR 2
+\pagebreak
+# Implementation Review: IR2
 
 ### Make implementation review during development more accurate and efficient through automation
 
@@ -2630,7 +2689,8 @@ If unaddressed findings from implementation review remain at time of release, th
 
 * None
 
-# Implementation Review:IR 3
+\pagebreak
+# Implementation Review: IR3
 
 ### Mandate comprehensive implementation review process to discover language-level and application-specific risks
 
@@ -2689,15 +2749,17 @@ For legacy systems or inactive projects, an exception process should be created 
 * Policy & Compliance - 2
 * Secure Architecture - 3
 
+\pagebreak
 # Security Testing
 
 | | **ST1** | **ST2** | **ST3** |
-|:---------------|:---------------|:---------------|:---------------|
+|:-------|:---------------|:---------------|:---------------|
 | **Objective** | **Establish process to perform basic security tests based on implementation and software requirements.** | **Make security testing during development more complete and efficient through automation.** | **Require application-specific security testing to ensure baseline security before deployment.**|
 | **Activities** | **A.** Derive test cases from known security requirements **B.** Conduct penetration testing on software releases | **A.** Utilize automated security testing tools **B.** Integrate security testing into development process | **A.** Employ application-specific security testing automation **B.** Establish release gates for security testing |
 | **Assessment** | ✦Do projects specify security testing based on defined security requirements? ✦Is penetration testing performed on high-risk projects prior to release? ✦Are stakeholders aware of the security test status prior to release? | ✦Do projects use automation to evaluate security test cases? ✦Do projects follow a consistent process to evaluate and report on security tests to stakeholders? | ✦Are security test cases comprehensively generated for application-specific logic? ✦Does a minimum security baseline exist for security testing? |
 | **Results** | ✦Independent verification of expected security mechanisms surrounding critical business functions ✦High-level due diligence toward security testing ✦Ad-hoc growth of a security test suite for each software project | ✦✦Deeper and more consistent verification of software functionality for security ✦Development teams enabled to self-check and correct problems before release ✦Stakeholders better aware of open vulnerabilities when making risk acceptance decisions | ✦Organization-wide baseline for expected application performance against attacks ✦Customized security test suites to improve accuracy of automated analysis ✦Project teams aware of objective goals for attack resistance SAMM |
 
+\pagebreak
 # Security Testing: ST1
 
 ### Establish process to perform basic security tests based on implementation and software requirements
@@ -2756,6 +2818,7 @@ critical business functions
 
 * Security Requirements - 1
 
+\pagebreak
 # Security Testing: ST2
 
 ### Make security testing during development more complete and efficient through automation
@@ -2816,6 +2879,7 @@ risk acceptance decisions
 
 * None
 
+\pagebreak
 # Security Testing: ST3
 
 ### Require application-specific security testing to ensure baseline security before deployment
@@ -2879,15 +2943,17 @@ testing automation
 * Policy & Compliance - 2
 * Secure Architecture - 3
 
+\pagebreak
 # Security Pentesting
 
 | | **SP1** | **SP2** | **SP3** |
-|:---------------|:---------------|:---------------|:---------------|
+|:-------|:---------------|:---------------|:---------------|
 | **Objective** | **Establish and execute a complete workflow for active penetration testing.** | **Combine the project-wide penetration testing workflow with continuous integration (CI) techniques.** | **Establish feedback loops and release gates within the continuous integration for the software design and development cycle.**|
 | **Activities** | **A.** Lay out an appropriate testing structure in order to test the system against all possible vectors of attacks **B.** Add version management for maximum covering rates and criteria documentation for expressiveness of test results | **A.** Expand the automated build with related penetration testing procedures **B.** Establish a continuous integration mechanism of the automated build into the project’s version management | **A.** Report (un-) successfully tested builds on a feedback platform **B.** Establish release gates for penetration testing |
 | **Assessment** | ✦Are identified attack pattern structured and tested orderly? ✦Do projects use version control management for penetration testing? ✦Do projects integrate practical exploitation and mitigation comments for every attack pattern? ✦Are all relevant and found attacks tested on the software? | ✦Do penetration testers have access to automatic software builds that include their tests? ✦Is the penetration testing routine embedded in a continuous integration mechanism? ✦Do developers and penetration testers discuss and handle the results of penetration test cases? | ✦Do projects integrate preventive security feedback loops including penetration testing? ✦Do projects establish release gates in the software development lifecycle for penetration testing? |
 | **Results** | ✦Establishment of a structure for penetration testing in the attack pattern catalog ✦Introduction of additional layering of structure depending on one’s own needs ✦Introduction of version management framework for penetration testing and detailed exploitation and mitigation library | ✦Enforced discipline on frequent automated penetration testing ✦Immediate feedback on system-wide impact of local changes ✦Constant availability of a current robust build for all purposes ✦Early detection mechanisms avoiding last-minute chaos | ✦Projects established a preventive security feedback loop ✦Projects can draw knowledge about secure software architecture and design from security threats catalog ✦Release gates hinder weakly conceptualized software from publishing |
 
+\pagebreak
 # Security Penetesting: SP1
 
 ### Establish and execute a complete workflow for active penetration testing
@@ -2953,14 +3019,11 @@ The mitigation section should also follow the previously elaborated criteria sch
 
 ##### RELATED LEVELS
 
-* Education & Guidance – 2
-* Education & Guidance – 3
-* Security Design – 1
-* Security Design – 2
+* Education & Guidance – 2 & 3
+* Security Design – 1 & 2
 * Security Testing – 1
-* Security Pentesting – 2
-* Security Pentesting – 3
 
+\pagebreak
 # Security Penetesting: SP2
 
 ### Combine the project-wide penetration testing workflow with continuous integration (CI) techniques
@@ -3024,12 +3087,10 @@ If the penetration test case does not compile anymore (2), the penetration teste
 ##### RELATED LEVELS
 
 * Security Design – 3
-* Implementation Review – 2
-* Implementation Review – 3
-* Security Testing - 2
-* Security Testing - 3
-* Security Pentesting – 3
+* Implementation Review – 2 & 3
+* Security Testing - 2 & 3
 
+\pagebreak
 # Security Penetesting: SP3
 
 ### Establish feedback loops and release gates within the continuous integration for the software design and development cycle
@@ -3089,22 +3150,21 @@ Another option to structure release gates could be to assign different release g
 
 ##### RELATED LEVELS
 
-* Secure Architecture – 1
-* Secure Architecture – 2
-* Secure Architecture – 3
+* Secure Architecture – 1-3
 * Design Review – 2
-* Implementation Review – 2
-* Implementation Review – 3
+* Implementation Review – 2-3
 
+\pagebreak
 # Issue Management
 
 | | **IM1** | **IM2** | **IM3** |
-|:---------------|:---------------|:---------------|:---------------|
+|:-------|:---------------|:---------------|:---------------|
 | **Objective** | **Understand high-level plan for responding to issue reports or incidents.** | **Elaborate expectations for response process to improve consistency and communications.** | **Improve analysis and data gathering within response process for feedback into proactive planning.**|
 | **Activities** | **A.** Identify point of contact for security issues **B.** Create informal security response team(s) | **A.** Establish consistent incident response process **B.** Adopt a security issue disclosure process | **A.** Conduct root cause analysis for incidents **B.** Collect per-incident metrics |
 | **Assessment** | ✦Do projects have a point of contact for security issues or incidents? ✦Does your organization have an assigned security response team? ✦Are project teams aware of their security point(s) of contact and response team(s)? | ✦Does the organization utilize a consistent process for incident reporting and handling? ✦Are project stakeholders aware of relevant security disclosures related to their software projects? | ✦Are incidents inspected for root causes to generate further recommendations? ✦Do projects consistently collect and report data and metrics related to incidents? |
 | **Results** | ✦Lightweight process in place to handle high-priority issues or incidents ✦Framework for stakeholder notification and reporting of events with security impact ✦High-level due diligence for handling security issues | ✦Communications plan for dealing with issue reports from third-parties ✦Clear process for releasing security patches to software operators ✦Formal process for tracking, handling, and internally communicating about incidents | ✦Detailed feedback for organizational improvement after each incident ✦Rough cost estimation from issue and compromises ✦Stakeholders better able to make tradeoff decisions based on historic incident trends |
 
+\pagebreak
 # Issue Management: IM1
 
 ### Understand high-level plan for responding to issue reports or incidents
@@ -3161,9 +3221,10 @@ point of contact roles
 
 ##### RELATED LEVELS
 
-* Education & Guidance - 2
 * Strategy & Metrics - 3
+* Education & Guidance - 2
 
+\pagebreak
 # Issue Management: IM2
 
 ### Elaborate expectations for response process to improve consistency and communications
@@ -3219,6 +3280,7 @@ Lastly, many states and countries legally require external communications for in
 
 * None
 
+\pagebreak
 # Issue Management: IM3
 
 ### Elaborate expectations for response process to improve consistency and communications
@@ -3276,16 +3338,17 @@ Lastly, many states and countries legally require external communications for in
 
 * Strategy & Metrics - 3
 
+\pagebreak
 # Environment Hardening
 
 | | **EH1** | **EH2** | **EH3** |
-|:---------------|:---------------|:---------------|:---------------|
+|:-------|:---------------|:---------------|:---------------|
 | **Objective** | **Understand baseline operational environment for applications and software components.** | **Improve confidence in application operations by hardening the operating environment.** | **Validate application health and status of operational environment against known best practices.**|
 | **Activities** | **A.** Maintain operational environment specification **B.** Identify and install critical security upgrades and patches | **A.** Establish routine patch management process **B.** Monitor baseline environment configuration status | **A.** Identify and deploy relevant operations protection tools **B.** Expand audit program for environment configuration |
 | **Assessment** | ✦Do projects document operational environment security requirements? ✦Do projects check for security updates to third-party software components? | ✦Is a consistent process used to apply upgrades and patches to critical dependencies? ✦Do projects leverage automation to check application and environment health? | ✦Are stakeholders aware of options for additional tools to protect software while running in operations? ✦Does a minimum security baseline exist for environment health (versioning, patching, etc.)? |
-| **Results** | ✦Clear understanding of operational expectations within the development team ✦High-priority risks from underlying infrastructure mitigated on a well-understood timeline ✦Software operators with a high-level plan for security-critical maintenance of infrastructure | ✦Granular verification of security characteristics of systems in operations ✦Formal expectations on timelines for infrastructure risk mitigation ✦Stakeholders consistently aware of current operations status of software projects | ✦✦Reinforced operational environment with layered checks for security ✦Established and measured goals for operational
-maintenance and performance ✦Reduced likelihood of successful attack via flaws in external dependencies |
+| **Results** | ✦Clear understanding of operational expectations within the development team ✦High-priority risks from underlying infrastructure mitigated on a well-understood timeline ✦Software operators with a high-level plan for security-critical maintenance of infrastructure | ✦Granular verification of security characteristics of systems in operations ✦Formal expectations on timelines for infrastructure risk mitigation ✦Stakeholders consistently aware of current operations status of software projects | ✦Reinforced operational environment with layered checks for security ✦Established and measured goals for operational maintenance and performance ✦Reduced likelihood of successful attack via flaws in external dependencies |
 
+\pagebreak
 # Environment Hardening: EH1
 
 ### Understand baseline operational environment for applications and software components
@@ -3344,6 +3407,7 @@ environment specification
 
 * Operational Enablement - 2
 
+\pagebreak
 # Environment Hardening: EH2
 
 ### Improve confidence in application operations by hardening the operating environment
@@ -3403,6 +3467,7 @@ Ultimately, after a solution is deployed for monitoring the environment’s conf
 
 * None
 
+\pagebreak
 # Environment Hardening: EH3
 
 ### Validate application health and status of operational environment against known best practices
@@ -3459,15 +3524,17 @@ tools in the past six months
 
 * Policy & Compliance - 2
 
+\pagebreak
 # Operational Enhancement
 
 | | **OE1** | **OE2** | **OE3** |
-|:---------------|:---------------|:---------------|:---------------|
+|:-------|:---------------|:---------------|:---------------|
 | **Objective** | **Enable communications between development teams and operators for critical security-relevant data.** | **Enable communications between development teams and operators for critical security-relevant data.** | **Mandate communication of security information and validate artifacts for completeness.**|
 | **Activities** | **A.** Capture critical security information for deployment? **B.** Document procedures for typical application alerts| **A.** Create per-release change management procedures **B.** Maintain formal operational security guides | **A.** Expand audit program for operational information **B.** Perform code signing for application components|
 | **Assessment** | ✦Are security notes delivered with each software release? ✦Are security-related alerts and error conditions documented on a per-project basis? | ✦Do projects utilize a change management process that’s well understood? ✦Do project teams deliver an operational security guide with each product release? | ✦Are project releases audited for appropriate operational security information? ✦Is code signing routinely performed on software components using a consistent process? |
 | **Results** | ✦Ad hoc improvements to software security posture through better understanding of correct operations ✦Operators and users aware of their role in ensuring secure deployment ✦Improved communications between software developers and users for security- critical information | ✦Detailed guidance for security-relevant changes delivered with software releases ✦Updated information repository on secure operating procedures per application ✦Alignment of operations expectations among developers, operators, and users. | ✦Organization-wide understanding of expectations for security-relevant documentation ✦Stakeholders better able to make tradeoff decisions based on feedback from deployment and operations ✦Operators and/or users able to independently verify integrity of software releases |
 
+\pagebreak
 # Operational Enhancement: OE1
 
 ### Enable communications between development teams and operators for critical security-relevant data
@@ -3523,6 +3590,7 @@ For each event, actionable advice should be captured to inform users and operato
 
 * None
 
+\pagebreak
 # Operational Enhancement: OE2
 
 ### Improve expectations for continuous secure operations through provision of detailed procedures
@@ -3577,6 +3645,7 @@ The operational security guide, after initial creation, should be reviewed by pr
 
 * Environment Hardening - 1
 
+\pagebreak
 # Operational Enhancement: OE3
 
 ### Mandate communication of security information and validate artifacts for completeness
@@ -3634,10 +3703,11 @@ Since code signing is not appropriate for everything, architects and developers 
 
 * None
 
+\pagebreak
 # Security Monitoring
 
 | | **MO1** | **MO2** | **MO3** |
-|:---------------|:---------------|:---------------|:---------------|
+|:-------|:---------------|:---------------|:---------------|
 | **Objective** | **Awareness of potential attack patterns.** | **Knowledge about impact of attack patterns to released hardware and software versions and variants.** | **Minimize negative impacts for customers.**|
 | **Activities** |  **A.** Maintenance of the attack pattern catalog| **A.** Implement all relevant penetration tests on all relevant hardware and software versions and variants **B.** Execute all relevant penetration tests on all relevant hardware and software | **A.** Operation of deployment infrastructure **B.** Deploy degradations/updates to customer |
 | **Assessment** | ✦Does your organization gather information about new vulnerability issues? ✦Are vulnerability issues filtered to dedicated project, used hardware and software stacks? ✦Are there project teams after final (serial) release responsible for these issues? | ✦Is your penetration test continuously developed? ✦Do you assure that penetration tests are executed for every released hardware/software Combination? ✦Does your company collect and archive all results of these penetration tests? | ✦Does your company know how to contact the end users of your devices? ✦Does your company have a process which defines the propagation of security vulnerabilities to your customers? ✦Do your project teams provide a security degradation guidance model? ✦Does your company have a process which defines the propagation of security updates to end users? |
@@ -3696,6 +3766,7 @@ All the gathered information have to lead into attack pattern which must be stor
 
 * Security Design - 3
 
+\pagebreak
 # Security Monitoring: MO2
 
 ### Knowledge about impact of attack patterns to released hardware and software versions and variants
@@ -3752,6 +3823,7 @@ After all, the penetration tests have to be executed for all relevant software/h
 
 * None
 
+\pagebreak
 # Security Monitoring: MO3
 
 ### Minimize negative impacts for customers
@@ -3811,8 +3883,9 @@ This means, the action  has to be deployed to the devices out in the field. Ther
 
 * None
 
+\pagebreak
 # Sponsors
 
 We would like to thank the following sponsors who have donated funds to the SAMM project in the past:
 
-![Sponsors Image Here](images/Sponsors.png )
+![Sponsors](images/Sponsors.png )
