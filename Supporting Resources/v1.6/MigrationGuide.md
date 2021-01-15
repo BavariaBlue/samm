@@ -27,7 +27,7 @@ Use the available .markdownlint.json config file and add the following exception
     "MD041" : false
 }
 
-If you want to create a new PDf file from the current v1.6. markdown file, call the following command in the MarkDown dir(requires font DejaVuSans):
+If you want to create a new PDf file from the current v1.6. markdown file, call the following command in the MarkDown dir (requires font DejaVuSans):
 
 "pandoc --pdf-engine=xelatex -V geometry:"top=2cm,bottom=1.5cm,left=2cm,right=2cm" -V mainfont:"DejaVuSans" -V monofont:"DejaVuSans" SAMM-1.6.md -f markdown-implicit_figures -o SAMM_Core_V1-6_FINAL.pdf"
 
